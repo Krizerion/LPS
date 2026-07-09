@@ -1,10 +1,11 @@
-import { Component, computed, effect, inject, signal } from '@angular/core';
+import { afterRenderEffect, Component, computed, effect, inject, signal } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GuildStore } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
 import { Difficulty, EncounterItem } from '../../core/models';
-import { classColor, ROLE_ICONS, slotLabel, timeAgo, wowheadUrl } from '../../shared/wow';
+import { I18nStore } from '../../core/i18n';
+import { classColor, iconUrl, refreshWowheadLinks, ROLE_ICONS, slotLabel, wowheadUrl } from '../../shared/wow';
 
 @Component({
   selector: 'app-council',
@@ -15,6 +16,7 @@ import { classColor, ROLE_ICONS, slotLabel, timeAgo, wowheadUrl } from '../../sh
 export class Council {
   protected readonly guild = inject(GuildStore);
   protected readonly settings = inject(SettingsStore);
+  protected readonly t = inject(I18nStore).t;
 
   protected readonly instanceId = signal<number | null>(null);
   protected readonly encounterName = signal<string | null>(null);
@@ -28,8 +30,8 @@ export class Council {
   protected readonly classColor = classColor;
   protected readonly roleIcons = ROLE_ICONS;
   protected readonly slotLabel = slotLabel;
-  protected readonly timeAgo = timeAgo;
   protected readonly wowheadUrl = wowheadUrl;
+  protected readonly iconUrl = iconUrl;
 
   constructor() {
     // Default to the first instance/encounter once data arrives.
@@ -39,6 +41,12 @@ export class Council {
         this.instanceId.set(instances[0].id);
         this.encounterName.set(instances[0].encounters[0]?.name ?? null);
       }
+    });
+    // Wowhead needs to re-scan the DOM whenever new item links render.
+    afterRenderEffect(() => {
+      this.selectedItem();
+      this.candidates();
+      refreshWowheadLinks();
     });
   }
 
@@ -82,6 +90,10 @@ export class Council {
     );
   });
 
+  protected readonly maxLps = computed(() =>
+    Math.max(1, ...this.candidates().map((c) => c.breakdown.total)),
+  );
+
   protected isTierItem(item: EncounterItem): boolean {
     const meta = this.guild.meta();
     return (
@@ -89,10 +101,6 @@ export class Council {
       (!!meta?.omnitokenName && item.name === meta.omnitokenName)
     );
   }
-
-  protected readonly maxLps = computed(() =>
-    Math.max(1, ...this.candidates().map((c) => c.breakdown.total)),
-  );
 
   protected selectEncounter(name: string): void {
     this.encounterName.set(name);

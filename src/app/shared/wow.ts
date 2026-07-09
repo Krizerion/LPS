@@ -70,3 +70,19 @@ export function timeAgo(iso: string | null): string {
 export function wowheadUrl(itemId: number): string {
   return `https://www.wowhead.com/item=${itemId}`;
 }
+
+/** Icon image for a Wowhead/Blizzard icon name (e.g. "inv_misc_cape_20"). */
+export function iconUrl(icon: string | null | undefined, size: 'small' | 'medium' = 'small'): string | null {
+  return icon ? `https://wow.zamimg.com/images/wow/icons/${size}/${icon}.jpg` : null;
+}
+
+declare global {
+  interface Window {
+    $WowheadPower?: { refreshLinks(): void };
+  }
+}
+
+/** Re-scan the DOM for wowhead links after Angular renders new ones. */
+export function refreshWowheadLinks(): void {
+  queueMicrotask(() => window.$WowheadPower?.refreshLinks?.());
+}

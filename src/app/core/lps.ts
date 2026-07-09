@@ -19,8 +19,6 @@ export interface LpsSettings {
   weights: LpsWeights;
   /** Days that count as "recent" for the L penalty. */
   lootWindowDays: number;
-  /** Attendance % at or above which a player counts as regular. */
-  attendanceThreshold: number;
   regularMultiplier: number;
   casualMultiplier: number;
   /** Item level of drops per difficulty for the current season. */
@@ -32,7 +30,6 @@ export interface LpsSettings {
 export const DEFAULT_SETTINGS: LpsSettings = {
   weights: { deltaIlvl: 0.2, simPercent: 5, enchant: 2.5 },
   lootWindowDays: 14,
-  attendanceThreshold: 75,
   regularMultiplier: 1.0,
   casualMultiplier: 0.7,
   // Midnight Season 1 track cutoffs; real values come from meta.json seasonIlvls.
@@ -141,17 +138,15 @@ export function deltaIlvlForItem(
   return Math.max(0, dropIlvl - Math.min(...equipped));
 }
 
+/**
+ * Activity is a loot-council decision, not derived from (sometimes buggy)
+ * attendance tracking: local override > committed overrides.json > regular.
+ */
 export function activityMultiplier(
-  attendancePct: number | null,
-  override: 'regular' | 'casual' | null | undefined,
+  status: 'regular' | 'casual' | null | undefined,
   settings: LpsSettings,
 ): number {
-  if (override === 'regular') return settings.regularMultiplier;
-  if (override === 'casual') return settings.casualMultiplier;
-  if (attendancePct == null) return settings.regularMultiplier;
-  return attendancePct >= settings.attendanceThreshold
-    ? settings.regularMultiplier
-    : settings.casualMultiplier;
+  return status === 'casual' ? settings.casualMultiplier : settings.regularMultiplier;
 }
 
 export function isTankOrHealer(role: WowRole): boolean {

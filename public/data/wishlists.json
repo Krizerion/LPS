@@ -9,9 +9,22 @@
      "maxItemLevel": 272,
      "items": [
       {
+       "id": 249319,
+       "name": "Endless March Waistwrap",
+       "slot": "waist",
+       "icon": "inv_belt_cloth_raidpriestmidnight_d_01"
+      },
+      {
+       "id": 249323,
+       "name": "Leggings of the Devouring Advance",
+       "slot": "legs",
+       "icon": "inv_pant_cloth_raidmagemidnight_d_01"
+      },
+      {
        "id": 249335,
        "name": "Imperator's Banner",
-       "slot": "back"
+       "slot": "back",
+       "icon": "inv_plate_raiddeathknightmidnight_d_01_cape"
       }
      ]
     },
@@ -22,7 +35,8 @@
       {
        "id": 249336,
        "name": "Signet of the Starved Beast",
-       "slot": "finger"
+       "slot": "finger",
+       "icon": "inv_12_jewelry_devouringhost_ring_silver2"
       }
      ]
     },
@@ -36,9 +50,16 @@
      "maxItemLevel": 279,
      "items": [
       {
+       "id": 249305,
+       "name": "Slippers of the Midnight Flame",
+       "slot": "feet",
+       "icon": "inv_boot_cloth_raidwarlockmidnight_d_01"
+      },
+      {
        "id": 249318,
        "name": "Nullwalker's Dread Epaulettes",
-       "slot": "shoulder"
+       "slot": "shoulder",
+       "icon": "inv_shoulder_mail_raidevokermidnight_d_01"
       }
      ]
     },
@@ -50,7 +71,14 @@
     {
      "name": "Crown of the Cosmos",
      "maxItemLevel": 282,
-     "items": []
+     "items": [
+      {
+       "id": 249368,
+       "name": "Eternal Voidsong Chain",
+       "slot": "neck",
+       "icon": "inv_12_jewelry_silvermoonelf_necklace_blue1"
+      }
+     ]
     }
    ]
   },
@@ -74,9 +102,16 @@
      "maxItemLevel": 279,
      "items": [
       {
+       "id": 249328,
+       "name": "Echoing Void Mantle",
+       "slot": "shoulder",
+       "icon": "inv_shoulder_cloth_raidmagemidnight_d_01"
+      },
+      {
        "id": 249919,
        "name": "Sin'dorei Band of Hope",
-       "slot": "finger"
+       "slot": "finger",
+       "icon": "inv_12_jewelry_silvermoonelf_ring_red1"
       }
      ]
     },
@@ -85,9 +120,16 @@
      "maxItemLevel": 282,
      "items": [
       {
+       "id": 249920,
+       "name": "Eye of Midnight",
+       "slot": "finger",
+       "icon": "inv_12_jewelry_devouringhost_ring_bronze"
+      },
+      {
        "id": 249914,
        "name": "Oblivion Guise",
-       "slot": "head"
+       "slot": "head",
+       "icon": "inv_helm_mail_raidshamanmidnight_d_01"
       }
      ]
     }
@@ -106,6 +148,108 @@
   }
  ],
  "upgrades": [
+  {
+   "characterId": 5021440,
+   "itemId": 249319,
+   "itemName": "Endless March Waistwrap",
+   "slot": "waist",
+   "instanceId": 73,
+   "encounter": "Imperator Averzian",
+   "difficulty": "mythic",
+   "spec": "Affliction",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.1106,
+   "absolute": 104.0734,
+   "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5021440,
+   "itemId": 249323,
+   "itemName": "Leggings of the Devouring Advance",
+   "slot": "legs",
+   "instanceId": 73,
+   "encounter": "Imperator Averzian",
+   "difficulty": "mythic",
+   "spec": "Affliction",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.0555,
+   "absolute": 52.2443,
+   "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5021440,
+   "itemId": 249305,
+   "itemName": "Slippers of the Midnight Flame",
+   "slot": "feet",
+   "instanceId": 73,
+   "encounter": "Vaelgor & Ezzorak",
+   "difficulty": "mythic",
+   "spec": "Affliction",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.3473,
+   "absolute": 326.779,
+   "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5021440,
+   "itemId": 249368,
+   "itemName": "Eternal Voidsong Chain",
+   "slot": "neck",
+   "instanceId": 73,
+   "encounter": "Crown of the Cosmos",
+   "difficulty": "mythic",
+   "spec": "Affliction",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.3575,
+   "absolute": 336.3439,
+   "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5021440,
+   "itemId": 249328,
+   "itemName": "Echoing Void Mantle",
+   "slot": "shoulder",
+   "instanceId": 75,
+   "encounter": "Belo'ren, Child of Al'ar",
+   "difficulty": "mythic",
+   "spec": "Affliction",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.2004,
+   "absolute": 188.5342,
+   "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5021440,
+   "itemId": 249920,
+   "itemName": "Eye of Midnight",
+   "slot": "finger",
+   "instanceId": 75,
+   "encounter": "Midnight Falls",
+   "difficulty": "mythic",
+   "spec": "Affliction",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.2428,
+   "absolute": 228.4766,
+   "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
   {
    "characterId": 5066198,
    "itemId": 249335,

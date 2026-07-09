@@ -1,13 +1,10 @@
 <div class="page">
-  <h1 class="page-title">Loot History</h1>
-  <p class="page-sub">
-    Awards synced from wowaudit. Rows inside the current
-    {{ settings.settings().lootWindowDays }}-day window count towards the L penalty.
-  </p>
+  <h1 class="page-title">{{ t().history.title }}</h1>
+  <p class="page-sub">{{ t().history.sub(settings.settings().lootWindowDays) }}</p>
 
   <div class="tools">
     <select [ngModel]="playerFilter()" (ngModelChange)="playerFilter.set($event)">
-      <option [ngValue]="null">All players</option>
+      <option [ngValue]="null">{{ t().history.allPlayers }}</option>
       @for (c of guild.roster(); track c.id) {
         <option [ngValue]="c.id">{{ c.name }}</option>
       }
@@ -18,22 +15,22 @@
         [ngModel]="onlyCounted()"
         (ngModelChange)="onlyCounted.set($event)"
       />
-      Hide offspec / excluded
+      {{ t().history.hideExcluded }}
     </label>
-    <span class="muted total">{{ rows().length }} awards</span>
+    <span class="muted total">{{ t().history.awards(rows().length) }}</span>
   </div>
 
   <div class="card table-card">
     <table class="data">
       <thead>
         <tr>
-          <th>Date</th>
-          <th>Item</th>
-          <th>Slot</th>
-          <th>Player</th>
-          <th>Difficulty</th>
-          <th>Response</th>
-          <th>Counts for L</th>
+          <th>{{ t().history.colDate }}</th>
+          <th>{{ t().history.colItem }}</th>
+          <th>{{ t().history.colSlot }}</th>
+          <th>{{ t().history.colPlayer }}</th>
+          <th>{{ t().history.colDifficulty }}</th>
+          <th>{{ t().history.colResponse }}</th>
+          <th>{{ t().history.colCounts }}</th>
         </tr>
       </thead>
       <tbody>
@@ -41,10 +38,15 @@
           <tr [class.in-window]="inWindow(l.awardedAt)">
             <td class="muted date">{{ l.awardedAt | date: 'MMM d, HH:mm' }}</td>
             <td>
-              <a [href]="wowheadUrl(l.itemId)" target="_blank" rel="noreferrer">{{ l.name }}</a>
-              @if (l.note) {
-                <span class="muted note">“{{ l.note }}”</span>
-              }
+              <span class="item-cell">
+                @if (iconUrl(l.icon); as icon) {
+                  <img class="item-icon" [src]="icon" alt="" loading="lazy" />
+                }
+                <a [href]="wowheadUrl(l.itemId)" target="_blank" rel="noreferrer">{{ l.name }}</a>
+                @if (l.note) {
+                  <span class="muted note">“{{ l.note }}”</span>
+                }
+              </span>
             </td>
             <td class="muted">{{ slotLabel(l.slot) }}</td>
             <td>
@@ -64,17 +66,17 @@
             </td>
             <td>
               @if (l.excluded) {
-                <span class="muted">no</span>
+                <span class="muted">{{ t().history.no }}</span>
               } @else if (inWindow(l.awardedAt)) {
-                <span class="badge warn">in window</span>
+                <span class="badge warn">{{ t().history.inWindow }}</span>
               } @else {
-                <span class="muted">expired</span>
+                <span class="muted">{{ t().history.expired }}</span>
               }
             </td>
           </tr>
         } @empty {
           <tr>
-            <td colspan="7" class="muted">No loot recorded yet.</td>
+            <td colspan="7" class="muted">{{ t().history.empty }}</td>
           </tr>
         }
       </tbody>

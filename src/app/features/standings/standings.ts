@@ -3,7 +3,8 @@ import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GuildStore, PlayerSummary } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
-import { classColor, ROLE_ICONS, timeAgo } from '../../shared/wow';
+import { I18nStore, timeAgoI18n } from '../../core/i18n';
+import { classColor, ROLE_ICONS } from '../../shared/wow';
 
 type SortKey = 'name' | 'ilvl' | 'attendance' | 'enchant' | 'recentLoot' | 'wishlist';
 
@@ -16,6 +17,7 @@ type SortKey = 'name' | 'ilvl' | 'attendance' | 'enchant' | 'recentLoot' | 'wish
 export class Standings {
   protected readonly guild = inject(GuildStore);
   protected readonly settings = inject(SettingsStore);
+  protected readonly t = inject(I18nStore).t;
 
   protected readonly search = signal('');
   protected readonly sortKey = signal<SortKey>('name');
@@ -24,7 +26,10 @@ export class Standings {
 
   protected readonly classColor = classColor;
   protected readonly roleIcons = ROLE_ICONS;
-  protected readonly timeAgo = timeAgo;
+
+  protected timeAgo(iso: string | null): string {
+    return timeAgoI18n(iso, this.t());
+  }
 
   protected readonly rows = computed(() => {
     const term = this.search().toLowerCase().trim();
@@ -82,11 +87,15 @@ export class Standings {
     }
   }
 
-  /** Cycles activity override: auto → regular → casual → auto. */
-  protected cycleActivity(row: PlayerSummary): void {
-    const current = this.settings.overrides()[row.character.id]?.activity ?? null;
-    const next = current === null ? 'regular' : current === 'regular' ? 'casual' : null;
-    this.settings.setOverride(row.character.id, { activity: next });
+  /** Toggles the status in this browser (on top of the committed overrides.json). */
+  protected toggleActivity(row: PlayerSummary): void {
+    const next = row.activityStatus === 'regular' ? 'casual' : 'regular';
+    const repoDefault =
+      this.guild.repoOverrides().activity[row.character.name] ?? 'regular';
+    // Toggling back to the committed value clears the local override entirely.
+    this.settings.setOverride(row.character.id, {
+      activity: next === repoDefault ? null : next,
+    });
   }
 
   protected setEnchantOverride(row: PlayerSummary, value: string): void {

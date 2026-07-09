@@ -1,9 +1,10 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { afterRenderEffect, Component, computed, inject, signal } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GuildStore } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
-import { classColor, slotLabel, wowheadUrl } from '../../shared/wow';
+import { I18nStore } from '../../core/i18n';
+import { classColor, iconUrl, refreshWowheadLinks, slotLabel, wowheadUrl } from '../../shared/wow';
 
 @Component({
   selector: 'app-history',
@@ -14,6 +15,7 @@ import { classColor, slotLabel, wowheadUrl } from '../../shared/wow';
 export class History {
   protected readonly guild = inject(GuildStore);
   protected readonly settings = inject(SettingsStore);
+  protected readonly t = inject(I18nStore).t;
 
   protected readonly playerFilter = signal<number | null>(null);
   protected readonly onlyCounted = signal(false);
@@ -21,6 +23,14 @@ export class History {
   protected readonly classColor = classColor;
   protected readonly slotLabel = slotLabel;
   protected readonly wowheadUrl = wowheadUrl;
+  protected readonly iconUrl = iconUrl;
+
+  constructor() {
+    afterRenderEffect(() => {
+      this.rows();
+      refreshWowheadLinks();
+    });
+  }
 
   protected readonly rows = computed(() => {
     const player = this.playerFilter();

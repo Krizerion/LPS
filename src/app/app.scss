@@ -92,6 +92,32 @@
   line-height: 1;
 }
 
+.lang-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+
+  .lang {
+    background: none;
+    border: none;
+    padding: 5px 9px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+
+    &:hover {
+      color: var(--text);
+      background: var(--bg-hover);
+    }
+
+    &.active {
+      color: var(--accent);
+      background: var(--accent-soft);
+    }
+  }
+}
+
 .sample-banner {
   background: var(--accent-soft);
   border-bottom: 1px solid rgba(232, 180, 90, 0.35);

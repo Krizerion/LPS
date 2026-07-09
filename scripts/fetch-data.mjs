@@ -209,6 +209,44 @@ function flattenWishlists(raw, seasonInstances) {
   return { instances, upgrades, uploadedByCharacter };
 }
 
+/**
+ * Resolve item icon names via Wowhead's XML API, reusing icons already present
+ * in the previous snapshot so refreshes only fetch newly-seen items.
+ */
+async function enrichIcons(instances) {
+  const cache = new Map();
+  try {
+    const prev = JSON.parse(readFileSync(join(OUT_DIR, 'wishlists.json'), 'utf8'));
+    for (const inst of prev.instances ?? []) {
+      for (const enc of inst.encounters ?? []) {
+        for (const item of enc.items ?? []) {
+          if (item.icon) cache.set(item.id, item.icon);
+        }
+      }
+    }
+  } catch {
+    // no previous snapshot
+  }
+
+  for (const inst of instances) {
+    for (const enc of inst.encounters) {
+      for (const item of enc.items) {
+        if (!cache.has(item.id)) {
+          try {
+            const res = await fetch(`https://www.wowhead.com/item=${item.id}&xml`);
+            const icon = (await res.text()).match(/<icon[^>]*>([^<]+)<\/icon>/)?.[1] ?? null;
+            if (icon) cache.set(item.id, icon);
+            await new Promise((r) => setTimeout(r, 100));
+          } catch {
+            // icon stays null
+          }
+        }
+        item.icon = cache.get(item.id) ?? null;
+      }
+    }
+  }
+}
+
 async function main() {
   console.log('Fetching wowaudit data…');
   const [team, period, characters] = await Promise.all([
@@ -251,6 +289,7 @@ async function main() {
   const tierItemIds = Object.values(season.tier_items_by_slot ?? {}).flat();
 
   const wishlists = flattenWishlists(wishlistsRaw, seasonInstances);
+  await enrichIcons(wishlists.instances);
 
   const roster = [];
   for (const c of characters) {

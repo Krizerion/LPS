@@ -96,9 +96,9 @@
   border-radius: 8px;
   padding: 7px 12px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1px;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
 
   &:hover {
     border-color: var(--accent);
@@ -111,6 +111,26 @@
     .item-name {
       color: var(--accent);
     }
+  }
+}
+
+.item-chip-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.item-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+
+  &.large {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
   }
 }
 

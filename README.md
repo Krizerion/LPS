@@ -14,11 +14,17 @@ LPS = ((ΔI × 0.2) + (S × 5) + (E × 2.5)) / (1 + L) × A
 | S        | Droptimizer sim upgrade % (0 for tanks/healers)    | wowaudit wishlists              |
 | E        | Enchant/gem investment score 0–10                  | Raider.IO gear (overridable)    |
 | L        | Items received in the last 14/21 days              | wowaudit loot history           |
-| A        | Activity multiplier (regular 1.0 / casual 0.7)     | wowaudit attendance (overridable) |
+| A        | Activity multiplier (Редовен 1.0 / Нередовен 0.7)  | loot-council decision           |
 
-All weights and thresholds are configurable in the ⚙ settings drawer (persisted in your
-browser). The full ruleset, including tier-set and hard-reserve exceptions, lives on the
-**Rules** page.
+The UI is bilingual (Bulgarian default, EN toggle in the top bar). All weights are
+configurable in the ⚙ settings drawer (persisted in your browser). The full ruleset,
+including tier-set and hard-reserve exceptions, lives on the **Rules** page.
+
+**Player status (A) is a manual council decision** — wowaudit attendance is shown for
+information only. Set statuses for everyone by editing
+[`public/data/overrides.json`](public/data/overrides.json) and committing (e.g.
+`"activity": { "Somechar": "casual" }`); clicking a status badge on Standings toggles it
+in your own browser only. The same file can pin enchant scores. `fetch-data` never touches it.
 
 Built with Angular 22 (zoneless, signals, control flow) and NgRx Signal Store. The site is
 fully static — the wowaudit API key never reaches the browser. Data is fetched by a script

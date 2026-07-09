@@ -59,6 +59,8 @@ export interface EncounterItem {
   id: number;
   name: string;
   slot: string;
+  /** Blizzard icon name, resolved from Wowhead by the fetch script. */
+  icon?: string | null;
 }
 
 export interface EncounterInfo {
@@ -136,6 +138,15 @@ export interface DataMeta {
 export interface CharacterOverride {
   /** Manual enchant/gem score 0..10; null → derive from gear. */
   enchantScore?: number | null;
-  /** Manual activity status; null → derive from attendance. */
+  /** Manual activity status; null → use the committed overrides.json / default regular. */
   activity?: 'regular' | 'casual' | null;
+}
+
+/**
+ * Council-maintained overrides committed to the repo (public/data/overrides.json),
+ * keyed by character name — visible to every viewer of the site.
+ */
+export interface RepoOverrides {
+  activity: Record<string, 'regular' | 'casual'>;
+  enchantScore: Record<string, number>;
 }

@@ -5,33 +5,53 @@
       <div class="brand-text">
         <span class="brand-title">LPS</span>
         <span class="brand-sub">
-          {{ guild.meta()?.team?.guildName || 'Loot Priority Score' }}
+          {{ guild.meta()?.team?.guildName || t().common.appSubtitle }}
         </span>
       </div>
     </div>
 
     <nav class="tabs">
-      <a routerLink="/standings" routerLinkActive="active">Standings</a>
-      <a routerLink="/council" routerLinkActive="active">Loot Council</a>
-      <a routerLink="/history" routerLinkActive="active">History</a>
-      <a routerLink="/rules" routerLinkActive="active">Rules</a>
+      <a routerLink="/standings" routerLinkActive="active">{{ t().nav.standings }}</a>
+      <a routerLink="/council" routerLinkActive="active">{{ t().nav.council }}</a>
+      <a routerLink="/history" routerLinkActive="active">{{ t().nav.history }}</a>
+      <a routerLink="/rules" routerLinkActive="active">{{ t().nav.rules }}</a>
     </nav>
 
     <div class="topbar-right">
       @if (guild.meta(); as meta) {
         <span class="freshness" [title]="meta.fetchedAt">
-          data {{ timeAgo(meta.fetchedAt) }}
+          {{ t().common.dataAgo(timeAgo(meta.fetchedAt)) }}
         </span>
       }
-      <button class="btn icon" (click)="settingsOpen.set(true)" title="LPS settings">⚙</button>
+      <div class="lang-toggle">
+        <button
+          class="lang"
+          [class.active]="i18n.lang() === 'bg'"
+          (click)="i18n.setLang('bg')"
+        >
+          БГ
+        </button>
+        <button
+          class="lang"
+          [class.active]="i18n.lang() === 'en'"
+          (click)="i18n.setLang('en')"
+        >
+          EN
+        </button>
+      </div>
+      <button class="btn icon" (click)="settingsOpen.set(true)" [title]="t().common.settingsTitle">
+        ⚙
+      </button>
     </div>
   </div>
 </header>
 
 @if (guild.meta()?.sample) {
   <div class="sample-banner">
-    Showing <strong>sample data</strong> — run
-    <code>node scripts/fetch-data.mjs</code> with your wowaudit API key to load your guild.
+    {{ t().common.sampleBannerPrefix }} <strong>{{ t().common.sampleBannerBold }}</strong>
+    {{ t().common.sampleBannerSuffix }}
+    <code>node scripts/fetch-data.mjs</code>
+    {{ t().common.sampleBannerEnd }}
   </div>
 }
 
@@ -40,14 +60,14 @@
     @case ('error') {
       <div class="page">
         <div class="card load-error">
-          <h2>Could not load guild data</h2>
+          <h2>{{ t().common.loadErrorTitle }}</h2>
           <p class="muted">{{ guild.error() }}</p>
-          <button class="btn primary" (click)="guild.load()">Retry</button>
+          <button class="btn primary" (click)="guild.load()">{{ t().common.retry }}</button>
         </div>
       </div>
     }
     @case ('loading') {
-      <div class="page muted loading-hint">Loading guild data…</div>
+      <div class="page muted loading-hint">{{ t().common.loading }}</div>
     }
     @default {
       <router-outlet />
@@ -59,16 +79,16 @@
   <div class="drawer-backdrop" (click)="settingsOpen.set(false)"></div>
   <aside class="drawer">
     <div class="drawer-head">
-      <h2>LPS Settings</h2>
+      <h2>{{ t().settings.title }}</h2>
       <button class="btn icon" (click)="settingsOpen.set(false)">✕</button>
     </div>
 
     @let s = settingsStore.settings();
 
     <section>
-      <h3>Weights</h3>
+      <h3>{{ t().settings.weights }}</h3>
       <label>
-        <span>Item level difference (ΔI)</span>
+        <span>{{ t().settings.deltaIlvl }}</span>
         <input
           type="number"
           step="0.05"
@@ -77,7 +97,7 @@
         />
       </label>
       <label>
-        <span>Sim upgrade % (S)</span>
+        <span>{{ t().settings.simPercent }}</span>
         <input
           type="number"
           step="0.5"
@@ -86,7 +106,7 @@
         />
       </label>
       <label>
-        <span>Enchant score (E)</span>
+        <span>{{ t().settings.enchant }}</span>
         <input
           type="number"
           step="0.5"
@@ -97,9 +117,9 @@
     </section>
 
     <section>
-      <h3>Recent loot &amp; activity</h3>
+      <h3>{{ t().settings.lootActivity }}</h3>
       <label>
-        <span>Loot window (days)</span>
+        <span>{{ t().settings.lootWindow }}</span>
         <input
           type="number"
           [ngModel]="s.lootWindowDays"
@@ -107,15 +127,7 @@
         />
       </label>
       <label>
-        <span>Regular attendance ≥ (%)</span>
-        <input
-          type="number"
-          [ngModel]="s.attendanceThreshold"
-          (ngModelChange)="patch({ attendanceThreshold: $event })"
-        />
-      </label>
-      <label>
-        <span>Casual multiplier</span>
+        <span>{{ t().settings.casualMultiplier }}</span>
         <input
           type="number"
           step="0.05"
@@ -124,7 +136,7 @@
         />
       </label>
       <label>
-        <span>Zero sim for tanks/healers</span>
+        <span>{{ t().settings.zeroSim }}</span>
         <input
           type="checkbox"
           [ngModel]="s.zeroSimForTanksHealers"
@@ -134,9 +146,9 @@
     </section>
 
     <section>
-      <h3>Drop item level per difficulty</h3>
+      <h3>{{ t().settings.dropIlvls }}</h3>
       <label>
-        <span>Normal</span>
+        <span>{{ t().settings.normal }}</span>
         <input
           type="number"
           [ngModel]="s.difficultyIlvl.normal"
@@ -144,7 +156,7 @@
         />
       </label>
       <label>
-        <span>Heroic</span>
+        <span>{{ t().settings.heroic }}</span>
         <input
           type="number"
           [ngModel]="s.difficultyIlvl.heroic"
@@ -152,7 +164,7 @@
         />
       </label>
       <label>
-        <span>Mythic</span>
+        <span>{{ t().settings.mythic }}</span>
         <input
           type="number"
           [ngModel]="s.difficultyIlvl.mythic"
@@ -163,13 +175,15 @@
 
     <section class="drawer-formula muted">
       LPS = ((ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (E ×
-      {{ s.weights.enchant }})) ÷ (1 + L) × A, casual A =
-      {{ s.casualMultiplier | number: '1.1-2' }}
+      {{ s.weights.enchant }}))
+      {{ t().settings.formulaNote(s.casualMultiplier | number: '1.1-2') }}
     </section>
 
     <div class="drawer-actions">
-      <button class="btn" (click)="settingsStore.clearOverrides()">Clear player overrides</button>
-      <button class="btn" (click)="settingsStore.resetSettings()">Reset to defaults</button>
+      <button class="btn" (click)="settingsStore.clearOverrides()">
+        {{ t().settings.clearOverrides }}
+      </button>
+      <button class="btn" (click)="settingsStore.resetSettings()">{{ t().settings.reset }}</button>
     </div>
   </aside>
 }

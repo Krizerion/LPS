@@ -1,8 +1,6 @@
 <div class="page">
-  <h1 class="page-title">Loot Council</h1>
-  <p class="page-sub">
-    Pick the boss and the item that dropped — players are ranked by their Loot Priority Score.
-  </p>
+  <h1 class="page-title">{{ t().council.title }}</h1>
+  <p class="page-sub">{{ t().council.sub }}</p>
 
   <div class="council-layout">
     <aside class="card boss-panel">
@@ -47,7 +45,7 @@
     <section class="main-panel">
       @if (encounter(); as enc) {
         <div class="card items-card">
-          <h3>{{ enc.name }} — drops</h3>
+          <h3>{{ t().council.drops(enc.name) }}</h3>
           <div class="item-chips">
             @for (item of enc.items; track item.id) {
               <button
@@ -55,19 +53,21 @@
                 [class.selected]="selectedItem()?.id === item.id"
                 (click)="selectItem(item)"
               >
-                <span class="item-name">
-                  {{ item.name }}
-                  @if (isTierItem(item)) {
-                    <span class="badge warn tier-badge">Tier</span>
-                  }
+                @if (iconUrl(item.icon); as icon) {
+                  <img class="item-icon" [src]="icon" alt="" loading="lazy" />
+                }
+                <span class="item-chip-text">
+                  <span class="item-name">
+                    {{ item.name }}
+                    @if (isTierItem(item)) {
+                      <span class="badge warn tier-badge">{{ t().council.tier }}</span>
+                    }
+                  </span>
+                  <span class="item-slot muted">{{ slotLabel(item.slot) }}</span>
                 </span>
-                <span class="item-slot muted">{{ slotLabel(item.slot) }}</span>
               </button>
             } @empty {
-              <p class="muted no-items">
-                No items known for this boss yet — they appear once someone uploads a droptimizer
-                report that includes it.
-              </p>
+              <p class="muted no-items">{{ t().council.noItems }}</p>
             }
           </div>
         </div>
@@ -78,20 +78,20 @@
           <div class="candidates-head">
             <div>
               <h3>
+                @if (iconUrl(item.icon, 'medium'); as icon) {
+                  <img class="item-icon large" [src]="icon" alt="" />
+                }
                 <a [href]="wowheadUrl(item.id)" target="_blank" rel="noreferrer">{{ item.name }}</a>
                 <span class="badge neutral">{{ slotLabel(item.slot) }}</span>
                 <span class="badge warn">{{ difficulty() }}</span>
               </h3>
               @if (isTierItem(item)) {
-                <p class="tier-reminder">
-                  ⚠ Tier piece — players completing their 2p/4p set bonus have priority before the
-                  formula applies (see Rules).
-                </p>
+                <p class="tier-reminder">{{ t().council.tierReminder }}</p>
               }
             </div>
             <div class="candidates-tools">
               <label class="drop-ilvl">
-                Drop ilvl
+                {{ t().council.dropIlvl }}
                 <input
                   type="number"
                   [ngModel]="dropIlvl()"
@@ -104,7 +104,7 @@
                   [ngModel]="includeAllRoster()"
                   (ngModelChange)="includeAllRoster.set($event)"
                 />
-                Show players without sims
+                {{ t().council.showAll }}
               </label>
             </div>
           </div>
@@ -113,12 +113,12 @@
             <thead>
               <tr>
                 <th>#</th>
-                <th>Player</th>
-                <th title="Item level difference — editable">ΔI</th>
-                <th title="Droptimizer upgrade %">S %</th>
-                <th title="Enchant score 0–10">E</th>
-                <th title="Recent loot count">L</th>
-                <th title="Activity multiplier">A</th>
+                <th>{{ t().standings.colPlayer }}</th>
+                <th [title]="t().council.colDeltaTooltip">ΔI</th>
+                <th [title]="t().council.colSimTooltip">S %</th>
+                <th [title]="t().council.colEnchantTooltip">E</th>
+                <th [title]="t().council.colLootTooltip">L</th>
+                <th [title]="t().council.colActivityTooltip">A</th>
                 <th>LPS</th>
                 <th></th>
               </tr>
@@ -135,10 +135,12 @@
                       <span class="badge warn wish-comment">{{ comment }}</span>
                     }
                     @if (c.wish && wishStale(c.wish.updatedAt)) {
-                      <span class="badge bad" title="Droptimizer older than 14 days">stale sim</span>
+                      <span class="badge bad" [title]="t().council.staleSimTooltip">
+                        {{ t().council.staleSim }}
+                      </span>
                     }
                     @if (!c.wish) {
-                      <span class="badge neutral">no sim</span>
+                      <span class="badge neutral">{{ t().council.noSim }}</span>
                     }
                   </td>
                   <td>
@@ -148,7 +150,7 @@
                       min="0"
                       [ngModel]="c.deltaIlvl ?? 0"
                       (ngModelChange)="setDelta(c.character.id, '' + $event)"
-                      [title]="c.deltaIlvl === null ? 'Equipped item level unknown — set manually' : 'Auto from equipped gear, editable'"
+                      [title]="c.deltaIlvl === null ? t().council.deltaUnknown : t().council.deltaAuto"
                     />
                   </td>
                   <td>{{ c.breakdown.simPercent | number: '1.0-2' }}%</td>
@@ -163,17 +165,17 @@
                       <span
                         class="seg ilvl"
                         [style.flex-grow]="c.breakdown.ilvlComponent"
-                        title="ΔI component: {{ c.breakdown.ilvlComponent | number: '1.1-1' }}"
+                        title="{{ t().council.ilvlComponent }}: {{ c.breakdown.ilvlComponent | number: '1.1-1' }}"
                       ></span>
                       <span
                         class="seg sim"
                         [style.flex-grow]="c.breakdown.simComponent"
-                        title="Sim component: {{ c.breakdown.simComponent | number: '1.1-1' }}"
+                        title="{{ t().council.simComponent }}: {{ c.breakdown.simComponent | number: '1.1-1' }}"
                       ></span>
                       <span
                         class="seg ench"
                         [style.flex-grow]="c.breakdown.enchantComponent"
-                        title="Enchant component: {{ c.breakdown.enchantComponent | number: '1.1-1' }}"
+                        title="{{ t().council.enchantComponent }}: {{ c.breakdown.enchantComponent | number: '1.1-1' }}"
                       ></span>
                     </div>
                   </td>
@@ -181,8 +183,7 @@
               } @empty {
                 <tr>
                   <td colspan="9" class="muted">
-                    Nobody has simmed this item on {{ difficulty() }}. Toggle “show players without
-                    sims” to rank the whole roster.
+                    {{ t().council.emptyCandidates(difficulty()) }}
                   </td>
                 </tr>
               }
@@ -193,11 +194,11 @@
             <span class="seg-dot ilvl"></span> ΔI × {{ settings.settings().weights.deltaIlvl }}
             <span class="seg-dot sim"></span> S × {{ settings.settings().weights.simPercent }}
             <span class="seg-dot ench"></span> E × {{ settings.settings().weights.enchant }}
-            — divided by (1 + L), times A. Tier tokens: complete 2p/4p first (see Rules).
+            {{ t().council.legendSuffix }}
           </p>
         </div>
       } @else {
-        <div class="card empty-hint muted">Select an item to rank candidates.</div>
+        <div class="card empty-hint muted">{{ t().council.selectHint }}</div>
       }
     </section>
   </div>

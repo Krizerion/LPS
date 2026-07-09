@@ -40,18 +40,14 @@ describe('computeLps', () => {
 });
 
 describe('activityMultiplier', () => {
-  it('uses the threshold when no override is set', () => {
-    expect(activityMultiplier(90, null, DEFAULT_SETTINGS)).toBe(1.0);
-    expect(activityMultiplier(50, null, DEFAULT_SETTINGS)).toBe(0.7);
+  it('maps council status to the multiplier', () => {
+    expect(activityMultiplier('regular', DEFAULT_SETTINGS)).toBe(1.0);
+    expect(activityMultiplier('casual', DEFAULT_SETTINGS)).toBe(0.7);
   });
 
-  it('respects manual overrides', () => {
-    expect(activityMultiplier(50, 'regular', DEFAULT_SETTINGS)).toBe(1.0);
-    expect(activityMultiplier(95, 'casual', DEFAULT_SETTINGS)).toBe(0.7);
-  });
-
-  it('treats unknown attendance as regular', () => {
-    expect(activityMultiplier(null, null, DEFAULT_SETTINGS)).toBe(1.0);
+  it('defaults to regular when no status is set', () => {
+    expect(activityMultiplier(null, DEFAULT_SETTINGS)).toBe(1.0);
+    expect(activityMultiplier(undefined, DEFAULT_SETTINGS)).toBe(1.0);
   });
 });
 

@@ -39,3 +39,16 @@ tr.in-window td {
   font-size: 12px;
   margin-left: 6px;
 }
+
+.item-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+}

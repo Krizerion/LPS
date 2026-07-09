@@ -26,6 +26,7 @@ import {
   InstanceInfo,
   LootAward,
   LootHistoryFile,
+  RepoOverrides,
   RosterCharacter,
   RosterFile,
   WishlistsFile,
@@ -37,6 +38,8 @@ export interface PlayerSummary {
   character: RosterCharacter;
   attendancePct: number | null;
   activity: number;
+  activityStatus: 'regular' | 'casual';
+  /** True when set from this browser (localStorage) rather than overrides.json. */
   activityOverridden: boolean;
   enchantScore: number | null;
   enchantOverridden: boolean;
@@ -63,6 +66,7 @@ interface GuildState {
   upgrades: WishUpgrade[];
   loot: LootAward[];
   attendance: AttendanceFile | null;
+  repoOverrides: RepoOverrides;
 }
 
 const initialState: GuildState = {
@@ -74,6 +78,7 @@ const initialState: GuildState = {
   upgrades: [],
   loot: [],
   attendance: null,
+  repoOverrides: { activity: {}, enchantScore: {} },
 };
 
 export const GuildStore = signalStore(
@@ -117,6 +122,7 @@ export const GuildStore = signalStore(
       const loot = store.loot();
       const upgrades = store.upgrades();
 
+      const repo = store.repoOverrides();
       return store.roster().map((character) => {
         const override = overrides[character.id];
         const attendancePct = store.attendanceById().get(character.id) ?? null;
@@ -129,12 +135,16 @@ export const GuildStore = signalStore(
           .filter((u) => u.characterId === character.id && u.updatedAt)
           .map((u) => u.updatedAt!);
         if (character.droptimizerUploadedAt) wishDates.push(character.droptimizerUploadedAt);
+        const activityStatus =
+          override?.activity ?? repo.activity[character.name] ?? 'regular';
         return {
           character,
           attendancePct,
-          activity: activityMultiplier(attendancePct, override?.activity, settings),
+          activity: activityMultiplier(activityStatus, settings),
+          activityStatus,
           activityOverridden: override?.activity != null,
-          enchantScore: override?.enchantScore ?? gearScore,
+          enchantScore:
+            override?.enchantScore ?? repo.enchantScore[character.name] ?? gearScore,
           enchantOverridden: override?.enchantScore != null,
           recentLoot: recent.get(character.id) ?? 0,
           totalLoot: own.filter((l) => !l.excluded).length,
@@ -150,13 +160,18 @@ export const GuildStore = signalStore(
       try {
         const get = <T>(file: string) =>
           firstValueFrom(store._http.get<T>(`data/${file}?t=${Date.now()}`));
-        const [meta, roster, wishlists, lootHistory, attendance] = await Promise.all([
-          get<DataMeta>('meta.json'),
-          get<RosterFile>('roster.json'),
-          get<WishlistsFile>('wishlists.json'),
-          get<LootHistoryFile>('loot-history.json'),
-          get<AttendanceFile>('attendance.json'),
-        ]);
+        const [meta, roster, wishlists, lootHistory, attendance, repoOverrides] =
+          await Promise.all([
+            get<DataMeta>('meta.json'),
+            get<RosterFile>('roster.json'),
+            get<WishlistsFile>('wishlists.json'),
+            get<LootHistoryFile>('loot-history.json'),
+            get<AttendanceFile>('attendance.json'),
+            // Optional file — a missing/broken overrides.json must not block the site.
+            get<Partial<RepoOverrides>>('overrides.json').catch(
+              (): Partial<RepoOverrides> => ({}),
+            ),
+          ]);
         patchState(store, {
           status: 'loaded',
           meta,
@@ -165,6 +180,10 @@ export const GuildStore = signalStore(
           upgrades: wishlists.upgrades,
           loot: lootHistory.items,
           attendance,
+          repoOverrides: {
+            activity: repoOverrides.activity ?? {},
+            enchantScore: repoOverrides.enchantScore ?? {},
+          },
         });
       } catch (e) {
         patchState(store, {

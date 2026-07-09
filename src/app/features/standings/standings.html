@@ -1,34 +1,31 @@
 <div class="page">
-  <h1 class="page-title">Standings</h1>
-  <p class="page-sub">
-    Everything that feeds the formula per player. Click the status or E score to override it
-    manually (stored only in your browser).
-  </p>
+  <h1 class="page-title">{{ t().standings.title }}</h1>
+  <p class="page-sub">{{ t().standings.sub }}</p>
 
   @let st = stats();
   <div class="stat-cards">
     <div class="card stat">
       <span class="stat-value">{{ st.rosterSize }}</span>
-      <span class="stat-label">Raiders tracked</span>
+      <span class="stat-label">{{ t().standings.rosterSize }}</span>
     </div>
     <div class="card stat">
       <span class="stat-value">{{ st.avgAttendance | number: '1.0-0' }}%</span>
-      <span class="stat-label">Avg attendance</span>
+      <span class="stat-label">{{ t().standings.avgAttendance }}</span>
     </div>
     <div class="card stat">
       <span class="stat-value">{{ st.recentLoot }}</span>
-      <span class="stat-label">Items in loot window</span>
+      <span class="stat-label">{{ t().standings.recentLoot }}</span>
     </div>
     <div class="card stat" [class.stat-warn]="st.staleWishlists > 0">
       <span class="stat-value">{{ st.staleWishlists }}</span>
-      <span class="stat-label">Stale droptimizers (&gt;14d)</span>
+      <span class="stat-label">{{ t().standings.staleWishlists }}</span>
     </div>
   </div>
 
   <div class="table-tools">
     <input
       type="search"
-      placeholder="Search player…"
+      [placeholder]="t().standings.search"
       [ngModel]="search()"
       (ngModelChange)="search.set($event)"
     />
@@ -38,15 +35,25 @@
     <table class="data">
       <thead>
         <tr>
-          <th class="sortable" (click)="sortBy('name')">Player</th>
-          <th>Role</th>
-          <th class="sortable" (click)="sortBy('ilvl')">ilvl</th>
-          <th class="sortable" (click)="sortBy('attendance')">Attendance</th>
-          <th>Status (A)</th>
-          <th class="sortable" (click)="sortBy('enchant')">Enchants (E)</th>
-          <th class="sortable" (click)="sortBy('recentLoot')">Recent loot (L)</th>
-          <th>Loot total</th>
-          <th class="sortable" (click)="sortBy('wishlist')">Droptimizer</th>
+          <th class="sortable" (click)="sortBy('name')">{{ t().standings.colPlayer }}</th>
+          <th>{{ t().standings.colRole }}</th>
+          <th class="sortable" (click)="sortBy('ilvl')">{{ t().standings.colIlvl }}</th>
+          <th
+            class="sortable"
+            (click)="sortBy('attendance')"
+            [title]="t().standings.attendanceInfo"
+          >
+            {{ t().standings.colAttendance }} ⓘ
+          </th>
+          <th>{{ t().standings.colStatus }}</th>
+          <th class="sortable" (click)="sortBy('enchant')">{{ t().standings.colEnchants }}</th>
+          <th class="sortable" (click)="sortBy('recentLoot')">
+            {{ t().standings.colRecentLoot }}
+          </th>
+          <th>{{ t().standings.colLootTotal }}</th>
+          <th class="sortable" (click)="sortBy('wishlist')">
+            {{ t().standings.colDroptimizer }}
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -59,8 +66,8 @@
               <span class="realm muted">{{ row.character.realm }}</span>
             </td>
             <td>
-              <span [title]="row.character.role">
-                {{ roleIcons[row.character.role] }} {{ row.character.role }}
+              <span [title]="t().roles[row.character.role]">
+                {{ roleIcons[row.character.role] }} {{ t().roles[row.character.role] }}
               </span>
             </td>
             <td>
@@ -70,7 +77,7 @@
                 <span class="muted">—</span>
               }
             </td>
-            <td>
+            <td [title]="t().standings.attendanceInfo">
               @if (row.attendancePct !== null) {
                 {{ row.attendancePct | number: '1.0-0' }}%
               } @else {
@@ -80,14 +87,19 @@
             <td>
               <button
                 class="badge-btn"
-                (click)="cycleActivity(row)"
-                title="Click to override (auto → regular → casual)"
+                (click)="toggleActivity(row)"
+                [title]="t().standings.statusTooltip"
               >
-                <span class="badge" [class.good]="row.activity >= 1" [class.warn]="row.activity < 1">
-                  {{ row.activity >= 1 ? 'Regular' : 'Casual' }} ×{{ row.activity | number: '1.1-2' }}
+                <span
+                  class="badge"
+                  [class.good]="row.activityStatus === 'regular'"
+                  [class.warn]="row.activityStatus === 'casual'"
+                >
+                  {{ row.activityStatus === 'regular' ? t().common.regular : t().common.casual }}
+                  ×{{ row.activity | number: '1.1-2' }}
                 </span>
                 @if (row.activityOverridden) {
-                  <span class="override-dot" title="Manual override">●</span>
+                  <span class="override-dot" [title]="t().standings.localOverride">●</span>
                 }
               </button>
             </td>
@@ -108,7 +120,7 @@
                 <button
                   class="badge-btn"
                   (click)="editingEnchant.set(row.character.id)"
-                  title="Click to set manually (0–10)"
+                  [title]="t().standings.enchantTooltip"
                 >
                   @if (row.enchantScore !== null) {
                     <span
@@ -120,10 +132,10 @@
                       {{ row.enchantScore | number: '1.0-1' }} / 10
                     </span>
                   } @else {
-                    <span class="badge neutral">no data</span>
+                    <span class="badge neutral">{{ t().standings.noData }}</span>
                   }
                   @if (row.enchantOverridden) {
-                    <span class="override-dot" title="Manual override">●</span>
+                    <span class="override-dot" [title]="t().standings.localOverride">●</span>
                   }
                 </button>
               }
@@ -135,14 +147,17 @@
             </td>
             <td class="muted">{{ row.totalLoot }}</td>
             <td>
-              <span [class.stale]="wishlistStale(row)" [title]="row.wishlistUpdatedAt ?? 'never uploaded'">
+              <span
+                [class.stale]="wishlistStale(row)"
+                [title]="row.wishlistUpdatedAt ?? t().common.never"
+              >
                 {{ timeAgo(row.wishlistUpdatedAt) }}
               </span>
             </td>
           </tr>
         } @empty {
           <tr>
-            <td colspan="9" class="muted">No players match.</td>
+            <td colspan="9" class="muted">{{ t().standings.noMatch }}</td>
           </tr>
         }
       </tbody>
