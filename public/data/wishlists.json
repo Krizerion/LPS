@@ -164,16 +164,16 @@
      "maxItemLevel": 279,
      "items": [
       {
-       "id": 249328,
-       "name": "Echoing Void Mantle",
-       "slot": "shoulder",
-       "icon": "inv_shoulder_cloth_raidmagemidnight_d_01"
-      },
-      {
        "id": 249919,
        "name": "Sin'dorei Band of Hope",
        "slot": "finger",
        "icon": "inv_12_jewelry_silvermoonelf_ring_red1"
+      },
+      {
+       "id": 249328,
+       "name": "Echoing Void Mantle",
+       "slot": "shoulder",
+       "icon": "inv_shoulder_cloth_raidmagemidnight_d_01"
       }
      ]
     },
@@ -228,6 +228,23 @@
   }
  ],
  "upgrades": [
+  {
+   "characterId": 5021558,
+   "itemId": 249919,
+   "itemName": "Sin'dorei Band of Hope",
+   "slot": "finger",
+   "instanceId": 75,
+   "encounter": "Belo'ren, Child of Al'ar",
+   "difficulty": "mythic",
+   "spec": "Frost",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.0971,
+   "absolute": 127.6871,
+   "updatedAt": "2026-07-09T18:01:04.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
   {
    "characterId": 5021440,
    "itemId": 249319,
