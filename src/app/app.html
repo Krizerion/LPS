@@ -23,6 +23,30 @@
           {{ t().common.dataAgo(timeAgo(meta.fetchedAt)) }}
         </span>
       }
+      <button
+        class="btn icon refresh"
+        [class.spinning]="refreshState() === 'starting' || refreshState() === 'waiting'"
+        (click)="triggerRefresh()"
+        [title]="t().refresh.tooltip"
+      >
+        @switch (refreshState()) {
+          @case ('starting') {
+            ⟳ {{ t().refresh.starting }}
+          }
+          @case ('waiting') {
+            ⟳ {{ t().refresh.waiting }}
+          }
+          @case ('done') {
+            ✓ {{ t().refresh.done }}
+          }
+          @case ('error') {
+            ✕ {{ t().refresh.error }}
+          }
+          @default {
+            ⟳
+          }
+        }
+      </button>
       <div class="lang-toggle">
         <button
           class="lang"
@@ -171,6 +195,40 @@
           (ngModelChange)="patch({ difficultyIlvl: { normal: s.difficultyIlvl.normal, heroic: s.difficultyIlvl.heroic, mythic: $event } })"
         />
       </label>
+    </section>
+
+    <section>
+      <h3>{{ t().settings.githubSection }}</h3>
+      <label>
+        <span>{{ t().settings.githubRepo }}</span>
+        <input
+          type="text"
+          class="github-input"
+          placeholder="owner/repo"
+          [ngModel]="settingsStore.github().repo"
+          (ngModelChange)="settingsStore.updateGithub({ repo: $event })"
+        />
+      </label>
+      <label>
+        <span>{{ t().settings.githubToken }}</span>
+        <input
+          type="password"
+          class="github-input"
+          placeholder="github_pat_…"
+          [ngModel]="settingsStore.github().token"
+          (ngModelChange)="settingsStore.updateGithub({ token: $event })"
+        />
+      </label>
+      <p class="muted github-hint">
+        {{ t().settings.githubHint }}
+        <a
+          href="https://github.com/settings/personal-access-tokens/new"
+          target="_blank"
+          rel="noreferrer"
+        >
+          github.com/settings/personal-access-tokens
+        </a>
+      </p>
     </section>
 
     <section class="drawer-formula muted">

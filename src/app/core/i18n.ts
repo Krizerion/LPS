@@ -32,6 +32,13 @@ const en = {
     history: 'History',
     rules: 'Rules',
   },
+  refresh: {
+    tooltip: 'Fetch fresh data from wowaudit now (needs a GitHub token in settings)',
+    starting: 'starting…',
+    waiting: 'refreshing… ~2–3 min',
+    done: 'data updated',
+    error: 'refresh failed',
+  },
   roles: {
     Tank: 'Tank',
     Heal: 'Heal',
@@ -53,6 +60,11 @@ const en = {
     heroic: 'Heroic',
     mythic: 'Mythic',
     formulaNote: (casual: string | null) => `divided by (1 + L), times A; casual A = ${casual}`,
+    githubSection: 'Manual data refresh (GitHub)',
+    githubRepo: 'Repository',
+    githubToken: 'Access token',
+    githubHint:
+      'The ⟳ button triggers the refresh workflow via the GitHub API. Create a fine-grained token with read & write access to Actions for this repository only — it is stored solely in this browser:',
     clearOverrides: 'Clear player overrides',
     reset: 'Reset to defaults',
   },
@@ -203,6 +215,13 @@ const bg: Strings = {
     history: 'История',
     rules: 'Правила',
   },
+  refresh: {
+    tooltip: 'Изтегли свежи данни от wowaudit сега (изисква GitHub токен в настройките)',
+    starting: 'стартиране…',
+    waiting: 'обновяване… ~2–3 мин',
+    done: 'данните са обновени',
+    error: 'неуспешно обновяване',
+  },
   roles: {
     Tank: 'Танк',
     Heal: 'Хийлър',
@@ -224,6 +243,11 @@ const bg: Strings = {
     heroic: 'Heroic',
     mythic: 'Mythic',
     formulaNote: (casual: string | null) => `делено на (1 + L), по A; Нередовен A = ${casual}`,
+    githubSection: 'Ръчно обновяване на данните (GitHub)',
+    githubRepo: 'Хранилище',
+    githubToken: 'Токен за достъп',
+    githubHint:
+      'Бутонът ⟳ стартира refresh workflow-а през GitHub API. Създай fine-grained токен с read & write достъп само до Actions на това хранилище — пази се само в този браузър:',
     clearOverrides: 'Изчисти ръчните корекции',
     reset: 'Върни по подразбиране',
   },

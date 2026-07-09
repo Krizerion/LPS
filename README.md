@@ -55,6 +55,15 @@ the rules). `npm run sample-data` regenerates the deterministic demo dataset.
 3. Push to `main` (or run the *Deploy to GitHub Pages* workflow manually). The site is served
    at `https://<user>.github.io/<repo>/`.
 
+### Manual refresh button (⟳ in the top bar)
+
+To pull fresh wowaudit data on demand (e.g. right after someone uploads a droptimizer):
+create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new)
+scoped to this repository only, with **Actions: Read and write** permission, and paste it in
+⚙ → *Manual data refresh (GitHub)*. The token is stored only in that browser. The ⟳ button
+then dispatches the refresh workflow and reloads the page data automatically once the new
+snapshot is deployed (~2–3 minutes).
+
 ### Automatic data refresh
 
 Add your key as a repository secret named `WOWAUDIT_API_KEY`

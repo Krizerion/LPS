@@ -6,16 +6,26 @@ import { CharacterOverride } from '../core/models';
 // v2: E weight 2.5→2.0, casual 0.7→0.75, attendance threshold removed.
 const STORAGE_KEY = 'lps.settings.v2';
 
+/** GitHub connection for the manual "refresh data" button (token never leaves this browser). */
+export interface GithubConfig {
+  repo: string;
+  token: string;
+}
+
+const DEFAULT_GITHUB: GithubConfig = { repo: 'Krizerion/LPS', token: '' };
+
 interface SettingsState {
   settings: LpsSettings;
   /** Manual per-character overrides, keyed by character id. */
   overrides: Record<number, CharacterOverride>;
+  github: GithubConfig;
 }
 
 function initialState(): SettingsState {
   const fallback: SettingsState = {
     settings: structuredClone(DEFAULT_SETTINGS),
     overrides: {},
+    github: { ...DEFAULT_GITHUB },
   };
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -32,6 +42,7 @@ function initialState(): SettingsState {
         },
       },
       overrides: parsed.overrides ?? {},
+      github: { ...fallback.github, ...parsed.github },
     };
   } catch {
     return fallback;
@@ -61,6 +72,9 @@ export const SettingsStore = signalStore(
         }
         return { overrides };
       });
+    },
+    updateGithub(patch: Partial<GithubConfig>): void {
+      patchState(store, (state) => ({ github: { ...state.github, ...patch } }));
     },
     resetSettings(): void {
       patchState(store, { settings: structuredClone(DEFAULT_SETTINGS) });

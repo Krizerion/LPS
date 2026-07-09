@@ -92,6 +92,24 @@
   line-height: 1;
 }
 
+.btn.refresh {
+  white-space: nowrap;
+
+  &.spinning {
+    color: var(--accent);
+    border-color: rgba(232, 180, 90, 0.5);
+  }
+}
+
+.github-input {
+  width: 200px;
+}
+
+.github-hint {
+  font-size: 12px;
+  margin: 6px 0 0;
+}
+
 .lang-toggle {
   display: flex;
   border: 1px solid var(--border);
