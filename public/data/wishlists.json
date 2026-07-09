@@ -7,12 +7,24 @@
     {
      "name": "Imperator Averzian",
      "maxItemLevel": 272,
-     "items": []
+     "items": [
+      {
+       "id": 249335,
+       "name": "Imperator's Banner",
+       "slot": "back"
+      }
+     ]
     },
     {
      "name": "Vorasius",
      "maxItemLevel": 276,
-     "items": []
+     "items": [
+      {
+       "id": 249336,
+       "name": "Signet of the Starved Beast",
+       "slot": "finger"
+      }
+     ]
     },
     {
      "name": "Fallen-King Salhadaar",
@@ -22,7 +34,13 @@
     {
      "name": "Vaelgor & Ezzorak",
      "maxItemLevel": 279,
-     "items": []
+     "items": [
+      {
+       "id": 249318,
+       "name": "Nullwalker's Dread Epaulettes",
+       "slot": "shoulder"
+      }
+     ]
     },
     {
      "name": "Lightblinded Vanguard",
@@ -54,12 +72,24 @@
     {
      "name": "Belo'ren, Child of Al'ar",
      "maxItemLevel": 279,
-     "items": []
+     "items": [
+      {
+       "id": 249919,
+       "name": "Sin'dorei Band of Hope",
+       "slot": "finger"
+      }
+     ]
     },
     {
      "name": "Midnight Falls",
      "maxItemLevel": 282,
-     "items": []
+     "items": [
+      {
+       "id": 249914,
+       "name": "Oblivion Guise",
+       "slot": "head"
+      }
+     ]
     }
    ]
   },
@@ -75,5 +105,91 @@
    ]
   }
  ],
- "upgrades": []
+ "upgrades": [
+  {
+   "characterId": 5066198,
+   "itemId": 249335,
+   "itemName": "Imperator's Banner",
+   "slot": "back",
+   "instanceId": 73,
+   "encounter": "Imperator Averzian",
+   "difficulty": "mythic",
+   "spec": "Beast Mastery",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.0781,
+   "absolute": 81.5379,
+   "updatedAt": "2026-07-09T16:13:37.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5066198,
+   "itemId": 249336,
+   "itemName": "Signet of the Starved Beast",
+   "slot": "finger",
+   "instanceId": 73,
+   "encounter": "Vorasius",
+   "difficulty": "mythic",
+   "spec": "Beast Mastery",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.3554,
+   "absolute": 371.0358,
+   "updatedAt": "2026-07-09T16:13:37.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5066198,
+   "itemId": 249318,
+   "itemName": "Nullwalker's Dread Epaulettes",
+   "slot": "shoulder",
+   "instanceId": 73,
+   "encounter": "Vaelgor & Ezzorak",
+   "difficulty": "mythic",
+   "spec": "Beast Mastery",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.0866,
+   "absolute": 90.3687,
+   "updatedAt": "2026-07-09T16:13:37.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5066198,
+   "itemId": 249919,
+   "itemName": "Sin'dorei Band of Hope",
+   "slot": "finger",
+   "instanceId": 75,
+   "encounter": "Belo'ren, Child of Al'ar",
+   "difficulty": "mythic",
+   "spec": "Beast Mastery",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.4974,
+   "absolute": 519.2448,
+   "updatedAt": "2026-07-09T16:13:37.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 5066198,
+   "itemId": 249914,
+   "itemName": "Oblivion Guise",
+   "slot": "head",
+   "instanceId": 75,
+   "encounter": "Midnight Falls",
+   "difficulty": "mythic",
+   "spec": "Beast Mastery",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.0968,
+   "absolute": 101.0292,
+   "updatedAt": "2026-07-09T16:13:37.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  }
+ ]
 }
