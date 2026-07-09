@@ -63,7 +63,13 @@
                 {{ roleIcons[row.character.role] }} {{ row.character.role }}
               </span>
             </td>
-            <td>{{ row.character.gear?.ilvlEquipped ?? '—' }}</td>
+            <td>
+              @if (row.character.gear?.ilvlEquipped; as ilvl) {
+                {{ ilvl | number: '1.0-1' }}
+              } @else {
+                <span class="muted">—</span>
+              }
+            </td>
             <td>
               @if (row.attendancePct !== null) {
                 {{ row.attendancePct | number: '1.0-0' }}%

@@ -50,10 +50,25 @@ export class Council {
     () => this.instance()?.encounters.find((e) => e.name === this.encounterName()) ?? null,
   );
 
-  protected readonly dropIlvl = computed(
-    () =>
-      this.dropIlvlOverride() ?? this.settings.settings().difficultyIlvl[this.difficulty()],
-  );
+  /** Difficulty steps are 13 ilvls apart (track cutoffs), counting down from mythic. */
+  private static readonly DIFFICULTY_OFFSET: Record<Difficulty, number> = {
+    mythic: 0,
+    heroic: 13,
+    normal: 26,
+  };
+
+  protected readonly dropIlvl = computed(() => {
+    const override = this.dropIlvlOverride();
+    if (override != null) return override;
+    const difficulty = this.difficulty();
+    // Per-boss max ilvl (bosses deeper in the raid drop higher) beats season/settings defaults.
+    const bossMax = this.encounter()?.maxItemLevel;
+    if (bossMax != null) return bossMax - Council.DIFFICULTY_OFFSET[difficulty];
+    return (
+      this.guild.meta()?.seasonIlvls?.[difficulty] ??
+      this.settings.settings().difficultyIlvl[difficulty]
+    );
+  });
 
   protected readonly candidates = computed(() => {
     const item = this.selectedItem();
@@ -62,10 +77,18 @@ export class Council {
       item,
       this.difficulty(),
       this.includeAllRoster(),
-      this.dropIlvlOverride(),
+      this.dropIlvl(),
       this.deltaOverrides(),
     );
   });
+
+  protected isTierItem(item: EncounterItem): boolean {
+    const meta = this.guild.meta();
+    return (
+      (meta?.tierItemIds?.includes(item.id) ?? false) ||
+      (!!meta?.omnitokenName && item.name === meta.omnitokenName)
+    );
+  }
 
   protected readonly maxLps = computed(() =>
     Math.max(1, ...this.candidates().map((c) => c.breakdown.total)),

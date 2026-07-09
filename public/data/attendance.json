@@ -3,74 +3,124 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 1,
-   "name": "Kragmar",
-   "attendedPercentage": 96
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 2,
-   "name": "Thornveil",
-   "attendedPercentage": 88
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 3,
-   "name": "Lumienne",
-   "attendedPercentage": 92
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 4,
-   "name": "Verdantis",
-   "attendedPercentage": 78
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 5,
-   "name": "Zelphira",
-   "attendedPercentage": 66
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 6,
-   "name": "Pyrelith",
-   "attendedPercentage": 98
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 7,
-   "name": "Umbrashot",
-   "attendedPercentage": 84
+   "characterId": 5030809,
+   "name": "Sherman",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 8,
-   "name": "Voidrenna",
-   "attendedPercentage": 71
+   "characterId": 5021440,
+   "name": "Racor",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 9,
-   "name": "Stormcaller",
-   "attendedPercentage": 90
+   "characterId": 5050159,
+   "name": "Tyreåh",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 10,
-   "name": "Bladewyn",
-   "attendedPercentage": 94
+   "characterId": 5050452,
+   "name": "Moshenji",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 11,
-   "name": "Feralynx",
-   "attendedPercentage": 62
+   "characterId": 5053378,
+   "name": "Svetirasi",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 12,
-   "name": "Dawnfist",
-   "attendedPercentage": 86
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 94.44444444444444
   },
   {
-   "characterId": 13,
-   "name": "Runeaxe",
-   "attendedPercentage": 55
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 94.44444444444444
   },
   {
-   "characterId": 14,
-   "name": "Solmara",
-   "attendedPercentage": 81
+   "characterId": 4608756,
+   "name": "Nelfers",
+   "attendedPercentage": 94.44444444444444
+  },
+  {
+   "characterId": 5121920,
+   "name": "Zhorovpal",
+   "attendedPercentage": 85.71428571428571
+  },
+  {
+   "characterId": 5021541,
+   "name": "Soulshackle",
+   "attendedPercentage": 83.33333333333334
+  },
+  {
+   "characterId": 5066215,
+   "name": "Monkies",
+   "attendedPercentage": 83.33333333333334
+  },
+  {
+   "characterId": 5128152,
+   "name": "Thecrit",
+   "attendedPercentage": 83.33333333333334
+  },
+  {
+   "characterId": 5084038,
+   "name": "Nanipal",
+   "attendedPercentage": 75
+  },
+  {
+   "characterId": 5067979,
+   "name": "Kalestie",
+   "attendedPercentage": 73.33333333333333
+  },
+  {
+   "characterId": 5053594,
+   "name": "Natureweaver",
+   "attendedPercentage": 72.22222222222221
+  },
+  {
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 66.66666666666666
+  },
+  {
+   "characterId": 5035198,
+   "name": "Dalt",
+   "attendedPercentage": 33.33333333333333
+  },
+  {
+   "characterId": 5099718,
+   "name": "Arlinna",
+   "attendedPercentage": 0
   }
  ]
 }

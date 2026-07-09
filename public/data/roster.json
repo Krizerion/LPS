@@ -1,1313 +1,3166 @@
 {
  "characters": [
   {
-   "id": 1,
-   "name": "Kragmar",
-   "realm": "Silvermoon",
-   "class": "Warrior",
-   "role": "Tank",
+   "id": 5021541,
+   "name": "Soulshackle",
+   "realm": "Argent Dawn",
+   "class": "Demon Hunter",
+   "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Стиви",
+   "droptimizerUploadedAt": null,
    "gear": {
-    "ilvlEquipped": 710.2,
+    "ilvlEquipped": 290,
     "slots": {
      "head": {
-      "ilvl": 714,
-      "enchantId": 7000,
+      "ilvl": 289,
+      "enchantId": 8017,
       "gems": []
      },
      "neck": {
-      "ilvl": 713,
-      "enchantId": 7001,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
      },
      "shoulder": {
-      "ilvl": 715,
-      "enchantId": 7002,
+      "ilvl": 289,
+      "enchantId": 8001,
       "gems": []
      },
      "back": {
-      "ilvl": 709,
-      "enchantId": 7003,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 705,
-      "enchantId": 7004,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 711,
-      "enchantId": 7005,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 710,
-      "enchantId": 7006,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 708,
-      "enchantId": 7007,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 713,
-      "enchantId": 7008,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 707,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 282,
+      "enchantId": 7963,
+      "gems": []
+     },
      "finger1": {
-      "ilvl": 710,
-      "enchantId": 7010,
+      "ilvl": 289,
+      "enchantId": 8025,
       "gems": [
-       213743
+       240892
       ]
      },
      "finger2": {
-      "ilvl": 707,
-      "enchantId": 7011,
+      "ilvl": 289,
+      "enchantId": 7969,
       "gems": [
-       213743
+       240892
       ]
      },
      "trinket1": {
-      "ilvl": 709,
-      "enchantId": 7012,
+      "ilvl": 298,
+      "enchantId": null,
       "gems": []
      },
      "trinket2": {
-      "ilvl": 710,
-      "enchantId": 7013,
+      "ilvl": 298,
+      "enchantId": null,
       "gems": []
      },
      "mainhand": {
-      "ilvl": 712,
-      "enchantId": 7014,
+      "ilvl": 295,
+      "enchantId": 8041,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 295,
+      "enchantId": 7983,
       "gems": []
      }
     },
-    "updatedAt": "2026-07-08T07:49:03.703Z"
+    "updatedAt": "2026-06-27T20:34:07.000Z"
    }
   },
   {
-   "id": 2,
-   "name": "Thornveil",
-   "realm": "Silvermoon",
+   "id": 5021543,
+   "name": "Feilina",
+   "realm": "Argent Dawn",
+   "class": "Death Knight",
+   "role": "Melee",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Весо",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240908
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240908
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240908
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 6245,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T20:15:29.000Z"
+   }
+  },
+  {
+   "id": 5021558,
+   "name": "Azeryx",
+   "realm": "Sylvanas",
+   "class": "Death Knight",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Мишо",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240908
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240908
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240908
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 3368,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T20:17:27.000Z"
+   }
+  },
+  {
+   "id": 5030809,
+   "name": "Sherman",
+   "realm": "Emeriss",
+   "class": "Shaman",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Зап",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7959,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240969
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 8013,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 298,
+      "enchantId": 7937,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 298,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7997,
+      "gems": [
+       240890
+      ]
+     },
+     "finger2": {
+      "ilvl": 285,
+      "enchantId": 7997,
+      "gems": [
+       240904
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 298,
+      "enchantId": 7528,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:35.000Z"
+   }
+  },
+  {
+   "id": 5035198,
+   "name": "Dalt",
+   "realm": "Anachronos",
+   "class": "Paladin",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Пламен",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 289,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7961,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": [
+       240969,
+       240898
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 8013,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": 4223,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "hands": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7937,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7969,
+      "gems": [
+       240902
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7969,
+      "gems": [
+       240910
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8039,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 295,
+      "enchantId": null,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-05-31T16:55:46.000Z"
+   }
+  },
+  {
+   "id": 5021440,
+   "name": "Racor",
+   "realm": "Argent Dawn",
+   "class": "Warlock",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Камен",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240898
+      ]
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 298,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 7981,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T20:15:30.000Z"
+   }
+  },
+  {
+   "id": 5050159,
+   "name": "Tyreåh",
+   "realm": "Ravencrest",
+   "class": "Paladin",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Лазо",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291.75,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7961,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240969
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 8013,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7937,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 298,
+      "enchantId": 7969,
+      "gems": [
+       240900
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7969,
+      "gems": [
+       240890
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8039,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 295,
+      "enchantId": null,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-01T19:20:54.000Z"
+   }
+  },
+  {
+   "id": 5050452,
+   "name": "Moshenji",
+   "realm": "Ravencrest",
    "class": "Death Knight",
    "role": "Tank",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Здравко",
+   "droptimizerUploadedAt": null,
    "gear": {
-    "ilvlEquipped": 709.3,
+    "ilvlEquipped": 293,
     "slots": {
      "head": {
-      "ilvl": 705,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7961,
       "gems": []
      },
      "neck": {
-      "ilvl": 710,
+      "ilvl": 298,
       "enchantId": null,
-      "gems": []
+      "gems": [
+       240983
+      ]
      },
      "shoulder": {
-      "ilvl": 715,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 8031,
       "gems": []
      },
      "back": {
-      "ilvl": 710,
+      "ilvl": 285,
       "enchantId": null,
       "gems": []
      },
      "chest": {
-      "ilvl": 709,
-      "enchantId": null,
+      "ilvl": 298,
+      "enchantId": 7987,
       "gems": []
      },
      "waist": {
-      "ilvl": 709,
-      "enchantId": 7025,
-      "gems": []
+      "ilvl": 298,
+      "enchantId": 4223,
+      "gems": [
+       240918
+      ]
      },
      "wrist": {
-      "ilvl": 709,
-      "enchantId": 7026,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240918
+      ]
      },
      "hands": {
-      "ilvl": 713,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
      "legs": {
-      "ilvl": 708,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 8159,
       "gems": []
      },
      "feet": {
-      "ilvl": 703,
-      "enchantId": null,
+      "ilvl": 285,
+      "enchantId": 7993,
       "gems": []
      },
      "finger1": {
-      "ilvl": 713,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 8027,
       "gems": [
-       213743
+       240914
       ]
      },
      "finger2": {
-      "ilvl": 712,
-      "enchantId": 7031,
-      "gems": []
+      "ilvl": 298,
+      "enchantId": 7997,
+      "gems": [
+       240906
+      ]
      },
      "trinket1": {
-      "ilvl": 707,
-      "enchantId": 7032,
+      "ilvl": 298,
+      "enchantId": null,
       "gems": []
      },
      "trinket2": {
-      "ilvl": 713,
-      "enchantId": 7033,
+      "ilvl": 298,
+      "enchantId": null,
       "gems": []
      },
      "mainhand": {
-      "ilvl": 704,
+      "ilvl": 298,
+      "enchantId": 6241,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T20:17:26.000Z"
+   }
+  },
+  {
+   "id": 3809470,
+   "name": "Xpactt",
+   "realm": "Kazzak",
+   "class": "Mage",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Християн",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240898
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 298,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "finger2": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "trinket1": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 7981,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 295,
       "enchantId": null,
       "gems": []
      }
     },
-    "updatedAt": "2026-07-06T23:42:48.950Z"
+    "updatedAt": "2026-07-08T22:05:39.000Z"
    }
   },
   {
-   "id": 3,
-   "name": "Lumienne",
+   "id": 5053112,
+   "name": "Tican",
+   "realm": "Argent Dawn",
+   "class": "Warrior",
+   "role": "Melee",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Камен",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291.312,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7961,
+      "gems": [
+       240983
+      ]
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8163,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 8019,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240900
+      ]
+     },
+     "finger2": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240900
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8041,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-05T23:06:08.000Z"
+   }
+  },
+  {
+   "id": 4608756,
+   "name": "Nelfers",
+   "realm": "Kazzak",
+   "class": "Demon Hunter",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Диян",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 289,
+    "slots": {
+     "head": {
+      "ilvl": 298,
+      "enchantId": 8015,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "shoulder": {
+      "ilvl": 276,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7969,
+      "gems": [
+       240983
+      ]
+     },
+     "finger2": {
+      "ilvl": 285,
+      "enchantId": 7969,
+      "gems": [
+       240900
+      ]
+     },
+     "trinket1": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 7983,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 295,
+      "enchantId": 8041,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:39.000Z"
+   }
+  },
+  {
+   "id": 5053378,
+   "name": "Svetirasi",
    "realm": "Silvermoon",
    "class": "Priest",
    "role": "Heal",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Раси",
+   "droptimizerUploadedAt": null,
    "gear": {
-    "ilvlEquipped": 706.1,
+    "ilvlEquipped": 293,
     "slots": {
      "head": {
-      "ilvl": 705,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": 7991,
+      "gems": [
+       240890
+      ]
      },
      "neck": {
-      "ilvl": 703,
+      "ilvl": 298,
       "enchantId": null,
-      "gems": []
+      "gems": [
+       240890
+      ]
      },
      "shoulder": {
-      "ilvl": 708,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7973,
       "gems": []
      },
      "back": {
-      "ilvl": 707,
+      "ilvl": 285,
       "enchantId": null,
       "gems": []
      },
      "chest": {
-      "ilvl": 708,
-      "enchantId": null,
+      "ilvl": 298,
+      "enchantId": 8013,
       "gems": []
      },
      "waist": {
-      "ilvl": 704,
-      "enchantId": 7045,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
      },
      "wrist": {
-      "ilvl": 709,
-      "enchantId": 7046,
-      "gems": []
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240890
+      ]
      },
      "hands": {
-      "ilvl": 699,
-      "enchantId": 7047,
+      "ilvl": 289,
+      "enchantId": null,
       "gems": []
      },
      "legs": {
-      "ilvl": 709,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7937,
       "gems": []
      },
      "feet": {
-      "ilvl": 707,
-      "enchantId": 7049,
+      "ilvl": 298,
+      "enchantId": 7993,
       "gems": []
      },
      "finger1": {
-      "ilvl": 707,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": 8025,
+      "gems": [
+       240890
+      ]
      },
      "finger2": {
-      "ilvl": 707,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298,
+      "enchantId": 8025,
+      "gems": [
+       240890
+      ]
      },
      "trinket1": {
-      "ilvl": 709,
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      },
      "trinket2": {
-      "ilvl": 702,
-      "enchantId": 7053,
+      "ilvl": 298,
+      "enchantId": null,
       "gems": []
      },
      "mainhand": {
-      "ilvl": 708,
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      }
     },
-    "updatedAt": "2026-07-06T21:19:15.363Z"
+    "updatedAt": "2026-07-08T22:05:40.000Z"
    }
   },
   {
-   "id": 4,
-   "name": "Verdantis",
+   "id": 5053387,
+   "name": "Zelyo",
+   "realm": "Kazzak",
+   "class": "Hunter",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Вальо",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291.875,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7961,
+      "gems": [
+       240983
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240908
+      ]
+     },
+     "finger2": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8041,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 298,
+      "enchantId": 8041,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:40.000Z"
+   }
+  },
+  {
+   "id": 5053594,
+   "name": "Natureweaver",
    "realm": "Silvermoon",
+   "class": "Druid",
+   "role": "Tank",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Боби",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 290,
+    "slots": {
+     "head": {
+      "ilvl": 298,
+      "enchantId": 7961,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7985,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240916
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 8025,
+      "gems": [
+       240894
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 8025,
+      "gems": [
+       240892
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-06-26T17:52:10.000Z"
+   }
+  },
+  {
+   "id": 4608754,
+   "name": "Valahan",
+   "realm": "Kazzak",
+   "class": "Shaman",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Мартин",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240908
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": 2841,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 298,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 8019,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 298,
+      "enchantId": 7969,
+      "gems": [
+       240908
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7997,
+      "gems": [
+       240908
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T19:41:17.000Z"
+   }
+  },
+  {
+   "id": 5066215,
+   "name": "Monkies",
+   "realm": "Argent Dawn",
+   "class": "Monk",
+   "role": "Tank",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Явор",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291,
+    "slots": {
+     "head": {
+      "ilvl": 298,
+      "enchantId": 7961,
+      "gems": [
+       240910
+      ]
+     },
+     "neck": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240914
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240910
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 285,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7997,
+      "gems": [
+       240902
+      ]
+     },
+     "finger2": {
+      "ilvl": 285,
+      "enchantId": 7997,
+      "gems": [
+       240983
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T20:15:28.000Z"
+   }
+  },
+  {
+   "id": 5067979,
+   "name": "Kalestie",
+   "realm": "Argent Dawn",
+   "class": "Warlock",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Весо",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 290,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240906
+      ]
+     },
+     "neck": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 298,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 276,
+      "enchantId": 7967,
+      "gems": [
+       240906
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240906
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T17:49:29.000Z"
+   }
+  },
+  {
+   "id": 5084038,
+   "name": "Nanipal",
+   "realm": "Kazzak",
+   "class": "Paladin",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Стенли",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7991,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240906
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 7973,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 298,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240904
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8163,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240906
+      ]
+     },
+     "finger2": {
+      "ilvl": 285,
+      "enchantId": 7967,
+      "gems": [
+       240983
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-06-26T17:52:10.000Z"
+   }
+  },
+  {
+   "id": 4890392,
+   "name": "Vikdrulemix",
+   "realm": "Tarren Mill",
+   "class": "Druid",
+   "role": "Heal",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Вик",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 298,
+      "enchantId": 7961,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7937,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 298,
+      "enchantId": 8025,
+      "gems": [
+       240892
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 8025,
+      "gems": [
+       240892
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:38.000Z"
+   }
+  },
+  {
+   "id": 5099718,
+   "name": "Arlinna",
+   "realm": "Kazzak",
    "class": "Druid",
    "role": "Heal",
    "rank": "Main",
    "status": "tracking",
    "note": null,
+   "droptimizerUploadedAt": null,
    "gear": {
-    "ilvlEquipped": 707.7,
+    "ilvlEquipped": 289,
     "slots": {
      "head": {
-      "ilvl": 706,
-      "enchantId": 7060,
+      "ilvl": 289,
+      "enchantId": 8017,
       "gems": []
      },
      "neck": {
-      "ilvl": 710,
-      "enchantId": 7061,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
      },
      "shoulder": {
-      "ilvl": 709,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 8001,
       "gems": []
      },
      "back": {
-      "ilvl": 710,
+      "ilvl": 285,
       "enchantId": null,
       "gems": []
      },
      "chest": {
-      "ilvl": 714,
-      "enchantId": 7064,
+      "ilvl": 289,
+      "enchantId": 8013,
       "gems": []
      },
      "waist": {
-      "ilvl": 708,
-      "enchantId": 7065,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 706,
-      "enchantId": null,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 707,
-      "enchantId": 7067,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 712,
-      "enchantId": 7068,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 705,
-      "enchantId": 7069,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 704,
-      "enchantId": 7070,
-      "gems": [
-       213743
-      ]
-     },
-     "finger2": {
-      "ilvl": 707,
-      "enchantId": 7071,
-      "gems": [
-       213743
-      ]
-     },
-     "trinket1": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 704,
-      "enchantId": 7073,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 706,
-      "enchantId": 7074,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-08T05:39:24.344Z"
-   }
-  },
-  {
-   "id": 5,
-   "name": "Zelphira",
-   "realm": "Silvermoon",
-   "class": "Shaman",
-   "role": "Heal",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 704.8,
-    "slots": {
-     "head": {
-      "ilvl": 702,
-      "enchantId": null,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 707,
-      "enchantId": null,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 707,
-      "enchantId": 7082,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 706,
-      "enchantId": 7083,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 702,
-      "enchantId": null,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 702,
+      "ilvl": 285,
       "enchantId": null,
       "gems": []
      },
      "wrist": {
-      "ilvl": 708,
-      "enchantId": 7086,
-      "gems": []
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": [
+       240894
+      ]
      },
      "hands": {
-      "ilvl": 710,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
      "legs": {
-      "ilvl": 701,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7937,
       "gems": []
      },
      "feet": {
-      "ilvl": 700,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7993,
       "gems": []
      },
      "finger1": {
-      "ilvl": 708,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7997,
       "gems": [
-       213743
+       240916
       ]
      },
      "finger2": {
-      "ilvl": 702,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7997,
       "gems": [
-       213743
+       240892
       ]
      },
      "trinket1": {
-      "ilvl": 703,
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      },
      "trinket2": {
-      "ilvl": 707,
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      },
      "mainhand": {
-      "ilvl": 707,
-      "enchantId": null,
+      "ilvl": 295,
+      "enchantId": 8039,
       "gems": []
      }
     },
-    "updatedAt": "2026-07-08T16:09:04.415Z"
+    "updatedAt": "2026-07-08T22:05:38.000Z"
    }
   },
   {
-   "id": 6,
-   "name": "Pyrelith",
-   "realm": "Silvermoon",
-   "class": "Mage",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 703.1,
-    "slots": {
-     "head": {
-      "ilvl": 701,
-      "enchantId": null,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 704,
-      "enchantId": null,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 707,
-      "enchantId": 7102,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 702,
-      "enchantId": null,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 703,
-      "enchantId": null,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 701,
-      "enchantId": null,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 708,
-      "enchantId": 7106,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 703,
-      "enchantId": 7107,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 707,
-      "enchantId": null,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 709,
-      "enchantId": 7109,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 701,
-      "enchantId": null,
-      "gems": []
-     },
-     "finger2": {
-      "ilvl": 700,
-      "enchantId": null,
-      "gems": []
-     },
-     "trinket1": {
-      "ilvl": 698,
-      "enchantId": 7112,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 705,
-      "enchantId": null,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 698,
-      "enchantId": null,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-08T12:33:47.540Z"
-   }
-  },
-  {
-   "id": 7,
-   "name": "Umbrashot",
-   "realm": "Silvermoon",
-   "class": "Hunter",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 707,
-    "slots": {
-     "head": {
-      "ilvl": 703,
-      "enchantId": null,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 706,
-      "enchantId": null,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 710,
-      "enchantId": 7122,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 709,
-      "enchantId": null,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 708,
-      "enchantId": 7124,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 704,
-      "enchantId": null,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 709,
-      "enchantId": 7126,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 704,
-      "enchantId": 7128,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 710,
-      "enchantId": 7130,
-      "gems": [
-       213743
-      ]
-     },
-     "finger2": {
-      "ilvl": 707,
-      "enchantId": 7131,
-      "gems": []
-     },
-     "trinket1": {
-      "ilvl": 711,
-      "enchantId": null,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 706,
-      "enchantId": 7133,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 702,
-      "enchantId": 7134,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-08T16:46:41.508Z"
-   }
-  },
-  {
-   "id": 8,
-   "name": "Voidrenna",
-   "realm": "Silvermoon",
-   "class": "Warlock",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 712.7,
-    "slots": {
-     "head": {
-      "ilvl": 716,
-      "enchantId": 7140,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 713,
-      "enchantId": 7141,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 710,
-      "enchantId": 7142,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 716,
-      "enchantId": 7143,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 715,
-      "enchantId": 7144,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 707,
-      "enchantId": 7145,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 709,
-      "enchantId": 7146,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 716,
-      "enchantId": 7147,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 704,
-      "enchantId": null,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 709,
-      "enchantId": 7149,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 717,
-      "enchantId": 7150,
-      "gems": [
-       213743
-      ]
-     },
-     "finger2": {
-      "ilvl": 717,
-      "enchantId": 7151,
-      "gems": [
-       213743
-      ]
-     },
-     "trinket1": {
-      "ilvl": 713,
-      "enchantId": 7152,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 713,
-      "enchantId": null,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 716,
-      "enchantId": null,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-08T16:28:11.243Z"
-   }
-  },
-  {
-   "id": 9,
-   "name": "Stormcaller",
+   "id": 5113215,
+   "name": "Vikvoker",
    "realm": "Silvermoon",
    "class": "Evoker",
    "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Вик",
+   "droptimizerUploadedAt": null,
    "gear": {
-    "ilvlEquipped": 712.1,
+    "ilvlEquipped": 291.188,
     "slots": {
      "head": {
-      "ilvl": 716,
-      "enchantId": 7160,
+      "ilvl": 289,
+      "enchantId": 8017,
       "gems": []
      },
      "neck": {
-      "ilvl": 713,
-      "enchantId": 7161,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
      },
      "shoulder": {
-      "ilvl": 716,
-      "enchantId": 7162,
+      "ilvl": 289,
+      "enchantId": 8001,
       "gems": []
      },
      "back": {
-      "ilvl": 709,
-      "enchantId": 7163,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 718,
-      "enchantId": null,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 710,
-      "enchantId": 7165,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 704,
-      "enchantId": 7166,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 707,
-      "enchantId": 7167,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 712,
-      "enchantId": 7168,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 714,
-      "enchantId": 7169,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 713,
-      "enchantId": 7170,
-      "gems": [
-       213743
-      ]
-     },
-     "finger2": {
-      "ilvl": 716,
-      "enchantId": null,
-      "gems": [
-       213743
-      ]
-     },
-     "trinket1": {
-      "ilvl": 712,
-      "enchantId": 7172,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 710,
-      "enchantId": 7173,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 711,
-      "enchantId": 7174,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-07T06:02:43.501Z"
-   }
-  },
-  {
-   "id": 10,
-   "name": "Bladewyn",
-   "realm": "Silvermoon",
-   "class": "Rogue",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 705.8,
-    "slots": {
-     "head": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 711,
-      "enchantId": 7181,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 703,
-      "enchantId": null,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 707,
-      "enchantId": 7183,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 701,
-      "enchantId": null,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 710,
-      "enchantId": null,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 704,
-      "enchantId": 7186,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 705,
-      "enchantId": null,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 710,
-      "enchantId": 7188,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 705,
-      "enchantId": null,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 702,
-      "enchantId": null,
-      "gems": [
-       213743
-      ]
-     },
-     "finger2": {
-      "ilvl": 709,
-      "enchantId": 7191,
-      "gems": []
-     },
-     "trinket1": {
-      "ilvl": 709,
-      "enchantId": null,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 701,
-      "enchantId": 7193,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 702,
-      "enchantId": null,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-06T12:44:24.046Z"
-   }
-  },
-  {
-   "id": 11,
-   "name": "Feralynx",
-   "realm": "Silvermoon",
-   "class": "Demon Hunter",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 709,
-    "slots": {
-     "head": {
-      "ilvl": 713,
-      "enchantId": 7200,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 704,
-      "enchantId": null,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 710,
-      "enchantId": 7202,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 706,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
      "chest": {
-      "ilvl": 715,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7987,
       "gems": []
      },
      "waist": {
-      "ilvl": 707,
-      "enchantId": 7205,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 709,
-      "enchantId": null,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 711,
-      "enchantId": 7207,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 709,
-      "enchantId": 7208,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 706,
-      "enchantId": 7209,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 707,
-      "enchantId": 7210,
-      "gems": []
-     },
-     "finger2": {
-      "ilvl": 716,
-      "enchantId": 7211,
-      "gems": [
-       213743
-      ]
-     },
-     "trinket1": {
-      "ilvl": 707,
-      "enchantId": 7212,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 709,
-      "enchantId": 7213,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 706,
-      "enchantId": null,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-07T21:35:26.644Z"
-   }
-  },
-  {
-   "id": 12,
-   "name": "Dawnfist",
-   "realm": "Silvermoon",
-   "class": "Monk",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 703.7,
-    "slots": {
-     "head": {
-      "ilvl": 701,
-      "enchantId": 7220,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 710,
-      "enchantId": 7222,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 702,
-      "enchantId": null,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 698,
-      "enchantId": 7224,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 702,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
      "wrist": {
-      "ilvl": 705,
+      "ilvl": 285,
       "enchantId": null,
       "gems": []
      },
      "hands": {
-      "ilvl": 699,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
      "legs": {
-      "ilvl": 703,
-      "enchantId": 7228,
+      "ilvl": 289,
+      "enchantId": 7935,
       "gems": []
      },
      "feet": {
-      "ilvl": 709,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7963,
       "gems": []
      },
      "finger1": {
-      "ilvl": 700,
-      "enchantId": null,
+      "ilvl": 298,
+      "enchantId": 7997,
       "gems": [
-       213743
+       240906
       ]
      },
      "finger2": {
-      "ilvl": 703,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": 7997,
+      "gems": [
+       240906
+      ]
      },
      "trinket1": {
-      "ilvl": 706,
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      },
      "trinket2": {
-      "ilvl": 708,
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      },
      "mainhand": {
-      "ilvl": 702,
-      "enchantId": null,
+      "ilvl": 295,
+      "enchantId": 8039,
       "gems": []
      }
     },
-    "updatedAt": "2026-07-09T03:20:36.349Z"
+    "updatedAt": "2026-07-05T23:06:06.000Z"
    }
   },
   {
-   "id": 13,
-   "name": "Runeaxe",
-   "realm": "Silvermoon",
-   "class": "Warrior",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "gear": {
-    "ilvlEquipped": 709.4,
-    "slots": {
-     "head": {
-      "ilvl": 707,
-      "enchantId": 7240,
-      "gems": []
-     },
-     "neck": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "shoulder": {
-      "ilvl": 715,
-      "enchantId": 7242,
-      "gems": []
-     },
-     "back": {
-      "ilvl": 709,
-      "enchantId": null,
-      "gems": []
-     },
-     "chest": {
-      "ilvl": 712,
-      "enchantId": null,
-      "gems": []
-     },
-     "waist": {
-      "ilvl": 709,
-      "enchantId": 7245,
-      "gems": []
-     },
-     "wrist": {
-      "ilvl": 711,
-      "enchantId": 7246,
-      "gems": []
-     },
-     "hands": {
-      "ilvl": 708,
-      "enchantId": 7247,
-      "gems": []
-     },
-     "legs": {
-      "ilvl": 708,
-      "enchantId": null,
-      "gems": []
-     },
-     "feet": {
-      "ilvl": 711,
-      "enchantId": 7249,
-      "gems": []
-     },
-     "finger1": {
-      "ilvl": 704,
-      "enchantId": 7250,
-      "gems": [
-       213743
-      ]
-     },
-     "finger2": {
-      "ilvl": 713,
-      "enchantId": 7251,
-      "gems": []
-     },
-     "trinket1": {
-      "ilvl": 709,
-      "enchantId": 7252,
-      "gems": []
-     },
-     "trinket2": {
-      "ilvl": 710,
-      "enchantId": 7253,
-      "gems": []
-     },
-     "mainhand": {
-      "ilvl": 707,
-      "enchantId": 7254,
-      "gems": []
-     }
-    },
-    "updatedAt": "2026-07-07T07:15:52.896Z"
-   }
-  },
-  {
-   "id": 14,
-   "name": "Solmara",
-   "realm": "Silvermoon",
+   "id": 5021535,
+   "name": "Blythe",
+   "realm": "Burning Legion",
    "class": "Paladin",
    "role": "Melee",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Денис",
+   "droptimizerUploadedAt": null,
    "gear": {
-    "ilvlEquipped": 708.3,
+    "ilvlEquipped": 290.188,
     "slots": {
      "head": {
-      "ilvl": 705,
-      "enchantId": 7260,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": 8016,
+      "gems": [
+       240892
+      ]
      },
      "neck": {
-      "ilvl": 711,
-      "enchantId": 7261,
-      "gems": []
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
      },
      "shoulder": {
-      "ilvl": 712,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 8001,
       "gems": []
      },
      "back": {
-      "ilvl": 709,
-      "enchantId": 7263,
+      "ilvl": 285,
+      "enchantId": null,
       "gems": []
      },
      "chest": {
-      "ilvl": 704,
+      "ilvl": 298,
       "enchantId": null,
       "gems": []
      },
      "waist": {
-      "ilvl": 704,
-      "enchantId": 7265,
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240908
+      ]
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
       "gems": []
      },
      "wrist": {
-      "ilvl": 710,
-      "enchantId": 7266,
+      "ilvl": 285,
+      "enchantId": null,
       "gems": []
      },
      "hands": {
-      "ilvl": 707,
-      "enchantId": 7267,
+      "ilvl": 289,
+      "enchantId": null,
       "gems": []
      },
      "legs": {
-      "ilvl": 709,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7937,
       "gems": []
      },
      "feet": {
-      "ilvl": 709,
-      "enchantId": 7269,
+      "ilvl": 289,
+      "enchantId": 7962,
       "gems": []
      },
      "finger1": {
-      "ilvl": 707,
-      "enchantId": null,
+      "ilvl": 289,
+      "enchantId": 7994,
       "gems": [
-       213743
+       240908
       ]
      },
      "finger2": {
-      "ilvl": 712,
-      "enchantId": 7271,
+      "ilvl": 289,
+      "enchantId": 7995,
       "gems": [
-       213743
+       240908
       ]
      },
      "trinket1": {
-      "ilvl": 708,
+      "ilvl": 289,
       "enchantId": null,
       "gems": []
      },
      "trinket2": {
-      "ilvl": 709,
-      "enchantId": 7273,
+      "ilvl": 289,
+      "enchantId": null,
       "gems": []
      },
      "mainhand": {
-      "ilvl": 709,
-      "enchantId": 7274,
+      "ilvl": 298,
+      "enchantId": 8052,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 298,
+      "enchantId": null,
       "gems": []
      }
     },
-    "updatedAt": "2026-07-07T20:30:00.141Z"
+    "updatedAt": "2026-07-02T23:07:54.000Z"
+   }
+  },
+  {
+   "id": 5121622,
+   "name": "Bagertatsuo",
+   "realm": "Ravencrest",
+   "class": "Evoker",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Тошко",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 298,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 298,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7997,
+      "gems": [
+       240906
+      ]
+     },
+     "finger2": {
+      "ilvl": 298,
+      "enchantId": 7997,
+      "gems": [
+       240906
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T20:15:28.000Z"
+   }
+  },
+  {
+   "id": 5121920,
+   "name": "Zhorovpal",
+   "realm": "Kazzak",
+   "class": "Paladin",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Жоров",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 288,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7961,
+      "gems": [
+       240983
+      ]
+     },
+     "neck": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8031,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 298,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 289,
+      "enchantId": 7993,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "finger2": {
+      "ilvl": 285,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "trinket1": {
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 263,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:39.000Z"
+   }
+  },
+  {
+   "id": 5128152,
+   "name": "Thecrit",
+   "realm": "Stormscale",
+   "class": "Warlock",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Стоян",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 293,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240906
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240906
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 298,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240906
+      ]
+     },
+     "wrist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240906
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 298,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240983
+      ]
+     },
+     "finger2": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240906
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:36.000Z"
+   }
+  },
+  {
+   "id": 5099602,
+   "name": "Elfionna",
+   "realm": "Kazzak",
+   "class": "Monk",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Деница",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 289.875,
+    "slots": {
+     "head": {
+      "ilvl": 298,
+      "enchantId": 8017,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240894
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 8013,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240890
+      ]
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7937,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 8025,
+      "gems": [
+       240983
+      ]
+     },
+     "finger2": {
+      "ilvl": 276,
+      "enchantId": 8025,
+      "gems": [
+       240890
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:40.000Z"
+   }
+  },
+  {
+   "id": 4990966,
+   "name": "Aerynblack",
+   "realm": "Kazzak",
+   "class": "Druid",
+   "role": "Heal",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Деница",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 288,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 7961,
+      "gems": [
+       240892
+      ]
+     },
+     "neck": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 285,
+      "enchantId": 8013,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240892
+      ]
+     },
+     "wrist": {
+      "ilvl": 276,
+      "enchantId": null,
+      "gems": []
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7937,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 276,
+      "enchantId": 7969,
+      "gems": [
+       240892
+      ]
+     },
+     "finger2": {
+      "ilvl": 276,
+      "enchantId": 7969,
+      "gems": [
+       240892
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:40.000Z"
+   }
+  },
+  {
+   "id": 5021663,
+   "name": "Krizerion",
+   "realm": "Argent Dawn",
+   "class": "Paladin",
+   "role": "Melee",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Крис",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 292.25,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": [
+       240898
+      ]
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "finger2": {
+      "ilvl": 298,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 295,
+      "enchantId": null,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T06:20:46.000Z"
+   }
+  },
+  {
+   "id": 5066198,
+   "name": "Krizerio",
+   "realm": "Argent Dawn",
+   "class": "Hunter",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Крис",
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 291,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 285,
+      "enchantId": 4223,
+      "gems": [
+       240898
+      ]
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240898
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 298,
+      "enchantId": 8159,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240898
+      ]
+     },
+     "trinket1": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 298,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 298,
+      "enchantId": 8039,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-08T22:05:39.000Z"
+   }
+  },
+  {
+   "id": 5108281,
+   "name": "Bagershinku",
+   "realm": "Ravencrest",
+   "class": "Demon Hunter",
+   "role": "Ranged",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": null,
+   "gear": {
+    "ilvlEquipped": 289,
+    "slots": {
+     "head": {
+      "ilvl": 289,
+      "enchantId": 8017,
+      "gems": []
+     },
+     "neck": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240983
+      ]
+     },
+     "shoulder": {
+      "ilvl": 289,
+      "enchantId": 8001,
+      "gems": []
+     },
+     "back": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "chest": {
+      "ilvl": 289,
+      "enchantId": 7987,
+      "gems": []
+     },
+     "waist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "shirt": {
+      "ilvl": 1,
+      "enchantId": null,
+      "gems": []
+     },
+     "wrist": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": [
+       240900
+      ]
+     },
+     "hands": {
+      "ilvl": 289,
+      "enchantId": null,
+      "gems": []
+     },
+     "legs": {
+      "ilvl": 289,
+      "enchantId": 7935,
+      "gems": []
+     },
+     "feet": {
+      "ilvl": 285,
+      "enchantId": 7963,
+      "gems": []
+     },
+     "finger1": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240900
+      ]
+     },
+     "finger2": {
+      "ilvl": 289,
+      "enchantId": 7967,
+      "gems": [
+       240900
+      ]
+     },
+     "trinket1": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "trinket2": {
+      "ilvl": 285,
+      "enchantId": null,
+      "gems": []
+     },
+     "mainhand": {
+      "ilvl": 295,
+      "enchantId": 8041,
+      "gems": []
+     },
+     "offhand": {
+      "ilvl": 298,
+      "enchantId": 7983,
+      "gems": []
+     }
+    },
+    "updatedAt": "2026-07-05T04:21:13.000Z"
    }
   }
  ]

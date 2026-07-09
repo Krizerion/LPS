@@ -52,15 +52,16 @@ const GEAR_SLOTS = [
 const INSTANCE = {
   id: 30,
   name: 'Sanctum of the Radiant Dusk',
+  // [boss, mythic max drop ilvl, slot pool]
   encounters: [
-    ['Warden Ashvale', ['head', 'wrists', 'trinket']],
-    ['The Twinflame Court', ['shoulders', 'waist', 'one_hand']],
-    ['Grothek the Devourer', ['chest', 'finger', 'main_hand_2h']],
-    ['Seraphine, Duskbinder', ['back', 'hands', 'trinket']],
-    ['Molten Custodian', ['legs', 'feet', 'shield']],
-    ['Nhal\'zeth the Unseen', ['neck', 'wrists', 'one_hand']],
-    ['Archon Velatra', ['finger', 'trinket', 'main_hand_2h']],
-    ['Duskmourn, the Last Light', ['chest', 'head', 'one_hand', 'trinket']],
+    ['Warden Ashvale', 272, ['head', 'wrists', 'trinket']],
+    ['The Twinflame Court', 272, ['shoulders', 'waist', 'one_hand']],
+    ['Grothek the Devourer', 276, ['chest', 'finger', 'main_hand_2h']],
+    ['Seraphine, Duskbinder', 276, ['back', 'hands', 'trinket']],
+    ['Molten Custodian', 279, ['legs', 'feet', 'shield']],
+    ['Nhal\'zeth the Unseen', 279, ['neck', 'wrists', 'one_hand']],
+    ['Archon Velatra', 282, ['finger', 'trinket', 'main_hand_2h']],
+    ['Duskmourn, the Last Light', 282, ['chest', 'head', 'one_hand', 'trinket']],
   ],
 };
 
@@ -77,7 +78,7 @@ const characters = ROSTER_DEF.map(([name, klass, role, attendance], i) => {
   const slots = {};
   for (const slot of GEAR_SLOTS) {
     slots[slot] = {
-      ilvl: Math.round(between(695, 705) + quality * between(8, 18)),
+      ilvl: Math.round(between(244, 254) + quality * between(8, 18)),
       enchantId: rand() < quality * 0.95 ? 7000 + i * 20 + GEAR_SLOTS.indexOf(slot) : null,
       gems: slot.startsWith('finger') && rand() < quality ? [213743] : [],
     };
@@ -104,19 +105,26 @@ const characters = ROSTER_DEF.map(([name, klass, role, attendance], i) => {
 
 // --- wishlists / droptimizer upgrades ---
 let itemId = 251000;
-const encounters = INSTANCE.encounters.map(([name, slotPool]) => ({
+const encounters = INSTANCE.encounters.map(([name, maxItemLevel, slotPool]) => ({
   name,
+  maxItemLevel,
   items: slotPool.map((slot) => ({
     id: itemId++,
     name: `${pick(ITEM_PREFIXES)} ${ITEM_BASES[slot] ?? 'Relic'}`,
     slot,
   })),
 }));
+// Head/chest/legs pieces double as "tier" items for the hard-reserve badge.
+const tierItemIds = encounters
+  .flatMap((e) => e.items)
+  .filter((i) => ['head', 'chest', 'legs'].includes(i.slot))
+  .map((i) => i.id);
 
 const upgrades = [];
 for (const c of characters) {
   const isDps = c.role === 'Melee' || c.role === 'Ranged';
   const uploadedAt = daysAgo(between(0, c._quality > 0.7 ? 6 : 20));
+  c._uploadedAt = uploadedAt;
   for (const difficulty of ['heroic', 'mythic']) {
     for (const enc of encounters) {
       for (const item of enc.items) {
@@ -182,10 +190,16 @@ await Promise.all([
     fetchedAt: daysAgo(0),
     sample: true,
     team: { name: 'Sample Roster', guildName: 'Radiant Dusk (sample)', url: null, region: 'eu' },
-    season: 'Season 2',
+    season: 'Sample — Season 2',
+    seasonIlvls: { normal: 246, heroic: 259, mythic: 272 },
+    tierItemIds,
+    omnitokenName: null,
   }),
   write('roster.json', {
-    characters: characters.map(({ _attendance, _quality, ...c }) => c),
+    characters: characters.map(({ _attendance, _quality, _uploadedAt, ...c }) => ({
+      ...c,
+      droptimizerUploadedAt: _uploadedAt,
+    })),
   }),
   write('wishlists.json', {
     instances: [{ id: INSTANCE.id, name: INSTANCE.name, encounters }],

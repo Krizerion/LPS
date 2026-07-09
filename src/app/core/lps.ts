@@ -35,7 +35,8 @@ export const DEFAULT_SETTINGS: LpsSettings = {
   attendanceThreshold: 75,
   regularMultiplier: 1.0,
   casualMultiplier: 0.7,
-  difficultyIlvl: { normal: 697, heroic: 710, mythic: 723 },
+  // Midnight Season 1 track cutoffs; real values come from meta.json seasonIlvls.
+  difficultyIlvl: { normal: 246, heroic: 259, mythic: 272 },
   zeroSimForTanksHealers: true,
 };
 

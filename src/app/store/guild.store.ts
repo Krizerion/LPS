@@ -128,6 +128,7 @@ export const GuildStore = signalStore(
         const wishDates = upgrades
           .filter((u) => u.characterId === character.id && u.updatedAt)
           .map((u) => u.updatedAt!);
+        if (character.droptimizerUploadedAt) wishDates.push(character.droptimizerUploadedAt);
         return {
           character,
           attendancePct,

@@ -6,6 +6,7 @@
  * Usage:
  *   WOWAUDIT_API_KEY=xxxx node scripts/fetch-data.mjs
  *   node scripts/fetch-data.mjs --key xxxx
+ *   (or put the key in .env — see .env.example)
  *
  * Optional env:
  *   ATTENDANCE_DAYS  How far back attendance statistics reach (default 60).
@@ -84,50 +85,113 @@ async function fetchGear(region, character) {
   };
 }
 
-function flattenWishlists(raw) {
+/** Latest non-null timestamp from wowaudit's per-spec maps ({Havoc: "...", ...}). */
+function latestTimestamp(...maps) {
+  const values = maps.flatMap((m) => Object.values(m ?? {})).filter(Boolean);
+  return values.length ? values.sort().at(-1) : null;
+}
+
+/**
+ * The live /v1/wishlists shape is characters[].instances[].difficulties[].wishlist
+ * (the docs show an extra wishlists[]/wishlist.wishlist nesting — support both).
+ */
+function flattenWishlists(raw, seasonInstances) {
+  // Seed the instance/encounter index from season metadata so the Council page
+  // lists every boss of the tier even before anyone uploads a droptimizer.
   const instancesById = new Map();
+  for (const inst of seasonInstances) {
+    instancesById.set(inst.id, {
+      id: inst.id,
+      name: inst.name,
+      encounters: new Map(
+        (inst.encounters ?? []).map((e) => [
+          e.name,
+          { name: e.name, maxItemLevel: e.maxItemLevel ?? null, items: new Map() },
+        ]),
+      ),
+    });
+  }
+
   const upgrades = [];
+  const uploadedByCharacter = new Map();
+
+  const handleWishlistNode = (characterId, instance, difficulty, node, wishlistName, weight) => {
+    const wishlist = node?.wishlist ?? node; // unwrap docs-style double nesting
+    if (!wishlist) return;
+
+    const uploaded = latestTimestamp(wishlist.report_uploaded_at, wishlist.updated_at);
+    if (uploaded) {
+      const prev = uploadedByCharacter.get(characterId);
+      if (!prev || uploaded > prev) uploadedByCharacter.set(characterId, uploaded);
+    }
+
+    if (!instancesById.has(instance.id)) {
+      instancesById.set(instance.id, { id: instance.id, name: instance.name, encounters: new Map() });
+    }
+    const instInfo = instancesById.get(instance.id);
+
+    for (const encounter of wishlist.encounters ?? []) {
+      if (!instInfo.encounters.has(encounter.name)) {
+        instInfo.encounters.set(encounter.name, {
+          name: encounter.name,
+          maxItemLevel: null,
+          items: new Map(),
+        });
+      }
+      const encInfo = instInfo.encounters.get(encounter.name);
+      for (const item of encounter.items ?? []) {
+        if (!encInfo.items.has(item.id)) {
+          encInfo.items.set(item.id, { id: item.id, name: item.name, slot: item.slot ?? '' });
+        }
+        // Docs shape: item.wishes[]; fall back to flat per-item values.
+        const wishes = item.wishes?.length
+          ? item.wishes
+          : item.percentage || item.absolute
+            ? [{ specialization: '', percentage: item.percentage, absolute: item.absolute }]
+            : [];
+        for (const wish of wishes) {
+          if (wish.percentage == null && wish.absolute == null) continue;
+          upgrades.push({
+            characterId,
+            itemId: item.id,
+            itemName: item.name,
+            slot: item.slot ?? '',
+            instanceId: instance.id,
+            encounter: encounter.name,
+            difficulty,
+            spec: wish.specialization ?? '',
+            wishlistName,
+            wishlistWeight: weight,
+            percentage: wish.percentage ?? 0,
+            absolute: wish.absolute ?? null,
+            updatedAt: wish.timestamp ?? uploaded ?? null,
+            manuallyEdited: wish.manually_edited ?? false,
+            comment: wish.comment ?? null,
+          });
+        }
+      }
+    }
+  };
 
   for (const character of raw.characters ?? []) {
+    // Live shape: instances directly on the character.
+    for (const instance of character.instances ?? []) {
+      for (const diff of instance.difficulties ?? []) {
+        handleWishlistNode(character.id, instance, diff.difficulty, diff.wishlist, 'Default', 1);
+      }
+    }
+    // Docs shape: named wishlists, each with instances.
     for (const wl of character.wishlists ?? []) {
       for (const instance of wl.instances ?? []) {
-        if (!instancesById.has(instance.id)) {
-          instancesById.set(instance.id, { id: instance.id, name: instance.name, encounters: new Map() });
-        }
-        const instInfo = instancesById.get(instance.id);
         for (const diff of instance.difficulties ?? []) {
-          const wishlist = diff.wishlist?.wishlist;
-          for (const encounter of wishlist?.encounters ?? []) {
-            if (!instInfo.encounters.has(encounter.name)) {
-              instInfo.encounters.set(encounter.name, new Map());
-            }
-            const itemMap = instInfo.encounters.get(encounter.name);
-            for (const item of encounter.items ?? []) {
-              if (!itemMap.has(item.id)) {
-                itemMap.set(item.id, { id: item.id, name: item.name, slot: item.slot ?? '' });
-              }
-              for (const wish of item.wishes ?? []) {
-                if (wish.percentage == null && wish.absolute == null) continue;
-                upgrades.push({
-                  characterId: character.id,
-                  itemId: item.id,
-                  itemName: item.name,
-                  slot: item.slot ?? '',
-                  instanceId: instance.id,
-                  encounter: encounter.name,
-                  difficulty: diff.difficulty,
-                  spec: wish.specialization ?? '',
-                  wishlistName: wl.name ?? 'Default',
-                  wishlistWeight: wl.weight ?? 1,
-                  percentage: wish.percentage ?? 0,
-                  absolute: wish.absolute ?? null,
-                  updatedAt: wish.timestamp ?? null,
-                  manuallyEdited: wish.manually_edited ?? false,
-                  comment: wish.comment ?? null,
-                });
-              }
-            }
-          }
+          handleWishlistNode(
+            character.id,
+            instance,
+            diff.difficulty,
+            diff.wishlist,
+            wl.name ?? 'Default',
+            wl.weight ?? 1,
+          );
         }
       }
     }
@@ -136,12 +200,13 @@ function flattenWishlists(raw) {
   const instances = [...instancesById.values()].map((inst) => ({
     id: inst.id,
     name: inst.name,
-    encounters: [...inst.encounters.entries()].map(([name, items]) => ({
-      name,
-      items: [...items.values()],
+    encounters: [...inst.encounters.values()].map((e) => ({
+      name: e.name,
+      maxItemLevel: e.maxItemLevel,
+      items: [...e.items.values()],
     })),
   }));
-  return { instances, upgrades };
+  return { instances, upgrades, uploadedByCharacter };
 }
 
 async function main() {
@@ -152,8 +217,9 @@ async function main() {
     wowaudit('/characters'),
   ]);
 
-  const region = (team.url?.match(/wowaudit\.com\/(\w+)\//)?.[1] ?? 'eu').toLowerCase();
-  const seasonId = period.current_season?.keystone_season_id ?? period.current_season?.id;
+  const region = (team.url?.match(/\/(eu|us|kr|tw|cn)\//i)?.[1] ?? 'eu').toLowerCase();
+  const season = period.current_season ?? {};
+  const seasonId = season.id;
 
   const startDate = new Date(Date.now() - ATTENDANCE_DAYS * 86_400_000)
     .toISOString()
@@ -163,6 +229,28 @@ async function main() {
     wowaudit('/wishlists'),
     seasonId != null ? wowaudit(`/loot_history/${seasonId}`) : Promise.resolve({ history_items: [] }),
   ]);
+
+  // Season metadata: raid instances with per-boss max ilvl, difficulty cutoffs, tier items.
+  const seasonInstances = (season.metadata?.instances ?? []).map((i) => ({
+    id: i.id,
+    name: i.name,
+    encounters: (i.encounters ?? [])
+      .slice()
+      .sort((a, b) => (a.defaultOrder ?? 0) - (b.defaultOrder ?? 0))
+      .map((e) => ({ name: e.name, maxItemLevel: e.maxItemLevel ?? null })),
+  }));
+
+  const cutoffs = season.metadata?.track_cutoffs ?? [];
+  const ilvlFor = (difficulty) => cutoffs.find((c) => c.difficulty === difficulty)?.ilvl ?? null;
+  const seasonIlvls = {
+    normal: ilvlFor('normal'),
+    heroic: ilvlFor('heroic'),
+    mythic: ilvlFor('mythic'),
+  };
+
+  const tierItemIds = Object.values(season.tier_items_by_slot ?? {}).flat();
+
+  const wishlists = flattenWishlists(wishlistsRaw, seasonInstances);
 
   const roster = [];
   for (const c of characters) {
@@ -184,12 +272,11 @@ async function main() {
       rank: c.rank,
       status: c.status,
       note: c.note ?? null,
+      droptimizerUploadedAt: wishlists.uploadedByCharacter.get(c.id) ?? null,
       gear,
     });
     console.log(`  ${c.name} ${gear ? `(ilvl ${gear.ilvlEquipped ?? '?'})` : '(no gear data)'}`);
   }
-
-  const wishlists = flattenWishlists(wishlistsRaw);
 
   const loot = (lootRaw.history_items ?? []).map((l) => ({
     id: l.id,
@@ -225,7 +312,10 @@ async function main() {
       url: team.url ?? null,
       region,
     },
-    season: period.current_season?.name ?? null,
+    season: [season.expansion, season.name].filter(Boolean).join(' — ') || null,
+    seasonIlvls,
+    tierItemIds,
+    omnitokenName: season.tier_omnitoken?.name ?? null,
   };
 
   await mkdir(OUT_DIR, { recursive: true });
@@ -234,7 +324,7 @@ async function main() {
   await Promise.all([
     write('meta.json', meta),
     write('roster.json', { characters: roster }),
-    write('wishlists.json', wishlists),
+    write('wishlists.json', { instances: wishlists.instances, upgrades: wishlists.upgrades }),
     write('loot-history.json', { seasonId: seasonId ?? null, items: loot }),
     write('attendance.json', attendance),
   ]);

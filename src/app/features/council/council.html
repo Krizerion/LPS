@@ -55,9 +55,19 @@
                 [class.selected]="selectedItem()?.id === item.id"
                 (click)="selectItem(item)"
               >
-                <span class="item-name">{{ item.name }}</span>
+                <span class="item-name">
+                  {{ item.name }}
+                  @if (isTierItem(item)) {
+                    <span class="badge warn tier-badge">Tier</span>
+                  }
+                </span>
                 <span class="item-slot muted">{{ slotLabel(item.slot) }}</span>
               </button>
+            } @empty {
+              <p class="muted no-items">
+                No items known for this boss yet — they appear once someone uploads a droptimizer
+                report that includes it.
+              </p>
             }
           </div>
         </div>
@@ -72,6 +82,12 @@
                 <span class="badge neutral">{{ slotLabel(item.slot) }}</span>
                 <span class="badge warn">{{ difficulty() }}</span>
               </h3>
+              @if (isTierItem(item)) {
+                <p class="tier-reminder">
+                  ⚠ Tier piece — players completing their 2p/4p set bonus have priority before the
+                  formula applies (see Rules).
+                </p>
+              }
             </div>
             <div class="candidates-tools">
               <label class="drop-ilvl">

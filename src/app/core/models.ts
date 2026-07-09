@@ -26,6 +26,8 @@ export interface RosterCharacter {
   rank: string;
   status: string;
   note: string | null;
+  /** Latest droptimizer report upload seen in the character's wishlists. */
+  droptimizerUploadedAt?: string | null;
   gear: CharacterGear | null;
 }
 
@@ -61,6 +63,8 @@ export interface EncounterItem {
 
 export interface EncounterInfo {
   name: string;
+  /** Max (mythic, end-of-tier scaling) drop item level for this boss, when known. */
+  maxItemLevel?: number | null;
   items: EncounterItem[];
 }
 
@@ -120,6 +124,12 @@ export interface DataMeta {
     region: string;
   } | null;
   season: string | null;
+  /** Base drop ilvl per difficulty from the season's track cutoffs. */
+  seasonIlvls?: Partial<Record<Difficulty, number | null>>;
+  /** Item ids of tier-set pieces (hard-reserve rule: complete 2p/4p first). */
+  tierItemIds?: number[];
+  /** Name of the omni tier token, e.g. "Chiming Void Curio". */
+  omnitokenName?: string | null;
 }
 
 /** Per-character manual overrides maintained by the loot council (stored in localStorage). */
