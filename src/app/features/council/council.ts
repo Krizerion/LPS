@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { GuildStore } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
 import { Difficulty, EncounterItem } from '../../core/models';
+import { isSimFresh } from '../../core/lps';
 import { I18nStore } from '../../core/i18n';
 import { classColor, iconUrl, refreshWowheadLinks, ROLE_ICONS, slotLabel, wowheadUrl } from '../../shared/wow';
 
@@ -130,6 +131,6 @@ export class Council {
   }
 
   protected wishStale(updatedAt: string | null): boolean {
-    return !updatedAt || Date.now() - new Date(updatedAt).getTime() > 14 * 86_400_000;
+    return !isSimFresh(updatedAt, this.settings.settings().simMaxAgeDays);
   }
 }

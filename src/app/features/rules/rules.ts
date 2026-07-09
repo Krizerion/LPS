@@ -22,12 +22,12 @@ export class Rules {
     },
     {
       key: 'example2' as const,
-      input: { deltaIlvl: 25, simPercent: 2.5, effortScore: 0, recentLoot: 0, activity: 1.0 },
+      input: { deltaIlvl: 8, simPercent: 1.1, effortScore: 0, recentLoot: 0, activity: 1.0 },
     },
   ];
 
   protected result(input: (typeof this.examples)[number]['input']) {
-    return computeLps(input, this.settings.settings().weights);
+    return computeLps(input, this.settings.settings());
   }
 
   protected exampleTitle(key: 'example1' | 'example2'): string {

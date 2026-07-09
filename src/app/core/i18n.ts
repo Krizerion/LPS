@@ -46,7 +46,11 @@ const en = {
     weights: 'Weights',
     deltaIlvl: 'Item level difference (ΔI)',
     simPercent: 'Sim upgrade % (S)',
-    effort: 'M+ effort (M)',
+    simMaxAge: 'Max sim age (days, older → S = 0)',
+    effortSection: 'M+ effort factor (F)',
+    effortFloor: 'F at zero keys',
+    mplusCap: 'Keys for full effort (2 resets)',
+    mplusMinLevel: 'Minimum key level',
     lootActivity: 'Recent loot & activity',
     lootWindow: 'Loot window (days)',
     casualMultiplier: 'Casual multiplier',
@@ -55,7 +59,8 @@ const en = {
     normal: 'Normal',
     heroic: 'Heroic',
     mythic: 'Mythic',
-    formulaNote: (casual: string | null) => `divided by (1 + L), times A; casual A = ${casual}`,
+    formulaNote: (casual: string | null) =>
+      `divided by (1 + L), times A and the effort factor F; casual A = ${casual},`,
     githubSection: 'Manual data refresh (GitHub)',
     githubRepo: 'Repository',
     githubToken: 'Access token',
@@ -66,7 +71,7 @@ const en = {
   },
   standings: {
     title: 'Standings',
-    sub: 'Everything that feeds the formula per player. Status (A) is a council decision — click it to toggle in this browser, or edit public/data/overrides.json to set it for everyone. M+ effort is relative: the busiest key runner of the last two resets is 100%.',
+    sub: 'Everything that feeds the formula per player. Status (A) is a council decision — click it to toggle in this browser, or edit public/data/overrides.json to set it for everyone. M+ effort counts qualifying keys over the last two resets; the cap earns 100%.',
     rosterSize: 'Raiders tracked',
     casualCount: 'Marked casual',
     recentLoot: 'Items in loot window',
@@ -81,9 +86,9 @@ const en = {
     colLootTotal: 'Loot total',
     colDroptimizer: 'Droptimizer',
     statusTooltip: 'Council decision — click to toggle in this browser (● = local override)',
-    effortTooltip:
-      'M+ dungeons over the last two weekly resets, relative to the busiest runner (100%)',
-    runsLabel: (n: number) => `${n} ${n === 1 ? 'run' : 'runs'}`,
+    effortTooltip: (minLevel: number, cap: number) =>
+      `Keys ≥${minLevel} over the last two weekly resets; ${cap}+ keys = 100%`,
+    runsLabel: (n: number) => `${n} ${n === 1 ? 'key' : 'keys'}`,
     localOverride: 'Local override (this browser only)',
     noMatch: 'No players match.',
   },
@@ -100,22 +105,23 @@ const en = {
       '⚠ Tier piece — players completing their 2p/4p set bonus have priority before the formula applies (see Rules).',
     colDeltaTooltip: 'Item level difference — editable',
     colSimTooltip: 'Droptimizer upgrade %',
-    colEffortTooltip: 'Relative M+ effort 0–10 (busiest runner = 10)',
+    colEffortTooltip: 'M+ effort factor (F): floor at zero keys, ×1.00 at the cap',
     colLootTooltip: 'Recent loot count',
     colActivityTooltip: 'Activity multiplier',
     staleSim: 'stale sim',
-    staleSimTooltip: 'Droptimizer older than 14 days',
+    staleSimTooltip: 'Droptimizer too old — S counts as 0 until a fresh report is uploaded',
+    edited: 'edited',
+    editedTooltip: 'This wish value was manually edited, not produced by a droptimizer report',
     noSim: 'no sim',
     deltaUnknown: 'Equipped item level unknown — set manually',
     deltaAuto: 'Auto from equipped gear, editable',
     emptyCandidates: (difficulty: string) =>
       `Nobody has simmed this item on ${difficulty}. Toggle “show players without sims” to rank the whole roster.`,
     legendSuffix:
-      '— divided by (1 + L), times A. Tier tokens: complete 2p/4p first (see Rules).',
+      '— divided by (1 + L), times A and the M+ effort factor F. Tier tokens: complete 2p/4p first (see Rules).',
     selectHint: 'Select an item to rank candidates.',
     ilvlComponent: 'ΔI component',
     simComponent: 'Sim component',
-    effortComponent: 'M+ effort component',
   },
   history: {
     title: 'Loot History',
@@ -152,9 +158,9 @@ const en = {
     simName: 'S — sim upgrade %',
     simDesc:
       'The DPS increase according to Raidbots (Droptimizer). For tanks and healers this value is 0. The main factor for guild progress.',
-    effortName: 'M — M+ effort',
-    effortDesc:
-      'Relative scale 0–10 over the last two weekly resets: the raider with the most completed M+ dungeons scores 10, everyone else proportionally to their run count. Rewards time invested in the game. (Full enchants and gems are assumed — they are not scored.)',
+    effortName: 'F — M+ effort factor',
+    effortDesc: (minLevel: number, cap: number) =>
+      `A multiplier on the whole score, from the effort score M (0–10): keys at level ${minLevel}+ over the last two weekly resets count, ${cap} keys or more = M 10 → F ×1.00; zero keys → the floor. Effort modulates need instead of replacing it: nobody wins an item they don't need just by farming, but between comparable upgrades the invested player always wins. (Full enchants and gems are assumed — they are not scored.)`,
     lootName: 'L — recent loot',
     lootDesc: (days: number) =>
       `The number of items received in the last ${days} days. Prevents greed and gears the raid evenly.`,
@@ -174,13 +180,13 @@ const en = {
     exampleSub:
       'An item drops. Neither player has recent loot (L = 0) and both are "Regular" (A = 1.0).',
     example1Title: 'Player 1 — The M+ Grinder',
-    example1Note: 'Farmed the most keys in the roster — small upgrade, but maximum effort (M = 10).',
+    example1Note: 'Farms keys every week — slightly smaller upgrade, full effort factor (F = 1.00).',
     example2Title: 'Player 2 — Raid-Logger',
-    example2Note: 'Only logs in for raid — huge upgrade, but zero M+ runs (M = 0).',
+    example2Note: 'Only logs in for raid — even a slightly bigger upgrade, but zero keys (F = 0.70).',
     points: 'pts',
     conclusionBold: 'Conclusion:',
     conclusion:
-      'The farmer wins the item decisively. The formula punishes lack of personal investment and does not let raid-loggers scoop up items just because they have a lower item level.',
+      'The grinder wins the close call — the raid-logger pays a 30% effort tax on everything. But effort only tips the scales: with a truly huge need difference (say 2.5% vs 0.3% sim) the item still goes where it helps the raid most, taxed but not blocked.',
   },
 };
 
@@ -226,7 +232,11 @@ const bg: Strings = {
     weights: 'Тежести',
     deltaIlvl: 'Разлика в Item Level (ΔI)',
     simPercent: 'Sim ъпгрейд % (S)',
-    effort: 'M+ ефорт (M)',
+    simMaxAge: 'Макс. възраст на sim (дни, по-стар → S = 0)',
+    effortSection: 'M+ ефорт фактор (F)',
+    effortFloor: 'F при нула ключове',
+    mplusCap: 'Ключове за пълен ефорт (2 reset-а)',
+    mplusMinLevel: 'Минимално ниво на ключ',
     lootActivity: 'Скорошен луут и активност',
     lootWindow: 'Луут прозорец (дни)',
     casualMultiplier: 'Множител за Нередовен',
@@ -235,7 +245,8 @@ const bg: Strings = {
     normal: 'Normal',
     heroic: 'Heroic',
     mythic: 'Mythic',
-    formulaNote: (casual: string | null) => `делено на (1 + L), по A; Нередовен A = ${casual}`,
+    formulaNote: (casual: string | null) =>
+      `делено на (1 + L), по A и ефорт фактора F; Нередовен A = ${casual},`,
     githubSection: 'Ръчно обновяване на данните (GitHub)',
     githubRepo: 'Хранилище',
     githubToken: 'Токен за достъп',
@@ -246,7 +257,7 @@ const bg: Strings = {
   },
   standings: {
     title: 'Класиране',
-    sub: 'Всичко, което влиза във формулата, за всеки играч. Статусът (A) е решение на съвета — кликни го за смяна в този браузър или редактирай public/data/overrides.json, за да важи за всички. M+ ефортът е относителен: играчът с най-много ключове за последните два reset-а е 100%.',
+    sub: 'Всичко, което влиза във формулата, за всеки играч. Статусът (A) е решение на съвета — кликни го за смяна в този браузър или редактирай public/data/overrides.json, за да важи за всички. M+ ефортът брои качествените ключове за последните два reset-а; таванът дава 100%.',
     rosterSize: 'Проследени рейдъри',
     casualCount: 'Нередовни играчи',
     recentLoot: 'Предмети в луут прозореца',
@@ -261,8 +272,8 @@ const bg: Strings = {
     colLootTotal: 'Общо луут',
     colDroptimizer: 'Droptimizer',
     statusTooltip: 'Решение на съвета — кликни за смяна в този браузър (● = локална корекция)',
-    effortTooltip:
-      'M+ дънджъни за последните два седмични reset-а, относително спрямо най-активния (100%)',
+    effortTooltip: (minLevel: number, cap: number) =>
+      `Ключове ≥${minLevel} за последните два седмични reset-а; ${cap}+ ключа = 100%`,
     runsLabel: (n: number) => `${n} ${n === 1 ? 'ключ' : 'ключа'}`,
     localOverride: 'Локална корекция (само този браузър)',
     noMatch: 'Няма съвпадащи играчи.',
@@ -280,21 +291,23 @@ const bg: Strings = {
       '⚠ Тир предмет — играчи, които завършват 2p/4p сет бонус, имат приоритет преди формулата (виж Правила).',
     colDeltaTooltip: 'Разлика в item level — може да се редактира',
     colSimTooltip: 'Droptimizer ъпгрейд %',
-    colEffortTooltip: 'Относителен M+ ефорт 0–10 (най-активният = 10)',
+    colEffortTooltip: 'M+ ефорт фактор (F): минимумът при нула ключове, ×1.00 при тавана',
     colLootTooltip: 'Брой скорошен луут',
     colActivityTooltip: 'Множител за активност',
     staleSim: 'стар sim',
-    staleSimTooltip: 'Droptimizer по-стар от 14 дни',
+    staleSimTooltip: 'Droptimizer-ът е твърде стар — S се брои за 0, докато не се качи нов',
+    edited: 'редактиран',
+    editedTooltip: 'Тази стойност е въведена ръчно, не идва от droptimizer репорт',
     noSim: 'без sim',
     deltaUnknown: 'Неизвестен item level на екипирания предмет — въведи ръчно',
     deltaAuto: 'Автоматично от екипировката, може да се редактира',
     emptyCandidates: (difficulty: string) =>
       `Никой не е симнал този предмет на ${difficulty}. Включи „Покажи играчи без sim“, за да класираш целия състав.`,
-    legendSuffix: '— делено на (1 + L), по A. Тир токени: първо 2p/4p (виж Правила).',
+    legendSuffix:
+      '— делено на (1 + L), по A и M+ ефорт фактора F. Тир токени: първо 2p/4p (виж Правила).',
     selectHint: 'Избери предмет, за да класираш кандидатите.',
     ilvlComponent: 'ΔI компонент',
     simComponent: 'Sim компонент',
-    effortComponent: 'M+ ефорт компонент',
   },
   history: {
     title: 'История на луута',
@@ -331,9 +344,9 @@ const bg: Strings = {
     simName: 'S — Sim Upgrade %',
     simDesc:
       'Увеличението на DPS според Raidbots (Droptimizer). За танкове и хийлъри тази стойност е 0. Основен фактор за прогреса на гилдията.',
-    effortName: 'M — M+ ефорт',
-    effortDesc:
-      'Относителна скала 0–10 за последните два седмични reset-а: рейдърът с най-много завършени M+ дънджъни получава 10, останалите пропорционално на броя си ключове. Награждава вложеното време в играта. (Пълните енчанти и камъни се подразбират — не се точкуват.)',
+    effortName: 'F — M+ ефорт фактор',
+    effortDesc: (minLevel: number, cap: number) =>
+      `Множител върху целия резултат, изчислен от ефорт скалата M (0–10): броят се ключове от ниво ${minLevel}+ за последните два седмични reset-а, ${cap} и повече ключа = M 10 → F ×1.00; нула ключове → минимума. Ефортът модулира нуждата, вместо да я замества: никой не печели предмет, който не му трябва, само с фармене — но при сравними ъпгрейди инвестираният играч винаги печели. (Пълните енчанти и камъни се подразбират — не се точкуват.)`,
     lootName: 'L — скорошен луут',
     lootDesc: (days: number) =>
       `Броят предмети, получени през последните ${days} дни. Предотвратява лакомията и облича рейда равномерно.`,
@@ -353,13 +366,13 @@ const bg: Strings = {
     exampleSub:
       'Пада предмет. И двамата играчи нямат скорошен луут (L = 0) и са със статус „Редовен“ (A = 1.0).',
     example1Title: 'Играч 1 — The M+ Grinder',
-    example1Note: 'Изфармил е най-много ключове в състава — малък ъпгрейд, но максимален ефорт (M = 10).',
+    example1Note: 'Фарми ключове всяка седмица — малко по-малък ъпгрейд, но пълен ефорт фактор (F = 1.00).',
     example2Title: 'Играч 2 — Raid-Logger',
-    example2Note: 'Влиза само за рейда — огромен ъпгрейд, но нула M+ ключове (M = 0).',
+    example2Note: 'Влиза само за рейда — дори малко по-голям ъпгрейд, но нула ключове (F = 0.70).',
     points: 'т.',
     conclusionBold: 'Заключение:',
     conclusion:
-      'Фармърът печели предмета категорично. Формулата наказва липсата на лична инвестиция и не позволява на raid-loggers да обират предметите само защото имат по-нисък Item Level.',
+      'Грайндърът печели близката битка — raid-logger-ът плаща 30% ефорт данък върху всичко. Но ефортът само накланя везните: при наистина огромна разлика в нуждата (напр. 2.5% срещу 0.3% sim) предметът пак отива там, където помага най-много на рейда — обложен с данък, но не блокиран.',
   },
 };
 

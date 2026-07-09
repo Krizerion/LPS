@@ -116,9 +116,9 @@
                 <th>{{ t().standings.colPlayer }}</th>
                 <th [title]="t().council.colDeltaTooltip">ΔI</th>
                 <th [title]="t().council.colSimTooltip">S %</th>
-                <th [title]="t().council.colEffortTooltip">M</th>
                 <th [title]="t().council.colLootTooltip">L</th>
                 <th [title]="t().council.colActivityTooltip">A</th>
+                <th [title]="t().council.colEffortTooltip">F</th>
                 <th>LPS</th>
                 <th></th>
               </tr>
@@ -133,6 +133,11 @@
                     </span>
                     @if (c.wish?.comment; as comment) {
                       <span class="badge warn wish-comment">{{ comment }}</span>
+                    }
+                    @if (c.wish?.manuallyEdited) {
+                      <span class="badge warn" [title]="t().council.editedTooltip">
+                        {{ t().council.edited }}
+                      </span>
                     }
                     @if (c.wish && wishStale(c.wish.updatedAt)) {
                       <span class="badge bad" [title]="t().council.staleSimTooltip">
@@ -154,9 +159,11 @@
                     />
                   </td>
                   <td>{{ c.breakdown.simPercent | number: '1.0-2' }}%</td>
-                  <td>{{ c.breakdown.effortScore | number: '1.0-1' }}</td>
                   <td>{{ c.breakdown.recentLoot }}</td>
                   <td>×{{ c.breakdown.activity | number: '1.1-2' }}</td>
+                  <td [title]="'M = ' + (c.breakdown.effortScore | number: '1.0-1')">
+                    ×{{ c.breakdown.effortFactor | number: '1.2-2' }}
+                  </td>
                   <td class="lps">
                     <strong>{{ c.breakdown.total | number: '1.2-2' }}</strong>
                   </td>
@@ -171,11 +178,6 @@
                         class="seg sim"
                         [style.flex-grow]="c.breakdown.simComponent"
                         title="{{ t().council.simComponent }}: {{ c.breakdown.simComponent | number: '1.1-1' }}"
-                      ></span>
-                      <span
-                        class="seg effort"
-                        [style.flex-grow]="c.breakdown.effortComponent"
-                        title="{{ t().council.effortComponent }}: {{ c.breakdown.effortComponent | number: '1.1-1' }}"
                       ></span>
                     </div>
                   </td>
@@ -193,7 +195,6 @@
           <p class="legend muted">
             <span class="seg-dot ilvl"></span> ΔI × {{ settings.settings().weights.deltaIlvl }}
             <span class="seg-dot sim"></span> S × {{ settings.settings().weights.simPercent }}
-            <span class="seg-dot effort"></span> M × {{ settings.settings().weights.effort }}
             {{ t().council.legendSuffix }}
           </p>
         </div>

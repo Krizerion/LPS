@@ -267,11 +267,12 @@ async function main() {
     wowaudit(`/historical_data?period=${period.current_period - 1}`),
   ]);
 
+  // Key levels per character so the app can filter by minimum level.
   const mplusByCharacter = new Map();
   for (const hist of historyPeriods) {
     for (const c of hist.characters ?? []) {
-      const runs = c.data?.dungeons_done?.length ?? 0;
-      mplusByCharacter.set(c.id, (mplusByCharacter.get(c.id) ?? 0) + runs);
+      const levels = (c.data?.dungeons_done ?? []).map((d) => d.level ?? 0);
+      mplusByCharacter.set(c.id, [...(mplusByCharacter.get(c.id) ?? []), ...levels]);
     }
   }
 
@@ -319,11 +320,12 @@ async function main() {
       status: c.status,
       note: c.note ?? null,
       droptimizerUploadedAt: wishlists.uploadedByCharacter.get(c.id) ?? null,
-      mplusRuns: mplusByCharacter.get(c.id) ?? 0,
+      mplusDungeons: mplusByCharacter.get(c.id) ?? [],
       gear,
     });
+    const levels = mplusByCharacter.get(c.id) ?? [];
     console.log(
-      `  ${c.name} ${gear ? `(ilvl ${gear.ilvlEquipped ?? '?'})` : '(no gear data)'} — ${mplusByCharacter.get(c.id) ?? 0} M+ runs`,
+      `  ${c.name} ${gear ? `(ilvl ${gear.ilvlEquipped ?? '?'})` : '(no gear data)'} — M+ [${levels.join(',')}]`,
     );
   }
 

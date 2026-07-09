@@ -26,8 +26,8 @@ export interface RosterCharacter {
   note: string | null;
   /** Latest droptimizer report upload seen in the character's wishlists. */
   droptimizerUploadedAt?: string | null;
-  /** M+ dungeons completed in the last two weekly resets (wowaudit historical_data). */
-  mplusRuns?: number;
+  /** Key levels of M+ dungeons completed in the last two weekly resets. */
+  mplusDungeons?: number[];
   gear: CharacterGear | null;
 }
 

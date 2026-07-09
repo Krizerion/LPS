@@ -39,7 +39,11 @@
           <th>{{ t().standings.colRole }}</th>
           <th class="sortable" (click)="sortBy('ilvl')">{{ t().standings.colIlvl }}</th>
           <th>{{ t().standings.colStatus }}</th>
-          <th class="sortable" (click)="sortBy('effort')" [title]="t().standings.effortTooltip">
+          <th
+            class="sortable"
+            (click)="sortBy('effort')"
+            [title]="t().standings.effortTooltip(settings.settings().mplusMinLevel, settings.settings().mplusCapRuns)"
+          >
             {{ t().standings.colEffort }}
           </th>
           <th class="sortable" (click)="sortBy('recentLoot')">
@@ -92,7 +96,10 @@
               </button>
             </td>
             <td>
-              <span class="effort-cell" [title]="t().standings.effortTooltip">
+              <span
+                class="effort-cell"
+                [title]="t().standings.effortTooltip(settings.settings().mplusMinLevel, settings.settings().mplusCapRuns)"
+              >
                 <span
                   class="badge"
                   [class.good]="row.effortScore >= 7"
@@ -101,7 +108,12 @@
                 >
                   {{ row.effortScore * 10 | number: '1.0-0' }}%
                 </span>
-                <span class="muted runs">{{ t().standings.runsLabel(row.mplusRuns) }}</span>
+                <span class="muted runs">
+                  {{ t().standings.runsLabel(row.mplusRuns) }}
+                  @if (row.mplusTotalRuns > row.mplusRuns) {
+                    ({{ row.mplusTotalRuns }})
+                  }
+                </span>
               </span>
             </td>
             <td>

@@ -10,12 +10,11 @@
       <span class="lhs">LPS&nbsp;=</span>
       <span class="frac">
         <span class="num">
-          (ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (M ×
-          {{ s.weights.effort }})
+          (ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }})
         </span>
         <span class="den">1 + L</span>
       </span>
-      <span class="mult">× A</span>
+      <span class="mult">× A × F</span>
     </div>
     <p class="muted formula-note">{{ t().rules.formulaNote }}</p>
   </div>
@@ -49,8 +48,12 @@
           <td>
             <strong>{{ t().rules.effortName }}</strong>
           </td>
-          <td>{{ t().rules.effortDesc }}</td>
-          <td><span class="badge neutral">× {{ s.weights.effort }}</span></td>
+          <td>{{ t().rules.effortDesc(s.mplusMinLevel, s.mplusCapRuns) }}</td>
+          <td>
+            <span class="badge neutral">
+              × {{ s.effortFloor | number: '1.1-2' }}–1.0
+            </span>
+          </td>
         </tr>
         <tr>
           <td>
@@ -109,8 +112,7 @@
             {{ t().rules.points }}
           </li>
           <li>
-            M = {{ ex.input.effortScore }} → {{ r.effortComponent | number: '1.0-2' }}
-            {{ t().rules.points }}
+            M = {{ ex.input.effortScore }} → F = ×{{ r.effortFactor | number: '1.2-2' }}
           </li>
           <li>L = {{ ex.input.recentLoot }}, A = {{ ex.input.activity | number: '1.1-1' }}</li>
         </ul>

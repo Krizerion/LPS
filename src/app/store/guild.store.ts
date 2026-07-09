@@ -14,9 +14,11 @@ import {
   activityMultiplier,
   computeLps,
   deltaIlvlForItem,
+  isSimFresh,
   isTankOrHealer,
   LpsBreakdown,
   mplusEffortScore,
+  qualifyingRuns,
 } from '../core/lps';
 import {
   AttendanceFile,
@@ -40,8 +42,11 @@ export interface PlayerSummary {
   activityStatus: 'regular' | 'casual';
   /** True when set from this browser (localStorage) rather than overrides.json. */
   activityOverridden: boolean;
+  /** Keys at or above the configured minimum level in the window. */
   mplusRuns: number;
-  /** Relative to the roster's busiest key runner (0..10). */
+  /** Total keys regardless of level (shown as context). */
+  mplusTotalRuns: number;
+  /** Capped absolute effort 0..10 (mplusCapRuns keys = 10). */
   effortScore: number;
   recentLoot: number;
   totalLoot: number;
@@ -116,10 +121,10 @@ export const GuildStore = signalStore(
       const upgrades = store.upgrades();
 
       const repo = store.repoOverrides();
-      const topRuns = Math.max(0, ...store.roster().map((c) => c.mplusRuns ?? 0));
       return store.roster().map((character) => {
         const override = overrides[character.id];
-        const mplusRuns = character.mplusRuns ?? 0;
+        const levels = character.mplusDungeons ?? [];
+        const qualifying = qualifyingRuns(levels, settings.mplusMinLevel);
         const own = loot.filter((l) => l.characterId === character.id && !l.discarded);
         const lastLootAt = own.length
           ? own.reduce((a, b) => (a.awardedAt > b.awardedAt ? a : b)).awardedAt
@@ -135,8 +140,9 @@ export const GuildStore = signalStore(
           activity: activityMultiplier(activityStatus, settings),
           activityStatus,
           activityOverridden: override?.activity != null,
-          mplusRuns,
-          effortScore: mplusEffortScore(mplusRuns, topRuns),
+          mplusRuns: qualifying,
+          mplusTotalRuns: levels.length,
+          effortScore: mplusEffortScore(qualifying, settings.mplusCapRuns),
           recentLoot: recent.get(character.id) ?? 0,
           totalLoot: own.filter((l) => !l.excluded).length,
           lastLootAt,
@@ -211,10 +217,11 @@ export const GuildStore = signalStore(
 
         const autoDelta = deltaIlvlForItem(summary.character.gear, item.slot, dropIlvl);
         const deltaIlvl = deltaOverrides[summary.character.id] ?? autoDelta;
-        const simPercent =
-          settings.zeroSimForTanksHealers && isTankOrHealer(summary.character.role)
-            ? 0
-            : (wish?.percentage ?? 0);
+        const zeroedByRole =
+          settings.zeroSimForTanksHealers && isTankOrHealer(summary.character.role);
+        // Stale droptimizers don't count — forces regular re-simming.
+        const fresh = isSimFresh(wish?.updatedAt, settings.simMaxAgeDays);
+        const simPercent = zeroedByRole || !fresh ? 0 : (wish?.percentage ?? 0);
 
         rows.push({
           character: summary.character,
@@ -228,7 +235,7 @@ export const GuildStore = signalStore(
               recentLoot: summary.recentLoot,
               activity: summary.activity,
             },
-            settings.weights,
+            settings,
           ),
         });
       }

@@ -1,21 +1,24 @@
 import { CharacterGear, Difficulty, WowRole } from './models';
 
 /**
- * LPS = ((ΔI * wI) + (S * wS) + (M * wM)) / (1 + L) * A
+ * LPS = ((ΔI × wI) + (S × wS)) / (1 + L) × A × F
  *
  * ΔI — item level difference between the drop and the equipped item in that slot
- * S  — droptimizer sim upgrade in % (0 for tanks/healers)
- * M  — relative M+ effort 0..10: the roster's busiest key runner over the last
- *      two weekly resets scores 10, everyone else proportionally to their runs
+ * S  — droptimizer sim upgrade in % (0 for tanks/healers, and 0 when the sim is stale)
  * L  — items received in the recent loot window
- * A  — activity multiplier (regular 1.0 / casual 0.75)
+ * A  — activity multiplier (Редовен 1.0 / Нередовен 0.75), a council decision
+ * F  — M+ effort factor between effortFloor and 1.0, from the effort score M
+ *
+ * M (0..10) counts M+ dungeons at or above mplusMinLevel over the last two
+ * weekly resets, capped: mplusCapRuns keys or more = 10. Effort therefore
+ * MODULATES need instead of replacing it — a player with no upgrade cannot win
+ * on effort alone, but effort decides between comparable upgrades.
  *
  * Enchants/gems are deliberately NOT scored — being fully enchanted is assumed.
  */
 export interface LpsWeights {
   deltaIlvl: number;
   simPercent: number;
-  effort: number;
 }
 
 export interface LpsSettings {
@@ -28,21 +31,34 @@ export interface LpsSettings {
   difficultyIlvl: Record<Difficulty, number>;
   /** Per the rules, sim upgrades only apply to DPS players. */
   zeroSimForTanksHealers: boolean;
+  /** F at zero effort; F scales linearly up to 1.0 at M = 10. */
+  effortFloor: number;
+  /** This many qualifying keys (or more) over two resets = full effort. */
+  mplusCapRuns: number;
+  /** Keys below this level don't count towards effort. */
+  mplusMinLevel: number;
+  /** Sims older than this contribute S = 0. */
+  simMaxAgeDays: number;
 }
 
 export const DEFAULT_SETTINGS: LpsSettings = {
-  weights: { deltaIlvl: 0.2, simPercent: 5, effort: 2.0 },
+  weights: { deltaIlvl: 0.2, simPercent: 5 },
   lootWindowDays: 14,
   regularMultiplier: 1.0,
   casualMultiplier: 0.75,
   // Midnight Season 1 track cutoffs; real values come from meta.json seasonIlvls.
   difficultyIlvl: { normal: 246, heroic: 259, mythic: 272 },
   zeroSimForTanksHealers: true,
+  effortFloor: 0.7,
+  mplusCapRuns: 8,
+  mplusMinLevel: 10,
+  simMaxAgeDays: 14,
 };
 
 export interface LpsInput {
   deltaIlvl: number;
   simPercent: number;
+  /** M, 0..10 — see mplusEffortScore. */
   effortScore: number;
   recentLoot: number;
   activity: number;
@@ -51,26 +67,52 @@ export interface LpsInput {
 export interface LpsBreakdown extends LpsInput {
   ilvlComponent: number;
   simComponent: number;
-  effortComponent: number;
+  effortFactor: number;
   total: number;
 }
 
-export function computeLps(input: LpsInput, weights: LpsWeights): LpsBreakdown {
-  const ilvlComponent = input.deltaIlvl * weights.deltaIlvl;
-  const simComponent = input.simPercent * weights.simPercent;
-  const effortComponent = input.effortScore * weights.effort;
+export function effortFactor(effortScore: number, settings: Pick<LpsSettings, 'effortFloor'>): number {
+  const floor = Math.min(1, Math.max(0, settings.effortFloor));
+  const normalized = Math.min(10, Math.max(0, effortScore)) / 10;
+  return floor + (1 - floor) * normalized;
+}
+
+export function computeLps(
+  input: LpsInput,
+  settings: Pick<LpsSettings, 'weights' | 'effortFloor'>,
+): LpsBreakdown {
+  const ilvlComponent = input.deltaIlvl * settings.weights.deltaIlvl;
+  const simComponent = input.simPercent * settings.weights.simPercent;
+  const factor = effortFactor(input.effortScore, settings);
   const total =
-    ((ilvlComponent + simComponent + effortComponent) / (1 + input.recentLoot)) * input.activity;
-  return { ...input, ilvlComponent, simComponent, effortComponent, total };
+    ((ilvlComponent + simComponent) / (1 + input.recentLoot)) * input.activity * factor;
+  return { ...input, ilvlComponent, simComponent, effortFactor: factor, total };
 }
 
 /**
- * Relative M+ effort (0..10): the roster's busiest key runner in the window
- * sets the bar at 10; everyone else scales by their share of that count.
+ * Capped absolute M+ effort (0..10): capRuns qualifying keys or more over the
+ * window = 10; fewer scale linearly. Not relative to other players, so one
+ * no-lifer can't deflate everyone else's score and a dead week doesn't
+ * hand out full marks for two keys.
  */
-export function mplusEffortScore(runs: number, topRuns: number): number {
-  if (topRuns <= 0) return 0;
-  return Math.round(Math.min(1, runs / topRuns) * 100) / 10;
+export function mplusEffortScore(qualifyingRuns: number, capRuns: number): number {
+  if (capRuns <= 0) return 0;
+  return Math.round(Math.min(1, qualifyingRuns / capRuns) * 100) / 10;
+}
+
+/** Runs at or above the minimum key level count towards effort. */
+export function qualifyingRuns(dungeonLevels: number[], minLevel: number): number {
+  return dungeonLevels.filter((level) => level >= minLevel).length;
+}
+
+/** A sim only counts while it's fresh; stale droptimizers contribute S = 0. */
+export function isSimFresh(
+  updatedAt: string | null | undefined,
+  maxAgeDays: number,
+  now: number = Date.now(),
+): boolean {
+  if (!updatedAt) return false;
+  return now - new Date(updatedAt).getTime() <= maxAgeDays * 86_400_000;
 }
 
 /** Maps wowaudit wishlist slot names to the Raider.IO gear slots an item competes with. */

@@ -5,18 +5,20 @@ from [wowaudit](https://wowaudit.com) (droptimizer wishlists, loot history, atte
 gear/enchant state from Raider.IO, and ranks candidates for every drop with the LPS formula:
 
 ```
-LPS = ((ΔI × 0.2) + (S × 5) + (M × 2)) / (1 + L) × A
+LPS = ((ΔI × 0.2) + (S × 5)) / (1 + L) × A × F
 ```
 
-| Variable | Meaning                                                        | Source                        |
-| -------- | -------------------------------------------------------------- | ----------------------------- |
-| ΔI       | Item level difference vs. the equipped item                    | Raider.IO gear (editable)     |
-| S        | Droptimizer sim upgrade % (0 for tanks/healers)                | wowaudit wishlists            |
-| M        | Relative M+ effort 0–10 (busiest runner of last 2 resets = 10) | wowaudit historical data      |
-| L        | Items received in the last 14/21 days                          | wowaudit loot history         |
-| A        | Activity multiplier (Редовен 1.0 / Нередовен 0.75)             | loot-council decision         |
+| Variable | Meaning                                                            | Source                    |
+| -------- | ------------------------------------------------------------------ | ------------------------- |
+| ΔI       | Item level difference vs. the equipped item                        | Raider.IO gear (editable) |
+| S        | Droptimizer sim upgrade %; 0 for tanks/healers or stale sims (>14d)| wowaudit wishlists        |
+| L        | Items received in the last 14/21 days                              | wowaudit loot history     |
+| A        | Activity multiplier (Редовен 1.0 / Нередовен 0.75)                 | loot-council decision     |
+| F        | M+ effort factor 0.70–1.00: keys ≥10 over the last 2 resets, 8 = max | wowaudit historical data |
 
-Enchants and gems are deliberately not scored — being fully enchanted is assumed.
+Effort *modulates* need instead of replacing it: nobody wins an item they don't need by
+farming keys, but between comparable upgrades the invested player wins. Enchants and gems
+are deliberately not scored — being fully enchanted is assumed.
 
 The UI is bilingual (Bulgarian default, EN toggle in the top bar). All weights are
 configurable in the ⚙ settings drawer (persisted in your browser). The full ruleset,
