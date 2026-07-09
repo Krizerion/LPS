@@ -49,7 +49,7 @@ const en = {
     effort: 'M+ effort (M)',
     lootActivity: 'Recent loot & activity',
     lootWindow: 'Loot window (days)',
-    casualMultiplier: 'Casual (Нередовен) multiplier',
+    casualMultiplier: 'Casual multiplier',
     zeroSim: 'Zero sim for tanks/healers',
     dropIlvls: 'Fallback drop item level per difficulty',
     normal: 'Normal',
@@ -68,7 +68,7 @@ const en = {
     title: 'Standings',
     sub: 'Everything that feeds the formula per player. Status (A) is a council decision — click it to toggle in this browser, or edit public/data/overrides.json to set it for everyone. M+ effort is relative: the busiest key runner of the last two resets is 100%.',
     rosterSize: 'Raiders tracked',
-    casualCount: 'Marked Нередовен',
+    casualCount: 'Marked casual',
     recentLoot: 'Items in loot window',
     staleWishlists: 'Stale droptimizers (>14d)',
     search: 'Search player…',
@@ -200,7 +200,7 @@ const bg: Strings = {
     justNow: 'току-що',
     daysAgo: (n: number) => `преди ${n}д`,
     hoursAgo: (n: number) => `преди ${n}ч`,
-    monthsAgo: (n: number) => `преди ${n}м`,
+    monthsAgo: (n: number) => `преди ${n} мес.`,
   },
   nav: {
     standings: 'Класиране',
@@ -218,8 +218,8 @@ const bg: Strings = {
   roles: {
     Tank: 'Танк',
     Heal: 'Хийлър',
-    Melee: 'Мели',
-    Ranged: 'Рейндж',
+    Melee: 'Melee',
+    Ranged: 'Ranged',
   } as Record<string, string>,
   settings: {
     title: 'LPS Настройки',
@@ -231,7 +231,7 @@ const bg: Strings = {
     lootWindow: 'Луут прозорец (дни)',
     casualMultiplier: 'Множител за Нередовен',
     zeroSim: 'Нулев sim за танкове/хийлъри',
-    dropIlvls: 'Резервен item level на дроп по трудност',
+    dropIlvls: 'Резервен drop ilvl по трудност',
     normal: 'Normal',
     heroic: 'Heroic',
     mythic: 'Mythic',
@@ -246,9 +246,9 @@ const bg: Strings = {
   },
   standings: {
     title: 'Класиране',
-    sub: 'Всичко, което влиза във формулата, за всеки играч. Статусът (A) е решение на съвета — кликни го за смяна в този браузър или редактирай public/data/overrides.json, за да важи за всички. M+ ефортът е относителен: най-активният кийър за последните два reset-а е 100%.',
+    sub: 'Всичко, което влиза във формулата, за всеки играч. Статусът (A) е решение на съвета — кликни го за смяна в този браузър или редактирай public/data/overrides.json, за да важи за всички. M+ ефортът е относителен: играчът с най-много ключове за последните два reset-а е 100%.',
     rosterSize: 'Проследени рейдъри',
-    casualCount: 'Отбелязани Нередовен',
+    casualCount: 'Нередовни играчи',
     recentLoot: 'Предмети в луут прозореца',
     staleWishlists: 'Остарели droptimizer-и (>14д)',
     search: 'Търси играч…',
@@ -299,7 +299,7 @@ const bg: Strings = {
   history: {
     title: 'История на луута',
     sub: (days: number) =>
-      `Награди, синхронизирани от wowaudit. Редовете в текущия ${days}-дневен прозорец се броят за наказанието L.`,
+      `Награди, синхронизирани от wowaudit. Редовете в текущия ${days}-дневен прозорец се броят към наказанието L.`,
     allPlayers: 'Всички играчи',
     hideExcluded: 'Скрий offspec / изключени',
     awards: (n: number) => `${n} награди`,
@@ -309,7 +309,7 @@ const bg: Strings = {
     colPlayer: 'Играч',
     colDifficulty: 'Трудност',
     colResponse: 'Отговор',
-    colCounts: 'Брои се за L',
+    colCounts: 'Брои се към L',
     inWindow: 'в прозореца',
     expired: 'изтекъл',
     no: 'не',
@@ -331,7 +331,7 @@ const bg: Strings = {
     simName: 'S — Sim Upgrade %',
     simDesc:
       'Увеличението на DPS според Raidbots (Droptimizer). За танкове и хийлъри тази стойност е 0. Основен фактор за прогреса на гилдията.',
-    effortName: 'M — М+ ефорт',
+    effortName: 'M — M+ ефорт',
     effortDesc:
       'Относителна скала 0–10 за последните два седмични reset-а: рейдърът с най-много завършени M+ дънджъни получава 10, останалите пропорционално на броя си ключове. Награждава вложеното време в играта. (Пълните енчанти и камъни се подразбират — не се точкуват.)',
     lootName: 'L — скорошен луут',
@@ -372,7 +372,7 @@ function initialLang(): Lang {
   } catch {
     // localStorage unavailable — fall through
   }
-  return 'bg';
+  return 'en';
 }
 
 export const I18nStore = signalStore(
