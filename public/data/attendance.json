@@ -1,0 +1,76 @@
+{
+ "startDate": "2026-05-10",
+ "endDate": null,
+ "characters": [
+  {
+   "characterId": 1,
+   "name": "Kragmar",
+   "attendedPercentage": 96
+  },
+  {
+   "characterId": 2,
+   "name": "Thornveil",
+   "attendedPercentage": 88
+  },
+  {
+   "characterId": 3,
+   "name": "Lumienne",
+   "attendedPercentage": 92
+  },
+  {
+   "characterId": 4,
+   "name": "Verdantis",
+   "attendedPercentage": 78
+  },
+  {
+   "characterId": 5,
+   "name": "Zelphira",
+   "attendedPercentage": 66
+  },
+  {
+   "characterId": 6,
+   "name": "Pyrelith",
+   "attendedPercentage": 98
+  },
+  {
+   "characterId": 7,
+   "name": "Umbrashot",
+   "attendedPercentage": 84
+  },
+  {
+   "characterId": 8,
+   "name": "Voidrenna",
+   "attendedPercentage": 71
+  },
+  {
+   "characterId": 9,
+   "name": "Stormcaller",
+   "attendedPercentage": 90
+  },
+  {
+   "characterId": 10,
+   "name": "Bladewyn",
+   "attendedPercentage": 94
+  },
+  {
+   "characterId": 11,
+   "name": "Feralynx",
+   "attendedPercentage": 62
+  },
+  {
+   "characterId": 12,
+   "name": "Dawnfist",
+   "attendedPercentage": 86
+  },
+  {
+   "characterId": 13,
+   "name": "Runeaxe",
+   "attendedPercentage": 55
+  },
+  {
+   "characterId": 14,
+   "name": "Solmara",
+   "attendedPercentage": 81
+  }
+ ]
+}

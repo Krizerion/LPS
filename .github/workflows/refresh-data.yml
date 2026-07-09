@@ -1,0 +1,64 @@
+name: Refresh guild data
+
+on:
+  schedule:
+    # Twice per raid evening window + a morning run (UTC).
+    - cron: '0 5 * * *'
+    - cron: '0 17 * * 3,7'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      HAS_KEY: ${{ secrets.WOWAUDIT_API_KEY != '' }}
+    outputs:
+      changed: ${{ steps.push.outputs.changed }}
+    steps:
+      - name: Warn when the API key secret is missing
+        if: env.HAS_KEY != 'true'
+        run: echo "::warning::WOWAUDIT_API_KEY secret is not configured — skipping refresh."
+
+      - uses: actions/checkout@v4
+        if: env.HAS_KEY == 'true'
+
+      - uses: actions/setup-node@v4
+        if: env.HAS_KEY == 'true'
+        with:
+          node-version: 22
+
+      - name: Fetch data from wowaudit
+        if: env.HAS_KEY == 'true'
+        env:
+          WOWAUDIT_API_KEY: ${{ secrets.WOWAUDIT_API_KEY }}
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit and push snapshot
+        if: env.HAS_KEY == 'true'
+        id: push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+          else
+            git commit -m "chore: refresh guild data snapshot"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Pushes made with GITHUB_TOKEN don't trigger the push-based deploy
+  # workflow, so deploy explicitly after a successful refresh.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

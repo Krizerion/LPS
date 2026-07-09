@@ -1,0 +1,124 @@
+<div class="page rules">
+  <h1 class="page-title">WoW S2 Loot Priority Score (LPS)</h1>
+  <p class="page-sub">Правила и формула за справедливо разпределение на предмети.</p>
+
+  @let s = settings.settings();
+
+  <div class="card formula-card">
+    <h2>Математическата формула</h2>
+    <div class="formula">
+      <span class="lhs">LPS&nbsp;=</span>
+      <span class="frac">
+        <span class="num">
+          (ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (E ×
+          {{ s.weights.enchant }})
+        </span>
+        <span class="den">1 + L</span>
+      </span>
+      <span class="mult">× A</span>
+    </div>
+    <p class="muted formula-note">
+      Тежестите се четат на живо от настройките (⚙) — промените там се отразяват тук и в Loot
+      Council изчисленията.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Променливи и тежести — „Анти-Мързел“ система</h2>
+    <table class="data vars">
+      <thead>
+        <tr>
+          <th>Променлива</th>
+          <th>Значение</th>
+          <th>Тежест</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>ΔI</strong> — разлика в Item Level</td>
+          <td>
+            Чистата разлика между новия предмет и стария. Намалена тежест, за да не се подаряват
+            предмети на хора, които не фармят Mythic+.
+          </td>
+          <td><span class="badge neutral">× {{ s.weights.deltaIlvl }}</span></td>
+        </tr>
+        <tr>
+          <td><strong>S</strong> — Sim Upgrade %</td>
+          <td>
+            Увеличението на DPS според Raidbots (Droptimizer). За танкове и хийлъри тази стойност е
+            0. Основен фактор за прогреса на гилдията.
+          </td>
+          <td><span class="badge neutral">× {{ s.weights.simPercent }}</span></td>
+        </tr>
+        <tr>
+          <td><strong>E</strong> — енчанти и камъни</td>
+          <td>
+            Скала от 0 до 10. Перфектни енчанти = 10 точки, липса = 0. Строго възнаграждава
+            инвестицията на злато и усилия извън рейда.
+          </td>
+          <td><span class="badge neutral">× {{ s.weights.enchant }}</span></td>
+        </tr>
+        <tr>
+          <td><strong>L</strong> — скорошен луут</td>
+          <td>
+            Броят предмети, получени през последните {{ s.lootWindowDays }} дни. Предотвратява
+            лакомията и облича рейда равномерно.
+          </td>
+          <td><span class="badge neutral">÷ (1 + L)</span></td>
+        </tr>
+        <tr>
+          <td><strong>A</strong> — статус / активност</td>
+          <td>
+            <strong>{{ s.regularMultiplier | number: '1.1-2' }}</strong> — редовен/активен: идва на
+            рейд и отключва слотове във Vault.<br />
+            <strong>{{ s.casualMultiplier | number: '1.1-2' }}</strong> — нередовен/кежуъл:
+            raid-logger или с чести отсъствия
+            ({{ (1 - s.casualMultiplier) * 100 | number: '1.0-0' }}% наказание). Праг:
+            {{ s.attendanceThreshold }}% присъствие.
+          </td>
+          <td><span class="badge neutral">множител</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Изключения (Hard Reserves)</h2>
+    <ol class="exceptions">
+      <li>
+        <strong>Tier Sets:</strong> токъните се дават първо на играчи, които с тях завършват своя
+        2-piece или 4-piece сет бонус, преди да се приложи формулата за останалите.
+      </li>
+      <li>
+        <strong>Екстремни BiS предмети:</strong> много редки оръжия или уникални тринкети се
+        обсъждат само между класовете, за които са абсолютно Best-in-Slot.
+      </li>
+    </ol>
+  </div>
+
+  <h2 class="example-title">Примерно пресмятане</h2>
+  <p class="muted example-sub">
+    Пада предмет. И двамата играчи нямат скорошен луут (L = 0) и са със статус „Редовен“ (A = 1.0).
+  </p>
+  <div class="examples">
+    @for (ex of examples; track ex.title) {
+      @let r = result(ex.input);
+      <div class="card example">
+        <h3>{{ ex.title }}</h3>
+        <p class="muted">{{ ex.note }}</p>
+        <ul>
+          <li>ΔI = {{ ex.input.deltaIlvl }} → {{ r.ilvlComponent | number: '1.0-2' }} т.</li>
+          <li>S = {{ ex.input.simPercent }}% → {{ r.simComponent | number: '1.0-2' }} т.</li>
+          <li>E = {{ ex.input.enchantScore }} → {{ r.enchantComponent | number: '1.0-2' }} т.</li>
+          <li>L = {{ ex.input.recentLoot }}, A = {{ ex.input.activity | number: '1.1-1' }}</li>
+        </ul>
+        <div class="example-total">LPS = {{ r.total | number: '1.2-2' }}</div>
+      </div>
+    }
+  </div>
+  <p class="conclusion card">
+    <strong>Заключение:</strong> Фармърът печели предмета категорично. Формулата наказва липсата на
+    лична инвестиция и не позволява на raid-loggers да обират предметите само защото имат по-нисък
+    Item Level.
+  </p>
+</div>

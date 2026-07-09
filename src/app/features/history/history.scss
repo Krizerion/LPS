@@ -1,0 +1,41 @@
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+
+  .check {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .total {
+    margin-left: auto;
+    font-size: 13px;
+  }
+}
+
+.table-card {
+  padding: 4px 8px;
+  overflow-x: auto;
+}
+
+tr.in-window td {
+  background: rgba(232, 180, 90, 0.045);
+}
+
+.date {
+  white-space: nowrap;
+}
+
+.player {
+  font-weight: 600;
+}
+
+.note {
+  font-size: 12px;
+  margin-left: 6px;
+}

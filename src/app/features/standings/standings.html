@@ -1,0 +1,145 @@
+<div class="page">
+  <h1 class="page-title">Standings</h1>
+  <p class="page-sub">
+    Everything that feeds the formula per player. Click the status or E score to override it
+    manually (stored only in your browser).
+  </p>
+
+  @let st = stats();
+  <div class="stat-cards">
+    <div class="card stat">
+      <span class="stat-value">{{ st.rosterSize }}</span>
+      <span class="stat-label">Raiders tracked</span>
+    </div>
+    <div class="card stat">
+      <span class="stat-value">{{ st.avgAttendance | number: '1.0-0' }}%</span>
+      <span class="stat-label">Avg attendance</span>
+    </div>
+    <div class="card stat">
+      <span class="stat-value">{{ st.recentLoot }}</span>
+      <span class="stat-label">Items in loot window</span>
+    </div>
+    <div class="card stat" [class.stat-warn]="st.staleWishlists > 0">
+      <span class="stat-value">{{ st.staleWishlists }}</span>
+      <span class="stat-label">Stale droptimizers (&gt;14d)</span>
+    </div>
+  </div>
+
+  <div class="table-tools">
+    <input
+      type="search"
+      placeholder="Search player…"
+      [ngModel]="search()"
+      (ngModelChange)="search.set($event)"
+    />
+  </div>
+
+  <div class="card table-card">
+    <table class="data">
+      <thead>
+        <tr>
+          <th class="sortable" (click)="sortBy('name')">Player</th>
+          <th>Role</th>
+          <th class="sortable" (click)="sortBy('ilvl')">ilvl</th>
+          <th class="sortable" (click)="sortBy('attendance')">Attendance</th>
+          <th>Status (A)</th>
+          <th class="sortable" (click)="sortBy('enchant')">Enchants (E)</th>
+          <th class="sortable" (click)="sortBy('recentLoot')">Recent loot (L)</th>
+          <th>Loot total</th>
+          <th class="sortable" (click)="sortBy('wishlist')">Droptimizer</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (row of rows(); track row.character.id) {
+          <tr>
+            <td>
+              <span class="player" [style.color]="classColor(row.character.class)">
+                {{ row.character.name }}
+              </span>
+              <span class="realm muted">{{ row.character.realm }}</span>
+            </td>
+            <td>
+              <span [title]="row.character.role">
+                {{ roleIcons[row.character.role] }} {{ row.character.role }}
+              </span>
+            </td>
+            <td>{{ row.character.gear?.ilvlEquipped ?? '—' }}</td>
+            <td>
+              @if (row.attendancePct !== null) {
+                {{ row.attendancePct | number: '1.0-0' }}%
+              } @else {
+                <span class="muted">—</span>
+              }
+            </td>
+            <td>
+              <button
+                class="badge-btn"
+                (click)="cycleActivity(row)"
+                title="Click to override (auto → regular → casual)"
+              >
+                <span class="badge" [class.good]="row.activity >= 1" [class.warn]="row.activity < 1">
+                  {{ row.activity >= 1 ? 'Regular' : 'Casual' }} ×{{ row.activity | number: '1.1-2' }}
+                </span>
+                @if (row.activityOverridden) {
+                  <span class="override-dot" title="Manual override">●</span>
+                }
+              </button>
+            </td>
+            <td>
+              @if (editingEnchant() === row.character.id) {
+                <input
+                  class="enchant-input"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="0.5"
+                  [ngModel]="row.enchantScore"
+                  (blur)="setEnchantOverride(row, $any($event.target).value)"
+                  (keyup.enter)="setEnchantOverride(row, $any($event.target).value)"
+                  autofocus
+                />
+              } @else {
+                <button
+                  class="badge-btn"
+                  (click)="editingEnchant.set(row.character.id)"
+                  title="Click to set manually (0–10)"
+                >
+                  @if (row.enchantScore !== null) {
+                    <span
+                      class="badge"
+                      [class.good]="row.enchantScore >= 8"
+                      [class.warn]="row.enchantScore >= 4 && row.enchantScore < 8"
+                      [class.bad]="row.enchantScore < 4"
+                    >
+                      {{ row.enchantScore | number: '1.0-1' }} / 10
+                    </span>
+                  } @else {
+                    <span class="badge neutral">no data</span>
+                  }
+                  @if (row.enchantOverridden) {
+                    <span class="override-dot" title="Manual override">●</span>
+                  }
+                </button>
+              }
+            </td>
+            <td>
+              <span class="loot-count" [class.has-loot]="row.recentLoot > 0">
+                {{ row.recentLoot }}
+              </span>
+            </td>
+            <td class="muted">{{ row.totalLoot }}</td>
+            <td>
+              <span [class.stale]="wishlistStale(row)" [title]="row.wishlistUpdatedAt ?? 'never uploaded'">
+                {{ timeAgo(row.wishlistUpdatedAt) }}
+              </span>
+            </td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="9" class="muted">No players match.</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

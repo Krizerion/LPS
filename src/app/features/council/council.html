@@ -1,0 +1,188 @@
+<div class="page">
+  <h1 class="page-title">Loot Council</h1>
+  <p class="page-sub">
+    Pick the boss and the item that dropped — players are ranked by their Loot Priority Score.
+  </p>
+
+  <div class="council-layout">
+    <aside class="card boss-panel">
+      @if (guild.instances().length > 1) {
+        <select [ngModel]="instanceId()" (ngModelChange)="instanceId.set($event)">
+          @for (inst of guild.instances(); track inst.id) {
+            <option [ngValue]="inst.id">{{ inst.name }}</option>
+          }
+        </select>
+      } @else {
+        <h3 class="instance-name">{{ instance()?.name }}</h3>
+      }
+
+      <div class="difficulty-toggle">
+        @for (d of ['normal', 'heroic', 'mythic']; track d) {
+          <button
+            class="btn"
+            [class.active]="difficulty() === d"
+            (click)="setDifficulty($any(d))"
+          >
+            {{ d[0].toUpperCase() + d.slice(1) }}
+          </button>
+        }
+      </div>
+
+      <ul class="boss-list">
+        @for (enc of instance()?.encounters ?? []; track enc.name) {
+          <li>
+            <button
+              class="boss"
+              [class.selected]="enc.name === encounterName()"
+              (click)="selectEncounter(enc.name)"
+            >
+              {{ enc.name }}
+              <span class="muted item-count">{{ enc.items.length }}</span>
+            </button>
+          </li>
+        }
+      </ul>
+    </aside>
+
+    <section class="main-panel">
+      @if (encounter(); as enc) {
+        <div class="card items-card">
+          <h3>{{ enc.name }} — drops</h3>
+          <div class="item-chips">
+            @for (item of enc.items; track item.id) {
+              <button
+                class="item-chip"
+                [class.selected]="selectedItem()?.id === item.id"
+                (click)="selectItem(item)"
+              >
+                <span class="item-name">{{ item.name }}</span>
+                <span class="item-slot muted">{{ slotLabel(item.slot) }}</span>
+              </button>
+            }
+          </div>
+        </div>
+      }
+
+      @if (selectedItem(); as item) {
+        <div class="card candidates-card">
+          <div class="candidates-head">
+            <div>
+              <h3>
+                <a [href]="wowheadUrl(item.id)" target="_blank" rel="noreferrer">{{ item.name }}</a>
+                <span class="badge neutral">{{ slotLabel(item.slot) }}</span>
+                <span class="badge warn">{{ difficulty() }}</span>
+              </h3>
+            </div>
+            <div class="candidates-tools">
+              <label class="drop-ilvl">
+                Drop ilvl
+                <input
+                  type="number"
+                  [ngModel]="dropIlvl()"
+                  (ngModelChange)="dropIlvlOverride.set($event)"
+                />
+              </label>
+              <label class="include-all">
+                <input
+                  type="checkbox"
+                  [ngModel]="includeAllRoster()"
+                  (ngModelChange)="includeAllRoster.set($event)"
+                />
+                Show players without sims
+              </label>
+            </div>
+          </div>
+
+          <table class="data">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th title="Item level difference — editable">ΔI</th>
+                <th title="Droptimizer upgrade %">S %</th>
+                <th title="Enchant score 0–10">E</th>
+                <th title="Recent loot count">L</th>
+                <th title="Activity multiplier">A</th>
+                <th>LPS</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (c of candidates(); track c.character.id; let i = $index) {
+                <tr [class.winner]="i === 0">
+                  <td class="rank">{{ i + 1 }}</td>
+                  <td>
+                    <span class="player" [style.color]="classColor(c.character.class)">
+                      {{ roleIcons[c.character.role] }} {{ c.character.name }}
+                    </span>
+                    @if (c.wish?.comment; as comment) {
+                      <span class="badge warn wish-comment">{{ comment }}</span>
+                    }
+                    @if (c.wish && wishStale(c.wish.updatedAt)) {
+                      <span class="badge bad" title="Droptimizer older than 14 days">stale sim</span>
+                    }
+                    @if (!c.wish) {
+                      <span class="badge neutral">no sim</span>
+                    }
+                  </td>
+                  <td>
+                    <input
+                      class="delta-input"
+                      type="number"
+                      min="0"
+                      [ngModel]="c.deltaIlvl ?? 0"
+                      (ngModelChange)="setDelta(c.character.id, '' + $event)"
+                      [title]="c.deltaIlvl === null ? 'Equipped item level unknown — set manually' : 'Auto from equipped gear, editable'"
+                    />
+                  </td>
+                  <td>{{ c.breakdown.simPercent | number: '1.0-2' }}%</td>
+                  <td>{{ c.breakdown.enchantScore | number: '1.0-1' }}</td>
+                  <td>{{ c.breakdown.recentLoot }}</td>
+                  <td>×{{ c.breakdown.activity | number: '1.1-2' }}</td>
+                  <td class="lps">
+                    <strong>{{ c.breakdown.total | number: '1.2-2' }}</strong>
+                  </td>
+                  <td class="bar-cell">
+                    <div class="bar" [style.width.%]="(c.breakdown.total / maxLps()) * 100">
+                      <span
+                        class="seg ilvl"
+                        [style.flex-grow]="c.breakdown.ilvlComponent"
+                        title="ΔI component: {{ c.breakdown.ilvlComponent | number: '1.1-1' }}"
+                      ></span>
+                      <span
+                        class="seg sim"
+                        [style.flex-grow]="c.breakdown.simComponent"
+                        title="Sim component: {{ c.breakdown.simComponent | number: '1.1-1' }}"
+                      ></span>
+                      <span
+                        class="seg ench"
+                        [style.flex-grow]="c.breakdown.enchantComponent"
+                        title="Enchant component: {{ c.breakdown.enchantComponent | number: '1.1-1' }}"
+                      ></span>
+                    </div>
+                  </td>
+                </tr>
+              } @empty {
+                <tr>
+                  <td colspan="9" class="muted">
+                    Nobody has simmed this item on {{ difficulty() }}. Toggle “show players without
+                    sims” to rank the whole roster.
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+
+          <p class="legend muted">
+            <span class="seg-dot ilvl"></span> ΔI × {{ settings.settings().weights.deltaIlvl }}
+            <span class="seg-dot sim"></span> S × {{ settings.settings().weights.simPercent }}
+            <span class="seg-dot ench"></span> E × {{ settings.settings().weights.enchant }}
+            — divided by (1 + L), times A. Tier tokens: complete 2p/4p first (see Rules).
+          </p>
+        </div>
+      } @else {
+        <div class="card empty-hint muted">Select an item to rank candidates.</div>
+      }
+    </section>
+  </div>
+</div>

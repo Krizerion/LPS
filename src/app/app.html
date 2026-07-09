@@ -1,0 +1,175 @@
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">⚔</span>
+      <div class="brand-text">
+        <span class="brand-title">LPS</span>
+        <span class="brand-sub">
+          {{ guild.meta()?.team?.guildName || 'Loot Priority Score' }}
+        </span>
+      </div>
+    </div>
+
+    <nav class="tabs">
+      <a routerLink="/standings" routerLinkActive="active">Standings</a>
+      <a routerLink="/council" routerLinkActive="active">Loot Council</a>
+      <a routerLink="/history" routerLinkActive="active">History</a>
+      <a routerLink="/rules" routerLinkActive="active">Rules</a>
+    </nav>
+
+    <div class="topbar-right">
+      @if (guild.meta(); as meta) {
+        <span class="freshness" [title]="meta.fetchedAt">
+          data {{ timeAgo(meta.fetchedAt) }}
+        </span>
+      }
+      <button class="btn icon" (click)="settingsOpen.set(true)" title="LPS settings">⚙</button>
+    </div>
+  </div>
+</header>
+
+@if (guild.meta()?.sample) {
+  <div class="sample-banner">
+    Showing <strong>sample data</strong> — run
+    <code>node scripts/fetch-data.mjs</code> with your wowaudit API key to load your guild.
+  </div>
+}
+
+<main>
+  @switch (guild.status()) {
+    @case ('error') {
+      <div class="page">
+        <div class="card load-error">
+          <h2>Could not load guild data</h2>
+          <p class="muted">{{ guild.error() }}</p>
+          <button class="btn primary" (click)="guild.load()">Retry</button>
+        </div>
+      </div>
+    }
+    @case ('loading') {
+      <div class="page muted loading-hint">Loading guild data…</div>
+    }
+    @default {
+      <router-outlet />
+    }
+  }
+</main>
+
+@if (settingsOpen()) {
+  <div class="drawer-backdrop" (click)="settingsOpen.set(false)"></div>
+  <aside class="drawer">
+    <div class="drawer-head">
+      <h2>LPS Settings</h2>
+      <button class="btn icon" (click)="settingsOpen.set(false)">✕</button>
+    </div>
+
+    @let s = settingsStore.settings();
+
+    <section>
+      <h3>Weights</h3>
+      <label>
+        <span>Item level difference (ΔI)</span>
+        <input
+          type="number"
+          step="0.05"
+          [ngModel]="s.weights.deltaIlvl"
+          (ngModelChange)="patch({ weights: { deltaIlvl: $event, simPercent: s.weights.simPercent, enchant: s.weights.enchant } })"
+        />
+      </label>
+      <label>
+        <span>Sim upgrade % (S)</span>
+        <input
+          type="number"
+          step="0.5"
+          [ngModel]="s.weights.simPercent"
+          (ngModelChange)="patch({ weights: { deltaIlvl: s.weights.deltaIlvl, simPercent: $event, enchant: s.weights.enchant } })"
+        />
+      </label>
+      <label>
+        <span>Enchant score (E)</span>
+        <input
+          type="number"
+          step="0.5"
+          [ngModel]="s.weights.enchant"
+          (ngModelChange)="patch({ weights: { deltaIlvl: s.weights.deltaIlvl, simPercent: s.weights.simPercent, enchant: $event } })"
+        />
+      </label>
+    </section>
+
+    <section>
+      <h3>Recent loot &amp; activity</h3>
+      <label>
+        <span>Loot window (days)</span>
+        <input
+          type="number"
+          [ngModel]="s.lootWindowDays"
+          (ngModelChange)="patch({ lootWindowDays: $event })"
+        />
+      </label>
+      <label>
+        <span>Regular attendance ≥ (%)</span>
+        <input
+          type="number"
+          [ngModel]="s.attendanceThreshold"
+          (ngModelChange)="patch({ attendanceThreshold: $event })"
+        />
+      </label>
+      <label>
+        <span>Casual multiplier</span>
+        <input
+          type="number"
+          step="0.05"
+          [ngModel]="s.casualMultiplier"
+          (ngModelChange)="patch({ casualMultiplier: $event })"
+        />
+      </label>
+      <label>
+        <span>Zero sim for tanks/healers</span>
+        <input
+          type="checkbox"
+          [ngModel]="s.zeroSimForTanksHealers"
+          (ngModelChange)="patch({ zeroSimForTanksHealers: $event })"
+        />
+      </label>
+    </section>
+
+    <section>
+      <h3>Drop item level per difficulty</h3>
+      <label>
+        <span>Normal</span>
+        <input
+          type="number"
+          [ngModel]="s.difficultyIlvl.normal"
+          (ngModelChange)="patch({ difficultyIlvl: { normal: $event, heroic: s.difficultyIlvl.heroic, mythic: s.difficultyIlvl.mythic } })"
+        />
+      </label>
+      <label>
+        <span>Heroic</span>
+        <input
+          type="number"
+          [ngModel]="s.difficultyIlvl.heroic"
+          (ngModelChange)="patch({ difficultyIlvl: { normal: s.difficultyIlvl.normal, heroic: $event, mythic: s.difficultyIlvl.mythic } })"
+        />
+      </label>
+      <label>
+        <span>Mythic</span>
+        <input
+          type="number"
+          [ngModel]="s.difficultyIlvl.mythic"
+          (ngModelChange)="patch({ difficultyIlvl: { normal: s.difficultyIlvl.normal, heroic: s.difficultyIlvl.heroic, mythic: $event } })"
+        />
+      </label>
+    </section>
+
+    <section class="drawer-formula muted">
+      LPS = ((ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (E ×
+      {{ s.weights.enchant }})) ÷ (1 + L) × A, casual A =
+      {{ s.casualMultiplier | number: '1.1-2' }}
+    </section>
+
+    <div class="drawer-actions">
+      <button class="btn" (click)="settingsStore.clearOverrides()">Clear player overrides</button>
+      <button class="btn" (click)="settingsStore.resetSettings()">Reset to defaults</button>
+    </div>
+  </aside>
+}

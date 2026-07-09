@@ -1,0 +1,83 @@
+<div class="page">
+  <h1 class="page-title">Loot History</h1>
+  <p class="page-sub">
+    Awards synced from wowaudit. Rows inside the current
+    {{ settings.settings().lootWindowDays }}-day window count towards the L penalty.
+  </p>
+
+  <div class="tools">
+    <select [ngModel]="playerFilter()" (ngModelChange)="playerFilter.set($event)">
+      <option [ngValue]="null">All players</option>
+      @for (c of guild.roster(); track c.id) {
+        <option [ngValue]="c.id">{{ c.name }}</option>
+      }
+    </select>
+    <label class="check">
+      <input
+        type="checkbox"
+        [ngModel]="onlyCounted()"
+        (ngModelChange)="onlyCounted.set($event)"
+      />
+      Hide offspec / excluded
+    </label>
+    <span class="muted total">{{ rows().length }} awards</span>
+  </div>
+
+  <div class="card table-card">
+    <table class="data">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Item</th>
+          <th>Slot</th>
+          <th>Player</th>
+          <th>Difficulty</th>
+          <th>Response</th>
+          <th>Counts for L</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (l of rows(); track l.id) {
+          <tr [class.in-window]="inWindow(l.awardedAt)">
+            <td class="muted date">{{ l.awardedAt | date: 'MMM d, HH:mm' }}</td>
+            <td>
+              <a [href]="wowheadUrl(l.itemId)" target="_blank" rel="noreferrer">{{ l.name }}</a>
+              @if (l.note) {
+                <span class="muted note">“{{ l.note }}”</span>
+              }
+            </td>
+            <td class="muted">{{ slotLabel(l.slot) }}</td>
+            <td>
+              <span class="player" [style.color]="classColor(characterClass(l.characterId))">
+                {{ characterName(l.characterId) }}
+              </span>
+            </td>
+            <td class="muted">{{ l.difficulty }}</td>
+            <td>
+              <span
+                class="badge"
+                [class.good]="!l.excluded"
+                [class.neutral]="l.excluded"
+              >
+                {{ l.response ?? '—' }}
+              </span>
+            </td>
+            <td>
+              @if (l.excluded) {
+                <span class="muted">no</span>
+              } @else if (inWindow(l.awardedAt)) {
+                <span class="badge warn">in window</span>
+              } @else {
+                <span class="muted">expired</span>
+              }
+            </td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="7" class="muted">No loot recorded yet.</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
