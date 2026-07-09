@@ -27,7 +27,7 @@
         class="btn icon refresh"
         [class.spinning]="refreshState() === 'starting' || refreshState() === 'waiting'"
         (click)="triggerRefresh()"
-        [title]="t().refresh.tooltip"
+        [title]="refreshState() === 'error' ? refreshError() || t().refresh.error : t().refresh.tooltip"
       >
         @switch (refreshState()) {
           @case ('starting') {

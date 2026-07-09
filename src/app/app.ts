@@ -25,6 +25,8 @@ export class App {
   protected readonly t = this.i18n.t;
   protected readonly settingsOpen = signal(false);
   protected readonly refreshState = signal<RefreshState>('idle');
+  /** Shown as tooltip on the error state so failures are self-diagnosable. */
+  protected readonly refreshError = signal('');
 
   protected timeAgo(iso: string | null): string {
     return timeAgoI18n(iso, this.t());
@@ -39,7 +41,8 @@ export class App {
    * deployed meta.json until the new snapshot is live and reloads the data.
    */
   protected async triggerRefresh(): Promise<void> {
-    const { repo, token } = this.settingsStore.github();
+    const repo = this.settingsStore.github().repo.trim();
+    const token = this.settingsStore.github().token.trim();
     if (!repo || !token) {
       this.settingsOpen.set(true);
       return;
@@ -47,6 +50,7 @@ export class App {
     if (this.refreshState() === 'starting' || this.refreshState() === 'waiting') return;
 
     this.refreshState.set('starting');
+    this.refreshError.set('');
     try {
       const res = await fetch(
         `https://api.github.com/repos/${repo}/actions/workflows/refresh-data.yml/dispatches`,
@@ -61,10 +65,13 @@ export class App {
         },
       );
       if (res.status !== 204) {
+        const detail = await res.json().then((b) => b?.message ?? '').catch(() => '');
+        this.refreshError.set(`GitHub API ${res.status}: ${detail}`);
         this.refreshState.set('error');
         return;
       }
-    } catch {
+    } catch (e) {
+      this.refreshError.set(e instanceof Error ? e.message : 'network error');
       this.refreshState.set('error');
       return;
     }
@@ -74,6 +81,7 @@ export class App {
     const deadline = Date.now() + POLL_TIMEOUT_MS;
     const poll = async (): Promise<void> => {
       if (Date.now() > deadline) {
+        this.refreshError.set('Timed out waiting for the new snapshot — wowaudit may have had no new data.');
         this.refreshState.set('error');
         return;
       }

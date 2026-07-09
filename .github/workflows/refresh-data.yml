@@ -2,9 +2,9 @@ name: Refresh guild data
 
 on:
   schedule:
-    # Twice per raid evening window + a morning run (UTC).
+    # Daily morning run + raid evenings (Wed/Sun); times are UTC, day-of-week 0=Sunday.
     - cron: '0 5 * * *'
-    - cron: '0 17 * * 3,7'
+    - cron: '0 17 * * 0,3'
   workflow_dispatch:
 
 permissions:
