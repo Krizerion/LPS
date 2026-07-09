@@ -28,10 +28,10 @@ export interface LpsSettings {
 }
 
 export const DEFAULT_SETTINGS: LpsSettings = {
-  weights: { deltaIlvl: 0.2, simPercent: 5, enchant: 2.5 },
+  weights: { deltaIlvl: 0.2, simPercent: 5, enchant: 2.0 },
   lootWindowDays: 14,
   regularMultiplier: 1.0,
-  casualMultiplier: 0.7,
+  casualMultiplier: 0.75,
   // Midnight Season 1 track cutoffs; real values come from meta.json seasonIlvls.
   difficultyIlvl: { normal: 246, heroic: 259, mythic: 272 },
   zeroSimForTanksHealers: true,

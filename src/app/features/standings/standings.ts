@@ -6,7 +6,7 @@ import { SettingsStore } from '../../store/settings.store';
 import { I18nStore, timeAgoI18n } from '../../core/i18n';
 import { classColor, ROLE_ICONS } from '../../shared/wow';
 
-type SortKey = 'name' | 'ilvl' | 'attendance' | 'enchant' | 'recentLoot' | 'wishlist';
+type SortKey = 'name' | 'ilvl' | 'enchant' | 'recentLoot' | 'wishlist';
 
 @Component({
   selector: 'app-standings',
@@ -39,8 +39,6 @@ export class Standings {
       switch (key) {
         case 'ilvl':
           return r.character.gear?.ilvlEquipped ?? 0;
-        case 'attendance':
-          return r.attendancePct ?? -1;
         case 'enchant':
           return r.enchantScore ?? -1;
         case 'recentLoot':
@@ -64,7 +62,6 @@ export class Standings {
 
   protected readonly stats = computed(() => {
     const rows = this.guild.playerSummaries();
-    const att = rows.map((r) => r.attendancePct).filter((v): v is number => v != null);
     const staleWishlists = rows.filter(
       (r) =>
         !r.wishlistUpdatedAt ||
@@ -72,7 +69,7 @@ export class Standings {
     ).length;
     return {
       rosterSize: rows.length,
-      avgAttendance: att.length ? att.reduce((a, b) => a + b, 0) / att.length : 0,
+      casualCount: rows.filter((r) => r.activityStatus === 'casual').length,
       recentLoot: rows.reduce((sum, r) => sum + r.recentLoot, 0),
       staleWishlists,
     };

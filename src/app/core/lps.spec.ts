@@ -15,7 +15,8 @@ describe('computeLps', () => {
       { deltaIlvl: 5, simPercent: 1.0, enchantScore: 10, recentLoot: 0, activity: 1.0 },
       weights,
     );
-    expect(r.total).toBeCloseTo(31.0, 2);
+    // (5×0.2) + (1×5) + (10×2.0) with the tuned default weights
+    expect(r.total).toBeCloseTo(26.0, 2);
   });
 
   it('matches the rules example for the raid-logger', () => {
@@ -33,16 +34,16 @@ describe('computeLps', () => {
   });
 
   it('applies the casual multiplier', () => {
-    const base = { deltaIlvl: 10, simPercent: 1, enchantScore: 5, recentLoot: 0, activity: 0.7 };
+    const base = { deltaIlvl: 10, simPercent: 1, enchantScore: 5, recentLoot: 0, activity: 0.75 };
     const r = computeLps(base, weights);
-    expect(r.total).toBeCloseTo((10 * 0.2 + 1 * 5 + 5 * 2.5) * 0.7, 6);
+    expect(r.total).toBeCloseTo((10 * 0.2 + 1 * 5 + 5 * 2.0) * 0.75, 6);
   });
 });
 
 describe('activityMultiplier', () => {
   it('maps council status to the multiplier', () => {
     expect(activityMultiplier('regular', DEFAULT_SETTINGS)).toBe(1.0);
-    expect(activityMultiplier('casual', DEFAULT_SETTINGS)).toBe(0.7);
+    expect(activityMultiplier('casual', DEFAULT_SETTINGS)).toBe(0.75);
   });
 
   it('defaults to regular when no status is set', () => {

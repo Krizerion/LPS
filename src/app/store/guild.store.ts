@@ -36,7 +36,6 @@ import { SettingsStore } from './settings.store';
 
 export interface PlayerSummary {
   character: RosterCharacter;
-  attendancePct: number | null;
   activity: number;
   activityStatus: 'regular' | 'casual';
   /** True when set from this browser (localStorage) rather than overrides.json. */
@@ -94,13 +93,6 @@ export const GuildStore = signalStore(
       for (const c of store.roster()) map.set(c.id, c);
       return map;
     }),
-    attendanceById: computed(() => {
-      const map = new Map<number, number>();
-      for (const a of store.attendance()?.characters ?? []) {
-        map.set(a.characterId, a.attendedPercentage);
-      }
-      return map;
-    }),
     /** Non-discarded, non-excluded awards inside the recent-loot window. */
     recentLootById: computed(() => {
       const windowDays = store._settings.settings().lootWindowDays;
@@ -125,7 +117,6 @@ export const GuildStore = signalStore(
       const repo = store.repoOverrides();
       return store.roster().map((character) => {
         const override = overrides[character.id];
-        const attendancePct = store.attendanceById().get(character.id) ?? null;
         const gearScore = enchantScoreFromGear(character.gear);
         const own = loot.filter((l) => l.characterId === character.id && !l.discarded);
         const lastLootAt = own.length
@@ -139,7 +130,6 @@ export const GuildStore = signalStore(
           override?.activity ?? repo.activity[character.name] ?? 'regular';
         return {
           character,
-          attendancePct,
           activity: activityMultiplier(activityStatus, settings),
           activityStatus,
           activityOverridden: override?.activity != null,

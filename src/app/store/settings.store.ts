@@ -3,7 +3,8 @@ import { getState, patchState, signalStore, withHooks, withMethods, withState } 
 import { DEFAULT_SETTINGS, LpsSettings } from '../core/lps';
 import { CharacterOverride } from '../core/models';
 
-const STORAGE_KEY = 'lps.settings.v1';
+// v2: E weight 2.5→2.0, casual 0.7→0.75, attendance threshold removed.
+const STORAGE_KEY = 'lps.settings.v2';
 
 interface SettingsState {
   settings: LpsSettings;

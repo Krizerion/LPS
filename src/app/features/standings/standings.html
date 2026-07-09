@@ -9,8 +9,8 @@
       <span class="stat-label">{{ t().standings.rosterSize }}</span>
     </div>
     <div class="card stat">
-      <span class="stat-value">{{ st.avgAttendance | number: '1.0-0' }}%</span>
-      <span class="stat-label">{{ t().standings.avgAttendance }}</span>
+      <span class="stat-value">{{ st.casualCount }}</span>
+      <span class="stat-label">{{ t().standings.casualCount }}</span>
     </div>
     <div class="card stat">
       <span class="stat-value">{{ st.recentLoot }}</span>
@@ -38,13 +38,6 @@
           <th class="sortable" (click)="sortBy('name')">{{ t().standings.colPlayer }}</th>
           <th>{{ t().standings.colRole }}</th>
           <th class="sortable" (click)="sortBy('ilvl')">{{ t().standings.colIlvl }}</th>
-          <th
-            class="sortable"
-            (click)="sortBy('attendance')"
-            [title]="t().standings.attendanceInfo"
-          >
-            {{ t().standings.colAttendance }} ⓘ
-          </th>
           <th>{{ t().standings.colStatus }}</th>
           <th class="sortable" (click)="sortBy('enchant')">{{ t().standings.colEnchants }}</th>
           <th class="sortable" (click)="sortBy('recentLoot')">
@@ -73,13 +66,6 @@
             <td>
               @if (row.character.gear?.ilvlEquipped; as ilvl) {
                 {{ ilvl | number: '1.0-1' }}
-              } @else {
-                <span class="muted">—</span>
-              }
-            </td>
-            <td [title]="t().standings.attendanceInfo">
-              @if (row.attendancePct !== null) {
-                {{ row.attendancePct | number: '1.0-0' }}%
               } @else {
                 <span class="muted">—</span>
               }
@@ -157,7 +143,7 @@
           </tr>
         } @empty {
           <tr>
-            <td colspan="9" class="muted">{{ t().standings.noMatch }}</td>
+            <td colspan="8" class="muted">{{ t().standings.noMatch }}</td>
           </tr>
         }
       </tbody>
