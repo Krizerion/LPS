@@ -136,21 +136,6 @@
   }
 }
 
-.sample-banner {
-  background: var(--accent-soft);
-  border-bottom: 1px solid rgba(232, 180, 90, 0.35);
-  color: var(--accent);
-  text-align: center;
-  padding: 7px 16px;
-  font-size: 13px;
-
-  code {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 1px 6px;
-    border-radius: 5px;
-  }
-}
-
 .loading-hint {
   text-align: center;
   padding-top: 80px;

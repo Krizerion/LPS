@@ -354,7 +354,6 @@ async function main() {
 
   const meta = {
     fetchedAt: new Date().toISOString(),
-    sample: false,
     team: {
       name: team.name,
       guildName: team.guild_name,

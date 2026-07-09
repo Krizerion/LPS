@@ -70,15 +70,6 @@
   </div>
 </header>
 
-@if (guild.meta()?.sample) {
-  <div class="sample-banner">
-    {{ t().common.sampleBannerPrefix }} <strong>{{ t().common.sampleBannerBold }}</strong>
-    {{ t().common.sampleBannerSuffix }}
-    <code>node scripts/fetch-data.mjs</code>
-    {{ t().common.sampleBannerEnd }}
-  </div>
-}
-
 <main>
   @switch (guild.status()) {
     @case ('error') {

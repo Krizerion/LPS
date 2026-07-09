@@ -36,10 +36,10 @@ into `public/data/*.json`, either locally or by a scheduled GitHub Action.
 
 ```bash
 npm install
-npm start            # http://localhost:4200 with the committed sample data
+npm start            # http://localhost:4200 with the committed data snapshot
 ```
 
-To see your own guild instead of the sample data:
+To pull a fresh snapshot from wowaudit:
 
 ```bash
 cp .env.example .env # put your wowaudit API key inside (Team Settings → API)
@@ -48,7 +48,7 @@ npm start
 ```
 
 `npm test` runs the unit tests (the LPS engine is covered, including the worked examples from
-the rules). `npm run sample-data` regenerates the deterministic demo dataset.
+the rules).
 
 ## Deploying to GitHub Pages
 
@@ -77,7 +77,6 @@ can also trigger it manually from the Actions tab right after a raid.
 ## Project layout
 
 - `scripts/fetch-data.mjs` — pulls wowaudit v1 API + Raider.IO gear → `public/data/*.json`
-- `scripts/generate-sample-data.mjs` — deterministic demo dataset
 - `src/app/core/lps.ts` — the LPS formula and gear-derived scores (pure functions)
 - `src/app/store/` — NgRx Signal Stores: guild data + council settings
 - `src/app/features/` — Standings, Loot Council, History, Rules pages

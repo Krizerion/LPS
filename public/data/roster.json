@@ -408,7 +408,7 @@
    "droptimizerUploadedAt": null,
    "mplusRuns": 0,
    "gear": {
-    "ilvlEquipped": 291.75,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 289
@@ -462,7 +462,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-01T19:20:54.000Z"
+    "updatedAt": "2026-07-09T19:09:26.000Z"
    }
   },
   {
@@ -1320,7 +1320,7 @@
    "droptimizerUploadedAt": null,
    "mplusRuns": 0,
    "gear": {
-    "ilvlEquipped": 291.188,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1368,7 +1368,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-05T23:06:06.000Z"
+    "updatedAt": "2026-07-09T19:09:31.000Z"
    }
   },
   {
