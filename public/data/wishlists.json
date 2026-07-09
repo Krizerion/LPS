@@ -25,6 +25,12 @@
        "name": "Imperator's Banner",
        "slot": "back",
        "icon": "inv_plate_raiddeathknightmidnight_d_01_cape"
+      },
+      {
+       "id": 249334,
+       "name": "Void-Claimed Shinkickers",
+       "slot": "feet",
+       "icon": "inv_boot_leather_raiddemonhuntermidnight_d_01"
       }
      ]
     },
@@ -32,6 +38,12 @@
      "name": "Vorasius",
      "maxItemLevel": 276,
      "items": [
+      {
+       "id": 249327,
+       "name": "Void-Skinned Bracers",
+       "slot": "wrist",
+       "icon": "inv_bracer_leather_raidroguemidnight_d_01"
+      },
       {
        "id": 249336,
        "name": "Signet of the Starved Beast",
@@ -43,7 +55,20 @@
     {
      "name": "Fallen-King Salhadaar",
      "maxItemLevel": 276,
-     "items": []
+     "items": [
+      {
+       "id": 249337,
+       "name": "Ribbon of Coiled Malice",
+       "slot": "neck",
+       "icon": "inv_12_jewelry_devouringhost_necklace_bronze"
+      },
+      {
+       "id": 249364,
+       "name": "Voidcured Unraveled Nullcore",
+       "slot": "shoulder",
+       "icon": "inv_12_trinket_devouring_host_currency_silver"
+      }
+     ]
     },
     {
      "name": "Vaelgor & Ezzorak",
@@ -56,6 +81,24 @@
        "icon": "inv_boot_cloth_raidwarlockmidnight_d_01"
       },
       {
+       "id": 249370,
+       "name": "Draconic Nullcape",
+       "slot": "back",
+       "icon": "inv_plate_revendrethraid_d_01_cape"
+      },
+      {
+       "id": 249346,
+       "name": "Vaelgor's Final Stare",
+       "slot": "trinket",
+       "icon": "inv_12_trinket_raid_voidspire_int1_voiddragoneye"
+      },
+      {
+       "id": 249360,
+       "name": "Voidcured Corrupted Nullcore",
+       "slot": "legs",
+       "icon": "inv_12_trinket_devouring_host_currency2_silver"
+      },
+      {
        "id": 249318,
        "name": "Nullwalker's Dread Epaulettes",
        "slot": "shoulder",
@@ -66,7 +109,14 @@
     {
      "name": "Lightblinded Vanguard",
      "maxItemLevel": 279,
-     "items": []
+     "items": [
+      {
+       "id": 249333,
+       "name": "Blooming Barklight Spaulders",
+       "slot": "shoulder",
+       "icon": "inv_shoulder_leather_raiddruidmidnight_d_01"
+      }
+     ]
     },
     {
      "name": "Crown of the Cosmos",
@@ -77,6 +127,18 @@
        "name": "Eternal Voidsong Chain",
        "slot": "neck",
        "icon": "inv_12_jewelry_silvermoonelf_necklace_blue1"
+      },
+      {
+       "id": 249809,
+       "name": "Locus-Walker's Ribbon",
+       "slot": "trinket",
+       "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
+      },
+      {
+       "id": 249312,
+       "name": "Nightblade's Pantaloons",
+       "slot": "legs",
+       "icon": "inv_pant_leather_raidroguemidnight_d_01"
       }
      ]
     }
@@ -124,6 +186,24 @@
        "name": "Eye of Midnight",
        "slot": "finger",
        "icon": "inv_12_jewelry_devouringhost_ring_bronze"
+      },
+      {
+       "id": 249367,
+       "name": "Chiming Void Curio",
+       "slot": "",
+       "icon": "trade_archaeology_naarucrystal"
+      },
+      {
+       "id": 249810,
+       "name": "Shadow of the Empyrean Requiem",
+       "slot": "trinket",
+       "icon": "inv_12_trinket_raid_darkwell_intdps2"
+      },
+      {
+       "id": 250247,
+       "name": "Amulet of the Abyssal Hymn",
+       "slot": "neck",
+       "icon": "inv_12_jewelry_devouringhost_necklace_bronze2"
       },
       {
        "id": 249914,
@@ -247,6 +327,278 @@
    "percentage": 0.2428,
    "absolute": 228.4766,
    "updatedAt": "2026-07-09T16:27:08.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249335,
+   "itemName": "Imperator's Banner",
+   "slot": "back",
+   "instanceId": 73,
+   "encounter": "Imperator Averzian",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.4773,
+   "absolute": 386.0625,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249334,
+   "itemName": "Void-Claimed Shinkickers",
+   "slot": "feet",
+   "instanceId": 73,
+   "encounter": "Imperator Averzian",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.1047,
+   "absolute": 84.6715,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249327,
+   "itemName": "Void-Skinned Bracers",
+   "slot": "wrist",
+   "instanceId": 73,
+   "encounter": "Vorasius",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.1855,
+   "absolute": 150.0565,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249337,
+   "itemName": "Ribbon of Coiled Malice",
+   "slot": "neck",
+   "instanceId": 73,
+   "encounter": "Fallen-King Salhadaar",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.915,
+   "absolute": 740.0648,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249364,
+   "itemName": "Voidcured Unraveled Nullcore",
+   "slot": "shoulder",
+   "instanceId": 73,
+   "encounter": "Fallen-King Salhadaar",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.5407,
+   "absolute": 437.3036,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249370,
+   "itemName": "Draconic Nullcape",
+   "slot": "back",
+   "instanceId": 73,
+   "encounter": "Vaelgor & Ezzorak",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.5257,
+   "absolute": 425.1458,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249346,
+   "itemName": "Vaelgor's Final Stare",
+   "slot": "trinket",
+   "instanceId": 73,
+   "encounter": "Vaelgor & Ezzorak",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.2302,
+   "absolute": 186.1891,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249360,
+   "itemName": "Voidcured Corrupted Nullcore",
+   "slot": "legs",
+   "instanceId": 73,
+   "encounter": "Vaelgor & Ezzorak",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.6003,
+   "absolute": 485.4793,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249333,
+   "itemName": "Blooming Barklight Spaulders",
+   "slot": "shoulder",
+   "instanceId": 73,
+   "encounter": "Lightblinded Vanguard",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.602,
+   "absolute": 486.8653,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249809,
+   "itemName": "Locus-Walker's Ribbon",
+   "slot": "trinket",
+   "instanceId": 73,
+   "encounter": "Crown of the Cosmos",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.4893,
+   "absolute": 395.7093,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249368,
+   "itemName": "Eternal Voidsong Chain",
+   "slot": "neck",
+   "instanceId": 73,
+   "encounter": "Crown of the Cosmos",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 4.7691,
+   "absolute": 3857.1347,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249312,
+   "itemName": "Nightblade's Pantaloons",
+   "slot": "legs",
+   "instanceId": 73,
+   "encounter": "Crown of the Cosmos",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.8542,
+   "absolute": 690.8502,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249920,
+   "itemName": "Eye of Midnight",
+   "slot": "finger",
+   "instanceId": 75,
+   "encounter": "Midnight Falls",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.3052,
+   "absolute": 2673.1232,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249367,
+   "itemName": "Chiming Void Curio",
+   "slot": "",
+   "instanceId": 75,
+   "encounter": "Midnight Falls",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.5912,
+   "absolute": 478.1737,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 249810,
+   "itemName": "Shadow of the Empyrean Requiem",
+   "slot": "trinket",
+   "instanceId": 75,
+   "encounter": "Midnight Falls",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.2595,
+   "absolute": 209.908,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 4608756,
+   "itemId": 250247,
+   "itemName": "Amulet of the Abyssal Hymn",
+   "slot": "neck",
+   "instanceId": 75,
+   "encounter": "Midnight Falls",
+   "difficulty": "mythic",
+   "spec": "Devourer",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.216,
+   "absolute": 174.6952,
+   "updatedAt": "2026-07-09T17:57:44.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
