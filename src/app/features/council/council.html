@@ -116,7 +116,7 @@
                 <th>{{ t().standings.colPlayer }}</th>
                 <th [title]="t().council.colDeltaTooltip">ΔI</th>
                 <th [title]="t().council.colSimTooltip">S %</th>
-                <th [title]="t().council.colEnchantTooltip">E</th>
+                <th [title]="t().council.colEffortTooltip">M</th>
                 <th [title]="t().council.colLootTooltip">L</th>
                 <th [title]="t().council.colActivityTooltip">A</th>
                 <th>LPS</th>
@@ -154,7 +154,7 @@
                     />
                   </td>
                   <td>{{ c.breakdown.simPercent | number: '1.0-2' }}%</td>
-                  <td>{{ c.breakdown.enchantScore | number: '1.0-1' }}</td>
+                  <td>{{ c.breakdown.effortScore | number: '1.0-1' }}</td>
                   <td>{{ c.breakdown.recentLoot }}</td>
                   <td>×{{ c.breakdown.activity | number: '1.1-2' }}</td>
                   <td class="lps">
@@ -173,9 +173,9 @@
                         title="{{ t().council.simComponent }}: {{ c.breakdown.simComponent | number: '1.1-1' }}"
                       ></span>
                       <span
-                        class="seg ench"
-                        [style.flex-grow]="c.breakdown.enchantComponent"
-                        title="{{ t().council.enchantComponent }}: {{ c.breakdown.enchantComponent | number: '1.1-1' }}"
+                        class="seg effort"
+                        [style.flex-grow]="c.breakdown.effortComponent"
+                        title="{{ t().council.effortComponent }}: {{ c.breakdown.effortComponent | number: '1.1-1' }}"
                       ></span>
                     </div>
                   </td>
@@ -193,7 +193,7 @@
           <p class="legend muted">
             <span class="seg-dot ilvl"></span> ΔI × {{ settings.settings().weights.deltaIlvl }}
             <span class="seg-dot sim"></span> S × {{ settings.settings().weights.simPercent }}
-            <span class="seg-dot ench"></span> E × {{ settings.settings().weights.enchant }}
+            <span class="seg-dot effort"></span> M × {{ settings.settings().weights.effort }}
             {{ t().council.legendSuffix }}
           </p>
         </div>

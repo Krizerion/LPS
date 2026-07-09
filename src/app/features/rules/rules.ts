@@ -18,11 +18,11 @@ export class Rules {
   protected readonly examples = [
     {
       key: 'example1' as const,
-      input: { deltaIlvl: 5, simPercent: 1.0, enchantScore: 10, recentLoot: 0, activity: 1.0 },
+      input: { deltaIlvl: 5, simPercent: 1.0, effortScore: 10, recentLoot: 0, activity: 1.0 },
     },
     {
       key: 'example2' as const,
-      input: { deltaIlvl: 25, simPercent: 2.5, enchantScore: 0, recentLoot: 0, activity: 1.0 },
+      input: { deltaIlvl: 25, simPercent: 2.5, effortScore: 0, recentLoot: 0, activity: 1.0 },
     },
   ];
 

@@ -5,16 +5,18 @@ from [wowaudit](https://wowaudit.com) (droptimizer wishlists, loot history, atte
 gear/enchant state from Raider.IO, and ranks candidates for every drop with the LPS formula:
 
 ```
-LPS = ((ΔI × 0.2) + (S × 5) + (E × 2.5)) / (1 + L) × A
+LPS = ((ΔI × 0.2) + (S × 5) + (M × 2)) / (1 + L) × A
 ```
 
-| Variable | Meaning                                            | Source                          |
-| -------- | -------------------------------------------------- | ------------------------------- |
-| ΔI       | Item level difference vs. the equipped item        | Raider.IO gear (editable)       |
-| S        | Droptimizer sim upgrade % (0 for tanks/healers)    | wowaudit wishlists              |
-| E        | Enchant/gem investment score 0–10                  | Raider.IO gear (overridable)    |
-| L        | Items received in the last 14/21 days              | wowaudit loot history           |
-| A        | Activity multiplier (Редовен 1.0 / Нередовен 0.7)  | loot-council decision           |
+| Variable | Meaning                                                        | Source                        |
+| -------- | -------------------------------------------------------------- | ----------------------------- |
+| ΔI       | Item level difference vs. the equipped item                    | Raider.IO gear (editable)     |
+| S        | Droptimizer sim upgrade % (0 for tanks/healers)                | wowaudit wishlists            |
+| M        | Relative M+ effort 0–10 (busiest runner of last 2 resets = 10) | wowaudit historical data      |
+| L        | Items received in the last 14/21 days                          | wowaudit loot history         |
+| A        | Activity multiplier (Редовен 1.0 / Нередовен 0.75)             | loot-council decision         |
+
+Enchants and gems are deliberately not scored — being fully enchanted is assumed.
 
 The UI is bilingual (Bulgarian default, EN toggle in the top bar). All weights are
 configurable in the ⚙ settings drawer (persisted in your browser). The full ruleset,

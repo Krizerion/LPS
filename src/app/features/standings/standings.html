@@ -39,7 +39,9 @@
           <th>{{ t().standings.colRole }}</th>
           <th class="sortable" (click)="sortBy('ilvl')">{{ t().standings.colIlvl }}</th>
           <th>{{ t().standings.colStatus }}</th>
-          <th class="sortable" (click)="sortBy('enchant')">{{ t().standings.colEnchants }}</th>
+          <th class="sortable" (click)="sortBy('effort')" [title]="t().standings.effortTooltip">
+            {{ t().standings.colEffort }}
+          </th>
           <th class="sortable" (click)="sortBy('recentLoot')">
             {{ t().standings.colRecentLoot }}
           </th>
@@ -90,41 +92,17 @@
               </button>
             </td>
             <td>
-              @if (editingEnchant() === row.character.id) {
-                <input
-                  class="enchant-input"
-                  type="number"
-                  min="0"
-                  max="10"
-                  step="0.5"
-                  [ngModel]="row.enchantScore"
-                  (blur)="setEnchantOverride(row, $any($event.target).value)"
-                  (keyup.enter)="setEnchantOverride(row, $any($event.target).value)"
-                  autofocus
-                />
-              } @else {
-                <button
-                  class="badge-btn"
-                  (click)="editingEnchant.set(row.character.id)"
-                  [title]="t().standings.enchantTooltip"
+              <span class="effort-cell" [title]="t().standings.effortTooltip">
+                <span
+                  class="badge"
+                  [class.good]="row.effortScore >= 7"
+                  [class.warn]="row.effortScore >= 3 && row.effortScore < 7"
+                  [class.bad]="row.effortScore < 3"
                 >
-                  @if (row.enchantScore !== null) {
-                    <span
-                      class="badge"
-                      [class.good]="row.enchantScore >= 8"
-                      [class.warn]="row.enchantScore >= 4 && row.enchantScore < 8"
-                      [class.bad]="row.enchantScore < 4"
-                    >
-                      {{ row.enchantScore | number: '1.0-1' }} / 10
-                    </span>
-                  } @else {
-                    <span class="badge neutral">{{ t().standings.noData }}</span>
-                  }
-                  @if (row.enchantOverridden) {
-                    <span class="override-dot" [title]="t().standings.localOverride">●</span>
-                  }
-                </button>
-              }
+                  {{ row.effortScore * 10 | number: '1.0-0' }}%
+                </span>
+                <span class="muted runs">{{ t().standings.runsLabel(row.mplusRuns) }}</span>
+              </span>
             </td>
             <td>
               <span class="loot-count" [class.has-loot]="row.recentLoot > 0">

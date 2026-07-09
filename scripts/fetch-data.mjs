@@ -72,11 +72,7 @@ async function fetchGear(region, character) {
   const slots = {};
   for (const [slot, item] of Object.entries(items)) {
     if (!item || typeof item.item_level !== 'number') continue;
-    slots[slot] = {
-      ilvl: item.item_level,
-      enchantId: item.enchant ?? null,
-      gems: item.gems ?? [],
-    };
+    slots[slot] = { ilvl: item.item_level };
   }
   return {
     ilvlEquipped: data.gear?.item_level_equipped ?? null,
@@ -262,11 +258,22 @@ async function main() {
   const startDate = new Date(Date.now() - ATTENDANCE_DAYS * 86_400_000)
     .toISOString()
     .slice(0, 10);
-  const [attendanceRaw, wishlistsRaw, lootRaw] = await Promise.all([
+  const [attendanceRaw, wishlistsRaw, lootRaw, ...historyPeriods] = await Promise.all([
     wowaudit(`/attendance?start_date=${startDate}`),
     wowaudit('/wishlists'),
     seasonId != null ? wowaudit(`/loot_history/${seasonId}`) : Promise.resolve({ history_items: [] }),
+    // Current + previous weekly reset ≈ the last 10 days of M+ activity.
+    wowaudit(`/historical_data?period=${period.current_period}`),
+    wowaudit(`/historical_data?period=${period.current_period - 1}`),
   ]);
+
+  const mplusByCharacter = new Map();
+  for (const hist of historyPeriods) {
+    for (const c of hist.characters ?? []) {
+      const runs = c.data?.dungeons_done?.length ?? 0;
+      mplusByCharacter.set(c.id, (mplusByCharacter.get(c.id) ?? 0) + runs);
+    }
+  }
 
   // Season metadata: raid instances with per-boss max ilvl, difficulty cutoffs, tier items.
   const seasonInstances = (season.metadata?.instances ?? []).map((i) => ({
@@ -312,9 +319,12 @@ async function main() {
       status: c.status,
       note: c.note ?? null,
       droptimizerUploadedAt: wishlists.uploadedByCharacter.get(c.id) ?? null,
+      mplusRuns: mplusByCharacter.get(c.id) ?? 0,
       gear,
     });
-    console.log(`  ${c.name} ${gear ? `(ilvl ${gear.ilvlEquipped ?? '?'})` : '(no gear data)'}`);
+    console.log(
+      `  ${c.name} ${gear ? `(ilvl ${gear.ilvlEquipped ?? '?'})` : '(no gear data)'} — ${mplusByCharacter.get(c.id) ?? 0} M+ runs`,
+    );
   }
 
   const loot = (lootRaw.history_items ?? []).map((l) => ({

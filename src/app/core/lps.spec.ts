@@ -3,7 +3,7 @@ import {
   computeLps,
   DEFAULT_SETTINGS,
   deltaIlvlForItem,
-  enchantScoreFromGear,
+  mplusEffortScore,
 } from './lps';
 import { CharacterGear } from './models';
 
@@ -12,31 +12,51 @@ describe('computeLps', () => {
 
   it('matches the rules example for the M+ grinder', () => {
     const r = computeLps(
-      { deltaIlvl: 5, simPercent: 1.0, enchantScore: 10, recentLoot: 0, activity: 1.0 },
+      { deltaIlvl: 5, simPercent: 1.0, effortScore: 10, recentLoot: 0, activity: 1.0 },
       weights,
     );
-    // (5×0.2) + (1×5) + (10×2.0) with the tuned default weights
+    // (5×0.2) + (1×5) + (10×2.0) with the default weights
     expect(r.total).toBeCloseTo(26.0, 2);
   });
 
   it('matches the rules example for the raid-logger', () => {
     const r = computeLps(
-      { deltaIlvl: 25, simPercent: 2.5, enchantScore: 0, recentLoot: 0, activity: 1.0 },
+      { deltaIlvl: 25, simPercent: 2.5, effortScore: 0, recentLoot: 0, activity: 1.0 },
       weights,
     );
     expect(r.total).toBeCloseTo(17.5, 2);
   });
 
   it('halves the score after one recent item', () => {
-    const base = { deltaIlvl: 0, simPercent: 2, enchantScore: 10, recentLoot: 0, activity: 1 };
+    const base = { deltaIlvl: 0, simPercent: 2, effortScore: 10, recentLoot: 0, activity: 1 };
     const withLoot = computeLps({ ...base, recentLoot: 1 }, weights);
     expect(withLoot.total).toBeCloseTo(computeLps(base, weights).total / 2, 6);
   });
 
   it('applies the casual multiplier', () => {
-    const base = { deltaIlvl: 10, simPercent: 1, enchantScore: 5, recentLoot: 0, activity: 0.75 };
+    const base = { deltaIlvl: 10, simPercent: 1, effortScore: 5, recentLoot: 0, activity: 0.75 };
     const r = computeLps(base, weights);
     expect(r.total).toBeCloseTo((10 * 0.2 + 1 * 5 + 5 * 2.0) * 0.75, 6);
+  });
+});
+
+describe('mplusEffortScore', () => {
+  it('gives the busiest runner a 10', () => {
+    expect(mplusEffortScore(12, 12)).toBe(10);
+  });
+
+  it('scales others relative to the top runner', () => {
+    expect(mplusEffortScore(6, 12)).toBe(5);
+    expect(mplusEffortScore(7, 12)).toBeCloseTo(5.8, 1);
+    expect(mplusEffortScore(0, 12)).toBe(0);
+  });
+
+  it('is zero for everyone when nobody runs keys', () => {
+    expect(mplusEffortScore(0, 0)).toBe(0);
+  });
+
+  it('never exceeds 10', () => {
+    expect(mplusEffortScore(20, 12)).toBe(10);
   });
 });
 
@@ -56,33 +76,11 @@ function gearWith(slots: CharacterGear['slots']): CharacterGear {
   return { ilvlEquipped: 700, slots, updatedAt: null };
 }
 
-describe('enchantScoreFromGear', () => {
-  it('returns 10 for fully enchanted gear (with a gem)', () => {
-    const slots: CharacterGear['slots'] = {};
-    for (const s of ['back', 'chest', 'wrist', 'legs', 'feet', 'finger1', 'finger2', 'mainhand']) {
-      slots[s] = { ilvl: 700, enchantId: 1, gems: s === 'finger1' ? [1] : [] };
-    }
-    expect(enchantScoreFromGear(gearWith(slots))).toBe(10);
-  });
-
-  it('returns 0 for no enchants', () => {
-    const slots: CharacterGear['slots'] = {
-      back: { ilvl: 700, enchantId: null, gems: [] },
-      chest: { ilvl: 700, enchantId: null, gems: [] },
-    };
-    expect(enchantScoreFromGear(gearWith(slots))).toBe(0);
-  });
-
-  it('returns null without gear data', () => {
-    expect(enchantScoreFromGear(null)).toBeNull();
-  });
-});
-
 describe('deltaIlvlForItem', () => {
   const gear = gearWith({
-    finger1: { ilvl: 700, enchantId: null, gems: [] },
-    finger2: { ilvl: 715, enchantId: null, gems: [] },
-    mainhand: { ilvl: 720, enchantId: null, gems: [] },
+    finger1: { ilvl: 700 },
+    finger2: { ilvl: 715 },
+    mainhand: { ilvl: 720 },
   });
 
   it('compares rings against the weakest equipped ring', () => {

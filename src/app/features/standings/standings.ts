@@ -6,7 +6,7 @@ import { SettingsStore } from '../../store/settings.store';
 import { I18nStore, timeAgoI18n } from '../../core/i18n';
 import { classColor, ROLE_ICONS } from '../../shared/wow';
 
-type SortKey = 'name' | 'ilvl' | 'enchant' | 'recentLoot' | 'wishlist';
+type SortKey = 'name' | 'ilvl' | 'effort' | 'recentLoot' | 'wishlist';
 
 @Component({
   selector: 'app-standings',
@@ -22,7 +22,6 @@ export class Standings {
   protected readonly search = signal('');
   protected readonly sortKey = signal<SortKey>('name');
   protected readonly sortDesc = signal(false);
-  protected readonly editingEnchant = signal<number | null>(null);
 
   protected readonly classColor = classColor;
   protected readonly roleIcons = ROLE_ICONS;
@@ -39,8 +38,8 @@ export class Standings {
       switch (key) {
         case 'ilvl':
           return r.character.gear?.ilvlEquipped ?? 0;
-        case 'enchant':
-          return r.enchantScore ?? -1;
+        case 'effort':
+          return r.mplusRuns;
         case 'recentLoot':
           return r.recentLoot;
         case 'wishlist':
@@ -93,14 +92,6 @@ export class Standings {
     this.settings.setOverride(row.character.id, {
       activity: next === repoDefault ? null : next,
     });
-  }
-
-  protected setEnchantOverride(row: PlayerSummary, value: string): void {
-    const parsed = value === '' ? null : Math.max(0, Math.min(10, Number(value)));
-    this.settings.setOverride(row.character.id, {
-      enchantScore: parsed == null || Number.isNaN(parsed) ? null : parsed,
-    });
-    this.editingEnchant.set(null);
   }
 
   protected wishlistStale(row: PlayerSummary): boolean {

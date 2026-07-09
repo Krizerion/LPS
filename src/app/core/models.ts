@@ -7,8 +7,6 @@ export type Difficulty = 'normal' | 'heroic' | 'mythic';
 /** One equipped gear slot, keyed by Raider.IO slot names (head, back, finger1, mainhand, ...). */
 export interface GearSlot {
   ilvl: number;
-  enchantId: number | null;
-  gems: number[];
 }
 
 export interface CharacterGear {
@@ -28,6 +26,8 @@ export interface RosterCharacter {
   note: string | null;
   /** Latest droptimizer report upload seen in the character's wishlists. */
   droptimizerUploadedAt?: string | null;
+  /** M+ dungeons completed in the last two weekly resets (wowaudit historical_data). */
+  mplusRuns?: number;
   gear: CharacterGear | null;
 }
 
@@ -136,8 +136,6 @@ export interface DataMeta {
 
 /** Per-character manual overrides maintained by the loot council (stored in localStorage). */
 export interface CharacterOverride {
-  /** Manual enchant/gem score 0..10; null → derive from gear. */
-  enchantScore?: number | null;
   /** Manual activity status; null → use the committed overrides.json / default regular. */
   activity?: 'regular' | 'casual' | null;
 }
@@ -148,5 +146,4 @@ export interface CharacterOverride {
  */
 export interface RepoOverrides {
   activity: Record<string, 'regular' | 'casual'>;
-  enchantScore: Record<string, number>;
 }

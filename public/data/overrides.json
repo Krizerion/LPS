@@ -1,5 +1,4 @@
 {
- "_readme": "Loot-council overrides, maintained by hand and committed to the repo (fetch-data never touches this file). activity: 'casual' marks a player Нередовен (trials, poor attendance, raid-loggers) — everyone else defaults to Редовен. enchantScore: 0-10 replaces the Raider.IO-derived E score. Key both maps by character name exactly as it appears in the roster.",
- "activity": {},
- "enchantScore": {}
+ "_readme": "Loot-council overrides, maintained by hand and committed to the repo (fetch-data never touches this file). activity: 'casual' marks a player Нередовен (trials, raid-loggers) — everyone else defaults to Редовен. Key by character name exactly as it appears in the roster.",
+ "activity": {}
 }

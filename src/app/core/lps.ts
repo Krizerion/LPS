@@ -1,18 +1,21 @@
 import { CharacterGear, Difficulty, WowRole } from './models';
 
 /**
- * LPS = ((ΔI * wI) + (S * wS) + (E * wE)) / (1 + L) * A
+ * LPS = ((ΔI * wI) + (S * wS) + (M * wM)) / (1 + L) * A
  *
  * ΔI — item level difference between the drop and the equipped item in that slot
  * S  — droptimizer sim upgrade in % (0 for tanks/healers)
- * E  — enchant/gem investment score, 0..10
+ * M  — relative M+ effort 0..10: the roster's busiest key runner over the last
+ *      two weekly resets scores 10, everyone else proportionally to their runs
  * L  — items received in the recent loot window
- * A  — activity multiplier (regular 1.0 / casual 0.7)
+ * A  — activity multiplier (regular 1.0 / casual 0.75)
+ *
+ * Enchants/gems are deliberately NOT scored — being fully enchanted is assumed.
  */
 export interface LpsWeights {
   deltaIlvl: number;
   simPercent: number;
-  enchant: number;
+  effort: number;
 }
 
 export interface LpsSettings {
@@ -28,7 +31,7 @@ export interface LpsSettings {
 }
 
 export const DEFAULT_SETTINGS: LpsSettings = {
-  weights: { deltaIlvl: 0.2, simPercent: 5, enchant: 2.0 },
+  weights: { deltaIlvl: 0.2, simPercent: 5, effort: 2.0 },
   lootWindowDays: 14,
   regularMultiplier: 1.0,
   casualMultiplier: 0.75,
@@ -40,7 +43,7 @@ export const DEFAULT_SETTINGS: LpsSettings = {
 export interface LpsInput {
   deltaIlvl: number;
   simPercent: number;
-  enchantScore: number;
+  effortScore: number;
   recentLoot: number;
   activity: number;
 }
@@ -48,43 +51,26 @@ export interface LpsInput {
 export interface LpsBreakdown extends LpsInput {
   ilvlComponent: number;
   simComponent: number;
-  enchantComponent: number;
+  effortComponent: number;
   total: number;
 }
 
 export function computeLps(input: LpsInput, weights: LpsWeights): LpsBreakdown {
   const ilvlComponent = input.deltaIlvl * weights.deltaIlvl;
   const simComponent = input.simPercent * weights.simPercent;
-  const enchantComponent = input.enchantScore * weights.enchant;
+  const effortComponent = input.effortScore * weights.effort;
   const total =
-    ((ilvlComponent + simComponent + enchantComponent) / (1 + input.recentLoot)) * input.activity;
-  return { ...input, ilvlComponent, simComponent, enchantComponent, total };
+    ((ilvlComponent + simComponent + effortComponent) / (1 + input.recentLoot)) * input.activity;
+  return { ...input, ilvlComponent, simComponent, effortComponent, total };
 }
 
-/** Slots that can hold an enchant in the current season. */
-export const ENCHANTABLE_SLOTS = [
-  'back',
-  'chest',
-  'wrist',
-  'legs',
-  'feet',
-  'finger1',
-  'finger2',
-  'mainhand',
-] as const;
-
 /**
- * Derive the E score (0..10) from equipped gear: share of enchantable slots
- * that actually carry an enchant. Gems are a bonus on top, capped at 10.
+ * Relative M+ effort (0..10): the roster's busiest key runner in the window
+ * sets the bar at 10; everyone else scales by their share of that count.
  */
-export function enchantScoreFromGear(gear: CharacterGear | null): number | null {
-  if (!gear) return null;
-  const present = ENCHANTABLE_SLOTS.filter((s) => gear.slots[s]);
-  if (present.length === 0) return null;
-  const enchanted = present.filter((s) => gear.slots[s].enchantId != null).length;
-  const gemmed = Object.values(gear.slots).some((s) => s.gems.length > 0) ? 0.5 : 0;
-  const score = (enchanted / present.length) * 10 + gemmed;
-  return Math.round(Math.min(10, score) * 10) / 10;
+export function mplusEffortScore(runs: number, topRuns: number): number {
+  if (topRuns <= 0) return 0;
+  return Math.round(Math.min(1, runs / topRuns) * 100) / 10;
 }
 
 /** Maps wowaudit wishlist slot names to the Raider.IO gear slots an item competes with. */

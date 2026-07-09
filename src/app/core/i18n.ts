@@ -50,7 +50,7 @@ const en = {
     weights: 'Weights',
     deltaIlvl: 'Item level difference (ΔI)',
     simPercent: 'Sim upgrade % (S)',
-    enchant: 'Enchant score (E)',
+    effort: 'M+ effort (M)',
     lootActivity: 'Recent loot & activity',
     lootWindow: 'Loot window (days)',
     casualMultiplier: 'Casual (Нередовен) multiplier',
@@ -70,7 +70,7 @@ const en = {
   },
   standings: {
     title: 'Standings',
-    sub: 'Everything that feeds the formula per player. Status (A) is a council decision — click it to toggle in this browser, or edit public/data/overrides.json to set it for everyone. Click the E score to override it.',
+    sub: 'Everything that feeds the formula per player. Status (A) is a council decision — click it to toggle in this browser, or edit public/data/overrides.json to set it for everyone. M+ effort is relative: the busiest key runner of the last two resets is 100%.',
     rosterSize: 'Raiders tracked',
     casualCount: 'Marked Нередовен',
     recentLoot: 'Items in loot window',
@@ -80,14 +80,15 @@ const en = {
     colRole: 'Role',
     colIlvl: 'ilvl',
     colStatus: 'Status (A)',
-    colEnchants: 'Enchants (E)',
+    colEffort: 'M+ effort (M)',
     colRecentLoot: 'Recent loot (L)',
     colLootTotal: 'Loot total',
     colDroptimizer: 'Droptimizer',
     statusTooltip: 'Council decision — click to toggle in this browser (● = local override)',
-    enchantTooltip: 'Click to set manually (0–10)',
+    effortTooltip:
+      'M+ dungeons over the last two weekly resets, relative to the busiest runner (100%)',
+    runsLabel: (n: number) => `${n} ${n === 1 ? 'run' : 'runs'}`,
     localOverride: 'Local override (this browser only)',
-    noData: 'no data',
     noMatch: 'No players match.',
   },
   council: {
@@ -103,7 +104,7 @@ const en = {
       '⚠ Tier piece — players completing their 2p/4p set bonus have priority before the formula applies (see Rules).',
     colDeltaTooltip: 'Item level difference — editable',
     colSimTooltip: 'Droptimizer upgrade %',
-    colEnchantTooltip: 'Enchant score 0–10',
+    colEffortTooltip: 'Relative M+ effort 0–10 (busiest runner = 10)',
     colLootTooltip: 'Recent loot count',
     colActivityTooltip: 'Activity multiplier',
     staleSim: 'stale sim',
@@ -118,7 +119,7 @@ const en = {
     selectHint: 'Select an item to rank candidates.',
     ilvlComponent: 'ΔI component',
     simComponent: 'Sim component',
-    enchantComponent: 'Enchant component',
+    effortComponent: 'M+ effort component',
   },
   history: {
     title: 'Loot History',
@@ -155,9 +156,9 @@ const en = {
     simName: 'S — sim upgrade %',
     simDesc:
       'The DPS increase according to Raidbots (Droptimizer). For tanks and healers this value is 0. The main factor for guild progress.',
-    enchName: 'E — enchants and gems',
-    enchDesc:
-      'A 0 to 10 scale. Perfect enchants = 10 points, none = 0. Strictly rewards the gold and effort invested outside the raid.',
+    effortName: 'M — M+ effort',
+    effortDesc:
+      'Relative scale 0–10 over the last two weekly resets: the raider with the most completed M+ dungeons scores 10, everyone else proportionally to their run count. Rewards time invested in the game. (Full enchants and gems are assumed — they are not scored.)',
     lootName: 'L — recent loot',
     lootDesc: (days: number) =>
       `The number of items received in the last ${days} days. Prevents greed and gears the raid evenly.`,
@@ -177,9 +178,9 @@ const en = {
     exampleSub:
       'An item drops. Neither player has recent loot (L = 0) and both are "Regular" (A = 1.0).',
     example1Title: 'Player 1 — The M+ Grinder',
-    example1Note: 'Farmed M+ all week — small upgrade, but perfect enchants.',
+    example1Note: 'Farmed the most keys in the roster — small upgrade, but maximum effort (M = 10).',
     example2Title: 'Player 2 — Raid-Logger',
-    example2Note: 'Only logs in for raid — huge upgrade, but zero investment.',
+    example2Note: 'Only logs in for raid — huge upgrade, but zero M+ runs (M = 0).',
     points: 'pts',
     conclusionBold: 'Conclusion:',
     conclusion:
@@ -233,7 +234,7 @@ const bg: Strings = {
     weights: 'Тежести',
     deltaIlvl: 'Разлика в Item Level (ΔI)',
     simPercent: 'Sim ъпгрейд % (S)',
-    enchant: 'Оценка за енчанти (E)',
+    effort: 'M+ ефорт (M)',
     lootActivity: 'Скорошен луут и активност',
     lootWindow: 'Луут прозорец (дни)',
     casualMultiplier: 'Множител за Нередовен',
@@ -253,7 +254,7 @@ const bg: Strings = {
   },
   standings: {
     title: 'Класиране',
-    sub: 'Всичко, което влиза във формулата, за всеки играч. Статусът (A) е решение на съвета — кликни го за смяна в този браузър или редактирай public/data/overrides.json, за да важи за всички. Кликни E за ръчна оценка.',
+    sub: 'Всичко, което влиза във формулата, за всеки играч. Статусът (A) е решение на съвета — кликни го за смяна в този браузър или редактирай public/data/overrides.json, за да важи за всички. M+ ефортът е относителен: най-активният кийър за последните два reset-а е 100%.',
     rosterSize: 'Проследени рейдъри',
     casualCount: 'Отбелязани Нередовен',
     recentLoot: 'Предмети в луут прозореца',
@@ -263,14 +264,15 @@ const bg: Strings = {
     colRole: 'Роля',
     colIlvl: 'ilvl',
     colStatus: 'Статус (A)',
-    colEnchants: 'Енчанти (E)',
+    colEffort: 'M+ ефорт (M)',
     colRecentLoot: 'Скорошен луут (L)',
     colLootTotal: 'Общо луут',
     colDroptimizer: 'Droptimizer',
     statusTooltip: 'Решение на съвета — кликни за смяна в този браузър (● = локална корекция)',
-    enchantTooltip: 'Кликни за ръчна оценка (0–10)',
+    effortTooltip:
+      'M+ дънджъни за последните два седмични reset-а, относително спрямо най-активния (100%)',
+    runsLabel: (n: number) => `${n} ${n === 1 ? 'ключ' : 'ключа'}`,
     localOverride: 'Локална корекция (само този браузър)',
-    noData: 'няма данни',
     noMatch: 'Няма съвпадащи играчи.',
   },
   council: {
@@ -286,7 +288,7 @@ const bg: Strings = {
       '⚠ Тир предмет — играчи, които завършват 2p/4p сет бонус, имат приоритет преди формулата (виж Правила).',
     colDeltaTooltip: 'Разлика в item level — може да се редактира',
     colSimTooltip: 'Droptimizer ъпгрейд %',
-    colEnchantTooltip: 'Оценка за енчанти 0–10',
+    colEffortTooltip: 'Относителен M+ ефорт 0–10 (най-активният = 10)',
     colLootTooltip: 'Брой скорошен луут',
     colActivityTooltip: 'Множител за активност',
     staleSim: 'стар sim',
@@ -300,7 +302,7 @@ const bg: Strings = {
     selectHint: 'Избери предмет, за да класираш кандидатите.',
     ilvlComponent: 'ΔI компонент',
     simComponent: 'Sim компонент',
-    enchantComponent: 'Енчант компонент',
+    effortComponent: 'M+ ефорт компонент',
   },
   history: {
     title: 'История на луута',
@@ -337,9 +339,9 @@ const bg: Strings = {
     simName: 'S — Sim Upgrade %',
     simDesc:
       'Увеличението на DPS според Raidbots (Droptimizer). За танкове и хийлъри тази стойност е 0. Основен фактор за прогреса на гилдията.',
-    enchName: 'E — енчанти и камъни',
-    enchDesc:
-      'Скала от 0 до 10. Перфектни енчанти = 10 точки, липса = 0. Строго възнаграждава инвестицията на злато и усилия извън рейда.',
+    effortName: 'M — М+ ефорт',
+    effortDesc:
+      'Относителна скала 0–10 за последните два седмични reset-а: рейдърът с най-много завършени M+ дънджъни получава 10, останалите пропорционално на броя си ключове. Награждава вложеното време в играта. (Пълните енчанти и камъни се подразбират — не се точкуват.)',
     lootName: 'L — скорошен луут',
     lootDesc: (days: number) =>
       `Броят предмети, получени през последните ${days} дни. Предотвратява лакомията и облича рейда равномерно.`,
@@ -359,9 +361,9 @@ const bg: Strings = {
     exampleSub:
       'Пада предмет. И двамата играчи нямат скорошен луут (L = 0) и са със статус „Редовен“ (A = 1.0).',
     example1Title: 'Играч 1 — The M+ Grinder',
-    example1Note: 'Фармил е M+ цяла седмица — малък ъпгрейд, но перфектни енчанти.',
+    example1Note: 'Изфармил е най-много ключове в състава — малък ъпгрейд, но максимален ефорт (M = 10).',
     example2Title: 'Играч 2 — Raid-Logger',
-    example2Note: 'Влиза само за рейда — огромен ъпгрейд, но нула инвестиция.',
+    example2Note: 'Влиза само за рейда — огромен ъпгрейд, но нула M+ ключове (M = 0).',
     points: 'т.',
     conclusionBold: 'Заключение:',
     conclusion:

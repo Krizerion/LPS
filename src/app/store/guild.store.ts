@@ -14,9 +14,9 @@ import {
   activityMultiplier,
   computeLps,
   deltaIlvlForItem,
-  enchantScoreFromGear,
   isTankOrHealer,
   LpsBreakdown,
+  mplusEffortScore,
 } from '../core/lps';
 import {
   AttendanceFile,
@@ -40,8 +40,9 @@ export interface PlayerSummary {
   activityStatus: 'regular' | 'casual';
   /** True when set from this browser (localStorage) rather than overrides.json. */
   activityOverridden: boolean;
-  enchantScore: number | null;
-  enchantOverridden: boolean;
+  mplusRuns: number;
+  /** Relative to the roster's busiest key runner (0..10). */
+  effortScore: number;
   recentLoot: number;
   totalLoot: number;
   lastLootAt: string | null;
@@ -77,7 +78,7 @@ const initialState: GuildState = {
   upgrades: [],
   loot: [],
   attendance: null,
-  repoOverrides: { activity: {}, enchantScore: {} },
+  repoOverrides: { activity: {} },
 };
 
 export const GuildStore = signalStore(
@@ -115,9 +116,10 @@ export const GuildStore = signalStore(
       const upgrades = store.upgrades();
 
       const repo = store.repoOverrides();
+      const topRuns = Math.max(0, ...store.roster().map((c) => c.mplusRuns ?? 0));
       return store.roster().map((character) => {
         const override = overrides[character.id];
-        const gearScore = enchantScoreFromGear(character.gear);
+        const mplusRuns = character.mplusRuns ?? 0;
         const own = loot.filter((l) => l.characterId === character.id && !l.discarded);
         const lastLootAt = own.length
           ? own.reduce((a, b) => (a.awardedAt > b.awardedAt ? a : b)).awardedAt
@@ -133,9 +135,8 @@ export const GuildStore = signalStore(
           activity: activityMultiplier(activityStatus, settings),
           activityStatus,
           activityOverridden: override?.activity != null,
-          enchantScore:
-            override?.enchantScore ?? repo.enchantScore[character.name] ?? gearScore,
-          enchantOverridden: override?.enchantScore != null,
+          mplusRuns,
+          effortScore: mplusEffortScore(mplusRuns, topRuns),
           recentLoot: recent.get(character.id) ?? 0,
           totalLoot: own.filter((l) => !l.excluded).length,
           lastLootAt,
@@ -170,10 +171,7 @@ export const GuildStore = signalStore(
           upgrades: wishlists.upgrades,
           loot: lootHistory.items,
           attendance,
-          repoOverrides: {
-            activity: repoOverrides.activity ?? {},
-            enchantScore: repoOverrides.enchantScore ?? {},
-          },
+          repoOverrides: { activity: repoOverrides.activity ?? {} },
         });
       } catch (e) {
         patchState(store, {
@@ -226,7 +224,7 @@ export const GuildStore = signalStore(
             {
               deltaIlvl: deltaIlvl ?? 0,
               simPercent,
-              enchantScore: summary.enchantScore ?? 0,
+              effortScore: summary.effortScore,
               recentLoot: summary.recentLoot,
               activity: summary.activity,
             },

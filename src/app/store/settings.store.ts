@@ -3,8 +3,8 @@ import { getState, patchState, signalStore, withHooks, withMethods, withState } 
 import { DEFAULT_SETTINGS, LpsSettings } from '../core/lps';
 import { CharacterOverride } from '../core/models';
 
-// v2: E weight 2.5→2.0, casual 0.7→0.75, attendance threshold removed.
-const STORAGE_KEY = 'lps.settings.v2';
+// v3: enchant score (E) replaced by relative M+ effort (M) in the formula.
+const STORAGE_KEY = 'lps.settings.v3';
 
 /** GitHub connection for the manual "refresh data" button (token never leaves this browser). */
 export interface GithubConfig {
@@ -67,7 +67,7 @@ export const SettingsStore = signalStore(
       patchState(store, (state) => {
         const merged = { ...state.overrides[characterId], ...patch };
         const overrides = { ...state.overrides, [characterId]: merged };
-        if (merged.enchantScore == null && merged.activity == null) {
+        if (merged.activity == null) {
           delete overrides[characterId];
         }
         return { overrides };

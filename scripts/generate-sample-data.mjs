@@ -74,13 +74,11 @@ const ITEM_BASES = {
 
 // --- roster ---
 const characters = ROSTER_DEF.map(([name, klass, role, attendance], i) => {
-  const quality = between(0.3, 1); // how well-maintained this character is
+  const quality = between(0.3, 1); // how invested this character's player is
   const slots = {};
   for (const slot of GEAR_SLOTS) {
     slots[slot] = {
       ilvl: Math.round(between(244, 254) + quality * between(8, 18)),
-      enchantId: rand() < quality * 0.95 ? 7000 + i * 20 + GEAR_SLOTS.indexOf(slot) : null,
-      gems: slot.startsWith('finger') && rand() < quality ? [213743] : [],
     };
   }
   const ilvls = Object.values(slots).map((s) => s.ilvl);
@@ -93,6 +91,7 @@ const characters = ROSTER_DEF.map(([name, klass, role, attendance], i) => {
     rank: 'Main',
     status: 'tracking',
     note: null,
+    mplusRuns: Math.round(quality * between(6, 16)),
     _attendance: attendance,
     _quality: quality,
     gear: {

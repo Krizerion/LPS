@@ -117,7 +117,7 @@
           type="number"
           step="0.05"
           [ngModel]="s.weights.deltaIlvl"
-          (ngModelChange)="patch({ weights: { deltaIlvl: $event, simPercent: s.weights.simPercent, enchant: s.weights.enchant } })"
+          (ngModelChange)="patch({ weights: { deltaIlvl: $event, simPercent: s.weights.simPercent, effort: s.weights.effort } })"
         />
       </label>
       <label>
@@ -126,16 +126,16 @@
           type="number"
           step="0.5"
           [ngModel]="s.weights.simPercent"
-          (ngModelChange)="patch({ weights: { deltaIlvl: s.weights.deltaIlvl, simPercent: $event, enchant: s.weights.enchant } })"
+          (ngModelChange)="patch({ weights: { deltaIlvl: s.weights.deltaIlvl, simPercent: $event, effort: s.weights.effort } })"
         />
       </label>
       <label>
-        <span>{{ t().settings.enchant }}</span>
+        <span>{{ t().settings.effort }}</span>
         <input
           type="number"
           step="0.5"
-          [ngModel]="s.weights.enchant"
-          (ngModelChange)="patch({ weights: { deltaIlvl: s.weights.deltaIlvl, simPercent: s.weights.simPercent, enchant: $event } })"
+          [ngModel]="s.weights.effort"
+          (ngModelChange)="patch({ weights: { deltaIlvl: s.weights.deltaIlvl, simPercent: s.weights.simPercent, effort: $event } })"
         />
       </label>
     </section>
@@ -232,8 +232,8 @@
     </section>
 
     <section class="drawer-formula muted">
-      LPS = ((ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (E ×
-      {{ s.weights.enchant }}))
+      LPS = ((ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (M ×
+      {{ s.weights.effort }}))
       {{ t().settings.formulaNote(s.casualMultiplier | number: '1.1-2') }}
     </section>
 

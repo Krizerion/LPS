@@ -10,8 +10,8 @@
       <span class="lhs">LPS&nbsp;=</span>
       <span class="frac">
         <span class="num">
-          (ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (E ×
-          {{ s.weights.enchant }})
+          (ΔI × {{ s.weights.deltaIlvl }}) + (S × {{ s.weights.simPercent }}) + (M ×
+          {{ s.weights.effort }})
         </span>
         <span class="den">1 + L</span>
       </span>
@@ -47,10 +47,10 @@
         </tr>
         <tr>
           <td>
-            <strong>{{ t().rules.enchName }}</strong>
+            <strong>{{ t().rules.effortName }}</strong>
           </td>
-          <td>{{ t().rules.enchDesc }}</td>
-          <td><span class="badge neutral">× {{ s.weights.enchant }}</span></td>
+          <td>{{ t().rules.effortDesc }}</td>
+          <td><span class="badge neutral">× {{ s.weights.effort }}</span></td>
         </tr>
         <tr>
           <td>
@@ -109,7 +109,7 @@
             {{ t().rules.points }}
           </li>
           <li>
-            E = {{ ex.input.enchantScore }} → {{ r.enchantComponent | number: '1.0-2' }}
+            M = {{ ex.input.effortScore }} → {{ r.effortComponent | number: '1.0-2' }}
             {{ t().rules.points }}
           </li>
           <li>L = {{ ex.input.recentLoot }}, A = {{ ex.input.activity | number: '1.1-1' }}</li>

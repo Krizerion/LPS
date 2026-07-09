@@ -10,94 +10,57 @@
    "status": "tracking",
    "note": "Стиви",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 290,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 282,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 282
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 8025,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7969,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8041,
-      "gems": []
+      "ilvl": 295
      },
      "offhand": {
-      "ilvl": 295,
-      "enchantId": 7983,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-06-27T20:34:07.000Z"
@@ -113,100 +76,57 @@
    "status": "tracking",
    "note": "Весо",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 1,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240908
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 6245,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T20:15:29.000Z"
@@ -222,95 +142,54 @@
    "status": "tracking",
    "note": "Мишо",
    "droptimizerUploadedAt": "2026-07-09T18:01:04.000+00:00",
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 298
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 3368,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T20:17:27.000Z"
@@ -326,99 +205,60 @@
    "status": "tracking",
    "note": "Зап",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7959,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240969
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 298,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 298
      },
      "feet": {
-      "ilvl": 298,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 298
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240890
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 285,
-      "enchantId": 7997,
-      "gems": [
-       240904
-      ]
+      "ilvl": 285
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      },
      "offhand": {
-      "ilvl": 298,
-      "enchantId": 7528,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T22:05:35.000Z"
@@ -434,102 +274,60 @@
    "status": "tracking",
    "note": "Пламен",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 289,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": [
-       240969,
-       240898
-      ]
+      "ilvl": 276
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": 4223,
-      "gems": []
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 276
      },
      "hands": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7969,
-      "gems": [
-       240902
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7969,
-      "gems": [
-       240910
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      },
      "offhand": {
-      "ilvl": 295,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-05-31T16:55:46.000Z"
@@ -545,93 +343,54 @@
    "status": "tracking",
    "note": "Камен",
    "droptimizerUploadedAt": "2026-07-09T16:27:08.000+00:00",
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 7981,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T20:15:30.000Z"
@@ -647,99 +406,60 @@
    "status": "tracking",
    "note": "Лазо",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 291.75,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240969
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 276
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 298,
-      "enchantId": 7969,
-      "gems": [
-       240900
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7969,
-      "gems": [
-       240890
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      },
      "offhand": {
-      "ilvl": 295,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-01T19:20:54.000Z"
@@ -755,93 +475,54 @@
    "status": "tracking",
    "note": "Здравко",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 1,
    "gear": {
     "ilvlEquipped": 293,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": 4223,
-      "gems": [
-       240918
-      ]
+      "ilvl": 298
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240918
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 8027,
-      "gems": [
-       240914
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7997,
-      "gems": [
-       240906
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 6241,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T20:17:26.000Z"
@@ -857,105 +538,60 @@
    "status": "tracking",
    "note": "Християн",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 298,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 298
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 7981,
-      "gems": []
+      "ilvl": 298
      },
      "offhand": {
-      "ilvl": 295,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T22:05:39.000Z"
@@ -971,98 +607,57 @@
    "status": "tracking",
    "note": "Камен",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
-    "ilvlEquipped": 291.312,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8163,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 8019,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240900
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8041,
-      "gems": []
+      "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-05T23:06:08.000Z"
+    "updatedAt": "2026-07-09T18:52:28.000Z"
    }
   },
   {
@@ -1075,103 +670,60 @@
    "status": "tracking",
    "note": "Диян",
    "droptimizerUploadedAt": "2026-07-09T17:57:44.000+00:00",
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 289,
     "slots": {
      "head": {
-      "ilvl": 298,
-      "enchantId": 8015,
-      "gems": []
+      "ilvl": 298
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 276,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 276
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 285
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7969,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 285,
-      "enchantId": 7969,
-      "gems": [
-       240900
-      ]
+      "ilvl": 285
      },
      "trinket1": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 7983,
-      "gems": []
+      "ilvl": 298
      },
      "offhand": {
-      "ilvl": 295,
-      "enchantId": 8041,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T22:05:39.000Z"
@@ -1187,100 +739,57 @@
    "status": "tracking",
    "note": "Раси",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 293,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7991,
-      "gems": [
-       240890
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240890
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 7973,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240890
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 298,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 298
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 8025,
-      "gems": [
-       240890
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 8025,
-      "gems": [
-       240890
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      },
      "offhand": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T22:05:40.000Z"
@@ -1296,103 +805,57 @@
    "status": "tracking",
    "note": "Вальо",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
-    "ilvlEquipped": 291.875,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 285
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240908
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8041,
-      "gems": []
-     },
-     "offhand": {
-      "ilvl": 298,
-      "enchantId": 8041,
-      "gems": []
+      "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-08T22:05:40.000Z"
+    "updatedAt": "2026-07-09T18:41:28.000Z"
    }
   },
   {
@@ -1405,96 +868,57 @@
    "status": "tracking",
    "note": "Боби",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 290,
     "slots": {
      "head": {
-      "ilvl": 298,
-      "enchantId": 7961,
-      "gems": []
+      "ilvl": 298
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 276
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7985,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240916
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 8025,
-      "gems": [
-       240894
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 8025,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-06-26T17:52:10.000Z"
@@ -1510,95 +934,54 @@
    "status": "tracking",
    "note": "Мартин",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 285
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": 2841,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 298,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 298
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 8019,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 298,
-      "enchantId": 7969,
-      "gems": [
-       240908
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T19:41:17.000Z"
@@ -1614,93 +997,54 @@
    "status": "tracking",
    "note": "Явор",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
      "head": {
-      "ilvl": 298,
-      "enchantId": 7961,
-      "gems": [
-       240910
-      ]
+      "ilvl": 298
      },
      "neck": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240914
-      ]
+      "ilvl": 285
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240910
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 285,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 285
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240902
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 285,
-      "enchantId": 7997,
-      "gems": [
-       240983
-      ]
+      "ilvl": 285
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T20:15:28.000Z"
@@ -1716,95 +1060,54 @@
    "status": "tracking",
    "note": "Весо",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 1,
    "gear": {
     "ilvlEquipped": 290,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 285
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 285
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 298,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 298
      },
      "finger1": {
-      "ilvl": 276,
-      "enchantId": 7967,
-      "gems": [
-       240906
-      ]
+      "ilvl": 276
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T17:49:29.000Z"
@@ -1820,96 +1123,57 @@
    "status": "tracking",
    "note": "Стенли",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7991,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240906
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 7973,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240904
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8163,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 285,
-      "enchantId": 7967,
-      "gems": [
-       240983
-      ]
+      "ilvl": 285
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-06-26T17:52:10.000Z"
@@ -1925,94 +1189,57 @@
    "status": "tracking",
    "note": "Вик",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 298,
-      "enchantId": 7961,
-      "gems": []
+      "ilvl": 298
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 298,
-      "enchantId": 8025,
-      "gems": [
-       240892
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 8025,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T22:05:38.000Z"
@@ -2028,91 +1255,54 @@
    "status": "tracking",
    "note": null,
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 289,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "wrist": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": [
-       240894
-      ]
+      "ilvl": 276
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240916
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T22:05:38.000Z"
@@ -2128,89 +1318,54 @@
    "status": "tracking",
    "note": "Вик",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 291.188,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 298,
-      "enchantId": 7997,
-      "gems": [
-       240906
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-05T23:06:06.000Z"
@@ -2226,103 +1381,60 @@
    "status": "tracking",
    "note": "Денис",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 290.188,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8016,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7962,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7994,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7995,
-      "gems": [
-       240908
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "trinket2": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8052,
-      "gems": []
+      "ilvl": 298
      },
      "offhand": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-02T23:07:54.000Z"
@@ -2338,89 +1450,54 @@
    "status": "tracking",
    "note": "Тошко",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 5,
    "gear": {
     "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 298,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 298
      },
      "feet": {
-      "ilvl": 298,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 298
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7997,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7997,
-      "gems": [
-       240906
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T20:15:28.000Z"
@@ -2436,91 +1513,54 @@
    "status": "tracking",
    "note": "Жоров",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 288,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 285
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8031,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 289,
-      "enchantId": 7993,
-      "gems": []
+      "ilvl": 289
      },
      "finger1": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 298
      },
      "finger2": {
-      "ilvl": 285,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 285
      },
      "trinket1": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 276
      },
      "trinket2": {
-      "ilvl": 263,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 263
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T22:05:39.000Z"
@@ -2536,95 +1576,54 @@
    "status": "tracking",
    "note": "Стоян",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 293,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240906
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 298,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240906
-      ]
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240906
-      ]
+      "ilvl": 285
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 298,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 298
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240906
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T22:05:36.000Z"
@@ -2640,94 +1639,57 @@
    "status": "tracking",
    "note": "Деница",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 10,
    "gear": {
     "ilvlEquipped": 289.875,
     "slots": {
      "head": {
-      "ilvl": 298,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 298
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240894
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240890
-      ]
+      "ilvl": 285
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 8025,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 276,
-      "enchantId": 8025,
-      "gems": [
-       240890
-      ]
+      "ilvl": 276
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-08T22:05:40.000Z"
+    "updatedAt": "2026-07-09T18:54:43.000Z"
    }
   },
   {
@@ -2740,93 +1702,54 @@
    "status": "tracking",
    "note": "Деница",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 288,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 7961,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 285
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 285,
-      "enchantId": 8013,
-      "gems": []
+      "ilvl": 285
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240892
-      ]
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 276,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 276
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7937,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 276,
-      "enchantId": 7969,
-      "gems": [
-       240892
-      ]
+      "ilvl": 276
      },
      "finger2": {
-      "ilvl": 276,
-      "enchantId": 7969,
-      "gems": [
-       240892
-      ]
+      "ilvl": 276
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T22:05:40.000Z"
@@ -2842,105 +1765,60 @@
    "status": "tracking",
    "note": "Крис",
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 292.25,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 298
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 298
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      },
      "offhand": {
-      "ilvl": 295,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-07-08T06:20:46.000Z"
@@ -2956,98 +1834,57 @@
    "status": "tracking",
    "note": "Крис",
    "droptimizerUploadedAt": "2026-07-09T16:13:37.000+00:00",
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 285,
-      "enchantId": 4223,
-      "gems": [
-       240898
-      ]
+      "ilvl": 285
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 298,
-      "enchantId": 8159,
-      "gems": []
+      "ilvl": 298
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240898
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298,
-      "enchantId": 8039,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-08T22:05:39.000Z"
@@ -3063,101 +1900,60 @@
    "status": "tracking",
    "note": null,
    "droptimizerUploadedAt": null,
+   "mplusRuns": 0,
    "gear": {
     "ilvlEquipped": 289,
     "slots": {
      "head": {
-      "ilvl": 289,
-      "enchantId": 8017,
-      "gems": []
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240983
-      ]
+      "ilvl": 289
      },
      "shoulder": {
-      "ilvl": 289,
-      "enchantId": 8001,
-      "gems": []
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "chest": {
-      "ilvl": 289,
-      "enchantId": 7987,
-      "gems": []
+      "ilvl": 289
      },
      "waist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "shirt": {
-      "ilvl": 1,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 1
      },
      "wrist": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "hands": {
-      "ilvl": 289,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 289
      },
      "legs": {
-      "ilvl": 289,
-      "enchantId": 7935,
-      "gems": []
+      "ilvl": 289
      },
      "feet": {
-      "ilvl": 285,
-      "enchantId": 7963,
-      "gems": []
+      "ilvl": 285
      },
      "finger1": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "finger2": {
-      "ilvl": 289,
-      "enchantId": 7967,
-      "gems": [
-       240900
-      ]
+      "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "trinket2": {
-      "ilvl": 285,
-      "enchantId": null,
-      "gems": []
+      "ilvl": 285
      },
      "mainhand": {
-      "ilvl": 295,
-      "enchantId": 8041,
-      "gems": []
+      "ilvl": 295
      },
      "offhand": {
-      "ilvl": 298,
-      "enchantId": 7983,
-      "gems": []
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-05T04:21:13.000Z"
