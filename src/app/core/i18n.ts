@@ -51,6 +51,8 @@ const en = {
     effortFloor: 'F at zero keys',
     mplusCap: 'Keys for full effort (2 resets)',
     mplusMinLevel: 'Minimum key level',
+    graduationIlvl: 'Graduation ilvl (geared → F = 1.0)',
+    rollThreshold: 'Roll-off threshold (%)',
     lootActivity: 'Recent loot & activity',
     lootWindow: 'Loot window (days)',
     casualMultiplier: 'Casual multiplier',
@@ -88,6 +90,9 @@ const en = {
     statusTooltip: 'Council decision — click to toggle in this browser (● = local override)',
     effortTooltip: (minLevel: number, cap: number) =>
       `Keys ≥${minLevel} over the last two weekly resets; ${cap}+ keys = 100%`,
+    graduated: 'M+ done',
+    graduatedTooltip:
+      'Equipped ilvl is past the graduation threshold — M+ no longer provides upgrades, so full effort factor applies without running keys',
     runsLabel: (n: number) => `${n} ${n === 1 ? 'key' : 'keys'}`,
     localOverride: 'Local override (this browser only)',
     noMatch: 'No players match.',
@@ -113,6 +118,8 @@ const en = {
     edited: 'edited',
     editedTooltip: 'This wish value was manually edited, not produced by a droptimizer report',
     noSim: 'no sim',
+    rollCall: (names: string, pct: number) =>
+      `Close call (within ${pct}%) — roll it off between: ${names}`,
     deltaUnknown: 'Equipped item level unknown — set manually',
     deltaAuto: 'Auto from equipped gear, editable',
     emptyCandidates: (difficulty: string) =>
@@ -160,7 +167,7 @@ const en = {
       'The DPS increase according to Raidbots (Droptimizer). For tanks and healers this value is 0. The main factor for guild progress.',
     effortName: 'F — M+ effort factor',
     effortDesc: (minLevel: number, cap: number) =>
-      `A multiplier on the whole score, from the effort score M (0–10): keys at level ${minLevel}+ over the last two weekly resets count, ${cap} keys or more = M 10 → F ×1.00; zero keys → the floor. Effort modulates need instead of replacing it: nobody wins an item they don't need just by farming, but between comparable upgrades the invested player always wins. (Full enchants and gems are assumed — they are not scored.)`,
+      `A multiplier on the whole score, from the effort score M (0–10): keys at level ${minLevel}+ over the last two weekly resets count, ${cap} keys or more = M 10 → F ×1.00; zero keys → the floor. Players geared past the graduation ilvl count as full effort — M+ no longer upgrades them, so stopping keys is not laziness. Effort modulates need instead of replacing it: nobody wins an item they don't need just by farming, but between comparable upgrades the invested player always wins. (Full enchants and gems are assumed — they are not scored.)`,
     lootName: 'L — recent loot',
     lootDesc: (days: number) =>
       `The number of items received in the last ${days} days. Prevents greed and gears the raid evenly.`,
@@ -237,6 +244,8 @@ const bg: Strings = {
     effortFloor: 'F при нула ключове',
     mplusCap: 'Ключове за пълен ефорт (2 reset-а)',
     mplusMinLevel: 'Минимално ниво на ключ',
+    graduationIlvl: 'Ilvl праг „M+ готов“ (F = 1.0)',
+    rollThreshold: 'Праг за roll (%)',
     lootActivity: 'Скорошен луут и активност',
     lootWindow: 'Луут прозорец (дни)',
     casualMultiplier: 'Множител за Нередовен',
@@ -274,6 +283,9 @@ const bg: Strings = {
     statusTooltip: 'Решение на съвета — кликни за смяна в този браузър (● = локална корекция)',
     effortTooltip: (minLevel: number, cap: number) =>
       `Ключове ≥${minLevel} за последните два седмични reset-а; ${cap}+ ключа = 100%`,
+    graduated: 'M+ готов',
+    graduatedTooltip:
+      'Ilvl-ът е над прага — M+ вече не дава ъпгрейди, затова пълният ефорт фактор важи и без ключове',
     runsLabel: (n: number) => `${n} ${n === 1 ? 'ключ' : 'ключа'}`,
     localOverride: 'Локална корекция (само този браузър)',
     noMatch: 'Няма съвпадащи играчи.',
@@ -299,6 +311,8 @@ const bg: Strings = {
     edited: 'редактиран',
     editedTooltip: 'Тази стойност е въведена ръчно, не идва от droptimizer репорт',
     noSim: 'без sim',
+    rollCall: (names: string, pct: number) =>
+      `Много близки резултати (в рамките на ${pct}%) — ролнете си: ${names}`,
     deltaUnknown: 'Неизвестен item level на екипирания предмет — въведи ръчно',
     deltaAuto: 'Автоматично от екипировката, може да се редактира',
     emptyCandidates: (difficulty: string) =>
@@ -346,7 +360,7 @@ const bg: Strings = {
       'Увеличението на DPS според Raidbots (Droptimizer). За танкове и хийлъри тази стойност е 0. Основен фактор за прогреса на гилдията.',
     effortName: 'F — M+ ефорт фактор',
     effortDesc: (minLevel: number, cap: number) =>
-      `Множител върху целия резултат, изчислен от ефорт скалата M (0–10): броят се ключове от ниво ${minLevel}+ за последните два седмични reset-а, ${cap} и повече ключа = M 10 → F ×1.00; нула ключове → минимума. Ефортът модулира нуждата, вместо да я замества: никой не печели предмет, който не му трябва, само с фармене — но при сравними ъпгрейди инвестираният играч винаги печели. (Пълните енчанти и камъни се подразбират — не се точкуват.)`,
+      `Множител върху целия резултат, изчислен от ефорт скалата M (0–10): броят се ключове от ниво ${minLevel}+ за последните два седмични reset-а, ${cap} и повече ключа = M 10 → F ×1.00; нула ключове → минимума. Играчи с ilvl над прага „M+ готов“ се водят с пълен ефорт — M+ вече не им дава ъпгрейди и спирането не е мързел. Ефортът модулира нуждата, вместо да я замества: никой не печели предмет, който не му трябва, само с фармене — но при сравними ъпгрейди инвестираният играч винаги печели. (Пълните енчанти и камъни се подразбират — не се точкуват.)`,
     lootName: 'L — скорошен луут',
     lootDesc: (days: number) =>
       `Броят предмети, получени през последните ${days} дни. Предотвратява лакомията и облича рейда равномерно.`,

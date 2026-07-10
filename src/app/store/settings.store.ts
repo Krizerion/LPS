@@ -3,9 +3,8 @@ import { getState, patchState, signalStore, withHooks, withMethods, withState } 
 import { DEFAULT_SETTINGS, LpsSettings } from '../core/lps';
 import { CharacterOverride } from '../core/models';
 
-// v4: effort became a multiplier (F) with capped absolute M, key-level filter,
-// and stale-sim cutoff; the additive effort weight is gone.
-const STORAGE_KEY = 'lps.settings.v4';
+// v5: 7-day loot window, M+ graduation ilvl, roll-off threshold.
+const STORAGE_KEY = 'lps.settings.v5';
 
 /** GitHub connection for the manual "refresh data" button (token never leaves this browser). */
 export interface GithubConfig {

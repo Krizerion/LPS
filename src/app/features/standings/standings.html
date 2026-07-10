@@ -100,14 +100,20 @@
                 class="effort-cell"
                 [title]="t().standings.effortTooltip(settings.settings().mplusMinLevel, settings.settings().mplusCapRuns)"
               >
-                <span
-                  class="badge"
-                  [class.good]="row.effortScore >= 7"
-                  [class.warn]="row.effortScore >= 3 && row.effortScore < 7"
-                  [class.bad]="row.effortScore < 3"
-                >
-                  {{ row.effortScore * 10 | number: '1.0-0' }}%
-                </span>
+                @if (row.effortGraduated) {
+                  <span class="badge good" [title]="t().standings.graduatedTooltip">
+                    ✓ {{ t().standings.graduated }}
+                  </span>
+                } @else {
+                  <span
+                    class="badge"
+                    [class.good]="row.effortScore >= 7"
+                    [class.warn]="row.effortScore >= 3 && row.effortScore < 7"
+                    [class.bad]="row.effortScore < 3"
+                  >
+                    {{ row.effortScore * 10 | number: '1.0-0' }}%
+                  </span>
+                }
                 <span class="muted runs">
                   {{ t().standings.runsLabel(row.mplusRuns) }}
                   @if (row.mplusTotalRuns > row.mplusRuns) {

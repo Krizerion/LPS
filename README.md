@@ -12,13 +12,16 @@ LPS = ((ΔI × 0.2) + (S × 5)) / (1 + L) × A × F
 | -------- | ------------------------------------------------------------------ | ------------------------- |
 | ΔI       | Item level difference vs. the equipped item                        | Raider.IO gear (editable) |
 | S        | Droptimizer sim upgrade %; 0 for tanks/healers or stale sims (>14d)| wowaudit wishlists        |
-| L        | Items received in the last 14/21 days                              | wowaudit loot history     |
+| L        | Items received in the last 7 days                                  | wowaudit loot history     |
 | A        | Activity multiplier (Редовен 1.0 / Нередовен 0.75)                 | loot-council decision     |
 | F        | M+ effort factor 0.70–1.00: keys ≥10 over the last 2 resets, 8 = max | wowaudit historical data |
 
 Effort *modulates* need instead of replacing it: nobody wins an item they don't need by
-farming keys, but between comparable upgrades the invested player wins. Enchants and gems
-are deliberately not scored — being fully enchanted is assumed.
+farming keys, but between comparable upgrades the invested player wins. Players geared past
+the graduation ilvl (default 272, the mythic track cutoff) count as full effort — M+ can no
+longer upgrade them, so stopping keys is not laziness. When the top candidates land within
+10% of each other, the Council view tells them to roll it off. Enchants and gems are
+deliberately not scored — being fully enchanted is assumed.
 
 The UI is bilingual (Bulgarian default, EN toggle in the top bar). All weights are
 configurable in the ⚙ settings drawer (persisted in your browser). The full ruleset,

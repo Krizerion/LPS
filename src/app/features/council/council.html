@@ -109,6 +109,13 @@
             </div>
           </div>
 
+          @if (rollCount() > 1) {
+            <div class="roll-banner">
+              🎲
+              {{ t().council.rollCall(rollNames(), settings.settings().rollThresholdPct) }}
+            </div>
+          }
+
           <table class="data">
             <thead>
               <tr>
@@ -125,7 +132,10 @@
             </thead>
             <tbody>
               @for (c of candidates(); track c.character.id; let i = $index) {
-                <tr [class.winner]="i === 0">
+                <tr
+                  [class.winner]="i === 0 && rollCount() < 2"
+                  [class.roll-candidate]="rollCount() > 1 && i < rollCount()"
+                >
                   <td class="rank">{{ i + 1 }}</td>
                   <td>
                     <span class="player" [style.color]="classColor(c.character.class)">

@@ -159,6 +159,14 @@
           (ngModelChange)="patch({ mplusMinLevel: $event })"
         />
       </label>
+      <label>
+        <span>{{ t().settings.graduationIlvl }}</span>
+        <input
+          type="number"
+          [ngModel]="s.effortGraduationIlvl"
+          (ngModelChange)="patch({ effortGraduationIlvl: $event })"
+        />
+      </label>
     </section>
 
     <section>
@@ -178,6 +186,14 @@
           step="0.05"
           [ngModel]="s.casualMultiplier"
           (ngModelChange)="patch({ casualMultiplier: $event })"
+        />
+      </label>
+      <label>
+        <span>{{ t().settings.rollThreshold }}</span>
+        <input
+          type="number"
+          [ngModel]="s.rollThresholdPct"
+          (ngModelChange)="patch({ rollThresholdPct: $event })"
         />
       </label>
       <label>

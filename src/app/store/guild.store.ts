@@ -14,10 +14,10 @@ import {
   activityMultiplier,
   computeLps,
   deltaIlvlForItem,
+  effortScoreFor,
   isSimFresh,
   isTankOrHealer,
   LpsBreakdown,
-  mplusEffortScore,
   qualifyingRuns,
 } from '../core/lps';
 import {
@@ -46,8 +46,10 @@ export interface PlayerSummary {
   mplusRuns: number;
   /** Total keys regardless of level (shown as context). */
   mplusTotalRuns: number;
-  /** Capped absolute effort 0..10 (mplusCapRuns keys = 10). */
+  /** Capped absolute effort 0..10 (mplusCapRuns keys = 10, or graduated). */
   effortScore: number;
+  /** True when equipped ilvl passed the graduation threshold — M+ can't upgrade them. */
+  effortGraduated: boolean;
   recentLoot: number;
   totalLoot: number;
   lastLootAt: string | null;
@@ -125,6 +127,7 @@ export const GuildStore = signalStore(
         const override = overrides[character.id];
         const levels = character.mplusDungeons ?? [];
         const qualifying = qualifyingRuns(levels, settings.mplusMinLevel);
+        const effort = effortScoreFor(levels, character.gear?.ilvlEquipped ?? null, settings);
         const own = loot.filter((l) => l.characterId === character.id && !l.discarded);
         const lastLootAt = own.length
           ? own.reduce((a, b) => (a.awardedAt > b.awardedAt ? a : b)).awardedAt
@@ -142,7 +145,8 @@ export const GuildStore = signalStore(
           activityOverridden: override?.activity != null,
           mplusRuns: qualifying,
           mplusTotalRuns: levels.length,
-          effortScore: mplusEffortScore(qualifying, settings.mplusCapRuns),
+          effortScore: effort.score,
+          effortGraduated: effort.graduated,
           recentLoot: recent.get(character.id) ?? 0,
           totalLoot: own.filter((l) => !l.excluded).length,
           lastLootAt,

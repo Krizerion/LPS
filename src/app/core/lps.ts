@@ -37,13 +37,21 @@ export interface LpsSettings {
   mplusCapRuns: number;
   /** Keys below this level don't count towards effort. */
   mplusMinLevel: number;
+  /**
+   * Players whose equipped ilvl is at or above this are "graduated" — M+ no
+   * longer provides upgrades for them, so stopping keys is rational and they
+   * get the full effort factor.
+   */
+  effortGraduationIlvl: number;
   /** Sims older than this contribute S = 0. */
   simMaxAgeDays: number;
+  /** Top candidates within this % of #1 should roll the item off. */
+  rollThresholdPct: number;
 }
 
 export const DEFAULT_SETTINGS: LpsSettings = {
   weights: { deltaIlvl: 0.2, simPercent: 5 },
-  lootWindowDays: 14,
+  lootWindowDays: 7,
   regularMultiplier: 1.0,
   casualMultiplier: 0.75,
   // Midnight Season 1 track cutoffs; real values come from meta.json seasonIlvls.
@@ -52,7 +60,10 @@ export const DEFAULT_SETTINGS: LpsSettings = {
   effortFloor: 0.7,
   mplusCapRuns: 8,
   mplusMinLevel: 10,
+  // The mythic track cutoff — at this ilvl the M+ vault stops being an upgrade.
+  effortGraduationIlvl: 272,
   simMaxAgeDays: 14,
+  rollThresholdPct: 10,
 };
 
 export interface LpsInput {
@@ -103,6 +114,39 @@ export function mplusEffortScore(qualifyingRuns: number, capRuns: number): numbe
 /** Runs at or above the minimum key level count towards effort. */
 export function qualifyingRuns(dungeonLevels: number[], minLevel: number): number {
   return dungeonLevels.filter((level) => level >= minLevel).length;
+}
+
+/**
+ * The effort score, with the graduation rule: a player geared past the point
+ * where M+ provides upgrades has finished that farm — no keys required.
+ */
+export function effortScoreFor(
+  dungeonLevels: number[],
+  equippedIlvl: number | null,
+  settings: Pick<LpsSettings, 'mplusCapRuns' | 'mplusMinLevel' | 'effortGraduationIlvl'>,
+): { score: number; graduated: boolean } {
+  if (equippedIlvl != null && equippedIlvl >= settings.effortGraduationIlvl) {
+    return { score: 10, graduated: true };
+  }
+  return {
+    score: mplusEffortScore(
+      qualifyingRuns(dungeonLevels, settings.mplusMinLevel),
+      settings.mplusCapRuns,
+    ),
+    graduated: false,
+  };
+}
+
+/**
+ * How many leading candidates (sorted by total, descending) are within
+ * thresholdPct of the top score — 2 or more means "roll it off".
+ */
+export function closeCallCount(sortedTotals: number[], thresholdPct: number): number {
+  if (sortedTotals.length < 2 || sortedTotals[0] <= 0) return 1;
+  const cutoff = sortedTotals[0] * (1 - thresholdPct / 100);
+  let count = 1;
+  while (count < sortedTotals.length && sortedTotals[count] >= cutoff) count++;
+  return count;
 }
 
 /** A sim only counts while it's fresh; stale droptimizers contribute S = 0. */

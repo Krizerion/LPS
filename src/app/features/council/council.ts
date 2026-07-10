@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { GuildStore } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
 import { Difficulty, EncounterItem } from '../../core/models';
-import { isSimFresh } from '../../core/lps';
+import { closeCallCount, isSimFresh } from '../../core/lps';
 import { I18nStore } from '../../core/i18n';
 import { classColor, iconUrl, refreshWowheadLinks, ROLE_ICONS, slotLabel, wowheadUrl } from '../../shared/wow';
 
@@ -93,6 +93,21 @@ export class Council {
 
   protected readonly maxLps = computed(() =>
     Math.max(1, ...this.candidates().map((c) => c.breakdown.total)),
+  );
+
+  /** How many leading candidates are close enough that the item should be rolled off. */
+  protected readonly rollCount = computed(() =>
+    closeCallCount(
+      this.candidates().map((c) => c.breakdown.total),
+      this.settings.settings().rollThresholdPct,
+    ),
+  );
+
+  protected readonly rollNames = computed(() =>
+    this.candidates()
+      .slice(0, this.rollCount())
+      .map((c) => c.character.name)
+      .join(', '),
   );
 
   protected isTierItem(item: EncounterItem): boolean {

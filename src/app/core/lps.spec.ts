@@ -1,9 +1,11 @@
 import {
   activityMultiplier,
+  closeCallCount,
   computeLps,
   DEFAULT_SETTINGS,
   deltaIlvlForItem,
   effortFactor,
+  effortScoreFor,
   isSimFresh,
   mplusEffortScore,
   qualifyingRuns,
@@ -107,6 +109,38 @@ describe('qualifyingRuns', () => {
   it('counts only keys at or above the minimum level', () => {
     expect(qualifyingRuns([2, 9, 10, 12, 15], 10)).toBe(3);
     expect(qualifyingRuns([], 10)).toBe(0);
+  });
+});
+
+describe('effortScoreFor (graduation rule)', () => {
+  it('grants full effort to players geared past the graduation ilvl', () => {
+    // 290 equipped, zero keys — M+ can't upgrade them, stopping is rational.
+    expect(effortScoreFor([], 290, S)).toEqual({ score: 10, graduated: true });
+  });
+
+  it('requires keys below the graduation ilvl', () => {
+    expect(effortScoreFor([], 260, S)).toEqual({ score: 0, graduated: false });
+    expect(effortScoreFor([12, 12, 12, 12], 260, S)).toEqual({ score: 5, graduated: false });
+  });
+
+  it('treats unknown gear as not graduated', () => {
+    expect(effortScoreFor([12, 12], null, S).graduated).toBe(false);
+  });
+});
+
+describe('closeCallCount (roll-off rule)', () => {
+  it('flags candidates within the threshold of the top score', () => {
+    expect(closeCallCount([10, 9.5, 9.2, 5], 10)).toBe(3);
+  });
+
+  it('is 1 when the winner is clear', () => {
+    expect(closeCallCount([10, 8.9, 5], 10)).toBe(1);
+  });
+
+  it('handles single or zero-score candidate lists', () => {
+    expect(closeCallCount([10], 10)).toBe(1);
+    expect(closeCallCount([], 10)).toBe(1);
+    expect(closeCallCount([0, 0], 10)).toBe(1);
   });
 });
 
