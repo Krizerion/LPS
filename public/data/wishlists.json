@@ -133,12 +133,6 @@
        "name": "Locus-Walker's Ribbon",
        "slot": "trinket",
        "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
-      },
-      {
-       "id": 249312,
-       "name": "Nightblade's Pantaloons",
-       "slot": "legs",
-       "icon": "inv_pant_leather_raidroguemidnight_d_01"
       }
      ]
     }
@@ -513,40 +507,6 @@
    "wishlistWeight": 1,
    "percentage": 0.4893,
    "absolute": 395.7093,
-   "updatedAt": "2026-07-09T17:57:44.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 4608756,
-   "itemId": 249368,
-   "itemName": "Eternal Voidsong Chain",
-   "slot": "neck",
-   "instanceId": 73,
-   "encounter": "Crown of the Cosmos",
-   "difficulty": "mythic",
-   "spec": "Devourer",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 4.7691,
-   "absolute": 3857.1347,
-   "updatedAt": "2026-07-09T17:57:44.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 4608756,
-   "itemId": 249312,
-   "itemName": "Nightblade's Pantaloons",
-   "slot": "legs",
-   "instanceId": 73,
-   "encounter": "Crown of the Cosmos",
-   "difficulty": "mythic",
-   "spec": "Devourer",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.8542,
-   "absolute": 690.8502,
    "updatedAt": "2026-07-09T17:57:44.000+00:00",
    "manuallyEdited": false,
    "comment": null
