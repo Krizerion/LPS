@@ -79,6 +79,22 @@ daily (plus extra runs on raid evenings — adjust the cron in
 `.github/workflows/refresh-data.yml`), commits the new snapshot, and redeploys the site. You
 can also trigger it manually from the Actions tab right after a raid.
 
+## New raids and seasons
+
+Nothing to change in code. Everything season-specific flows from wowaudit's season
+metadata on every data refresh:
+
+- raid instances, bosses, and per-boss drop item levels (Council boss list & drop ilvls)
+- difficulty ilvl cutoffs and their spacing (drop ilvl per difficulty)
+- tier set piece ids and the omnitoken name (tier badges & hard-reserve reminder)
+- the M+ key level that awards Myth-track vault items (default minimum key level for effort)
+- the mythic track cutoff (default "M+ done" graduation ilvl)
+
+When a new patch drops, the next refresh (scheduled, ⟳ button, or `npm run fetch-data`)
+picks up the new raid and thresholds automatically. Item icons for new items are resolved
+from Wowhead on the fly. The graduation rule re-arms itself: everyone falls below the new
+cutoff, so the effort factor starts working again from day one.
+
 ## Project layout
 
 - `scripts/fetch-data.mjs` — pulls wowaudit v1 API + Raider.IO gear → `public/data/*.json`

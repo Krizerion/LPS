@@ -48,7 +48,7 @@
           <td>
             <strong>{{ t().rules.effortName }}</strong>
           </td>
-          <td>{{ t().rules.effortDesc(s.mplusMinLevel, s.mplusCapRuns) }}</td>
+          <td>{{ t().rules.effortDesc(guild.resolvedMplusMinLevel(), s.mplusCapRuns) }}</td>
           <td>
             <span class="badge neutral">
               × {{ s.effortFloor | number: '1.1-2' }}–1.0

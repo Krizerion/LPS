@@ -155,6 +155,7 @@
         <span>{{ t().settings.mplusMinLevel }}</span>
         <input
           type="number"
+          [placeholder]="t().settings.autoValue(guild.resolvedMplusMinLevel())"
           [ngModel]="s.mplusMinLevel"
           (ngModelChange)="patch({ mplusMinLevel: $event })"
         />
@@ -163,6 +164,7 @@
         <span>{{ t().settings.graduationIlvl }}</span>
         <input
           type="number"
+          [placeholder]="t().settings.autoValue(guild.resolvedGraduationIlvl())"
           [ngModel]="s.effortGraduationIlvl"
           (ngModelChange)="patch({ effortGraduationIlvl: $event })"
         />

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-09T19:58:10.052Z",
+ "fetchedAt": "2026-07-10T04:34:28.965Z",
  "team": {
   "name": "TERRA ACADEMY",
   "guildName": "TERRA",
@@ -12,6 +12,7 @@
   "heroic": 259,
   "mythic": 272
  },
+ "vaultMythKeyLevel": 10,
  "tierItemIds": [
   250042,
   250033,

@@ -126,6 +126,8 @@ export interface DataMeta {
   season: string | null;
   /** Base drop ilvl per difficulty from the season's track cutoffs. */
   seasonIlvls?: Partial<Record<Difficulty, number | null>>;
+  /** Lowest key level that awards a Myth-track vault item this season. */
+  vaultMythKeyLevel?: number | null;
   /** Item ids of tier-set pieces (hard-reserve rule: complete 2p/4p first). */
   tierItemIds?: number[];
   /** Name of the omni tier token, e.g. "Chiming Void Curio". */

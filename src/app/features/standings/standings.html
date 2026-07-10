@@ -42,7 +42,7 @@
           <th
             class="sortable"
             (click)="sortBy('effort')"
-            [title]="t().standings.effortTooltip(settings.settings().mplusMinLevel, settings.settings().mplusCapRuns)"
+            [title]="t().standings.effortTooltip(guild.resolvedMplusMinLevel(), settings.settings().mplusCapRuns)"
           >
             {{ t().standings.colEffort }}
           </th>
@@ -98,7 +98,7 @@
             <td>
               <span
                 class="effort-cell"
-                [title]="t().standings.effortTooltip(settings.settings().mplusMinLevel, settings.settings().mplusCapRuns)"
+                [title]="t().standings.effortTooltip(guild.resolvedMplusMinLevel(), settings.settings().mplusCapRuns)"
               >
                 @if (row.effortGraduated) {
                   <span class="badge good" [title]="t().standings.graduatedTooltip">

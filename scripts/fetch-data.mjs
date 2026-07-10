@@ -296,6 +296,16 @@ async function main() {
 
   const tierItemIds = Object.values(season.tier_items_by_slot ?? {}).flat();
 
+  // Lowest key level whose weekly vault reward is Myth track — the app uses it
+  // as the default minimum key level that counts towards M+ effort.
+  let vaultMythKeyLevel = null;
+  for (const [level, reward] of Object.entries(season.metadata?.great_vault?.dungeon ?? {})) {
+    const n = Number(level);
+    if (reward?.track === 'Myth' && n > 0 && (vaultMythKeyLevel == null || n < vaultMythKeyLevel)) {
+      vaultMythKeyLevel = n;
+    }
+  }
+
   const wishlists = flattenWishlists(wishlistsRaw, seasonInstances);
   await enrichIcons(wishlists.instances);
 
@@ -364,6 +374,7 @@ async function main() {
     },
     season: [season.expansion, season.name].filter(Boolean).join(' — ') || null,
     seasonIlvls,
+    vaultMythKeyLevel,
     tierItemIds,
     omnitokenName: season.tier_omnitoken?.name ?? null,
   };

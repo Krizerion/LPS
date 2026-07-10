@@ -59,12 +59,19 @@ export class Council {
     () => this.instance()?.encounters.find((e) => e.name === this.encounterName()) ?? null,
   );
 
-  /** Difficulty steps are 13 ilvls apart (track cutoffs), counting down from mythic. */
-  private static readonly DIFFICULTY_OFFSET: Record<Difficulty, number> = {
-    mythic: 0,
-    heroic: 13,
-    normal: 26,
-  };
+  /**
+   * Difficulty steps below mythic, derived from the season's track cutoffs
+   * (13 apart in Midnight S1) so a future season with different spacing
+   * works without a code change.
+   */
+  protected readonly difficultyOffsets = computed<Record<Difficulty, number>>(() => {
+    const s = this.guild.meta()?.seasonIlvls;
+    return {
+      mythic: 0,
+      heroic: s?.mythic != null && s?.heroic != null ? s.mythic - s.heroic : 13,
+      normal: s?.mythic != null && s?.normal != null ? s.mythic - s.normal : 26,
+    };
+  });
 
   protected readonly dropIlvl = computed(() => {
     const override = this.dropIlvlOverride();
@@ -72,7 +79,7 @@ export class Council {
     const difficulty = this.difficulty();
     // Per-boss max ilvl (bosses deeper in the raid drop higher) beats season/settings defaults.
     const bossMax = this.encounter()?.maxItemLevel;
-    if (bossMax != null) return bossMax - Council.DIFFICULTY_OFFSET[difficulty];
+    if (bossMax != null) return bossMax - this.difficultyOffsets()[difficulty];
     return (
       this.guild.meta()?.seasonIlvls?.[difficulty] ??
       this.settings.settings().difficultyIlvl[difficulty]

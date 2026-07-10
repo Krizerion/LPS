@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
+import { GuildStore } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
 import { I18nStore } from '../../core/i18n';
 import { computeLps } from '../../core/lps';
@@ -12,6 +13,7 @@ import { computeLps } from '../../core/lps';
 })
 export class Rules {
   protected readonly settings = inject(SettingsStore);
+  protected readonly guild = inject(GuildStore);
   protected readonly t = inject(I18nStore).t;
 
   /** The two worked examples from the guild rules, recomputed with live weights. */

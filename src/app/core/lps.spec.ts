@@ -113,18 +113,25 @@ describe('qualifyingRuns', () => {
 });
 
 describe('effortScoreFor (graduation rule)', () => {
+  const opts = { capRuns: 8, minLevel: 10, graduationIlvl: 272 };
+
   it('grants full effort to players geared past the graduation ilvl', () => {
     // 290 equipped, zero keys — M+ can't upgrade them, stopping is rational.
-    expect(effortScoreFor([], 290, S)).toEqual({ score: 10, graduated: true });
+    expect(effortScoreFor([], 290, opts)).toEqual({ score: 10, graduated: true });
   });
 
   it('requires keys below the graduation ilvl', () => {
-    expect(effortScoreFor([], 260, S)).toEqual({ score: 0, graduated: false });
-    expect(effortScoreFor([12, 12, 12, 12], 260, S)).toEqual({ score: 5, graduated: false });
+    expect(effortScoreFor([], 260, opts)).toEqual({ score: 0, graduated: false });
+    expect(effortScoreFor([12, 12, 12, 12], 260, opts)).toEqual({ score: 5, graduated: false });
   });
 
   it('treats unknown gear as not graduated', () => {
-    expect(effortScoreFor([12, 12], null, S).graduated).toBe(false);
+    expect(effortScoreFor([12, 12], null, opts).graduated).toBe(false);
+  });
+
+  it('re-arms next season: a higher graduation ilvl de-graduates last season gear', () => {
+    // Same 290 gear, but the new season's mythic cutoff is 298.
+    expect(effortScoreFor([], 290, { ...opts, graduationIlvl: 298 }).graduated).toBe(false);
   });
 });
 

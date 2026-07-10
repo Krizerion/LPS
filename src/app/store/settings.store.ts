@@ -3,8 +3,9 @@ import { getState, patchState, signalStore, withHooks, withMethods, withState } 
 import { DEFAULT_SETTINGS, LpsSettings } from '../core/lps';
 import { CharacterOverride } from '../core/models';
 
-// v5: 7-day loot window, M+ graduation ilvl, roll-off threshold.
-const STORAGE_KEY = 'lps.settings.v5';
+// v6: graduation ilvl and min key level default to "auto" (resolved from the
+// season snapshot), so a new season never runs with stale thresholds.
+const STORAGE_KEY = 'lps.settings.v6';
 
 /** GitHub connection for the manual "refresh data" button (token never leaves this browser). */
 export interface GithubConfig {

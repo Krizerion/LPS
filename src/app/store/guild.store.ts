@@ -15,6 +15,8 @@ import {
   computeLps,
   deltaIlvlForItem,
   effortScoreFor,
+  FALLBACK_GRADUATION_ILVL,
+  FALLBACK_MPLUS_MIN_LEVEL,
   isSimFresh,
   isTankOrHealer,
   LpsBreakdown,
@@ -101,6 +103,19 @@ export const GuildStore = signalStore(
       for (const c of store.roster()) map.set(c.id, c);
       return map;
     }),
+    /** Setting override > current season data > static fallback. */
+    resolvedMplusMinLevel: computed(
+      () =>
+        store._settings.settings().mplusMinLevel ??
+        store.meta()?.vaultMythKeyLevel ??
+        FALLBACK_MPLUS_MIN_LEVEL,
+    ),
+    resolvedGraduationIlvl: computed(
+      () =>
+        store._settings.settings().effortGraduationIlvl ??
+        store.meta()?.seasonIlvls?.mythic ??
+        FALLBACK_GRADUATION_ILVL,
+    ),
     /** Non-discarded, non-excluded awards inside the recent-loot window. */
     recentLootById: computed(() => {
       const windowDays = store._settings.settings().lootWindowDays;
@@ -126,8 +141,12 @@ export const GuildStore = signalStore(
       return store.roster().map((character) => {
         const override = overrides[character.id];
         const levels = character.mplusDungeons ?? [];
-        const qualifying = qualifyingRuns(levels, settings.mplusMinLevel);
-        const effort = effortScoreFor(levels, character.gear?.ilvlEquipped ?? null, settings);
+        const qualifying = qualifyingRuns(levels, store.resolvedMplusMinLevel());
+        const effort = effortScoreFor(levels, character.gear?.ilvlEquipped ?? null, {
+          capRuns: settings.mplusCapRuns,
+          minLevel: store.resolvedMplusMinLevel(),
+          graduationIlvl: store.resolvedGraduationIlvl(),
+        });
         const own = loot.filter((l) => l.characterId === character.id && !l.discarded);
         const lastLootAt = own.length
           ? own.reduce((a, b) => (a.awardedAt > b.awardedAt ? a : b)).awardedAt

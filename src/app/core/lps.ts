@@ -35,14 +35,20 @@ export interface LpsSettings {
   effortFloor: number;
   /** This many qualifying keys (or more) over two resets = full effort. */
   mplusCapRuns: number;
-  /** Keys below this level don't count towards effort. */
-  mplusMinLevel: number;
+  /**
+   * Keys below this level don't count towards effort.
+   * null = auto: the lowest key level that awards a Myth-track vault item,
+   * taken from the current season's data (meta.json).
+   */
+  mplusMinLevel: number | null;
   /**
    * Players whose equipped ilvl is at or above this are "graduated" — M+ no
    * longer provides upgrades for them, so stopping keys is rational and they
    * get the full effort factor.
+   * null = auto: the season's mythic track cutoff from meta.json, so the rule
+   * re-arms itself every new season without touching code or settings.
    */
-  effortGraduationIlvl: number;
+  effortGraduationIlvl: number | null;
   /** Sims older than this contribute S = 0. */
   simMaxAgeDays: number;
   /** Top candidates within this % of #1 should roll the item off. */
@@ -59,12 +65,15 @@ export const DEFAULT_SETTINGS: LpsSettings = {
   zeroSimForTanksHealers: true,
   effortFloor: 0.7,
   mplusCapRuns: 8,
-  mplusMinLevel: 10,
-  // The mythic track cutoff — at this ilvl the M+ vault stops being an upgrade.
-  effortGraduationIlvl: 272,
+  mplusMinLevel: null,
+  effortGraduationIlvl: null,
   simMaxAgeDays: 14,
   rollThresholdPct: 10,
 };
+
+/** Fallbacks when neither the setting nor the season data provides a value. */
+export const FALLBACK_MPLUS_MIN_LEVEL = 10;
+export const FALLBACK_GRADUATION_ILVL = 272;
 
 export interface LpsInput {
   deltaIlvl: number;
@@ -123,16 +132,13 @@ export function qualifyingRuns(dungeonLevels: number[], minLevel: number): numbe
 export function effortScoreFor(
   dungeonLevels: number[],
   equippedIlvl: number | null,
-  settings: Pick<LpsSettings, 'mplusCapRuns' | 'mplusMinLevel' | 'effortGraduationIlvl'>,
+  opts: { capRuns: number; minLevel: number; graduationIlvl: number },
 ): { score: number; graduated: boolean } {
-  if (equippedIlvl != null && equippedIlvl >= settings.effortGraduationIlvl) {
+  if (equippedIlvl != null && equippedIlvl >= opts.graduationIlvl) {
     return { score: 10, graduated: true };
   }
   return {
-    score: mplusEffortScore(
-      qualifyingRuns(dungeonLevels, settings.mplusMinLevel),
-      settings.mplusCapRuns,
-    ),
+    score: mplusEffortScore(qualifyingRuns(dungeonLevels, opts.minLevel), opts.capRuns),
     graduated: false,
   };
 }
