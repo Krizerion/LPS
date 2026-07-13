@@ -1,15 +1,20 @@
 {
- "startDate": "2026-05-13",
+ "startDate": "2026-05-14",
  "endDate": null,
  "characters": [
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
+   "characterId": 4608756,
+   "name": "Nelfers",
    "attendedPercentage": 100
   },
   {
    "characterId": 5053378,
    "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
@@ -63,11 +68,6 @@
    "attendedPercentage": 94.11764705882352
   },
   {
-   "characterId": 4608756,
-   "name": "Nelfers",
-   "attendedPercentage": 94.11764705882352
-  },
-  {
    "characterId": 3809470,
    "name": "Xpactt",
    "attendedPercentage": 94.11764705882352
@@ -78,14 +78,9 @@
    "attendedPercentage": 88.23529411764706
   },
   {
-   "characterId": 5121920,
-   "name": "Zhorovpal",
-   "attendedPercentage": 85.71428571428571
-  },
-  {
    "characterId": 5128152,
    "name": "Thecrit",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 5021541,
@@ -95,27 +90,32 @@
   {
    "characterId": 5084038,
    "name": "Nanipal",
-   "attendedPercentage": 75
+   "attendedPercentage": 76.47058823529412
   },
   {
    "characterId": 5067979,
    "name": "Kalestie",
-   "attendedPercentage": 73.33333333333333
+   "attendedPercentage": 75
+  },
+  {
+   "characterId": 5121920,
+   "name": "Zhorovpal",
+   "attendedPercentage": 75
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 70.58823529411765
+   "attendedPercentage": 64.70588235294117
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 64.70588235294117
+   "attendedPercentage": 58.82352941176471
   },
   {
    "characterId": 5035198,
    "name": "Dalt",
-   "attendedPercentage": 29.41176470588236
+   "attendedPercentage": 23.52941176470588
   },
   {
    "characterId": 5099718,

@@ -263,7 +263,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-10T00:12:42.000Z"
+    "updatedAt": "2026-07-13T03:50:53.000Z"
    }
   },
   {
@@ -846,7 +846,7 @@
       "ilvl": 285
      },
      "finger1": {
-      "ilvl": 298
+      "ilvl": 285
      },
      "finger2": {
       "ilvl": 289
@@ -861,7 +861,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-09T18:41:28.000Z"
+    "updatedAt": "2026-07-13T08:16:50.000Z"
    }
   },
   {
@@ -1004,6 +1004,7 @@
    "note": "Явор",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    10,
     10
    ],
    "gear": {
@@ -1444,7 +1445,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-10T00:12:46.000Z"
+    "updatedAt": "2026-07-13T03:04:49.000Z"
    }
   },
   {
@@ -1589,7 +1590,12 @@
    "status": "tracking",
    "note": "Стоян",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    10,
+    10,
+    10,
+    10
+   ],
    "gear": {
     "ilvlEquipped": 293,
     "slots": {
@@ -1639,7 +1645,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-08T22:05:36.000Z"
+    "updatedAt": "2026-07-12T20:16:48.000Z"
    }
   },
   {
@@ -1657,6 +1663,7 @@
     10,
     21,
     20,
+    21,
     21,
     21,
     21,
