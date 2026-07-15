@@ -813,7 +813,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 291,
+    "ilvlEquipped": 291.312,
     "slots": {
      "head": {
       "ilvl": 289
@@ -849,7 +849,7 @@
       "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298
+      "ilvl": 289
      },
      "trinket1": {
       "ilvl": 298
@@ -858,9 +858,6 @@
       "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298
-     },
-     "offhand": {
       "ilvl": 298
      }
     },
@@ -1858,7 +1855,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-14T21:31:14.000Z"
+    "updatedAt": "2026-07-15T09:57:05.000Z"
    }
   },
   {
