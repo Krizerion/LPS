@@ -1,10 +1,15 @@
 {
- "startDate": "2026-05-15",
+ "startDate": "2026-05-16",
  "endDate": null,
  "characters": [
   {
    "characterId": 4608756,
    "name": "Nelfers",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 100
   },
   {
@@ -18,13 +23,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050159,
-   "name": "Tyreåh",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021440,
-   "name": "Racor",
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
    "attendedPercentage": 100
   },
   {
@@ -38,84 +38,84 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5113215,
-   "name": "Vikvoker",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 100
+   "characterId": 5050159,
+   "name": "Tyreåh",
+   "attendedPercentage": 94.44444444444444
   },
   {
    "characterId": 5066198,
    "name": "Krizerio",
-   "attendedPercentage": 100
+   "attendedPercentage": 93.75
   },
   {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 94.11764705882352
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 91.66666666666666
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 94.11764705882352
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 5066215,
    "name": "Monkies",
-   "attendedPercentage": 88.23529411764706
+   "attendedPercentage": 88.88888888888889
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 88.88888888888889
+  },
+  {
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 88.88888888888889
   },
   {
    "characterId": 5128152,
    "name": "Thecrit",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
+  },
+  {
+   "characterId": 5021440,
+   "name": "Racor",
+   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 5021541,
    "name": "Soulshackle",
-   "attendedPercentage": 82.35294117647058
+   "attendedPercentage": 77.77777777777779
   },
   {
    "characterId": 5084038,
    "name": "Nanipal",
-   "attendedPercentage": 76.47058823529412
+   "attendedPercentage": 72.22222222222221
   },
   {
    "characterId": 5067979,
    "name": "Kalestie",
-   "attendedPercentage": 75
+   "attendedPercentage": 70.58823529411765
   },
   {
    "characterId": 5121920,
    "name": "Zhorovpal",
-   "attendedPercentage": 75
+   "attendedPercentage": 66.66666666666666
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 64.70588235294117
+   "attendedPercentage": 61.11111111111111
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 58.82352941176471
+   "attendedPercentage": 55.55555555555556
   },
   {
    "characterId": 5035198,
    "name": "Dalt",
-   "attendedPercentage": 23.52941176470588
+   "attendedPercentage": 22.22222222222222
   },
   {
    "characterId": 5099718,
