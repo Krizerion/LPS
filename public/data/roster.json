@@ -654,7 +654,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-13T19:58:57.000Z"
+    "updatedAt": "2026-07-18T01:44:34.000Z"
    }
   },
   {
@@ -803,10 +803,12 @@
    "note": "Вальо",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    10,
+    13,
     12
    ],
    "gear": {
-    "ilvlEquipped": 291.312,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 289
@@ -854,7 +856,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-14T18:57:04.000Z"
+    "updatedAt": "2026-07-17T14:33:28.000Z"
    }
   },
   {
@@ -1307,7 +1309,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-14T19:52:07.000Z"
+    "updatedAt": "2026-07-17T23:32:27.000Z"
    }
   },
   {
@@ -1453,7 +1455,7 @@
     13
    ],
    "gear": {
-    "ilvlEquipped": 292.312,
+    "ilvlEquipped": 292,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1501,7 +1503,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-14T21:12:07.000Z"
+    "updatedAt": "2026-07-18T01:44:33.000Z"
    }
   },
   {
@@ -1658,7 +1660,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 291.5,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1706,7 +1708,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-15T22:33:16.000Z"
+    "updatedAt": "2026-07-17T23:58:26.000Z"
    }
   },
   {
@@ -1901,7 +1903,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-14T07:49:09.000Z"
+    "updatedAt": "2026-07-17T12:25:10.000Z"
    }
   },
   {
