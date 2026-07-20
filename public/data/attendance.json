@@ -1,5 +1,5 @@
 {
- "startDate": "2026-05-20",
+ "startDate": "2026-05-21",
  "endDate": null,
  "characters": [
   {
@@ -63,19 +63,19 @@
    "attendedPercentage": 100
   },
   {
+   "characterId": 5066215,
+   "name": "Monkies",
+   "attendedPercentage": 93.33333333333333
+  },
+  {
    "characterId": 5053387,
    "name": "Zelyo",
-   "attendedPercentage": 93.75
+   "attendedPercentage": 93.33333333333333
   },
   {
    "characterId": 3809470,
    "name": "Xpactt",
-   "attendedPercentage": 93.75
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 93.33333333333333
   },
   {
    "characterId": 5128152,
@@ -85,17 +85,12 @@
   {
    "characterId": 5021541,
    "name": "Soulshackle",
-   "attendedPercentage": 81.25
+   "attendedPercentage": 80
   },
   {
    "characterId": 5067979,
    "name": "Kalestie",
-   "attendedPercentage": 75
-  },
-  {
-   "characterId": 5084038,
-   "name": "Nanipal",
-   "attendedPercentage": 75
+   "attendedPercentage": 80
   },
   {
    "characterId": 5121920,
@@ -103,19 +98,24 @@
    "attendedPercentage": 75
   },
   {
+   "characterId": 5084038,
+   "name": "Nanipal",
+   "attendedPercentage": 73.33333333333333
+  },
+  {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 62.5
+   "attendedPercentage": 60
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 56.25
+   "attendedPercentage": 53.33333333333334
   },
   {
    "characterId": 5035198,
    "name": "Dalt",
-   "attendedPercentage": 18.75
+   "attendedPercentage": 13.33333333333333
   },
   {
    "characterId": 5099718,
