@@ -18,7 +18,7 @@ import {
   FALLBACK_GRADUATION_ILVL,
   FALLBACK_MPLUS_MIN_LEVEL,
   isSimFresh,
-  isTankOrHealer,
+  isTank,
   LpsBreakdown,
   qualifyingRuns,
 } from '../core/lps';
@@ -241,7 +241,7 @@ export const GuildStore = signalStore(
         const autoDelta = deltaIlvlForItem(summary.character.gear, item.slot, dropIlvl);
         const deltaIlvl = deltaOverrides[summary.character.id] ?? autoDelta;
         const zeroedByRole =
-          settings.zeroSimForTanksHealers && isTankOrHealer(summary.character.role);
+          settings.zeroSimForTanks && isTank(summary.character.role);
         // Stale droptimizers don't count — forces regular re-simming.
         const fresh = isSimFresh(wish?.updatedAt, settings.simMaxAgeDays);
         const simPercent = zeroedByRole || !fresh ? 0 : (wish?.percentage ?? 0);

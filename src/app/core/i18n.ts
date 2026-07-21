@@ -57,7 +57,7 @@ const en = {
     lootActivity: 'Recent loot & activity',
     lootWindow: 'Loot window (days)',
     casualMultiplier: 'Casual multiplier',
-    zeroSim: 'Zero sim for tanks/healers',
+    zeroSim: 'Zero sim for tanks (healers included)',
     dropIlvls: 'Fallback drop item level per difficulty',
     normal: 'Normal',
     heroic: 'Heroic',
@@ -165,7 +165,7 @@ const en = {
       'The raw difference between the new item and the old one. Reduced weight, so items are not gifted to people who do not farm Mythic+.',
     simName: 'S — sim upgrade %',
     simDesc:
-      'The DPS increase according to Raidbots (Droptimizer). For tanks and healers this value is 0. The main factor for guild progress.',
+      'The throughput increase from a droptimizer (Raidbots) or QELive (healers). Only tanks are excluded (their sims aren\'t comparable) — healers compete on their sim. The main factor for guild progress.',
     effortName: 'F — M+ effort factor',
     effortDesc: (minLevel: number, cap: number) =>
       `A multiplier on the whole score, from the effort score M (0–10): keys at level ${minLevel}+ over the last two weekly resets count, ${cap} keys or more = M 10 → F ×1.00; zero keys → the floor. Players geared past the graduation ilvl count as full effort — M+ no longer upgrades them, so stopping keys is not laziness. Effort modulates need instead of replacing it: nobody wins an item they don't need just by farming, but between comparable upgrades the invested player always wins. (Full enchants and gems are assumed — they are not scored.)`,
@@ -251,7 +251,7 @@ const bg: Strings = {
     lootActivity: 'Скорошен луут и активност',
     lootWindow: 'Луут прозорец (дни)',
     casualMultiplier: 'Множител за Нередовен',
-    zeroSim: 'Нулев sim за танкове/хийлъри',
+    zeroSim: 'Нулев sim за танкове (хийлърите се броят)',
     dropIlvls: 'Резервен drop ilvl по трудност',
     normal: 'Normal',
     heroic: 'Heroic',
@@ -359,7 +359,7 @@ const bg: Strings = {
       'Чистата разлика между новия предмет и стария. Намалена тежест, за да не се подаряват предмети на хора, които не фармят Mythic+.',
     simName: 'S — Sim Upgrade %',
     simDesc:
-      'Увеличението на DPS според Raidbots (Droptimizer). За танкове и хийлъри тази стойност е 0. Основен фактор за прогреса на гилдията.',
+      'Увеличението на throughput от droptimizer (Raidbots) или QELive (за хийлъри). Само танковете са изключени (техните sim-ове не са сравними) — хийлърите се състезават с техния sim. Основен фактор за прогреса на гилдията.',
     effortName: 'F — M+ ефорт фактор',
     effortDesc: (minLevel: number, cap: number) =>
       `Множител върху целия резултат, изчислен от ефорт скалата M (0–10): броят се ключове от ниво ${minLevel}+ за последните два седмични reset-а, ${cap} и повече ключа = M 10 → F ×1.00; нула ключове → минимума. Играчи с ilvl над прага „M+ готов“ се водят с пълен ефорт — M+ вече не им дава ъпгрейди и спирането не е мързел. Ефортът модулира нуждата, вместо да я замества: никой не печели предмет, който не му трябва, само с фармене — но при сравними ъпгрейди инвестираният играч винаги печели. (Пълните енчанти и камъни се подразбират — не се точкуват.)`,

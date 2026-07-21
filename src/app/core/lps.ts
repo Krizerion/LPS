@@ -29,8 +29,11 @@ export interface LpsSettings {
   casualMultiplier: number;
   /** Item level of drops per difficulty for the current season. */
   difficultyIlvl: Record<Difficulty, number>;
-  /** Per the rules, sim upgrades only apply to DPS players. */
-  zeroSimForTanksHealers: boolean;
+  /**
+   * Zero the sim for tanks (their throughput sims aren't comparable to DPS).
+   * Healers ARE included — they compete on their QELive/droptimizer sim.
+   */
+  zeroSimForTanks: boolean;
   /** F at zero effort; F scales linearly up to 1.0 at M = 10. */
   effortFloor: number;
   /** This many qualifying keys (or more) over two resets = full effort. */
@@ -62,7 +65,7 @@ export const DEFAULT_SETTINGS: LpsSettings = {
   casualMultiplier: 0.75,
   // Midnight Season 1 track cutoffs; real values come from meta.json seasonIlvls.
   difficultyIlvl: { normal: 246, heroic: 259, mythic: 272 },
-  zeroSimForTanksHealers: true,
+  zeroSimForTanks: true,
   effortFloor: 0.7,
   mplusCapRuns: 8,
   mplusMinLevel: null,
@@ -227,6 +230,6 @@ export function activityMultiplier(
   return status === 'casual' ? settings.casualMultiplier : settings.regularMultiplier;
 }
 
-export function isTankOrHealer(role: WowRole): boolean {
-  return role === 'Tank' || role === 'Heal';
+export function isTank(role: WowRole): boolean {
+  return role === 'Tank';
 }

@@ -7,6 +7,7 @@ import {
   effortFactor,
   effortScoreFor,
   isSimFresh,
+  isTank,
   mplusEffortScore,
   qualifyingRuns,
 } from './lps';
@@ -162,6 +163,15 @@ describe('isSimFresh', () => {
   it('treats a missing timestamp as stale', () => {
     expect(isSimFresh(null, 14, now)).toBe(false);
     expect(isSimFresh(undefined, 14, now)).toBe(false);
+  });
+});
+
+describe('isTank (only tanks are excluded from sim; healers compete)', () => {
+  it('is true only for tanks', () => {
+    expect(isTank('Tank')).toBe(true);
+    expect(isTank('Heal')).toBe(false);
+    expect(isTank('Melee')).toBe(false);
+    expect(isTank('Ranged')).toBe(false);
   });
 });
 

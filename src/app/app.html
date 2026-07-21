@@ -202,8 +202,8 @@
         <span>{{ t().settings.zeroSim }}</span>
         <input
           type="checkbox"
-          [ngModel]="s.zeroSimForTanksHealers"
-          (ngModelChange)="patch({ zeroSimForTanksHealers: $event })"
+          [ngModel]="s.zeroSimForTanks"
+          (ngModelChange)="patch({ zeroSimForTanks: $event })"
         />
       </label>
     </section>

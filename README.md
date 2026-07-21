@@ -11,7 +11,7 @@ LPS = ((ΔI × 0.2) + (S × 5)) / (1 + L) × A × F
 | Variable | Meaning                                                            | Source                    |
 | -------- | ------------------------------------------------------------------ | ------------------------- |
 | ΔI       | Item level difference vs. the equipped item                        | Raider.IO gear (editable) |
-| S        | Droptimizer sim upgrade %; 0 for tanks/healers or stale sims (>14d)| wowaudit wishlists        |
+| S        | Sim upgrade %; 0 for tanks (healers included) or stale sims (>14d)  | wowaudit wishlists        |
 | L        | Items received in the last 7 days                                  | wowaudit loot history     |
 | A        | Activity multiplier (Редовен 1.0 / Нередовен 0.75)                 | loot-council decision     |
 | F        | M+ effort factor 0.70–1.00: keys ≥10 over the last 2 resets, 8 = max | wowaudit historical data |
