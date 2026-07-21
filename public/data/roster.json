@@ -340,9 +340,12 @@
    "status": "tracking",
    "note": "Камен",
    "droptimizerUploadedAt": "2026-07-09T16:27:08.000+00:00",
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    10,
+    10
+   ],
    "gear": {
-    "ilvlEquipped": 291,
+    "ilvlEquipped": 291.188,
     "slots": {
      "head": {
       "ilvl": 289
@@ -390,7 +393,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-15T22:33:17.000Z"
+    "updatedAt": "2026-07-20T16:37:44.000Z"
    }
   },
   {
@@ -1000,10 +1003,12 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
     10,
+    10,
+    10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 291,
+    "ilvlEquipped": 291.625,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1518,7 +1523,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 292,
+    "ilvlEquipped": 292.625,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1566,7 +1571,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-19T16:08:32.000Z"
+    "updatedAt": "2026-07-20T11:06:38.000Z"
    }
   },
   {
@@ -1650,6 +1655,7 @@
    "mplusDungeons": [
     21,
     21,
+    22,
     22,
     21,
     10,
