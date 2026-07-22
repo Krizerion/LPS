@@ -258,7 +258,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-19T16:08:29.000Z"
+    "updatedAt": "2026-07-21T22:44:08.000Z"
    }
   },
   {
@@ -657,7 +657,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-18T01:44:34.000Z"
+    "updatedAt": "2026-07-21T11:21:02.000Z"
    }
   },
   {
@@ -808,6 +808,7 @@
    "mplusDungeons": [
     10,
     13,
+    19,
     12
    ],
    "gear": {
@@ -872,7 +873,9 @@
    "status": "tracking",
    "note": "Боби",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    19
+   ],
    "gear": {
     "ilvlEquipped": 290,
     "slots": {
@@ -925,7 +928,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-06-26T17:52:10.000Z"
+    "updatedAt": "2026-07-21T12:00:00.000Z"
    }
   },
   {
@@ -1314,7 +1317,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-19T16:08:31.000Z"
+    "updatedAt": "2026-07-22T03:17:04.000Z"
    }
   },
   {
@@ -1392,7 +1395,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 291,
+    "ilvlEquipped": 274,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1403,14 +1406,11 @@
      "shoulder": {
       "ilvl": 289
      },
-     "back": {
-      "ilvl": 285
-     },
      "chest": {
       "ilvl": 298
      },
      "waist": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "shirt": {
       "ilvl": 1
@@ -1443,7 +1443,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-19T05:11:21.000Z"
+    "updatedAt": "2026-07-22T06:36:05.000Z"
    }
   },
   {
@@ -1657,6 +1657,8 @@
     21,
     22,
     22,
+    22,
+    12,
     21,
     10,
     21,
@@ -1668,7 +1670,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 291.5,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1716,7 +1718,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-19T16:08:32.000Z"
+    "updatedAt": "2026-07-22T03:03:04.000Z"
    }
   },
   {
@@ -1981,6 +1983,72 @@
      }
     },
     "updatedAt": "2026-07-05T04:21:13.000Z"
+   }
+  },
+  {
+   "id": 6177638,
+   "name": "Nubx",
+   "realm": "Argent Dawn",
+   "class": "Druid",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [],
+   "gear": {
+    "ilvlEquipped": 263,
+    "slots": {
+     "head": {
+      "ilvl": 272
+     },
+     "neck": {
+      "ilvl": 256
+     },
+     "shoulder": {
+      "ilvl": 272
+     },
+     "back": {
+      "ilvl": 266
+     },
+     "chest": {
+      "ilvl": 276
+     },
+     "waist": {
+      "ilvl": 237
+     },
+     "shirt": {
+      "ilvl": 1
+     },
+     "wrist": {
+      "ilvl": 256
+     },
+     "hands": {
+      "ilvl": 250
+     },
+     "legs": {
+      "ilvl": 272
+     },
+     "feet": {
+      "ilvl": 272
+     },
+     "finger1": {
+      "ilvl": 263
+     },
+     "finger2": {
+      "ilvl": 237
+     },
+     "trinket1": {
+      "ilvl": 272
+     },
+     "trinket2": {
+      "ilvl": 250
+     },
+     "mainhand": {
+      "ilvl": 285
+     }
+    },
+    "updatedAt": "2026-07-22T06:36:18.000Z"
    }
   }
  ]
