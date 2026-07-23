@@ -944,7 +944,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 282,
+    "ilvlEquipped": 292.438,
     "slots": {
      "head": {
       "ilvl": 289
@@ -983,10 +983,10 @@
       "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 217
+      "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 217
+      "ilvl": 298
      },
      "mainhand": {
       "ilvl": 298
@@ -1519,57 +1519,7 @@
    "note": "Жоров",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 292.625,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 298
-     },
-     "waist": {
-      "ilvl": 298
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 298
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-07-20T11:06:38.000Z"
-   }
+   "gear": null
   },
   {
    "id": 5128152,
@@ -1581,7 +1531,9 @@
    "status": "tracking",
    "note": "Стоян",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    10
+   ],
    "gear": {
     "ilvlEquipped": 293,
     "slots": {
@@ -1629,6 +1581,9 @@
      },
      "mainhand": {
       "ilvl": 298
+     },
+     "offhand": {
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-07-18T07:40:34.000Z"
@@ -1645,6 +1600,7 @@
    "note": "Деница",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    22,
     21,
     21,
     22,
@@ -1701,7 +1657,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-22T03:03:04.000Z"
+    "updatedAt": "2026-07-23T01:51:05.000Z"
    }
   },
   {
