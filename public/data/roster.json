@@ -794,7 +794,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-14T21:31:59.000Z"
+    "updatedAt": "2026-07-25T15:15:28.000Z"
    }
   },
   {
@@ -1379,7 +1379,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-22T17:39:29.000Z"
+    "updatedAt": "2026-07-26T06:38:25.000Z"
    }
   },
   {
@@ -1394,7 +1394,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 274,
+    "ilvlEquipped": 292,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1404,6 +1404,9 @@
      },
      "shoulder": {
       "ilvl": 289
+     },
+     "back": {
+      "ilvl": 285
      },
      "chest": {
       "ilvl": 298
@@ -1442,7 +1445,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-22T06:36:05.000Z"
+    "updatedAt": "2026-07-25T13:00:25.000Z"
    }
   },
   {
@@ -1652,6 +1655,7 @@
    "mplusDungeons": [
     22,
     15,
+    22,
     21,
     21,
     22,
@@ -1660,7 +1664,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 291.5,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1708,7 +1712,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-24T00:26:21.000Z"
+    "updatedAt": "2026-07-25T16:50:25.000Z"
    }
   },
   {
@@ -1995,13 +1999,13 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 273.688,
+    "ilvlEquipped": 276.062,
     "slots": {
      "head": {
       "ilvl": 289
      },
      "neck": {
-      "ilvl": 256
+      "ilvl": 259
      },
      "shoulder": {
       "ilvl": 272
@@ -2013,7 +2017,7 @@
       "ilvl": 276
      },
      "waist": {
-      "ilvl": 237
+      "ilvl": 272
      },
      "shirt": {
       "ilvl": 1
@@ -2046,7 +2050,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-24T19:56:08.000Z"
+    "updatedAt": "2026-07-25T13:49:15.000Z"
    }
   }
  ]
