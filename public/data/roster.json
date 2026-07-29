@@ -192,7 +192,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-26T16:10:27.000Z"
+    "updatedAt": "2026-07-29T16:53:35.000Z"
    }
   },
   {
@@ -340,10 +340,7 @@
    "status": "tracking",
    "note": "Камен",
    "droptimizerUploadedAt": "2026-07-09T16:27:08.000+00:00",
-   "mplusDungeons": [
-    10,
-    10
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
@@ -393,7 +390,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-26T11:08:21.000Z"
+    "updatedAt": "2026-07-29T16:44:33.000Z"
    }
   },
   {
@@ -607,9 +604,7 @@
    "status": "tracking",
    "note": "Камен",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    10
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
@@ -807,11 +802,7 @@
    "status": "tracking",
    "note": "Вальо",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    10,
-    13,
-    19
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
@@ -874,9 +865,7 @@
    "status": "tracking",
    "note": "Боби",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    19
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 290,
     "slots": {
@@ -1005,10 +994,7 @@
    "status": "tracking",
    "note": "Явор",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    10,
-    10
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 291,
     "slots": {
@@ -1316,7 +1302,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-26T16:10:24.000Z"
+    "updatedAt": "2026-07-29T16:34:37.000Z"
    }
   },
   {
@@ -1657,13 +1643,7 @@
     15,
     22,
     21,
-    22,
-    21,
-    21,
-    22,
-    22,
-    22,
-    12
+    22
    ],
    "gear": {
     "ilvlEquipped": 291.5,
@@ -1843,7 +1823,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-24T18:32:10.000Z"
+    "updatedAt": "2026-07-29T14:03:32.000Z"
    }
   },
   {
@@ -1994,6 +1974,13 @@
    "mplusDungeons": [
     10,
     10,
+    12,
+    10,
+    12,
+    12,
+    12,
+    10,
+    10,
     10,
     12,
     12,
@@ -2005,7 +1992,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 278,
+    "ilvlEquipped": 279.25,
     "slots": {
      "head": {
       "ilvl": 289
@@ -2017,10 +2004,10 @@
       "ilvl": 272
      },
      "back": {
-      "ilvl": 266
+      "ilvl": 272
      },
      "chest": {
-      "ilvl": 285
+      "ilvl": 289
      },
      "waist": {
       "ilvl": 272
@@ -2035,7 +2022,7 @@
       "ilvl": 272
      },
      "legs": {
-      "ilvl": 272
+      "ilvl": 282
      },
      "feet": {
       "ilvl": 272
@@ -2056,7 +2043,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-28T12:30:40.000Z"
+    "updatedAt": "2026-07-29T11:26:44.000Z"
    }
   }
  ]
