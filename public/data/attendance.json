@@ -1,10 +1,10 @@
 {
- "startDate": "2026-05-30",
+ "startDate": "2026-05-31",
  "endDate": null,
  "characters": [
   {
-   "characterId": 5021440,
-   "name": "Racor",
+   "characterId": 5030809,
+   "name": "Sherman",
    "attendedPercentage": 100
   },
   {
@@ -18,13 +18,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050159,
-   "name": "Tyreåh",
+   "characterId": 5021558,
+   "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
   },
   {
@@ -43,8 +43,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
+   "characterId": 5050159,
+   "name": "Tyreåh",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
@@ -55,11 +60,6 @@
   {
    "characterId": 5053378,
    "name": "Svetirasi",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5030809,
-   "name": "Sherman",
    "attendedPercentage": 100
   },
   {
@@ -111,6 +111,11 @@
    "characterId": 4608754,
    "name": "Valahan",
    "attendedPercentage": 53.84615384615385
+  },
+  {
+   "characterId": 19703285,
+   "name": "Alphaheal",
+   "attendedPercentage": 0
   },
   {
    "characterId": 5035198,

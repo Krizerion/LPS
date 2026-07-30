@@ -1,6 +1,69 @@
 {
  "characters": [
   {
+   "id": 19703285,
+   "name": "Alphaheal",
+   "realm": "Stormscale",
+   "class": "Druid",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [],
+   "gear": {
+    "ilvlEquipped": 292,
+    "slots": {
+     "head": {
+      "ilvl": 298
+     },
+     "neck": {
+      "ilvl": 298
+     },
+     "shoulder": {
+      "ilvl": 289
+     },
+     "back": {
+      "ilvl": 285
+     },
+     "chest": {
+      "ilvl": 289
+     },
+     "waist": {
+      "ilvl": 298
+     },
+     "wrist": {
+      "ilvl": 285
+     },
+     "hands": {
+      "ilvl": 289
+     },
+     "legs": {
+      "ilvl": 289
+     },
+     "feet": {
+      "ilvl": 285
+     },
+     "finger1": {
+      "ilvl": 298
+     },
+     "finger2": {
+      "ilvl": 289
+     },
+     "trinket1": {
+      "ilvl": 298
+     },
+     "trinket2": {
+      "ilvl": 298
+     },
+     "mainhand": {
+      "ilvl": 298
+     }
+    },
+    "updatedAt": "2026-07-22T18:38:19.000Z"
+   }
+  },
+  {
    "id": 5021541,
    "name": "Soulshackle",
    "realm": "Argent Dawn",
