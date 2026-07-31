@@ -10,9 +10,11 @@
    "status": "tracking",
    "note": null,
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    10
+   ],
    "gear": {
-    "ilvlEquipped": 292,
+    "ilvlEquipped": 292.75,
     "slots": {
      "head": {
       "ilvl": 298
@@ -60,7 +62,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-22T18:38:19.000Z"
+    "updatedAt": "2026-07-30T08:29:36.000Z"
    }
   },
   {
@@ -981,7 +983,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-24T19:24:19.000Z"
+    "updatedAt": "2026-07-30T11:51:38.000Z"
    }
   },
   {
@@ -1044,7 +1046,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-24T21:42:19.000Z"
+    "updatedAt": "2026-07-30T11:51:36.000Z"
    }
   },
   {
@@ -2042,6 +2044,10 @@
     12,
     12,
     12,
+    12,
+    11,
+    12,
+    12,
     10,
     10,
     10,
@@ -2055,7 +2061,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 279.25,
+    "ilvlEquipped": 280.125,
     "slots": {
      "head": {
       "ilvl": 289
@@ -2064,7 +2070,7 @@
       "ilvl": 272
      },
      "shoulder": {
-      "ilvl": 272
+      "ilvl": 279
      },
      "back": {
       "ilvl": 272
@@ -2085,7 +2091,7 @@
       "ilvl": 272
      },
      "legs": {
-      "ilvl": 282
+      "ilvl": 289
      },
      "feet": {
       "ilvl": 272
@@ -2106,7 +2112,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-29T11:26:44.000Z"
+    "updatedAt": "2026-07-31T07:16:35.000Z"
    }
   }
  ]
