@@ -1,20 +1,10 @@
 {
- "startDate": "2026-06-03",
+ "startDate": "2026-06-04",
  "endDate": null,
  "characters": [
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
    "attendedPercentage": 100
   },
   {
@@ -28,21 +18,6 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 5050159,
    "name": "Tyreåh",
    "attendedPercentage": 100
@@ -50,6 +25,11 @@
   {
    "characterId": 5050452,
    "name": "Moshenji",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 3809470,
+   "name": "Xpactt",
    "attendedPercentage": 100
   },
   {
@@ -63,24 +43,44 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 91.66666666666666
-  },
-  {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 91.66666666666666
-  },
-  {
    "characterId": 5066215,
    "name": "Monkies",
-   "attendedPercentage": 91.66666666666666
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
   },
   {
    "characterId": 5067979,
    "name": "Kalestie",
-   "attendedPercentage": 91.66666666666666
+   "attendedPercentage": 90.9090909090909
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 90.9090909090909
   },
   {
    "characterId": 5128152,
@@ -88,29 +88,29 @@
    "attendedPercentage": 85.71428571428571
   },
   {
-   "characterId": 5021541,
-   "name": "Soulshackle",
-   "attendedPercentage": 75
-  },
-  {
    "characterId": 5121920,
    "name": "Zhorovpal",
    "attendedPercentage": 75
   },
   {
-   "characterId": 5084038,
-   "name": "Nanipal",
-   "attendedPercentage": 66.66666666666666
+   "characterId": 5021541,
+   "name": "Soulshackle",
+   "attendedPercentage": 72.72727272727273
   },
   {
-   "characterId": 5053594,
-   "name": "Natureweaver",
-   "attendedPercentage": 58.33333333333334
+   "characterId": 5084038,
+   "name": "Nanipal",
+   "attendedPercentage": 63.63636363636363
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 58.33333333333334
+   "attendedPercentage": 63.63636363636363
+  },
+  {
+   "characterId": 5053594,
+   "name": "Natureweaver",
+   "attendedPercentage": 54.54545454545454
   },
   {
    "characterId": 19703285,
