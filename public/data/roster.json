@@ -605,15 +605,17 @@
    "status": "tracking",
    "note": "Християн",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    10
+   ],
    "gear": {
-    "ilvlEquipped": 292,
+    "ilvlEquipped": 291.688,
     "slots": {
      "head": {
       "ilvl": 289
      },
      "neck": {
-      "ilvl": 298
+      "ilvl": 285
      },
      "shoulder": {
       "ilvl": 289
@@ -622,7 +624,7 @@
       "ilvl": 289
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "waist": {
       "ilvl": 289
@@ -646,7 +648,7 @@
       "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298
+      "ilvl": 289
      },
      "trinket1": {
       "ilvl": 298
@@ -661,7 +663,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-07-14T21:32:00.000Z"
+    "updatedAt": "2026-08-03T17:54:40.000Z"
    }
   },
   {
@@ -1372,7 +1374,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-03T04:32:57.000Z"
+    "updatedAt": "2026-08-03T16:44:24.000Z"
    }
   },
   {
@@ -1840,9 +1842,11 @@
    "status": "tracking",
    "note": "Крис",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    12
+   ],
    "gear": {
-    "ilvlEquipped": 292,
+    "ilvlEquipped": 292.25,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1891,6 +1895,9 @@
      },
      "mainhand": {
       "ilvl": 298
+     },
+     "offhand": {
+      "ilvl": 295
      }
     },
     "updatedAt": "2026-08-03T06:50:58.000Z"
@@ -2055,6 +2062,11 @@
     12,
     12,
     10,
+    12,
+    12,
+    12,
+    10,
+    10,
     10,
     10,
     12,
@@ -2067,7 +2079,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 281,
+    "ilvlEquipped": 282,
     "slots": {
      "head": {
       "ilvl": 289
@@ -2076,7 +2088,7 @@
       "ilvl": 272
      },
      "shoulder": {
-      "ilvl": 285
+      "ilvl": 289
      },
      "back": {
       "ilvl": 272
@@ -2094,7 +2106,7 @@
       "ilvl": 285
      },
      "hands": {
-      "ilvl": 272
+      "ilvl": 279
      },
      "legs": {
       "ilvl": 289
@@ -2118,7 +2130,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-02T16:26:55.000Z"
+    "updatedAt": "2026-08-04T06:43:36.000Z"
    }
   }
  ]
