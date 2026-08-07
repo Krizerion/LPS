@@ -1,7 +1,17 @@
 {
- "startDate": "2026-06-07",
+ "startDate": "2026-06-08",
  "endDate": null,
  "characters": [
+  {
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
   {
    "characterId": 5030809,
    "name": "Sherman",
@@ -10,11 +20,6 @@
   {
    "characterId": 5021440,
    "name": "Racor",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5050159,
-   "name": "Tyreåh",
    "attendedPercentage": 100
   },
   {
@@ -43,13 +48,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
+   "characterId": 5113215,
+   "name": "Vikvoker",
    "attendedPercentage": 100
   },
   {
@@ -58,8 +58,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5113215,
-   "name": "Vikvoker",
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066198,
+   "name": "Krizerio",
    "attendedPercentage": 100
   },
   {
@@ -68,28 +73,8 @@
    "attendedPercentage": 90.9090909090909
   },
   {
-   "characterId": 5067979,
-   "name": "Kalestie",
-   "attendedPercentage": 90.9090909090909
-  },
-  {
-   "characterId": 5128152,
-   "name": "Thecrit",
-   "attendedPercentage": 85.71428571428571
-  },
-  {
-   "characterId": 5121920,
-   "name": "Zhorovpal",
-   "attendedPercentage": 75
-  },
-  {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 63.63636363636363
-  },
-  {
-   "characterId": 5084038,
-   "name": "Nanipal",
    "attendedPercentage": 63.63636363636363
   },
   {
@@ -98,73 +83,8 @@
    "attendedPercentage": 54.54545454545454
   },
   {
-   "characterId": 10852120,
-   "name": "Shaddekill",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4825600,
-   "name": "Monorri",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4990965,
-   "name": "Bstab",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4500722,
-   "name": "Tednug",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 3857860,
-   "name": "Shadowdhh",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 10709413,
-   "name": "Tedopal",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4825602,
-   "name": "Dréadwrath",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4628867,
-   "name": "Mephoker",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4825594,
-   "name": "Kokolock",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4825601,
-   "name": "Deviå",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4825592,
-   "name": "Zuluxw",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 20021915,
-   "name": "Tednug",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 5035198,
-   "name": "Dalt",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 5099718,
-   "name": "Arlinna",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 0
   }
  ]

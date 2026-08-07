@@ -1,607 +1,11 @@
 {
  "characters": [
   {
-   "id": 10852120,
-   "name": "Shaddekill",
-   "realm": "Twisting Nether",
-   "class": "Rogue",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 290,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 289
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 276
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     },
-     "offhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-07-30T07:05:46.000Z"
-   }
-  },
-  {
-   "id": 4825600,
-   "name": "Monorri",
-   "realm": "Kazzak",
-   "class": "Death Knight",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 290,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 285
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 289
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-08-04T08:21:23.000Z"
-   }
-  },
-  {
-   "id": 4990965,
-   "name": "Bstab",
-   "realm": "Kazzak",
-   "class": "Rogue",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 290,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 289
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 285
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 289
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     },
-     "offhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-06-07T21:05:24.000Z"
-   }
-  },
-  {
-   "id": 4500722,
-   "name": "Tednug",
-   "realm": "Twisting Nether",
-   "class": "Hunter",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    21,
-    21
-   ],
-   "gear": {
-    "ilvlEquipped": 292.438,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 298
-     },
-     "feet": {
-      "ilvl": 298
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-08-02T16:26:50.000Z"
-   }
-  },
-  {
-   "id": 3857860,
-   "name": "Shadowdhh",
-   "realm": "Kazzak",
-   "class": "Demon Hunter",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 288,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 285
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 285
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 276
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
-      "ilvl": 285
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     },
-     "offhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-07-24T00:29:21.000Z"
-   }
-  },
-  {
-   "id": 10709413,
-   "name": "Tedopal",
-   "realm": "Ravencrest",
+   "id": 5021535,
+   "name": "Blythe",
+   "realm": "Burning Legion",
    "class": "Paladin",
-   "role": "Heal",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 242,
-    "slots": {
-     "head": {
-      "ilvl": 250
-     },
-     "neck": {
-      "ilvl": 246
-     },
-     "shoulder": {
-      "ilvl": 214
-     },
-     "back": {
-      "ilvl": 246
-     },
-     "chest": {
-      "ilvl": 250
-     },
-     "waist": {
-      "ilvl": 214
-     },
-     "wrist": {
-      "ilvl": 237
-     },
-     "hands": {
-      "ilvl": 250
-     },
-     "legs": {
-      "ilvl": 246
-     },
-     "feet": {
-      "ilvl": 250
-     },
-     "finger1": {
-      "ilvl": 207
-     },
-     "finger2": {
-      "ilvl": 240
-     },
-     "trinket1": {
-      "ilvl": 259
-     },
-     "trinket2": {
-      "ilvl": 250
-     },
-     "mainhand": {
-      "ilvl": 259
-     }
-    },
-    "updatedAt": "2026-04-16T05:29:01.000Z"
-   }
-  },
-  {
-   "id": 10709429,
-   "name": "Tedodk",
-   "realm": "Ravencrest",
-   "class": "Death Knight",
    "role": "Melee",
-   "rank": "Alt",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 269,
-    "slots": {
-     "head": {
-      "ilvl": 272
-     },
-     "neck": {
-      "ilvl": 263
-     },
-     "shoulder": {
-      "ilvl": 276
-     },
-     "back": {
-      "ilvl": 266
-     },
-     "chest": {
-      "ilvl": 276
-     },
-     "waist": {
-      "ilvl": 266
-     },
-     "wrist": {
-      "ilvl": 266
-     },
-     "hands": {
-      "ilvl": 263
-     },
-     "legs": {
-      "ilvl": 276
-     },
-     "feet": {
-      "ilvl": 263
-     },
-     "finger1": {
-      "ilvl": 259
-     },
-     "finger2": {
-      "ilvl": 250
-     },
-     "trinket1": {
-      "ilvl": 276
-     },
-     "trinket2": {
-      "ilvl": 263
-     },
-     "mainhand": {
-      "ilvl": 285
-     }
-    },
-    "updatedAt": "2026-04-16T05:29:07.000Z"
-   }
-  },
-  {
-   "id": 4825602,
-   "name": "Dréadwrath",
-   "realm": "Kazzak",
-   "class": "Death Knight",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    12,
-    11,
-    12,
-    12
-   ],
-   "gear": {
-    "ilvlEquipped": 290.25,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 289
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 285
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-08-04T21:21:37.000Z"
-   }
-  },
-  {
-   "id": 4628867,
-   "name": "Mephoker",
-   "realm": "Kazzak",
-   "class": "Evoker",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 289,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 289
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 285
-     },
-     "mainhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-06-08T18:02:09.000Z"
-   }
-  },
-  {
-   "id": 4825594,
-   "name": "Kokolock",
-   "realm": "Stormscale",
-   "class": "Warlock",
-   "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
    "note": null,
@@ -626,7 +30,10 @@
       "ilvl": 298
      },
      "waist": {
-      "ilvl": 289
+      "ilvl": 298
+     },
+     "shirt": {
+      "ilvl": 1
      },
      "wrist": {
       "ilvl": 285
@@ -644,7 +51,7 @@
       "ilvl": 289
      },
      "finger2": {
-      "ilvl": 298
+      "ilvl": 289
      },
      "trinket1": {
       "ilvl": 298
@@ -654,45 +61,42 @@
      },
      "mainhand": {
       "ilvl": 298
-     },
-     "offhand": {
-      "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-19T16:08:31.000Z"
+    "updatedAt": "2026-07-25T13:00:25.000Z"
    }
   },
   {
-   "id": 4825601,
-   "name": "Deviå",
-   "realm": "Kazzak",
-   "class": "Demon Hunter",
-   "role": "Tank",
+   "id": 5021558,
+   "name": "Azeryx",
+   "realm": "Sylvanas",
+   "class": "Death Knight",
+   "role": "Melee",
    "rank": "Main",
    "status": "tracking",
    "note": null,
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-07-09T18:01:04.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 277,
+    "ilvlEquipped": 292,
     "slots": {
      "head": {
-      "ilvl": 285
+      "ilvl": 289
      },
      "neck": {
-      "ilvl": 263
+      "ilvl": 298
      },
      "shoulder": {
-      "ilvl": 269
+      "ilvl": 289
      },
      "back": {
-      "ilvl": 266
+      "ilvl": 285
      },
      "chest": {
-      "ilvl": 276
+      "ilvl": 298
      },
      "waist": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "wrist": {
       "ilvl": 285
@@ -701,38 +105,35 @@
       "ilvl": 289
      },
      "legs": {
-      "ilvl": 276
-     },
-     "feet": {
-      "ilvl": 266
-     },
-     "finger1": {
-      "ilvl": 266
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
       "ilvl": 289
      },
+     "feet": {
+      "ilvl": 289
+     },
+     "finger1": {
+      "ilvl": 289
+     },
+     "finger2": {
+      "ilvl": 289
+     },
+     "trinket1": {
+      "ilvl": 298
+     },
      "trinket2": {
-      "ilvl": 285
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 276
-     },
-     "offhand": {
-      "ilvl": 276
+      "ilvl": 298
      }
     },
-    "updatedAt": "2026-06-25T14:49:18.000Z"
+    "updatedAt": "2026-08-05T16:58:50.000Z"
    }
   },
   {
-   "id": 4825592,
-   "name": "Zuluxw",
-   "realm": "Twisting Nether",
-   "class": "Demon Hunter",
+   "id": 4258514,
+   "name": "Thatcrit",
+   "realm": "Stormscale",
+   "class": "Mage",
    "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
@@ -740,7 +141,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 290,
+    "ilvlEquipped": 291,
     "slots": {
      "head": {
       "ilvl": 289
@@ -752,16 +153,16 @@
       "ilvl": 289
      },
      "back": {
-      "ilvl": 289
+      "ilvl": 285
      },
      "chest": {
       "ilvl": 289
      },
      "waist": {
-      "ilvl": 285
+      "ilvl": 289
      },
      "wrist": {
-      "ilvl": 289
+      "ilvl": 285
      },
      "hands": {
       "ilvl": 289
@@ -770,7 +171,7 @@
       "ilvl": 289
      },
      "feet": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "finger1": {
       "ilvl": 289
@@ -788,73 +189,10 @@
       "ilvl": 298
      },
      "offhand": {
-      "ilvl": 295
+      "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-16T08:29:11.000Z"
-   }
-  },
-  {
-   "id": 20021915,
-   "name": "Tednug",
-   "realm": "Kazzak",
-   "class": "Hunter",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 242,
-    "slots": {
-     "head": {
-      "ilvl": 246
-     },
-     "neck": {
-      "ilvl": 253
-     },
-     "shoulder": {
-      "ilvl": 253
-     },
-     "back": {
-      "ilvl": 246
-     },
-     "chest": {
-      "ilvl": 246
-     },
-     "waist": {
-      "ilvl": 246
-     },
-     "wrist": {
-      "ilvl": 256
-     },
-     "hands": {
-      "ilvl": 266
-     },
-     "legs": {
-      "ilvl": 246
-     },
-     "feet": {
-      "ilvl": 246
-     },
-     "finger1": {
-      "ilvl": 246
-     },
-     "finger2": {
-      "ilvl": 246
-     },
-     "trinket1": {
-      "ilvl": 152
-     },
-     "trinket2": {
-      "ilvl": 246
-     },
-     "mainhand": {
-      "ilvl": 246
-     }
-    },
-    "updatedAt": "2026-08-03T15:43:36.000Z"
+    "updatedAt": "2026-07-23T01:40:18.000Z"
    }
   },
   {
@@ -929,75 +267,6 @@
    }
   },
   {
-   "id": 5035198,
-   "name": "Dalt",
-   "realm": "Anachronos",
-   "class": "Paladin",
-   "role": "Heal",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Пламен",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 289,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 276
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 276
-     },
-     "hands": {
-      "ilvl": 285
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     },
-     "offhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-05-31T16:55:46.000Z"
-   }
-  },
-  {
    "id": 5021440,
    "name": "Racor",
    "realm": "Argent Dawn",
@@ -1058,75 +327,6 @@
      }
     },
     "updatedAt": "2026-08-05T02:53:45.000Z"
-   }
-  },
-  {
-   "id": 5050159,
-   "name": "Tyreåh",
-   "realm": "Ravencrest",
-   "class": "Paladin",
-   "role": "Heal",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Лазо",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 291,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 298
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 289
-     },
-     "hands": {
-      "ilvl": 276
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 298
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     },
-     "offhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-07-13T19:58:57.000Z"
    }
   },
   {
@@ -1206,13 +406,13 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 291.688,
+    "ilvlEquipped": 292,
     "slots": {
      "head": {
       "ilvl": 289
      },
      "neck": {
-      "ilvl": 285
+      "ilvl": 298
      },
      "shoulder": {
       "ilvl": 289
@@ -1242,13 +442,13 @@
       "ilvl": 298
      },
      "finger1": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "finger2": {
       "ilvl": 289
      },
      "trinket1": {
-      "ilvl": 298
+      "ilvl": 285
      },
      "trinket2": {
       "ilvl": 298
@@ -1260,70 +460,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-03T17:54:40.000Z"
-   }
-  },
-  {
-   "id": 5053112,
-   "name": "Tican",
-   "realm": "Argent Dawn",
-   "class": "Warrior",
-   "role": "Melee",
-   "rank": "Alt",
-   "status": "tracking",
-   "note": "Камен",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 291,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 289
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 298
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-08-05T19:41:44.000Z"
+    "updatedAt": "2026-08-07T04:08:40.000Z"
    }
   },
   {
@@ -1529,7 +666,7 @@
    "name": "Natureweaver",
    "realm": "Silvermoon",
    "class": "Druid",
-   "role": "Tank",
+   "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
    "note": "Боби",
@@ -1587,7 +724,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-02T16:26:55.000Z"
+    "updatedAt": "2026-08-06T07:48:41.000Z"
    }
   },
   {
@@ -1717,269 +854,11 @@
    }
   },
   {
-   "id": 5067979,
-   "name": "Kalestie",
-   "realm": "Argent Dawn",
-   "class": "Warlock",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Весо",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 290,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 285
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 285
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 298
-     },
-     "finger1": {
-      "ilvl": 276
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-07-13T19:54:53.000Z"
-   }
-  },
-  {
-   "id": 5084038,
-   "name": "Nanipal",
-   "realm": "Kazzak",
-   "class": "Paladin",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Стенли",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 292,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 298
-     },
-     "waist": {
-      "ilvl": 298
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-07-28T21:35:49.000Z"
-   }
-  },
-  {
-   "id": 4890392,
-   "name": "Vikdrulemix",
-   "realm": "Tarren Mill",
-   "class": "Druid",
-   "role": "Heal",
-   "rank": "Alt",
-   "status": "tracking",
-   "note": "Вик",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 292,
-    "slots": {
-     "head": {
-      "ilvl": 298
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 285
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 289
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 298
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-08-02T16:26:54.000Z"
-   }
-  },
-  {
-   "id": 5099718,
-   "name": "Arlinna",
-   "realm": "Kazzak",
-   "class": "Druid",
-   "role": "Heal",
-   "rank": "Main",
-   "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 289,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 289
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 289
-     },
-     "waist": {
-      "ilvl": 285
-     },
-     "wrist": {
-      "ilvl": 276
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 289
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-08-05T14:51:42.000Z"
-   }
-  },
-  {
    "id": 5113215,
    "name": "Vikvoker",
    "realm": "Silvermoon",
    "class": "Evoker",
-   "role": "Ranged",
+   "role": "Heal",
    "rank": "Main",
    "status": "tracking",
    "note": "Вик",
@@ -2101,135 +980,6 @@
    }
   },
   {
-   "id": 5121920,
-   "name": "Zhorovpal",
-   "realm": "Kazzak",
-   "class": "Paladin",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Жоров",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 292,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 298
-     },
-     "waist": {
-      "ilvl": 298
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 289
-     },
-     "finger1": {
-      "ilvl": 298
-     },
-     "finger2": {
-      "ilvl": 285
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-08-02T00:47:52.000Z"
-   }
-  },
-  {
-   "id": 5128152,
-   "name": "Thecrit",
-   "realm": "Stormscale",
-   "class": "Warlock",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Стоян",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 293,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 298
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "wrist": {
-      "ilvl": 285
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 298
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 298
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     },
-     "offhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-07-23T18:24:11.000Z"
-   }
-  },
-  {
    "id": 5099602,
    "name": "Elfionna",
    "realm": "Kazzak",
@@ -2290,142 +1040,6 @@
      }
     },
     "updatedAt": "2026-08-02T16:26:57.000Z"
-   }
-  },
-  {
-   "id": 4990966,
-   "name": "Aerynblack",
-   "realm": "Kazzak",
-   "class": "Druid",
-   "role": "Heal",
-   "rank": "Alt",
-   "status": "tracking",
-   "note": "Деница",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 288,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 285
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 289
-     },
-     "chest": {
-      "ilvl": 285
-     },
-     "waist": {
-      "ilvl": 289
-     },
-     "wrist": {
-      "ilvl": 276
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 285
-     },
-     "finger1": {
-      "ilvl": 276
-     },
-     "finger2": {
-      "ilvl": 276
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 298
-     }
-    },
-    "updatedAt": "2026-07-28T17:12:32.000Z"
-   }
-  },
-  {
-   "id": 5021663,
-   "name": "Krizerion",
-   "realm": "Argent Dawn",
-   "class": "Paladin",
-   "role": "Melee",
-   "rank": "Alt",
-   "status": "tracking",
-   "note": "Крис",
-   "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    12,
-    12,
-    10
-   ],
-   "gear": {
-    "ilvlEquipped": 292.625,
-    "slots": {
-     "head": {
-      "ilvl": 289
-     },
-     "neck": {
-      "ilvl": 298
-     },
-     "shoulder": {
-      "ilvl": 289
-     },
-     "back": {
-      "ilvl": 285
-     },
-     "chest": {
-      "ilvl": 298
-     },
-     "waist": {
-      "ilvl": 298
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 289
-     },
-     "hands": {
-      "ilvl": 289
-     },
-     "legs": {
-      "ilvl": 289
-     },
-     "feet": {
-      "ilvl": 285
-     },
-     "finger1": {
-      "ilvl": 289
-     },
-     "finger2": {
-      "ilvl": 298
-     },
-     "trinket1": {
-      "ilvl": 298
-     },
-     "trinket2": {
-      "ilvl": 298
-     },
-     "mainhand": {
-      "ilvl": 295
-     },
-     "offhand": {
-      "ilvl": 295
-     }
-    },
-    "updatedAt": "2026-08-05T16:39:34.000Z"
    }
   },
   {
