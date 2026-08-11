@@ -1,5 +1,5 @@
 {
- "startDate": "2026-06-11",
+ "startDate": "2026-06-12",
  "endDate": null,
  "characters": [
   {
@@ -85,6 +85,11 @@
   {
    "characterId": 4258514,
    "name": "Thatcrit",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 9074626,
+   "name": "Kfclock",
    "attendedPercentage": 0
   }
  ]
