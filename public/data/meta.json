@@ -1,12 +1,12 @@
 {
- "fetchedAt": "2026-08-12T17:59:31.846Z",
+ "fetchedAt": "2026-08-13T06:16:52.283Z",
  "team": {
   "name": "TERRA BLITZ",
   "guildName": "TERRA",
   "url": "https://wowaudit.com/guild/eu/kazzak/terra/teams/terra-blitz",
   "region": "eu"
  },
- "season": "Midnight — Season 1",
+ "season": "Midnight — Season 2",
  "seasonIlvls": {
   "normal": 246,
   "heroic": 259,
@@ -15,96 +15,96 @@
  "vaultMythKeyLevel": 10,
  "tierItemIds": [
   {
-   "head": 249952,
-   "shoulder": 249950,
-   "chest": 249955,
-   "hands": 249953,
-   "legs": 249951
+   "head": 271456,
+   "shoulder": 271454,
+   "chest": 271459,
+   "hands": 271457,
+   "legs": 271455
   },
   {
-   "head": 249961,
-   "shoulder": 249959,
-   "chest": 249964,
-   "hands": 249962,
-   "legs": 249960
+   "head": 271465,
+   "shoulder": 271463,
+   "chest": 271468,
+   "hands": 271466,
+   "legs": 271464
   },
   {
-   "head": 249988,
-   "shoulder": 249986,
-   "chest": 249991,
-   "hands": 249989,
-   "legs": 249987
+   "head": 271492,
+   "shoulder": 271490,
+   "chest": 271495,
+   "hands": 271493,
+   "legs": 271491
   },
   {
-   "head": 250006,
-   "shoulder": 250004,
-   "chest": 250009,
-   "hands": 250007,
-   "legs": 250005
+   "head": 271510,
+   "shoulder": 271508,
+   "chest": 271513,
+   "hands": 271511,
+   "legs": 271509
   },
   {
-   "head": 250051,
-   "shoulder": 250049,
-   "chest": 250054,
-   "hands": 250052,
-   "legs": 250050
+   "head": 271555,
+   "shoulder": 271553,
+   "chest": 271558,
+   "hands": 271556,
+   "legs": 271554
   },
   {
-   "head": 249970,
-   "shoulder": 249968,
-   "chest": 249973,
-   "hands": 249971,
-   "legs": 249969
+   "head": 271474,
+   "shoulder": 271472,
+   "chest": 271477,
+   "hands": 271475,
+   "legs": 271473
   },
   {
-   "head": 249979,
-   "shoulder": 249977,
-   "chest": 249982,
-   "hands": 249980,
-   "legs": 249978
+   "head": 271483,
+   "shoulder": 271481,
+   "chest": 271486,
+   "hands": 271484,
+   "legs": 271482
   },
   {
-   "head": 250060,
-   "shoulder": 250058,
-   "chest": 250063,
-   "hands": 250061,
-   "legs": 250059
+   "head": 271564,
+   "shoulder": 271562,
+   "chest": 271567,
+   "hands": 271565,
+   "legs": 271563
   },
   {
-   "head": 250042,
-   "shoulder": 250040,
-   "chest": 250045,
-   "hands": 250043,
-   "legs": 250041
+   "head": 271546,
+   "shoulder": 271544,
+   "chest": 271549,
+   "hands": 271547,
+   "legs": 271545
   },
   {
-   "head": 250015,
-   "shoulder": 250013,
-   "chest": 250018,
-   "hands": 250016,
-   "legs": 250014
+   "head": 271519,
+   "shoulder": 271517,
+   "chest": 271522,
+   "hands": 271520,
+   "legs": 271518
   },
   {
-   "head": 250024,
-   "shoulder": 250022,
-   "chest": 250027,
-   "hands": 250025,
-   "legs": 250023
+   "head": 271528,
+   "shoulder": 271526,
+   "chest": 271531,
+   "hands": 271529,
+   "legs": 271527
   },
   {
-   "head": 250033,
-   "shoulder": 250031,
-   "chest": 250036,
-   "hands": 250034,
-   "legs": 250032
+   "head": 271537,
+   "shoulder": 271535,
+   "chest": 271540,
+   "hands": 271538,
+   "legs": 271536
   },
   {
-   "head": 249997,
-   "shoulder": 249995,
-   "chest": 250000,
-   "hands": 249998,
-   "legs": 249996
+   "head": 271501,
+   "shoulder": 271499,
+   "chest": 271504,
+   "hands": 271502,
+   "legs": 271500
   }
  ],
- "omnitokenName": "Chiming Void Curio"
+ "omnitokenName": "Slumbering Coil Curio"
 }

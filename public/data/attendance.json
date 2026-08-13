@@ -1,20 +1,15 @@
 {
- "startDate": "2026-06-13",
+ "startDate": "2026-06-14",
  "endDate": null,
  "characters": [
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 100
-  },
   {
    "characterId": 5021558,
    "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050159,
-   "name": "Tyreåh",
+   "characterId": 5021535,
+   "name": "Blythe",
    "attendedPercentage": 100
   },
   {
@@ -43,23 +38,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
+   "characterId": 5053378,
+   "name": "Svetirasi",
    "attendedPercentage": 100
   },
   {
@@ -68,8 +48,23 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053378,
-   "name": "Svetirasi",
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 100
   },
   {
@@ -88,33 +83,18 @@
    "attendedPercentage": 44.44444444444444
   },
   {
-   "characterId": 5035198,
-   "name": "Dalt",
+   "characterId": 20118646,
+   "name": "Chadiux",
    "attendedPercentage": 0
   },
   {
-   "characterId": 5021543,
-   "name": "Feilina",
+   "characterId": 11946812,
+   "name": "Vanzio",
    "attendedPercentage": 0
   },
   {
-   "characterId": 13521334,
-   "name": "Finalspark",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 19703285,
-   "name": "Alphaheal",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 6177638,
-   "name": "Nubx",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 0
   },
   {
@@ -123,8 +103,28 @@
    "attendedPercentage": 0
   },
   {
-   "characterId": 4258514,
-   "name": "Thatcrit",
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 13521334,
+   "name": "Finalspark",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 5021543,
+   "name": "Feilina",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 6177638,
+   "name": "Nubx",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 20118648,
+   "name": "Vengass",
    "attendedPercentage": 0
   }
  ]
