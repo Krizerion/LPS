@@ -192,7 +192,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-08-13T02:15:50.000Z"
+    "updatedAt": "2026-08-15T04:07:59.000Z"
    }
   },
   {
@@ -585,7 +585,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-07-15T22:33:16.000Z"
+    "updatedAt": "2026-08-14T19:17:45.000Z"
    }
   },
   {
@@ -929,7 +929,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Християн",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-08-14T17:33:37.000+00:00",
    "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 293,
@@ -986,7 +986,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-13T11:27:46.000Z"
+    "updatedAt": "2026-08-14T17:44:45.000Z"
    }
   },
   {
@@ -1391,7 +1391,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 291,
+    "ilvlEquipped": 294,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1421,13 +1421,13 @@
       "ilvl": 289
      },
      "feet": {
-      "ilvl": 289
+      "ilvl": 295
      },
      "finger1": {
       "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289
+      "ilvl": 302
      },
      "trinket1": {
       "ilvl": 298
@@ -1436,10 +1436,10 @@
       "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 295
+      "ilvl": 305
      }
     },
-    "updatedAt": "2026-08-12T16:47:59.000Z"
+    "updatedAt": "2026-08-15T05:22:05.000Z"
    }
   },
   {
@@ -1634,7 +1634,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-08-13T05:38:42.000Z"
+    "updatedAt": "2026-08-14T06:14:50.000Z"
    }
   }
  ]

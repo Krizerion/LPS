@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-14T06:14:18.222Z",
+ "fetchedAt": "2026-08-15T05:24:30.311Z",
  "team": {
   "name": "TERRA BLITZ",
   "guildName": "TERRA",
@@ -8,9 +8,9 @@
  },
  "season": "Midnight — Season 2",
  "seasonIlvls": {
-  "normal": 246,
-  "heroic": 259,
-  "mythic": 272
+  "normal": 292,
+  "heroic": 305,
+  "mythic": 318
  },
  "vaultMythKeyLevel": 10,
  "tierItemIds": [
