@@ -531,7 +531,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-08-16T21:24:37.000+00:00",
    "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 293,
@@ -670,16 +670,16 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Алекс",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-08-16T17:58:57.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 291,
+    "ilvlEquipped": 294.062,
     "slots": {
      "head": {
       "ilvl": 298
      },
      "neck": {
-      "ilvl": 279
+      "ilvl": 298
      },
      "shoulder": {
       "ilvl": 292
@@ -706,7 +706,7 @@
       "ilvl": 289
      },
      "finger1": {
-      "ilvl": 289
+      "ilvl": 305
      },
      "finger2": {
       "ilvl": 298
