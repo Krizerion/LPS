@@ -141,7 +141,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Мишо",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-08-17T15:35:07.000+00:00",
    "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 292,
@@ -873,7 +873,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Здравко",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-08-17T14:47:12.000+00:00",
    "mplusDungeons": [
     10
    ],
@@ -1517,7 +1517,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-16T16:27:27.000Z"
+    "updatedAt": "2026-08-18T02:41:00.000Z"
    }
   },
   {
@@ -1646,7 +1646,7 @@
       "ilvl": 308
      }
     },
-    "updatedAt": "2026-08-16T16:27:28.000Z"
+    "updatedAt": "2026-08-17T19:59:51.000Z"
    }
   }
  ]
