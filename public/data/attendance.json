@@ -58,13 +58,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
+   "characterId": 5066198,
+   "name": "Krizerio",
    "attendedPercentage": 100
   },
   {
@@ -83,33 +83,8 @@
    "attendedPercentage": 28.57142857142857
   },
   {
-   "characterId": 20118646,
-   "name": "Chadiux",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 11946812,
-   "name": "Vanzio",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 13521334,
-   "name": "Finalspark",
+   "characterId": 20118648,
+   "name": "Vengass",
    "attendedPercentage": 0
   },
   {
@@ -118,13 +93,33 @@
    "attendedPercentage": 0
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
+   "characterId": 13521334,
+   "name": "Finalspark",
    "attendedPercentage": 0
   },
   {
-   "characterId": 20118648,
-   "name": "Vengass",
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 11946812,
+   "name": "Vanzio",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 20118646,
+   "name": "Chadiux",
    "attendedPercentage": 0
   }
  ]
