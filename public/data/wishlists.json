@@ -9,6 +9,24 @@
      "maxItemLevel": 318,
      "items": [
       {
+       "id": 268240,
+       "name": "Restless Spirit Shackles",
+       "slot": "wrist",
+       "icon": "8095063"
+      },
+      {
+       "id": 268248,
+       "name": "Amani Summoning Shawl",
+       "slot": "back",
+       "icon": "inv_cape_leather_raidmonkulatek_d_01"
+      },
+      {
+       "id": 268235,
+       "name": "Vestment of the Awakening",
+       "slot": "chest",
+       "icon": "inv_robe_leather_raiddruidulatek_d_01"
+      },
+      {
        "id": 268229,
        "name": "Skullguard of the Risen Sacrifice",
        "slot": "head",
@@ -19,12 +37,6 @@
        "name": "Entombed Cultist's Sabatons",
        "slot": "feet",
        "icon": "inv_boot_plate_raidwarriorulatek_d_01"
-      },
-      {
-       "id": 268248,
-       "name": "Amani Summoning Shawl",
-       "slot": "back",
-       "icon": "inv_cape_leather_raidmonkulatek_d_01"
       },
       {
        "id": 270162,
@@ -57,18 +69,6 @@
        "icon": "inv_boot_cloth_raidpriestulatek_d_01"
       },
       {
-       "id": 268235,
-       "name": "Vestment of the Awakening",
-       "slot": "chest",
-       "icon": "inv_robe_leather_raiddruidulatek_d_01"
-      },
-      {
-       "id": 268240,
-       "name": "Restless Spirit Shackles",
-       "slot": "wrist",
-       "icon": "8095063"
-      },
-      {
        "id": 268216,
        "name": "Cursed Reliquary Cincture",
        "slot": "waist",
@@ -87,6 +87,24 @@
      "maxItemLevel": 321,
      "items": [
       {
+       "id": 270911,
+       "name": "Venomcured Idol",
+       "slot": "hands",
+       "icon": "inv_jewelcrafting_purpleserpent"
+      },
+      {
+       "id": 268219,
+       "name": "Shadow Hunter's Warmask",
+       "slot": "head",
+       "icon": "inv_helm_leather_raidrogueulatek_d_01"
+      },
+      {
+       "id": 268250,
+       "name": "Sentinel's Vitriolic Chain",
+       "slot": "neck",
+       "icon": "inv_121_jewelry_neck02_green"
+      },
+      {
        "id": 268197,
        "name": "Spine of the Hissing Abyss",
        "slot": "off_hand",
@@ -97,12 +115,6 @@
        "name": "Venom Warden's Greaves",
        "slot": "legs",
        "icon": "inv_pant_plate_raidwarriorulatek_d_01"
-      },
-      {
-       "id": 268250,
-       "name": "Sentinel's Vitriolic Chain",
-       "slot": "neck",
-       "icon": "inv_121_jewelry_neck02_green"
       },
       {
        "id": 270913,
@@ -135,18 +147,6 @@
        "icon": "inv_jewelcrafting_azureserpent"
       },
       {
-       "id": 270911,
-       "name": "Venomcured Idol",
-       "slot": "hands",
-       "icon": "inv_jewelcrafting_purpleserpent"
-      },
-      {
-       "id": 268219,
-       "name": "Shadow Hunter's Warmask",
-       "slot": "head",
-       "icon": "inv_helm_leather_raidrogueulatek_d_01"
-      },
-      {
        "id": 270912,
        "name": "Venomcast Idol",
        "slot": "hands",
@@ -159,10 +159,34 @@
      "maxItemLevel": 321,
      "items": [
       {
+       "id": 270161,
+       "name": "Fang of Umbral Malignance",
+       "slot": "trinket",
+       "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+      },
+      {
        "id": 268249,
        "name": "Vile Alchemist's Band",
        "slot": "finger",
        "icon": "inv_121_jewelry_ring01_purple"
+      },
+      {
+       "id": 268246,
+       "name": "Frothing Venom Spaulders",
+       "slot": "shoulder",
+       "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+      },
+      {
+       "id": 268205,
+       "name": "Venomancer's Winged Channeler",
+       "slot": "main_hand",
+       "icon": "inv_staff_2h_ulatek_d_02"
+      },
+      {
+       "id": 270927,
+       "name": "Venomcured Icon",
+       "slot": "chest",
+       "icon": "inv_jewelcrafting_purpleserpent"
       },
       {
        "id": 268260,
@@ -183,34 +207,10 @@
        "icon": "inv_sword_2h_ulatek_d_01"
       },
       {
-       "id": 268205,
-       "name": "Venomancer's Winged Channeler",
-       "slot": "main_hand",
-       "icon": "inv_staff_2h_ulatek_d_02"
-      },
-      {
        "id": 270926,
        "name": "Venomwoven Icon",
        "slot": "chest",
        "icon": "inv_jewelcrafting_azureserpent"
-      },
-      {
-       "id": 270161,
-       "name": "Fang of Umbral Malignance",
-       "slot": "trinket",
-       "icon": "inv_121_trinket_raid_ulatek_fang_purple"
-      },
-      {
-       "id": 268246,
-       "name": "Frothing Venom Spaulders",
-       "slot": "shoulder",
-       "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
-      },
-      {
-       "id": 270927,
-       "name": "Venomcured Icon",
-       "slot": "chest",
-       "icon": "inv_jewelcrafting_purpleserpent"
       },
       {
        "id": 268254,
@@ -237,6 +237,24 @@
      "maxItemLevel": 324,
      "items": [
       {
+       "id": 268227,
+       "name": "Unpossessed Skullsash",
+       "slot": "waist",
+       "icon": "inv_belt_leather_raidrogueulatek_d_01"
+      },
+      {
+       "id": 270923,
+       "name": "Venomcured Remnant",
+       "slot": "shoulder",
+       "icon": "inv_jewelcrafting_purpleserpent"
+      },
+      {
+       "id": 270164,
+       "name": "Gebbo's Bottomless Bag",
+       "slot": "trinket",
+       "icon": "inv_10_tailoring_bag1_color2"
+      },
+      {
        "id": 268196,
        "name": "Venom-Slashed Scuteward",
        "slot": "off_hand",
@@ -255,12 +273,6 @@
        "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
       },
       {
-       "id": 270164,
-       "name": "Gebbo's Bottomless Bag",
-       "slot": "trinket",
-       "icon": "inv_10_tailoring_bag1_color2"
-      },
-      {
        "id": 270925,
        "name": "Venomforged Remnant",
        "slot": "shoulder",
@@ -277,18 +289,6 @@
        "name": "Venomwoven Remnant",
        "slot": "shoulder",
        "icon": "inv_jewelcrafting_azureserpent"
-      },
-      {
-       "id": 270923,
-       "name": "Venomcured Remnant",
-       "slot": "shoulder",
-       "icon": "inv_jewelcrafting_purpleserpent"
-      },
-      {
-       "id": 268227,
-       "name": "Unpossessed Skullsash",
-       "slot": "waist",
-       "icon": "inv_belt_leather_raidrogueulatek_d_01"
       },
       {
        "id": 268258,
@@ -321,6 +321,18 @@
        "icon": "inv_121_jewelry_ring03_red"
       },
       {
+       "id": 268234,
+       "name": "Ruthless Slaughtergrips",
+       "slot": "hands",
+       "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+      },
+      {
+       "id": 270919,
+       "name": "Venomcured Relic",
+       "slot": "legs",
+       "icon": "inv_jewelcrafting_purpleserpent"
+      },
+      {
        "id": 270921,
        "name": "Venomforged Relic",
        "slot": "legs",
@@ -345,18 +357,6 @@
        "icon": "inv_glaive_1h_ulatek_d_01"
       },
       {
-       "id": 268234,
-       "name": "Ruthless Slaughtergrips",
-       "slot": "hands",
-       "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
-      },
-      {
-       "id": 270919,
-       "name": "Venomcured Relic",
-       "slot": "legs",
-       "icon": "inv_jewelcrafting_purpleserpent"
-      },
-      {
        "id": 268233,
        "name": "Ferocious Scaleboots",
        "slot": "feet",
@@ -375,10 +375,10 @@
      "maxItemLevel": 324,
      "items": [
       {
-       "id": 268220,
-       "name": "Scaleplate Strangulators",
-       "slot": "hands",
-       "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+       "id": 268261,
+       "name": "Bespittled Slitherslippers",
+       "slot": "feet",
+       "icon": "inv_boot_leather_raidmonkulatek_d_01"
       },
       {
        "id": 268251,
@@ -387,16 +387,28 @@
        "icon": "inv_121_jewelry_neck01_red"
       },
       {
-       "id": 270917,
-       "name": "Venomforged Effigy",
+       "id": 270915,
+       "name": "Venomcured Effigy",
        "slot": "head",
-       "icon": "inv_jewelcrafting_rubyserpent"
+       "icon": "inv_jewelcrafting_purpleserpent"
       },
       {
        "id": 270170,
        "name": "Vexhul's Everflowing Gland",
        "slot": "trinket",
        "icon": "inv_11_0_misc_organmass_color3"
+      },
+      {
+       "id": 268220,
+       "name": "Scaleplate Strangulators",
+       "slot": "hands",
+       "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+      },
+      {
+       "id": 270917,
+       "name": "Venomforged Effigy",
+       "slot": "head",
+       "icon": "inv_jewelcrafting_rubyserpent"
       },
       {
        "id": 268241,
@@ -409,18 +421,6 @@
        "name": "Venomwoven Effigy",
        "slot": "head",
        "icon": "inv_jewelcrafting_azureserpent"
-      },
-      {
-       "id": 268261,
-       "name": "Bespittled Slitherslippers",
-       "slot": "feet",
-       "icon": "inv_boot_leather_raidmonkulatek_d_01"
-      },
-      {
-       "id": 270915,
-       "name": "Venomcured Effigy",
-       "slot": "head",
-       "icon": "inv_jewelcrafting_purpleserpent"
       },
       {
        "id": 268223,
@@ -441,6 +441,30 @@
      "maxItemLevel": 327,
      "items": [
       {
+       "id": 268253,
+       "name": "Silken Voodoo Drape",
+       "slot": "back",
+       "icon": "inv_cape_leather_raidrogueulatek_d_01"
+      },
+      {
+       "id": 270169,
+       "name": "Hex Lord's Dooming Idol",
+       "slot": "trinket",
+       "icon": "inv_archaeology_orcclans_crackedidol"
+      },
+      {
+       "id": 268225,
+       "name": "Coiled Hex Legguards",
+       "slot": "legs",
+       "icon": "inv_pant_leather_raidmonkulatek_d_01"
+      },
+      {
+       "id": 268256,
+       "name": "Sash of the Forlorn Vessel",
+       "slot": "waist",
+       "icon": "inv_belt_leather_raiddruidulatek_d_01"
+      },
+      {
        "id": 268211,
        "name": "Baleful Hexblade",
        "slot": "main_hand",
@@ -453,22 +477,10 @@
        "icon": "inv_chest_plate_raidwarriorulatek_d_01"
       },
       {
-       "id": 268253,
-       "name": "Silken Voodoo Drape",
-       "slot": "back",
-       "icon": "inv_cape_leather_raidrogueulatek_d_01"
-      },
-      {
        "id": 268259,
        "name": "Girdle of Toxic Regret",
        "slot": "waist",
        "icon": "inv_belt_plate_raidpaladinulatek_d_01"
-      },
-      {
-       "id": 270169,
-       "name": "Hex Lord's Dooming Idol",
-       "slot": "trinket",
-       "icon": "inv_archaeology_orcclans_crackedidol"
       },
       {
        "id": 268209,
@@ -501,18 +513,6 @@
        "icon": "inv_boot_cloth_raidmageulatek_d_01"
       },
       {
-       "id": 268225,
-       "name": "Coiled Hex Legguards",
-       "slot": "legs",
-       "icon": "inv_pant_leather_raidmonkulatek_d_01"
-      },
-      {
-       "id": 268256,
-       "name": "Sash of the Forlorn Vessel",
-       "slot": "waist",
-       "icon": "inv_belt_leather_raiddruidulatek_d_01"
-      },
-      {
        "id": 268237,
        "name": "Cuisses of the Uncoiled Union",
        "slot": "legs",
@@ -531,10 +531,34 @@
      "maxItemLevel": 327,
      "items": [
       {
+       "id": 270909,
+       "name": "Slumbering Coil Curio",
+       "slot": "",
+       "icon": "rogue_paralytic_poison"
+      },
+      {
+       "id": 271875,
+       "name": "Gaze of the Coiled Watcher",
+       "slot": "head",
+       "icon": "inv_helm_leather_raiddruidulatek_d_01"
+      },
+      {
+       "id": 270168,
+       "name": "Font of Venomous Rage",
+       "slot": "trinket",
+       "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+      },
+      {
        "id": 268265,
        "name": "Aqirbane Reliquary",
        "slot": "neck",
        "icon": "inv_121_jewelry_neck03_green"
+      },
+      {
+       "id": 271092,
+       "name": "Jan'thrazet, the Soul Fang",
+       "slot": "main_hand",
+       "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
       },
       {
        "id": 271878,
@@ -549,18 +573,6 @@
        "icon": "inv_sword_1h_ulatek_d_01"
       },
       {
-       "id": 270909,
-       "name": "Slumbering Coil Curio",
-       "slot": "",
-       "icon": "rogue_paralytic_poison"
-      },
-      {
-       "id": 270168,
-       "name": "Font of Venomous Rage",
-       "slot": "trinket",
-       "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
-      },
-      {
        "id": 270175,
        "name": "Voracious Heart of Ula'tek",
        "slot": "trinket",
@@ -571,18 +583,6 @@
        "name": "Venomkeeper's Horrific Cowl",
        "slot": "head",
        "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
-      },
-      {
-       "id": 271092,
-       "name": "Jan'thrazet, the Soul Fang",
-       "slot": "main_hand",
-       "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
-      },
-      {
-       "id": 271875,
-       "name": "Gaze of the Coiled Watcher",
-       "slot": "head",
-       "icon": "inv_helm_leather_raiddruidulatek_d_01"
       },
       {
        "id": 271876,
@@ -609,6 +609,24 @@
      "maxItemLevel": 344,
      "items": [
       {
+       "id": 268266,
+       "name": "Alluring Bubbleband",
+       "slot": "finger",
+       "icon": "inv_70_raid_ring8c"
+      },
+      {
+       "id": 268247,
+       "name": "Breakwater Boots",
+       "slot": "feet",
+       "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+      },
+      {
+       "id": 270167,
+       "name": "Wavecaller's Seastone",
+       "slot": "trinket",
+       "icon": "inv_tradeskillitem_sorcererswater"
+      },
+      {
        "id": 268226,
        "name": "Swelling Sea Spaulders",
        "slot": "shoulder",
@@ -633,18 +651,6 @@
        "icon": "inv_offhand_1h_ulatek_d_01"
       },
       {
-       "id": 268266,
-       "name": "Alluring Bubbleband",
-       "slot": "finger",
-       "icon": "inv_70_raid_ring8c"
-      },
-      {
-       "id": 270167,
-       "name": "Wavecaller's Seastone",
-       "slot": "trinket",
-       "icon": "inv_tradeskillitem_sorcererswater"
-      },
-      {
        "id": 268232,
        "name": "Cincture of the Abyssal Grotto",
        "slot": "waist",
@@ -655,12 +661,6 @@
        "name": "Tidebound Sorcereress's Robes",
        "slot": "chest",
        "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
-      },
-      {
-       "id": 268247,
-       "name": "Breakwater Boots",
-       "slot": "feet",
-       "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
       },
       {
        "id": 268217,
@@ -674,6 +674,329 @@
   }
  ],
  "upgrades": [
+  {
+   "characterId": 6177638,
+   "itemId": 268240,
+   "itemName": "Restless Spirit Shackles",
+   "slot": "wrist",
+   "instanceId": 80,
+   "encounter": "Nek'zali the Soulcoiler",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 0.5927,
+   "absolute": 622.2319,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268235,
+   "itemName": "Vestment of the Awakening",
+   "slot": "chest",
+   "instanceId": 80,
+   "encounter": "Nek'zali the Soulcoiler",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.2865,
+   "absolute": 3450.244,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 270911,
+   "itemName": "Venomcured Idol",
+   "slot": "hands",
+   "instanceId": 80,
+   "encounter": "Entombed Sentinels",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 1.9984,
+   "absolute": 2098.0079,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268249,
+   "itemName": "Vile Alchemist's Band",
+   "slot": "finger",
+   "instanceId": 80,
+   "encounter": "Vashnik the Malignant",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 1.8743,
+   "absolute": 1967.6408,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268246,
+   "itemName": "Frothing Venom Spaulders",
+   "slot": "shoulder",
+   "instanceId": 80,
+   "encounter": "Vashnik the Malignant",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.2658,
+   "absolute": 2378.7269,
+   "updatedAt": "2026-08-16T07:21:26.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268205,
+   "itemName": "Venomancer's Winged Channeler",
+   "slot": "main_hand",
+   "instanceId": 80,
+   "encounter": "Vashnik the Malignant",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 8.3143,
+   "absolute": 8728.5383,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 270927,
+   "itemName": "Venomcured Icon",
+   "slot": "chest",
+   "instanceId": 80,
+   "encounter": "Vashnik the Malignant",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.2655,
+   "absolute": 3428.1956,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 270164,
+   "itemName": "Gebbo's Bottomless Bag",
+   "slot": "trinket",
+   "instanceId": 80,
+   "encounter": "The Lost Explorers",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.1481,
+   "absolute": 2255.137,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268234,
+   "itemName": "Ruthless Slaughtergrips",
+   "slot": "hands",
+   "instanceId": 80,
+   "encounter": "Sszorak",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.1189,
+   "absolute": 2224.4365,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 270919,
+   "itemName": "Venomcured Relic",
+   "slot": "legs",
+   "instanceId": 80,
+   "encounter": "Sszorak",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.2928,
+   "absolute": 3456.8718,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268261,
+   "itemName": "Bespittled Slitherslippers",
+   "slot": "feet",
+   "instanceId": 80,
+   "encounter": "The Twin Fangs",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.0181,
+   "absolute": 2118.6929,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 270915,
+   "itemName": "Venomcured Effigy",
+   "slot": "head",
+   "instanceId": 80,
+   "encounter": "The Twin Fangs",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.0128,
+   "absolute": 3162.9038,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268253,
+   "itemName": "Silken Voodoo Drape",
+   "slot": "back",
+   "instanceId": 80,
+   "encounter": "The Coiled Altar",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.7607,
+   "absolute": 2898.2411,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268225,
+   "itemName": "Coiled Hex Legguards",
+   "slot": "legs",
+   "instanceId": 80,
+   "encounter": "The Coiled Altar",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.8645,
+   "absolute": 4057.0757,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268256,
+   "itemName": "Sash of the Forlorn Vessel",
+   "slot": "waist",
+   "instanceId": 80,
+   "encounter": "The Coiled Altar",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.1439,
+   "absolute": 2250.725,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 270909,
+   "itemName": "Slumbering Coil Curio",
+   "slot": "",
+   "instanceId": 80,
+   "encounter": "Ula'tek",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 5.4302,
+   "absolute": 5700.74,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 271875,
+   "itemName": "Gaze of the Coiled Watcher",
+   "slot": "head",
+   "instanceId": 80,
+   "encounter": "Ula'tek",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 5.4411,
+   "absolute": 5712.1288,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268265,
+   "itemName": "Aqirbane Reliquary",
+   "slot": "neck",
+   "instanceId": 80,
+   "encounter": "Ula'tek",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 3.9339,
+   "absolute": 4129.8725,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
+  {
+   "characterId": 6177638,
+   "itemId": 268247,
+   "itemName": "Breakwater Boots",
+   "slot": "feet",
+   "instanceId": 81,
+   "encounter": "Nymrissa Wavecaller",
+   "difficulty": "mythic",
+   "spec": "Balance",
+   "wishlistName": "Default",
+   "wishlistWeight": 1,
+   "percentage": 2.0653,
+   "absolute": 2168.2339,
+   "updatedAt": "2026-08-16T07:17:19.000+00:00",
+   "manuallyEdited": false,
+   "comment": null
+  },
   {
    "characterId": 20118646,
    "itemId": 268229,
