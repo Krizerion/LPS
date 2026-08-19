@@ -226,7 +226,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Лазо",
-   "droptimizerUploadedAt": "2026-08-19T17:23:28.000+00:00",
+   "droptimizerUploadedAt": "2026-08-19T18:02:30.000+00:00",
    "mplusDungeons": [
     5,
     2
@@ -362,7 +362,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Денис",
-   "droptimizerUploadedAt": "2026-08-19T17:10:56.000+00:00",
+   "droptimizerUploadedAt": "2026-08-19T18:02:41.000+00:00",
    "mplusDungeons": [
     4,
     2,
@@ -588,7 +588,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Коко",
-   "droptimizerUploadedAt": "2026-08-19T17:47:10.000+00:00",
+   "droptimizerUploadedAt": "2026-08-19T18:03:17.000+00:00",
    "mplusDungeons": [
     11,
     10
@@ -657,7 +657,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Стиви",
-   "droptimizerUploadedAt": "2026-08-19T15:54:15.000+00:00",
+   "droptimizerUploadedAt": "2026-08-19T18:01:02.000+00:00",
    "mplusDungeons": [
     4,
     2,
@@ -729,7 +729,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": "2026-08-19T07:03:38.000+00:00",
+   "droptimizerUploadedAt": "2026-08-19T18:03:29.000+00:00",
    "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 294,
@@ -1307,7 +1307,7 @@
     8
    ],
    "gear": {
-    "ilvlEquipped": 293,
+    "ilvlEquipped": 293.5,
     "slots": {
      "head": {
       "ilvl": 289
@@ -1376,7 +1376,7 @@
     8
    ],
    "gear": {
-    "ilvlEquipped": 290,
+    "ilvlEquipped": 290.938,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1631,7 +1631,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Тошко",
-   "droptimizerUploadedAt": "2026-08-19T17:48:11.000+00:00",
+   "droptimizerUploadedAt": "2026-08-19T18:01:13.000+00:00",
    "mplusDungeons": [
     5,
     2,
@@ -1708,7 +1708,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Деница",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-08-19T17:56:50.000+00:00",
    "mplusDungeons": [
     11,
     9
