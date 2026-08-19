@@ -1,7 +1,22 @@
 {
- "startDate": "2026-06-19",
+ "startDate": "2026-06-20",
  "endDate": null,
  "characters": [
+  {
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 20118646,
+   "name": "Chadiux",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 11946812,
+   "name": "Vanzio",
+   "attendedPercentage": 100
+  },
   {
    "characterId": 5021558,
    "name": "Azeryx",
@@ -13,8 +28,33 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5030809,
-   "name": "Sherman",
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 13521334,
+   "name": "Finalspark",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021543,
+   "name": "Feilina",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 20118648,
+   "name": "Vengass",
    "attendedPercentage": 100
   },
   {
@@ -58,74 +98,34 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 5099602,
    "name": "Elfionna",
    "attendedPercentage": 100
   },
   {
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5030809,
+   "name": "Sherman",
+   "attendedPercentage": 87.5
+  },
+  {
    "characterId": 5053387,
    "name": "Zelyo",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 71.42857142857143
+   "attendedPercentage": 75
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 28.57142857142857
-  },
-  {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 20118646,
-   "name": "Chadiux",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 11946812,
-   "name": "Vanzio",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 13521334,
-   "name": "Finalspark",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 5021543,
-   "name": "Feilina",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 20118648,
-   "name": "Vengass",
-   "attendedPercentage": 0
+   "attendedPercentage": 37.5
   }
  ]
 }

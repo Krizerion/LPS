@@ -10,11 +10,7 @@
    "status": "tracking",
    "note": null,
    "droptimizerUploadedAt": "2026-08-18T14:35:28.000+00:00",
-   "mplusDungeons": [
-    12,
-    12,
-    12
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 288,
     "slots": {
@@ -655,7 +651,7 @@
       "ilvl": 298
      }
     },
-    "updatedAt": "2026-08-16T16:27:29.000Z"
+    "updatedAt": "2026-08-18T19:45:04.000Z"
    }
   },
   {
@@ -734,9 +730,7 @@
    "status": "tracking",
    "note": "Зап",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    10
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 294,
     "slots": {
@@ -871,9 +865,7 @@
    "status": "tracking",
    "note": "Здравко",
    "droptimizerUploadedAt": "2026-08-17T14:47:12.000+00:00",
-   "mplusDungeons": [
-    10
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 296,
     "slots": {
@@ -938,7 +930,7 @@
    "droptimizerUploadedAt": "2026-08-14T17:33:37.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 293,
+    "ilvlEquipped": 294,
     "slots": {
      "head": {
       "ilvl": 308
@@ -977,13 +969,13 @@
       "ilvl": 298
      },
      "finger2": {
-      "ilvl": 289
+      "ilvl": 295
      },
      "trinket1": {
-      "ilvl": 285
+      "ilvl": 295
      },
      "trinket2": {
-      "ilvl": 298
+      "ilvl": 302
      },
      "mainhand": {
       "ilvl": 298
@@ -992,7 +984,7 @@
       "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-16T16:16:53.000Z"
+    "updatedAt": "2026-08-18T16:12:54.000Z"
    }
   },
   {
@@ -1448,7 +1440,7 @@
       "ilvl": 305
      }
     },
-    "updatedAt": "2026-08-16T16:24:52.000Z"
+    "updatedAt": "2026-08-18T17:05:01.000Z"
    }
   },
   {
