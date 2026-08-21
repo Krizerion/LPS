@@ -16,20 +16,6 @@
    "note": ""
   },
   {
-   "id": 1194397978,
-   "itemId": 270170,
-   "name": "Vexhul's Everflowing Gland",
-   "icon": "inv_11_0_misc_organmass_color3",
-   "slot": "Trinket",
-   "characterId": 4258514,
-   "awardedAt": "2026-08-19T22:16:00.000Z",
-   "difficulty": "normal",
-   "response": "BiS",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1194397995,
    "itemId": 270170,
    "name": "Vexhul's Everflowing Gland",
@@ -39,6 +25,20 @@
    "awardedAt": "2026-08-19T22:16:00.000Z",
    "difficulty": "normal",
    "response": "Pass",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1194397978,
+   "itemId": 270170,
+   "name": "Vexhul's Everflowing Gland",
+   "icon": "inv_11_0_misc_organmass_color3",
+   "slot": "Trinket",
+   "characterId": 4258514,
+   "awardedAt": "2026-08-19T22:16:00.000Z",
+   "difficulty": "normal",
+   "response": "BiS",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -240,12 +240,12 @@
    "note": ""
   },
   {
-   "id": 1194397994,
+   "id": 1194397981,
    "itemId": 270166,
    "name": "Vashnik's Sanguine Rancor",
    "icon": "inv_11_0_raid_gruesomesyringe_blue",
    "slot": "Trinket",
-   "characterId": 5053387,
+   "characterId": 11946812,
    "awardedAt": "2026-08-19T20:59:00.000Z",
    "difficulty": "normal",
    "response": "Pass",
@@ -254,12 +254,12 @@
    "note": ""
   },
   {
-   "id": 1194397981,
+   "id": 1194397994,
    "itemId": 270166,
    "name": "Vashnik's Sanguine Rancor",
    "icon": "inv_11_0_raid_gruesomesyringe_blue",
    "slot": "Trinket",
-   "characterId": 11946812,
+   "characterId": 5053387,
    "awardedAt": "2026-08-19T20:59:00.000Z",
    "difficulty": "normal",
    "response": "Pass",
