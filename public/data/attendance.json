@@ -1,5 +1,5 @@
 {
- "startDate": "2026-06-22",
+ "startDate": "2026-06-23",
  "endDate": null,
  "characters": [
   {
@@ -110,22 +110,22 @@
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 5053387,
    "name": "Zelyo",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 75
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 37.5
+   "attendedPercentage": 28.57142857142857
   },
   {
    "characterId": 19703285,
