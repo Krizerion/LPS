@@ -135,10 +135,12 @@
     10,
     10,
     9,
-    2
+    2,
+    10,
+    10
    ],
    "gear": {
-    "ilvlEquipped": 301,
+    "ilvlEquipped": 301.812,
     "slots": {
      "head": {
       "ilvl": 289
@@ -585,10 +587,14 @@
     10,
     10,
     10,
+    10,
+    10,
+    10,
+    10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 304,
+    "ilvlEquipped": 305.812,
     "slots": {
      "head": {
       "ilvl": 295
@@ -600,7 +606,7 @@
       "ilvl": 295
      },
      "back": {
-      "ilvl": 289
+      "ilvl": 311
      },
      "chest": {
       "ilvl": 308
@@ -667,7 +673,11 @@
     10,
     9,
     12,
-    11
+    11,
+    11,
+    10,
+    10,
+    10
    ],
    "gear": {
     "ilvlEquipped": 301,
@@ -718,7 +728,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-21T15:30:27.000Z"
+    "updatedAt": "2026-08-23T16:53:36.000Z"
    }
   },
   {
@@ -748,6 +758,8 @@
     12,
     10,
     10,
+    10,
+    11,
     10
    ],
    "gear": {
@@ -805,7 +817,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-21T09:24:47.000Z"
+    "updatedAt": "2026-08-23T14:09:55.000Z"
    }
   },
   {
@@ -822,6 +834,7 @@
     8,
     2,
     5,
+    10,
     10,
     10,
     10,
@@ -920,6 +933,8 @@
     10,
     10,
     10,
+    10,
+    11,
     10
    ],
    "gear": {
@@ -974,7 +989,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-22T20:41:09.000Z"
+    "updatedAt": "2026-08-23T10:39:15.000Z"
    }
   },
   {
@@ -1021,10 +1036,15 @@
     10,
     10,
     10,
+    10,
+    10,
+    12,
+    10,
+    11,
     10
    ],
    "gear": {
-    "ilvlEquipped": 308.375,
+    "ilvlEquipped": 311,
     "slots": {
      "head": {
       "ilvl": 311
@@ -1036,7 +1056,7 @@
       "ilvl": 289
      },
      "back": {
-      "ilvl": 289
+      "ilvl": 311
      },
      "chest": {
       "ilvl": 308
@@ -1066,13 +1086,13 @@
       "ilvl": 321
      },
      "trinket2": {
-      "ilvl": 308
+      "ilvl": 311
      },
      "mainhand": {
-      "ilvl": 311
+      "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-22T20:41:04.000Z"
+    "updatedAt": "2026-08-23T15:19:10.000Z"
    }
   },
   {
@@ -1114,10 +1134,11 @@
     10,
     10,
     11,
-    10
+    10,
+    11
    ],
    "gear": {
-    "ilvlEquipped": 302,
+    "ilvlEquipped": 297,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1165,10 +1186,10 @@
       "ilvl": 311
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-23T00:04:29.000Z"
+    "updatedAt": "2026-08-23T17:09:36.000Z"
    }
   },
   {
@@ -1193,6 +1214,7 @@
     10,
     10,
     9,
+    10,
     10,
     10
    ],
@@ -1274,10 +1296,15 @@
     7,
     4,
     9,
-    8
+    8,
+    10,
+    10,
+    10,
+    10,
+    10
    ],
    "gear": {
-    "ilvlEquipped": 292.062,
+    "ilvlEquipped": 294.688,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1307,7 +1334,7 @@
       "ilvl": 295
      },
      "feet": {
-      "ilvl": 289
+      "ilvl": 308
      },
      "finger1": {
       "ilvl": 289
@@ -1319,10 +1346,10 @@
       "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 295
+      "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 298
+      "ilvl": 308
      }
     },
     "updatedAt": "2026-08-22T14:10:41.000Z"
@@ -1337,7 +1364,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Вик",
-   "droptimizerUploadedAt": "2026-08-19T16:32:20.000+00:00",
+   "droptimizerUploadedAt": "2026-08-23T16:04:02.000+00:00",
    "mplusDungeons": [
     5,
     4,
@@ -1443,10 +1470,16 @@
     8,
     7,
     9,
-    6
+    6,
+    11,
+    10,
+    10,
+    11,
+    11,
+    10
    ],
    "gear": {
-    "ilvlEquipped": 306,
+    "ilvlEquipped": 307,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1488,7 +1521,7 @@
       "ilvl": 308
      },
      "trinket1": {
-      "ilvl": 298
+      "ilvl": 311
      },
      "trinket2": {
       "ilvl": 311
@@ -1497,7 +1530,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-22T04:24:54.000Z"
+    "updatedAt": "2026-08-23T16:53:28.000Z"
    }
   },
   {
@@ -1525,6 +1558,12 @@
     12,
     14,
     12,
+    12,
+    12,
+    12,
+    11,
+    12,
+    13,
     12,
     12
    ],
@@ -1577,7 +1616,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-22T21:56:28.000Z"
+    "updatedAt": "2026-08-23T15:01:28.000Z"
    }
   },
   {
@@ -1619,13 +1658,17 @@
     10,
     10,
     9,
-    8
+    8,
+    10,
+    10,
+    10,
+    10
    ],
    "gear": {
-    "ilvlEquipped": 307.188,
+    "ilvlEquipped": 307.938,
     "slots": {
      "head": {
-      "ilvl": 302
+      "ilvl": 311
      },
      "neck": {
       "ilvl": 311
@@ -1634,7 +1677,7 @@
       "ilvl": 321
      },
      "back": {
-      "ilvl": 308
+      "ilvl": 311
      },
      "chest": {
       "ilvl": 289
@@ -1674,6 +1717,692 @@
      }
     },
     "updatedAt": "2026-08-22T14:22:55.000Z"
+   }
+  },
+  {
+   "id": 6527027,
+   "name": "Stenli",
+   "realm": "Ragnaros",
+   "class": "Warrior",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T17:52:36.000+00:00",
+   "mplusDungeons": [
+    5,
+    2,
+    8,
+    9,
+    2,
+    7,
+    7,
+    9,
+    8,
+    9,
+    8,
+    8,
+    10,
+    6,
+    8,
+    7,
+    8,
+    7,
+    10,
+    9,
+    8,
+    5,
+    2,
+    10,
+    11,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 304,
+    "slots": {
+     "head": {
+      "ilvl": 292
+     },
+     "neck": {
+      "ilvl": 305
+     },
+     "shoulder": {
+      "ilvl": 295
+     },
+     "back": {
+      "ilvl": 295
+     },
+     "chest": {
+      "ilvl": 292
+     },
+     "waist": {
+      "ilvl": 308
+     },
+     "wrist": {
+      "ilvl": 305
+     },
+     "hands": {
+      "ilvl": 308
+     },
+     "legs": {
+      "ilvl": 295
+     },
+     "feet": {
+      "ilvl": 318
+     },
+     "finger1": {
+      "ilvl": 305
+     },
+     "finger2": {
+      "ilvl": 311
+     },
+     "trinket1": {
+      "ilvl": 308
+     },
+     "trinket2": {
+      "ilvl": 311
+     },
+     "mainhand": {
+      "ilvl": 308
+     }
+    },
+    "updatedAt": "2026-08-22T15:12:40.000Z"
+   }
+  },
+  {
+   "id": 4486779,
+   "name": "Simbi",
+   "realm": "Kazzak",
+   "class": "Warlock",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T18:03:17.000+00:00",
+   "mplusDungeons": [
+    11,
+    10,
+    10,
+    10,
+    11,
+    12,
+    11,
+    12,
+    10,
+    12,
+    11,
+    10,
+    10,
+    11,
+    11,
+    11,
+    10,
+    10,
+    10,
+    11,
+    12,
+    11,
+    12,
+    11,
+    11,
+    11,
+    11,
+    10,
+    11,
+    10,
+    10,
+    10,
+    11,
+    10,
+    12,
+    12,
+    14,
+    15,
+    15,
+    14,
+    12,
+    14
+   ],
+   "gear": {
+    "ilvlEquipped": 311.375,
+    "slots": {
+     "head": {
+      "ilvl": 311
+     },
+     "neck": {
+      "ilvl": 311
+     },
+     "shoulder": {
+      "ilvl": 311
+     },
+     "back": {
+      "ilvl": 311
+     },
+     "chest": {
+      "ilvl": 308
+     },
+     "waist": {
+      "ilvl": 311
+     },
+     "shirt": {
+      "ilvl": 1
+     },
+     "wrist": {
+      "ilvl": 285
+     },
+     "hands": {
+      "ilvl": 308
+     },
+     "legs": {
+      "ilvl": 311
+     },
+     "feet": {
+      "ilvl": 311
+     },
+     "finger1": {
+      "ilvl": 289
+     },
+     "finger2": {
+      "ilvl": 311
+     },
+     "trinket1": {
+      "ilvl": 321
+     },
+     "trinket2": {
+      "ilvl": 321
+     },
+     "mainhand": {
+      "ilvl": 331
+     }
+    },
+    "updatedAt": "2026-08-22T22:37:09.000Z"
+   }
+  },
+  {
+   "id": 20118646,
+   "name": "Chadiux",
+   "realm": "Silvermoon",
+   "class": "Paladin",
+   "role": "Heal",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T16:42:34.000+00:00",
+   "mplusDungeons": [
+    11,
+    11,
+    11,
+    11,
+    10,
+    10,
+    9,
+    7,
+    12,
+    11,
+    10,
+    12,
+    11,
+    12,
+    12,
+    13,
+    12,
+    13,
+    12,
+    13,
+    12,
+    10,
+    12,
+    12,
+    12,
+    10,
+    10,
+    11,
+    9,
+    6,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    10,
+    10,
+    11,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    10,
+    11,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 307,
+    "slots": {
+     "head": {
+      "ilvl": 308
+     },
+     "neck": {
+      "ilvl": 305
+     },
+     "shoulder": {
+      "ilvl": 289
+     },
+     "back": {
+      "ilvl": 311
+     },
+     "chest": {
+      "ilvl": 289
+     },
+     "waist": {
+      "ilvl": 311
+     },
+     "wrist": {
+      "ilvl": 311
+     },
+     "hands": {
+      "ilvl": 315
+     },
+     "legs": {
+      "ilvl": 311
+     },
+     "feet": {
+      "ilvl": 311
+     },
+     "finger1": {
+      "ilvl": 282
+     },
+     "finger2": {
+      "ilvl": 311
+     },
+     "trinket1": {
+      "ilvl": 311
+     },
+     "trinket2": {
+      "ilvl": 298
+     },
+     "mainhand": {
+      "ilvl": 331
+     },
+     "offhand": {
+      "ilvl": 321
+     }
+    },
+    "updatedAt": "2026-08-23T17:22:25.000Z"
+   }
+  },
+  {
+   "id": 5021543,
+   "name": "Feilina",
+   "realm": "Argent Dawn",
+   "class": "Death Knight",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T18:03:29.000+00:00",
+   "mplusDungeons": [
+    11,
+    11,
+    11,
+    10,
+    11,
+    10,
+    10,
+    12,
+    12,
+    8,
+    7,
+    10,
+    10,
+    11,
+    11,
+    11,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 299.812,
+    "slots": {
+     "head": {
+      "ilvl": 289
+     },
+     "neck": {
+      "ilvl": 298
+     },
+     "shoulder": {
+      "ilvl": 311
+     },
+     "back": {
+      "ilvl": 285
+     },
+     "chest": {
+      "ilvl": 298
+     },
+     "waist": {
+      "ilvl": 298
+     },
+     "shirt": {
+      "ilvl": 1
+     },
+     "wrist": {
+      "ilvl": 285
+     },
+     "hands": {
+      "ilvl": 308
+     },
+     "legs": {
+      "ilvl": 308
+     },
+     "feet": {
+      "ilvl": 305
+     },
+     "finger1": {
+      "ilvl": 305
+     },
+     "finger2": {
+      "ilvl": 289
+     },
+     "trinket1": {
+      "ilvl": 298
+     },
+     "trinket2": {
+      "ilvl": 298
+     },
+     "mainhand": {
+      "ilvl": 311
+     }
+    },
+    "updatedAt": "2026-08-23T11:38:27.000Z"
+   }
+  },
+  {
+   "id": 13521334,
+   "name": "Finalspark",
+   "realm": "Argent Dawn",
+   "class": "Priest",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T18:01:02.000+00:00",
+   "mplusDungeons": [
+    4,
+    2,
+    7,
+    9,
+    8,
+    10,
+    2,
+    10,
+    10,
+    7,
+    10,
+    5,
+    2,
+    10,
+    10,
+    9,
+    8,
+    9,
+    10,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 303.812,
+    "slots": {
+     "head": {
+      "ilvl": 295
+     },
+     "neck": {
+      "ilvl": 308
+     },
+     "shoulder": {
+      "ilvl": 308
+     },
+     "back": {
+      "ilvl": 279
+     },
+     "chest": {
+      "ilvl": 292
+     },
+     "waist": {
+      "ilvl": 331
+     },
+     "wrist": {
+      "ilvl": 305
+     },
+     "hands": {
+      "ilvl": 279
+     },
+     "legs": {
+      "ilvl": 289
+     },
+     "feet": {
+      "ilvl": 311
+     },
+     "finger1": {
+      "ilvl": 311
+     },
+     "finger2": {
+      "ilvl": 295
+     },
+     "trinket1": {
+      "ilvl": 321
+     },
+     "trinket2": {
+      "ilvl": 295
+     },
+     "mainhand": {
+      "ilvl": 321
+     }
+    },
+    "updatedAt": "2026-08-22T14:13:41.000Z"
+   }
+  },
+  {
+   "id": 11946812,
+   "name": "Vanzio",
+   "realm": "Ravencrest",
+   "class": "Rogue",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T18:02:30.000+00:00",
+   "mplusDungeons": [
+    5,
+    2,
+    8,
+    10,
+    9,
+    10,
+    12,
+    11,
+    10,
+    10,
+    11,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 301,
+    "slots": {
+     "head": {
+      "ilvl": 298
+     },
+     "neck": {
+      "ilvl": 305
+     },
+     "shoulder": {
+      "ilvl": 289
+     },
+     "back": {
+      "ilvl": 305
+     },
+     "chest": {
+      "ilvl": 289
+     },
+     "waist": {
+      "ilvl": 311
+     },
+     "wrist": {
+      "ilvl": 311
+     },
+     "hands": {
+      "ilvl": 308
+     },
+     "legs": {
+      "ilvl": 302
+     },
+     "feet": {
+      "ilvl": 295
+     },
+     "finger1": {
+      "ilvl": 282
+     },
+     "finger2": {
+      "ilvl": 311
+     },
+     "trinket1": {
+      "ilvl": 298
+     },
+     "trinket2": {
+      "ilvl": 298
+     },
+     "mainhand": {
+      "ilvl": 298
+     },
+     "offhand": {
+      "ilvl": 331
+     }
+    },
+    "updatedAt": "2026-08-23T16:53:30.000Z"
+   }
+  },
+  {
+   "id": 20118648,
+   "name": "Vengass",
+   "realm": "Stormscale",
+   "class": "Demon Hunter",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": "2026-08-19T17:42:22.000+00:00",
+   "mplusDungeons": [
+    12,
+    10,
+    9,
+    8,
+    8,
+    11,
+    11,
+    9,
+    11,
+    9,
+    7,
+    8,
+    4,
+    9,
+    9,
+    10,
+    10,
+    5,
+    2,
+    13,
+    11,
+    13,
+    12,
+    10,
+    10,
+    12,
+    9,
+    14,
+    13,
+    13,
+    12,
+    12,
+    11,
+    12,
+    14,
+    10,
+    12,
+    12,
+    10,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13
+   ],
+   "gear": {
+    "ilvlEquipped": 307,
+    "slots": {
+     "head": {
+      "ilvl": 298
+     },
+     "neck": {
+      "ilvl": 298
+     },
+     "shoulder": {
+      "ilvl": 289
+     },
+     "back": {
+      "ilvl": 311
+     },
+     "chest": {
+      "ilvl": 289
+     },
+     "waist": {
+      "ilvl": 311
+     },
+     "wrist": {
+      "ilvl": 311
+     },
+     "hands": {
+      "ilvl": 311
+     },
+     "legs": {
+      "ilvl": 311
+     },
+     "feet": {
+      "ilvl": 311
+     },
+     "finger1": {
+      "ilvl": 311
+     },
+     "finger2": {
+      "ilvl": 308
+     },
+     "trinket1": {
+      "ilvl": 298
+     },
+     "trinket2": {
+      "ilvl": 321
+     },
+     "mainhand": {
+      "ilvl": 331
+     },
+     "offhand": {
+      "ilvl": 318
+     }
+    },
+    "updatedAt": "2026-08-23T00:40:36.000Z"
    }
   }
  ]
