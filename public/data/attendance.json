@@ -1,12 +1,7 @@
 {
- "startDate": "2026-06-24",
+ "startDate": "2026-06-25",
  "endDate": null,
  "characters": [
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 100
-  },
   {
    "characterId": 5021440,
    "name": "Racor",
@@ -33,18 +28,13 @@
    "attendedPercentage": 100
   },
   {
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 100
+  },
+  {
    "characterId": 5021535,
    "name": "Blythe",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 6177638,
-   "name": "Maity",
    "attendedPercentage": 100
   },
   {
@@ -58,13 +48,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
+   "characterId": 5021558,
+   "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
+   "characterId": 6177638,
+   "name": "Maity",
    "attendedPercentage": 100
   },
   {
@@ -120,6 +110,16 @@
   {
    "characterId": 4608754,
    "name": "Valahan",
+   "attendedPercentage": 85.71428571428571
+  },
+  {
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
+   "attendedPercentage": 85.71428571428571
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 85.71428571428571
   },
   {
