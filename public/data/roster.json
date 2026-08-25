@@ -42,7 +42,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 303.438,
+    "ilvlEquipped": 306.812,
     "slots": {
      "head": {
       "ilvl": 289
@@ -57,7 +57,7 @@
       "ilvl": 311
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 321
      },
      "waist": {
       "ilvl": 321
@@ -69,10 +69,10 @@
       "ilvl": 285
      },
      "hands": {
-      "ilvl": 289
+      "ilvl": 302
      },
      "legs": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "feet": {
       "ilvl": 295
@@ -647,7 +647,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Християн",
-   "droptimizerUploadedAt": "2026-08-24T14:53:09.000+00:00",
+   "droptimizerUploadedAt": "2026-08-24T19:04:05.000+00:00",
    "mplusDungeons": [
     7,
     5,
@@ -682,7 +682,7 @@
     11
    ],
    "gear": {
-    "ilvlEquipped": 306.25,
+    "ilvlEquipped": 308,
     "slots": {
      "head": {
       "ilvl": 308
@@ -691,7 +691,7 @@
       "ilvl": 311
      },
      "shoulder": {
-      "ilvl": 289
+      "ilvl": 295
      },
      "back": {
       "ilvl": 305
@@ -709,7 +709,7 @@
       "ilvl": 305
      },
      "hands": {
-      "ilvl": 289
+      "ilvl": 311
      },
      "legs": {
       "ilvl": 305
@@ -973,10 +973,12 @@
     10,
     10,
     11,
+    10,
+    10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 311.375,
+    "ilvlEquipped": 311.562,
     "slots": {
      "head": {
       "ilvl": 311
@@ -985,7 +987,7 @@
       "ilvl": 311
      },
      "shoulder": {
-      "ilvl": 289
+      "ilvl": 295
      },
      "back": {
       "ilvl": 311
@@ -1000,7 +1002,7 @@
       "ilvl": 311
      },
      "hands": {
-      "ilvl": 311
+      "ilvl": 308
      },
      "legs": {
       "ilvl": 298
@@ -1242,7 +1244,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 294.688,
+    "ilvlEquipped": 294.875,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1275,7 +1277,7 @@
       "ilvl": 308
      },
      "finger1": {
-      "ilvl": 289
+      "ilvl": 292
      },
      "finger2": {
       "ilvl": 285
@@ -1481,7 +1483,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Деница",
-   "droptimizerUploadedAt": "2026-08-19T17:56:50.000+00:00",
+   "droptimizerUploadedAt": "2026-08-24T18:30:21.000+00:00",
    "mplusDungeons": [
     11,
     9,
@@ -1606,10 +1608,10 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 307.938,
+    "ilvlEquipped": 309.375,
     "slots": {
      "head": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "neck": {
       "ilvl": 311
@@ -1621,7 +1623,7 @@
       "ilvl": 311
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 298
      },
      "waist": {
       "ilvl": 311
@@ -1636,7 +1638,7 @@
       "ilvl": 308
      },
      "legs": {
-      "ilvl": 298
+      "ilvl": 302
      },
      "feet": {
       "ilvl": 292
@@ -1703,7 +1705,7 @@
     2
    ],
    "gear": {
-    "ilvlEquipped": 304,
+    "ilvlEquipped": 304.438,
     "slots": {
      "head": {
       "ilvl": 292
@@ -1715,7 +1717,7 @@
       "ilvl": 295
      },
      "back": {
-      "ilvl": 295
+      "ilvl": 302
      },
      "chest": {
       "ilvl": 292
@@ -2046,10 +2048,10 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 302.812,
+    "ilvlEquipped": 304.812,
     "slots": {
      "head": {
-      "ilvl": 289
+      "ilvl": 305
      },
      "neck": {
       "ilvl": 311
@@ -2073,7 +2075,7 @@
       "ilvl": 285
      },
      "hands": {
-      "ilvl": 308
+      "ilvl": 311
      },
      "legs": {
       "ilvl": 308
@@ -2082,7 +2084,7 @@
       "ilvl": 305
      },
      "finger1": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "finger2": {
       "ilvl": 311
@@ -2091,7 +2093,7 @@
       "ilvl": 311
      },
      "trinket2": {
-      "ilvl": 298
+      "ilvl": 308
      },
      "mainhand": {
       "ilvl": 311
@@ -2319,10 +2321,11 @@
     14,
     14,
     14,
-    13
+    13,
+    12
    ],
    "gear": {
-    "ilvlEquipped": 307.938,
+    "ilvlEquipped": 307,
     "slots": {
      "head": {
       "ilvl": 298
@@ -2373,7 +2376,7 @@
       "ilvl": 318
      }
     },
-    "updatedAt": "2026-08-23T22:52:57.000Z"
+    "updatedAt": "2026-08-25T04:46:35.000Z"
    }
   }
  ]
