@@ -17,6 +17,7 @@
     10,
     10,
     10,
+    10,
     4,
     2,
     7,
@@ -53,16 +54,16 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 310.062,
+    "ilvlEquipped": 311.938,
     "slots": {
      "head": {
-      "ilvl": 295
+      "ilvl": 302
      },
      "neck": {
       "ilvl": 308
      },
      "shoulder": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "back": {
       "ilvl": 311
@@ -83,7 +84,7 @@
       "ilvl": 302
      },
      "legs": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "feet": {
       "ilvl": 318
@@ -95,7 +96,7 @@
       "ilvl": 311
      },
      "trinket1": {
-      "ilvl": 295
+      "ilvl": 308
      },
      "trinket2": {
       "ilvl": 308
@@ -104,7 +105,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-26T16:00:37.000Z"
+    "updatedAt": "2026-08-26T19:53:50.000Z"
    }
   },
   {
@@ -188,8 +189,10 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Денис",
-   "droptimizerUploadedAt": "2026-08-19T18:02:41.000+00:00",
+   "droptimizerUploadedAt": "2026-08-26T19:11:20.000+00:00",
    "mplusDungeons": [
+    10,
+    10,
     4,
     2,
     7,
@@ -222,7 +225,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 307.625,
+    "ilvlEquipped": 307.812,
     "slots": {
      "head": {
       "ilvl": 305
@@ -231,7 +234,7 @@
       "ilvl": 308
      },
      "shoulder": {
-      "ilvl": 315
+      "ilvl": 318
      },
      "back": {
       "ilvl": 308
@@ -291,6 +294,10 @@
     12,
     12,
     12,
+    16,
+    15,
+    14,
+    15,
     12,
     10,
     9,
@@ -343,10 +350,10 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 312.188,
+    "ilvlEquipped": 313.812,
     "slots": {
      "head": {
-      "ilvl": 308
+      "ilvl": 311
      },
      "neck": {
       "ilvl": 311
@@ -361,7 +368,7 @@
       "ilvl": 311
      },
      "waist": {
-      "ilvl": 292
+      "ilvl": 308
      },
      "wrist": {
       "ilvl": 311
@@ -370,7 +377,7 @@
       "ilvl": 308
      },
      "legs": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "feet": {
       "ilvl": 311
@@ -409,6 +416,8 @@
     10,
     10,
     10,
+    10,
+    10,
     11,
     10,
     10,
@@ -426,7 +435,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 308.375,
+    "ilvlEquipped": 311,
     "slots": {
      "head": {
       "ilvl": 321
@@ -441,19 +450,19 @@
       "ilvl": 311
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 308
      },
      "waist": {
       "ilvl": 308
      },
      "wrist": {
-      "ilvl": 302
+      "ilvl": 308
      },
      "hands": {
       "ilvl": 311
      },
      "legs": {
-      "ilvl": 289
+      "ilvl": 308
      },
      "feet": {
       "ilvl": 311
@@ -474,7 +483,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-26T17:27:32.000Z"
+    "updatedAt": "2026-08-26T21:18:28.000Z"
    }
   },
   {
@@ -505,7 +514,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 303.438,
+    "ilvlEquipped": 303.688,
     "slots": {
      "head": {
       "ilvl": 295
@@ -550,7 +559,7 @@
       "ilvl": 292
      },
      "trinket2": {
-      "ilvl": 298
+      "ilvl": 302
      },
      "mainhand": {
       "ilvl": 311
@@ -606,7 +615,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 307.75,
+    "ilvlEquipped": 309,
     "slots": {
      "head": {
       "ilvl": 295
@@ -639,7 +648,7 @@
       "ilvl": 321
      },
      "finger1": {
-      "ilvl": 298
+      "ilvl": 308
      },
      "finger2": {
       "ilvl": 311
@@ -648,13 +657,13 @@
       "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 298
+      "ilvl": 308
      },
      "mainhand": {
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-26T15:14:20.000Z"
+    "updatedAt": "2026-08-26T19:53:51.000Z"
    }
   },
   {
@@ -668,7 +677,6 @@
    "note": "Здравко",
    "droptimizerUploadedAt": "2026-08-26T17:33:57.000+00:00",
    "mplusDungeons": [
-    10,
     10,
     10,
     10,
@@ -699,7 +707,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 302.125,
+    "ilvlEquipped": 302.312,
     "slots": {
      "head": {
       "ilvl": 289
@@ -732,7 +740,7 @@
       "ilvl": 285
      },
      "finger1": {
-      "ilvl": 295
+      "ilvl": 298
      },
      "finger2": {
       "ilvl": 311
@@ -747,7 +755,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-26T17:37:18.000Z"
+    "updatedAt": "2026-08-26T19:53:48.000Z"
    }
   },
   {
@@ -794,7 +802,7 @@
     11
    ],
    "gear": {
-    "ilvlEquipped": 308.812,
+    "ilvlEquipped": 309,
     "slots": {
      "head": {
       "ilvl": 308
@@ -806,7 +814,7 @@
       "ilvl": 308
      },
      "back": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "chest": {
       "ilvl": 308
@@ -848,7 +856,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-26T16:41:27.000Z"
+    "updatedAt": "2026-08-26T19:54:01.000Z"
    }
   },
   {
@@ -952,6 +960,7 @@
    "droptimizerUploadedAt": "2026-08-26T17:48:18.000+00:00",
    "mplusDungeons": [
     10,
+    10,
     8,
     2,
     5,
@@ -976,7 +985,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 310.312,
+    "ilvlEquipped": 311.125,
     "slots": {
      "head": {
       "ilvl": 321
@@ -988,10 +997,10 @@
       "ilvl": 308
      },
      "back": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "chest": {
-      "ilvl": 298
+      "ilvl": 308
      },
      "waist": {
       "ilvl": 289
@@ -1046,6 +1055,10 @@
     10,
     10,
     10,
+    10,
+    10,
+    10,
+    6,
     2,
     2,
     7,
@@ -1110,7 +1123,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 314.562,
+    "ilvlEquipped": 317,
     "slots": {
      "head": {
       "ilvl": 311
@@ -1137,7 +1150,7 @@
       "ilvl": 311
      },
      "legs": {
-      "ilvl": 298
+      "ilvl": 331
      },
      "feet": {
       "ilvl": 308
@@ -1152,13 +1165,13 @@
       "ilvl": 321
      },
      "trinket2": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "mainhand": {
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-08-26T15:46:03.000Z"
+    "updatedAt": "2026-08-27T08:33:55.000Z"
    }
   },
   {
@@ -1174,6 +1187,8 @@
    "mplusDungeons": [
     12,
     11,
+    10,
+    10,
     10,
     2,
     2,
@@ -1213,7 +1228,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 304.062,
+    "ilvlEquipped": 300,
     "slots": {
      "head": {
       "ilvl": 311
@@ -1258,13 +1273,13 @@
       "ilvl": 298
      },
      "trinket2": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 295
      }
     },
-    "updatedAt": "2026-08-26T15:46:04.000Z"
+    "updatedAt": "2026-08-27T06:09:42.000Z"
    }
   },
   {
@@ -1376,7 +1391,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 294.875,
+    "ilvlEquipped": 296.812,
     "slots": {
      "head": {
       "ilvl": 298
@@ -1385,13 +1400,13 @@
       "ilvl": 285
      },
      "shoulder": {
-      "ilvl": 289
+      "ilvl": 295
      },
      "back": {
-      "ilvl": 289
+      "ilvl": 292
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 305
      },
      "waist": {
       "ilvl": 298
@@ -1400,10 +1415,10 @@
       "ilvl": 289
      },
      "hands": {
-      "ilvl": 289
+      "ilvl": 305
      },
      "legs": {
-      "ilvl": 295
+      "ilvl": 298
      },
      "feet": {
       "ilvl": 308
@@ -1421,7 +1436,10 @@
       "ilvl": 298
      },
      "mainhand": {
-      "ilvl": 308
+      "ilvl": 305
+     },
+     "offhand": {
+      "ilvl": 298
      }
     },
     "updatedAt": "2026-08-26T16:03:11.000Z"
@@ -1509,7 +1527,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-22T23:42:23.000Z"
+    "updatedAt": "2026-08-26T19:54:01.000Z"
    }
   },
   {
@@ -1618,6 +1636,7 @@
    "droptimizerUploadedAt": "2026-08-26T15:07:23.000+00:00",
    "mplusDungeons": [
     13,
+    13,
     11,
     9,
     10,
@@ -1645,7 +1664,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 306.625,
+    "ilvlEquipped": 306,
     "slots": {
      "head": {
       "ilvl": 308
@@ -1693,7 +1712,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-08-26T16:34:27.000Z"
+    "updatedAt": "2026-08-26T22:00:33.000Z"
    }
   },
   {
@@ -1794,7 +1813,83 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-26T05:00:36.000Z"
+    "updatedAt": "2026-08-26T19:53:50.000Z"
+   }
+  },
+  {
+   "id": 14525794,
+   "name": "Dawon",
+   "realm": "Kazzak",
+   "class": "Druid",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": null,
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [
+    10,
+    10,
+    9,
+    9,
+    8,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 309,
+    "slots": {
+     "head": {
+      "ilvl": 295
+     },
+     "neck": {
+      "ilvl": 311
+     },
+     "shoulder": {
+      "ilvl": 308
+     },
+     "back": {
+      "ilvl": 321
+     },
+     "chest": {
+      "ilvl": 295
+     },
+     "waist": {
+      "ilvl": 321
+     },
+     "wrist": {
+      "ilvl": 305
+     },
+     "hands": {
+      "ilvl": 295
+     },
+     "legs": {
+      "ilvl": 308
+     },
+     "feet": {
+      "ilvl": 308
+     },
+     "finger1": {
+      "ilvl": 295
+     },
+     "finger2": {
+      "ilvl": 295
+     },
+     "trinket1": {
+      "ilvl": 311
+     },
+     "trinket2": {
+      "ilvl": 321
+     },
+     "mainhand": {
+      "ilvl": 331
+     }
+    },
+    "updatedAt": "2026-08-26T19:54:09.000Z"
    }
   },
   {
@@ -1810,6 +1905,8 @@
    "mplusDungeons": [
     12,
     13,
+    12,
+    12,
     5,
     2,
     8,
@@ -1843,19 +1940,19 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 308.25,
+    "ilvlEquipped": 309.875,
     "slots": {
      "head": {
-      "ilvl": 292
+      "ilvl": 298
      },
      "neck": {
       "ilvl": 305
      },
      "shoulder": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "back": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "chest": {
       "ilvl": 305
@@ -1888,10 +1985,10 @@
       "ilvl": 311
      },
      "mainhand": {
-      "ilvl": 311
+      "ilvl": 318
      }
     },
-    "updatedAt": "2026-08-26T14:46:17.000Z"
+    "updatedAt": "2026-08-27T09:31:36.000Z"
    }
   },
   {
@@ -1908,6 +2005,8 @@
     15,
     15,
     15,
+    15,
+    16,
     11,
     10,
     10,
@@ -2111,7 +2210,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 310.812,
+    "ilvlEquipped": 311.688,
     "slots": {
      "head": {
       "ilvl": 308
@@ -2147,10 +2246,10 @@
       "ilvl": 311
      },
      "finger2": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 311
+      "ilvl": 315
      },
      "trinket2": {
       "ilvl": 321
@@ -2174,7 +2273,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": null,
-   "droptimizerUploadedAt": "2026-08-26T15:47:51.000+00:00",
+   "droptimizerUploadedAt": "2026-08-26T20:42:33.000+00:00",
    "mplusDungeons": [
     11,
     11,
@@ -2252,7 +2351,7 @@
       "ilvl": 311
      }
     },
-    "updatedAt": "2026-08-26T07:17:44.000Z"
+    "updatedAt": "2026-08-26T19:32:27.000Z"
    }
   },
   {
@@ -2366,7 +2465,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 304.375,
+    "ilvlEquipped": 307.25,
     "slots": {
      "head": {
       "ilvl": 308
@@ -2375,13 +2474,13 @@
       "ilvl": 311
      },
      "shoulder": {
-      "ilvl": 289
+      "ilvl": 302
      },
      "back": {
       "ilvl": 308
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 302
      },
      "waist": {
       "ilvl": 311
@@ -2396,7 +2495,7 @@
       "ilvl": 302
      },
      "feet": {
-      "ilvl": 295
+      "ilvl": 302
      },
      "finger1": {
       "ilvl": 292
@@ -2414,7 +2513,7 @@
       "ilvl": 331
      },
      "offhand": {
-      "ilvl": 308
+      "ilvl": 321
      }
     },
     "updatedAt": "2026-08-26T17:29:47.000Z"
@@ -2483,13 +2582,13 @@
     13
    ],
    "gear": {
-    "ilvlEquipped": 311.125,
+    "ilvlEquipped": 312.938,
     "slots": {
      "head": {
       "ilvl": 298
      },
      "neck": {
-      "ilvl": 311
+      "ilvl": 308
      },
      "shoulder": {
       "ilvl": 311
@@ -2498,7 +2597,7 @@
       "ilvl": 311
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 311
      },
      "waist": {
       "ilvl": 311
@@ -2522,7 +2621,7 @@
       "ilvl": 308
      },
      "trinket1": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "trinket2": {
       "ilvl": 321
@@ -2534,7 +2633,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-25T18:13:47.000Z"
+    "updatedAt": "2026-08-26T19:53:50.000Z"
    }
   }
  ]

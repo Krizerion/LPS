@@ -1,5 +1,5 @@
 {
- "startDate": "2026-06-27",
+ "startDate": "2026-06-28",
  "endDate": null,
  "characters": [
   {
@@ -131,6 +131,11 @@
    "characterId": 5053594,
    "name": "Natureweaver",
    "attendedPercentage": 37.5
+  },
+  {
+   "characterId": 14525794,
+   "name": "Dawon",
+   "attendedPercentage": 0
   }
  ]
 }
