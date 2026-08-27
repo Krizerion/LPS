@@ -156,13 +156,18 @@ describe('isSimFresh', () => {
   const now = new Date('2026-07-09T12:00:00Z').getTime();
 
   it('accepts sims inside the window and rejects older ones', () => {
-    expect(isSimFresh('2026-07-01T12:00:00Z', 14, now)).toBe(true);
-    expect(isSimFresh('2026-06-01T12:00:00Z', 14, now)).toBe(false);
+    expect(isSimFresh('2026-07-01T12:00:00Z', 14 * 24, now)).toBe(true);
+    expect(isSimFresh('2026-06-01T12:00:00Z', 14 * 24, now)).toBe(false);
+  });
+
+  it('never tightens the window below the 4-hour floor', () => {
+    expect(isSimFresh('2026-07-09T09:00:00Z', 1, now)).toBe(true);
+    expect(isSimFresh('2026-07-09T07:00:00Z', 1, now)).toBe(false);
   });
 
   it('treats a missing timestamp as stale', () => {
-    expect(isSimFresh(null, 14, now)).toBe(false);
-    expect(isSimFresh(undefined, 14, now)).toBe(false);
+    expect(isSimFresh(null, 14 * 24, now)).toBe(false);
+    expect(isSimFresh(undefined, 14 * 24, now)).toBe(false);
   });
 });
 

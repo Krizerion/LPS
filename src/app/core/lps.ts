@@ -6,7 +6,7 @@ import { CharacterGear, Difficulty, WowRole } from './models';
  * ΔI — item level difference between the drop and the equipped item in that slot
  * S  — droptimizer sim upgrade in % (0 for tanks/healers, and 0 when the sim is stale)
  * L  — items received in the recent loot window
- * A  — activity multiplier (Редовен 1.0 / Нередовен 0.75), a council decision
+ * A  — activity multiplier (Бластър 1.0 / Пепега 0.75), a council decision
  * F  — M+ effort factor between effortFloor and 1.0, from the effort score M
  *
  * M (0..10) counts M+ dungeons at or above mplusMinLevel over the last two
@@ -52,8 +52,8 @@ export interface LpsSettings {
    * re-arms itself every new season without touching code or settings.
    */
   effortGraduationIlvl: number | null;
-  /** Sims older than this contribute S = 0. */
-  simMaxAgeDays: number;
+  /** Sims older than this (in hours) contribute S = 0. Never below MIN_SIM_MAX_AGE_HOURS. */
+  simMaxAgeHours: number;
   /** Top candidates within this % of #1 should roll the item off. */
   rollThresholdPct: number;
 }
@@ -70,7 +70,7 @@ export const DEFAULT_SETTINGS: LpsSettings = {
   mplusCapRuns: 8,
   mplusMinLevel: null,
   effortGraduationIlvl: null,
-  simMaxAgeDays: 14,
+  simMaxAgeHours: 14 * 24,
   rollThresholdPct: 10,
 };
 
@@ -158,14 +158,18 @@ export function closeCallCount(sortedTotals: number[], thresholdPct: number): nu
   return count;
 }
 
+/** The freshness window can't be tightened below this — sims stay valid through a raid night. */
+export const MIN_SIM_MAX_AGE_HOURS = 4;
+
 /** A sim only counts while it's fresh; stale droptimizers contribute S = 0. */
 export function isSimFresh(
   updatedAt: string | null | undefined,
-  maxAgeDays: number,
+  maxAgeHours: number,
   now: number = Date.now(),
 ): boolean {
   if (!updatedAt) return false;
-  return now - new Date(updatedAt).getTime() <= maxAgeDays * 86_400_000;
+  const windowHours = Math.max(maxAgeHours, MIN_SIM_MAX_AGE_HOURS);
+  return now - new Date(updatedAt).getTime() <= windowHours * 3_600_000;
 }
 
 /** Maps wowaudit wishlist slot names to the Raider.IO gear slots an item competes with. */

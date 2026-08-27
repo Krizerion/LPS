@@ -1,4 +1,4 @@
 {
- "_readme": "Loot-council overrides, maintained by hand and committed to the repo (fetch-data never touches this file). activity: 'casual' marks a player Нередовен (trials, raid-loggers) — everyone else defaults to Редовен. Key by character name exactly as it appears in the roster.",
+ "_readme": "Loot-council overrides, maintained by hand and committed to the repo (fetch-data never touches this file). activity: 'casual' marks a player Пепега (trials, raid-loggers, underperformers) — everyone else defaults to Бластър. Key by character name exactly as it appears in the roster.",
  "activity": {}
 }

@@ -31,6 +31,12 @@ function initialState(): SettingsState {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return fallback;
     const parsed = JSON.parse(raw) as Partial<SettingsState>;
+    // Migrate settings saved before the freshness window moved from days to hours.
+    const legacy = parsed.settings as { simMaxAgeDays?: number } | undefined;
+    if (legacy?.simMaxAgeDays != null && parsed.settings) {
+      parsed.settings.simMaxAgeHours = legacy.simMaxAgeDays * 24;
+      delete legacy.simMaxAgeDays;
+    }
     return {
       settings: {
         ...fallback.settings,
