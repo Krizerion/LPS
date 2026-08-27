@@ -3,10 +3,35 @@
   <p class="page-sub">{{ t().history.sub(settings.settings().lootWindowDays) }}</p>
 
   <div class="tools">
+    <input
+      class="search"
+      type="search"
+      [placeholder]="t().history.searchPlaceholder"
+      [ngModel]="search()"
+      (ngModelChange)="search.set($event)"
+    />
+    <select [ngModel]="bossFilter()" (ngModelChange)="bossFilter.set($event)">
+      <option [ngValue]="null">{{ t().history.allBosses }}</option>
+      @for (b of bossOptions(); track b) {
+        <option [ngValue]="b">{{ b === otherBoss ? t().history.otherBoss : b }}</option>
+      }
+    </select>
     <select [ngModel]="playerFilter()" (ngModelChange)="playerFilter.set($event)">
       <option [ngValue]="null">{{ t().history.allPlayers }}</option>
       @for (c of guild.roster(); track c.id) {
         <option [ngValue]="c.id">{{ c.name }}</option>
+      }
+    </select>
+    <select [ngModel]="difficultyFilter()" (ngModelChange)="difficultyFilter.set($event)">
+      <option [ngValue]="null">{{ t().history.allDifficulties }}</option>
+      @for (d of difficultyOptions(); track d) {
+        <option [ngValue]="d">{{ d }}</option>
+      }
+    </select>
+    <select [ngModel]="responseFilter()" (ngModelChange)="responseFilter.set($event)">
+      <option [ngValue]="null">{{ t().history.allResponses }}</option>
+      @for (r of responseOptions(); track r) {
+        <option [ngValue]="r">{{ r }}</option>
       }
     </select>
     <label class="check">
@@ -17,6 +42,9 @@
       />
       {{ t().history.hideExcluded }}
     </label>
+    @if (hasFilters()) {
+      <button class="btn clear" (click)="clearFilters()">{{ t().history.clearFilters }}</button>
+    }
     <span class="muted total">{{ t().history.awards(rows().length) }}</span>
   </div>
 
@@ -26,6 +54,7 @@
         <tr>
           <th>{{ t().history.colDate }}</th>
           <th>{{ t().history.colItem }}</th>
+          <th>{{ t().history.colBoss }}</th>
           <th>{{ t().history.colSlot }}</th>
           <th>{{ t().history.colPlayer }}</th>
           <th>{{ t().history.colDifficulty }}</th>
@@ -48,6 +77,7 @@
                 }
               </span>
             </td>
+            <td class="muted">{{ bossOf(l.itemId) ?? '—' }}</td>
             <td class="muted">{{ slotLabel(l.slot) }}</td>
             <td>
               <span class="player" [style.color]="classColor(characterClass(l.characterId))">
@@ -76,7 +106,7 @@
           </tr>
         } @empty {
           <tr>
-            <td colspan="7" class="muted">{{ t().history.empty }}</td>
+            <td colspan="8" class="muted">{{ t().history.empty }}</td>
           </tr>
         }
       </tbody>
