@@ -124,8 +124,9 @@
         <span>{{ t().settings.simMaxAge }}</span>
         <input
           type="number"
-          [ngModel]="s.simMaxAgeDays"
-          (ngModelChange)="patch({ simMaxAgeDays: $event })"
+          min="4"
+          [ngModel]="s.simMaxAgeHours"
+          (ngModelChange)="patch({ simMaxAgeHours: $event })"
         />
       </label>
     </section>

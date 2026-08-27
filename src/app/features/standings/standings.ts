@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { GuildStore, PlayerSummary } from '../../store/guild.store';
 import { SettingsStore } from '../../store/settings.store';
 import { I18nStore, timeAgoI18n } from '../../core/i18n';
+import { isSimFresh } from '../../core/lps';
 import { classColor, ROLE_ICONS } from '../../shared/wow';
 
 type SortKey = 'name' | 'ilvl' | 'effort' | 'recentLoot' | 'wishlist';
@@ -61,11 +62,8 @@ export class Standings {
 
   protected readonly stats = computed(() => {
     const rows = this.guild.playerSummaries();
-    const staleWishlists = rows.filter(
-      (r) =>
-        !r.wishlistUpdatedAt ||
-        Date.now() - new Date(r.wishlistUpdatedAt).getTime() > 14 * 86_400_000,
-    ).length;
+    const maxAgeHours = this.settings.settings().simMaxAgeHours;
+    const staleWishlists = rows.filter((r) => !isSimFresh(r.wishlistUpdatedAt, maxAgeHours)).length;
     return {
       rosterSize: rows.length,
       casualCount: rows.filter((r) => r.activityStatus === 'casual').length,

@@ -153,6 +153,6 @@ export class Council {
   }
 
   protected wishStale(updatedAt: string | null): boolean {
-    return !isSimFresh(updatedAt, this.settings.settings().simMaxAgeDays);
+    return !isSimFresh(updatedAt, this.settings.settings().simMaxAgeHours);
   }
 }

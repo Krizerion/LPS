@@ -2,9 +2,9 @@ name: Refresh guild data
 
 on:
   schedule:
-    # Daily morning run + raid evenings (Wed/Sun); times are UTC, day-of-week 0=Sunday.
-    - cron: '0 5 * * *'
-    - cron: '0 17 * * 0,3'
+    # Every 15 minutes (GitHub may delay runs by a few minutes under load).
+    # Deploy only happens when the snapshot actually changed, so quiet runs are cheap.
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:

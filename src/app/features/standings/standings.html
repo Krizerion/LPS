@@ -18,7 +18,7 @@
     </div>
     <div class="card stat" [class.stat-warn]="st.staleWishlists > 0">
       <span class="stat-value">{{ st.staleWishlists }}</span>
-      <span class="stat-label">{{ t().standings.staleWishlists }}</span>
+      <span class="stat-label">{{ t().standings.staleWishlists(settings.settings().simMaxAgeHours) }}</span>
     </div>
   </div>
 

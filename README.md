@@ -11,9 +11,9 @@ LPS = ((ΔI × 0.2) + (S × 5)) / (1 + L) × A × F
 | Variable | Meaning                                                            | Source                    |
 | -------- | ------------------------------------------------------------------ | ------------------------- |
 | ΔI       | Item level difference vs. the equipped item                        | Raider.IO gear (editable) |
-| S        | Sim upgrade %; 0 for tanks (healers included) or stale sims (>14d)  | wowaudit wishlists        |
+| S        | Sim upgrade %; 0 for tanks (healers included) or stale sims (configurable in hours, min 4h, default 14d) | wowaudit wishlists |
 | L        | Items received in the last 7 days                                  | wowaudit loot history     |
-| A        | Activity multiplier (Редовен 1.0 / Нередовен 0.75)                 | loot-council decision     |
+| A        | Activity multiplier (Бластър 1.0 / Пепега 0.75)                    | loot-council decision     |
 | F        | M+ effort factor 0.70–1.00: keys ≥10 over the last 2 resets, 8 = max | wowaudit historical data |
 
 Effort *modulates* need instead of replacing it: nobody wins an item they don't need by
@@ -75,9 +75,9 @@ snapshot is deployed (~2–3 minutes).
 
 Add your key as a repository secret named `WOWAUDIT_API_KEY`
 (**Settings → Secrets and variables → Actions**). The *Refresh guild data* workflow then runs
-daily (plus extra runs on raid evenings — adjust the cron in
-`.github/workflows/refresh-data.yml`), commits the new snapshot, and redeploys the site. You
-can also trigger it manually from the Actions tab right after a raid.
+every 15 minutes (adjust the cron in `.github/workflows/refresh-data.yml`), commits the new
+snapshot when anything changed, and redeploys the site. You can also trigger it manually from
+the Actions tab right after a raid.
 
 ## New raids and seasons
 

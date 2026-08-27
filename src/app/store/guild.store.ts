@@ -243,7 +243,7 @@ export const GuildStore = signalStore(
         const zeroedByRole =
           settings.zeroSimForTanks && isTank(summary.character.role);
         // Stale droptimizers don't count — forces regular re-simming.
-        const fresh = isSimFresh(wish?.updatedAt, settings.simMaxAgeDays);
+        const fresh = isSimFresh(wish?.updatedAt, settings.simMaxAgeHours);
         const simPercent = zeroedByRole || !fresh ? 0 : (wish?.percentage ?? 0);
 
         rows.push({
