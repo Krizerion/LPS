@@ -731,7 +731,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Камен",
-   "droptimizerUploadedAt": "2026-08-26T14:32:50.000+00:00",
+   "droptimizerUploadedAt": "2026-08-31T13:18:27.000+00:00",
    "mplusDungeons": [
     10,
     10,
@@ -1908,6 +1908,7 @@
    "mplusDungeons": [
     13,
     13,
+    12,
     11,
     9,
     10,
@@ -1935,7 +1936,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 306,
+    "ilvlEquipped": 308.375,
     "slots": {
      "head": {
       "ilvl": 308
@@ -1950,7 +1951,7 @@
       "ilvl": 308
      },
      "chest": {
-      "ilvl": 289
+      "ilvl": 311
      },
      "waist": {
       "ilvl": 308
@@ -1962,7 +1963,7 @@
       "ilvl": 308
      },
      "legs": {
-      "ilvl": 289
+      "ilvl": 295
      },
      "feet": {
       "ilvl": 285
@@ -2432,6 +2433,7 @@
     16,
     16,
     16,
+    16,
     11,
     11,
     11,
@@ -2518,7 +2520,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 313,
+    "ilvlEquipped": 313.312,
     "slots": {
      "head": {
       "ilvl": 308
@@ -2782,6 +2784,7 @@
    "mplusDungeons": [
     10,
     11,
+    10,
     5,
     2,
     8,
