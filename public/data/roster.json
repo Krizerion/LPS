@@ -49,7 +49,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 314.25,
+    "ilvlEquipped": 314,
     "slots": {
      "head": {
       "ilvl": 311
@@ -100,7 +100,7 @@
       "ilvl": 311
      }
     },
-    "updatedAt": "2026-08-30T18:47:47.000Z"
+    "updatedAt": "2026-08-30T23:56:38.000Z"
    }
   },
   {
@@ -1068,7 +1068,7 @@
     9
    ],
    "gear": {
-    "ilvlEquipped": 311.438,
+    "ilvlEquipped": 311,
     "slots": {
      "head": {
       "ilvl": 308
@@ -1122,7 +1122,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-30T15:51:32.000Z"
+    "updatedAt": "2026-08-30T23:55:56.000Z"
    }
   },
   {
@@ -1155,6 +1155,7 @@
     10,
     10,
     12,
+    10,
     10,
     8,
     2,
@@ -1561,7 +1562,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 314.812,
+    "ilvlEquipped": 314,
     "slots": {
      "head": {
       "ilvl": 311
@@ -1609,7 +1610,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-30T15:51:35.000Z"
+    "updatedAt": "2026-08-30T23:55:55.000Z"
    }
   },
   {
@@ -2516,7 +2517,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 313.312,
+    "ilvlEquipped": 313,
     "slots": {
      "head": {
       "ilvl": 308
@@ -2567,7 +2568,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-29T13:31:35.000Z"
+    "updatedAt": "2026-08-30T22:16:42.000Z"
    }
   },
   {
@@ -2617,7 +2618,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 315.062,
+    "ilvlEquipped": 315,
     "slots": {
      "head": {
       "ilvl": 305
@@ -2668,7 +2669,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-08-30T03:40:40.000Z"
+    "updatedAt": "2026-08-30T23:31:37.000Z"
    }
   },
   {

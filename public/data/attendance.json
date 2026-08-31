@@ -1,7 +1,32 @@
 {
- "startDate": "2026-07-01",
+ "startDate": "2026-07-02",
  "endDate": null,
  "characters": [
+  {
+   "characterId": 5949076,
+   "name": "Luxeona",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 100
+  },
   {
    "characterId": 5021440,
    "name": "Racor",
@@ -28,68 +53,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 5066215,
    "name": "Monkies",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5113215,
-   "name": "Vikvoker",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 20118646,
-   "name": "Chadiux",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021543,
-   "name": "Feilina",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 13521334,
-   "name": "Finalspark",
+   "characterId": 20118648,
+   "name": "Vengass",
    "attendedPercentage": 100
   },
   {
@@ -98,9 +68,49 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 20118648,
-   "name": "Vengass",
+   "characterId": 13521334,
+   "name": "Finalspark",
    "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021543,
+   "name": "Feilina",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 20118646,
+   "name": "Chadiux",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 14525794,
+   "name": "Dawon",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 5030809,
@@ -118,9 +128,9 @@
    "attendedPercentage": 85.71428571428571
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 85.71428571428571
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 75
   },
   {
    "characterId": 5121622,
@@ -130,17 +140,7 @@
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 42.85714285714285
-  },
-  {
-   "characterId": 14525794,
-   "name": "Dawon",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 5949076,
-   "name": "Luxeona",
-   "attendedPercentage": 0
+   "attendedPercentage": 57.14285714285714
   }
  ]
 }
