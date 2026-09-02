@@ -3,43 +3,8 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5949076,
-   "name": "Luxeona",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021440,
-   "name": "Racor",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5050452,
-   "name": "Moshenji",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 3809470,
-   "name": "Xpactt",
+   "characterId": 5053378,
+   "name": "Svetirasi",
    "attendedPercentage": 100
   },
   {
@@ -48,8 +13,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053378,
-   "name": "Svetirasi",
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
@@ -58,28 +28,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 20118648,
-   "name": "Vengass",
+   "characterId": 5113215,
+   "name": "Vikvoker",
    "attendedPercentage": 100
   },
   {
-   "characterId": 13521334,
-   "name": "Finalspark",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 14525794,
-   "name": "Dawon",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
   },
   {
@@ -88,13 +43,48 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5113215,
-   "name": "Vikvoker",
+   "characterId": 14525794,
+   "name": "Dawon",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 13521334,
+   "name": "Finalspark",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5949076,
+   "name": "Luxeona",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5030809,
+   "name": "Sherman",
    "attendedPercentage": 87.5
   },
   {
@@ -108,8 +98,8 @@
    "attendedPercentage": 87.5
   },
   {
-   "characterId": 5030809,
-   "name": "Sherman",
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 87.5
   },
   {
@@ -133,14 +123,24 @@
    "attendedPercentage": 80
   },
   {
+   "characterId": 20118648,
+   "name": "Vengass",
+   "attendedPercentage": 80
+  },
+  {
    "characterId": 5121622,
    "name": "Bagertatsuo",
    "attendedPercentage": 75
   },
   {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 66.66666666666666
+  },
+  {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 62.5
+   "attendedPercentage": 50
   }
  ]
 }
