@@ -2,6 +2,20 @@
  "seasonId": 18,
  "items": [
   {
+   "id": 1223079276,
+   "itemId": 268223,
+   "name": "Ophidian Fangmail",
+   "icon": "inv_chest_mail_raidhunterulatek_d_01",
+   "slot": "Chest",
+   "characterId": 5030809,
+   "awardedAt": "2026-09-02T21:28:00.000Z",
+   "difficulty": "heroic",
+   "response": "Pass",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
    "id": 1223079392,
    "itemId": 268220,
    "name": "Scaleplate Strangulators",
@@ -25,20 +39,6 @@
    "awardedAt": "2026-09-02T21:28:00.000Z",
    "difficulty": "heroic",
    "response": "Offspec",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
-   "id": 1223079276,
-   "itemId": 268223,
-   "name": "Ophidian Fangmail",
-   "icon": "inv_chest_mail_raidhunterulatek_d_01",
-   "slot": "Chest",
-   "characterId": 5030809,
-   "awardedAt": "2026-09-02T21:28:00.000Z",
-   "difficulty": "heroic",
-   "response": "Pass",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -142,20 +142,6 @@
    "note": ""
   },
   {
-   "id": 1223079362,
-   "itemId": 270163,
-   "name": "Sszorak's Ferocity",
-   "icon": "inv_121_trinket_raid_ulatek_ulatekclaw",
-   "slot": "Trinket",
-   "characterId": 5099602,
-   "awardedAt": "2026-09-02T20:58:00.000Z",
-   "difficulty": "normal",
-   "response": "Personal Loot - Non tradeable",
-   "excluded": false,
-   "discarded": true,
-   "note": ""
-  },
-  {
    "id": 1223079426,
    "itemId": 270920,
    "name": "Venomcast Relic",
@@ -164,6 +150,20 @@
    "characterId": 6177638,
    "awardedAt": "2026-09-02T20:58:00.000Z",
    "difficulty": "heroic",
+   "response": "Personal Loot - Non tradeable",
+   "excluded": false,
+   "discarded": true,
+   "note": ""
+  },
+  {
+   "id": 1223079362,
+   "itemId": 270163,
+   "name": "Sszorak's Ferocity",
+   "icon": "inv_121_trinket_raid_ulatek_ulatekclaw",
+   "slot": "Trinket",
+   "characterId": 5099602,
+   "awardedAt": "2026-09-02T20:58:00.000Z",
+   "difficulty": "normal",
    "response": "Personal Loot - Non tradeable",
    "excluded": false,
    "discarded": true,
@@ -198,20 +198,6 @@
    "note": ""
   },
   {
-   "id": 1223079420,
-   "itemId": 270164,
-   "name": "Gebbo's Bottomless Bag",
-   "icon": "inv_10_tailoring_bag1_color2",
-   "slot": "Trinket",
-   "characterId": 5021558,
-   "awardedAt": "2026-09-02T20:46:00.000Z",
-   "difficulty": "heroic",
-   "response": "Major Upgrade",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1223079400,
    "itemId": 268239,
    "name": "Shellbound Bracers",
@@ -221,6 +207,20 @@
    "awardedAt": "2026-09-02T20:46:00.000Z",
    "difficulty": "heroic",
    "response": "Candidate didn't respond on time",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1223079420,
+   "itemId": 270164,
+   "name": "Gebbo's Bottomless Bag",
+   "icon": "inv_10_tailoring_bag1_color2",
+   "slot": "Trinket",
+   "characterId": 5021558,
+   "awardedAt": "2026-09-02T20:46:00.000Z",
+   "difficulty": "heroic",
+   "response": "Major Upgrade",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -296,15 +296,15 @@
    "note": "better track ama nz kvi sa statovete"
   },
   {
-   "id": 1223079399,
-   "itemId": 268205,
-   "name": "Venomancer's Winged Channeler",
-   "icon": "inv_staff_2h_ulatek_d_02",
-   "slot": "Two_hand",
-   "characterId": 5021535,
+   "id": 1223079294,
+   "itemId": 268260,
+   "name": "Scaled Fiend's Warboots",
+   "icon": "inv_boot_plate_raidpaladinulatek_d_01",
+   "slot": "Feet",
+   "characterId": 5050452,
    "awardedAt": "2026-09-02T20:32:00.000Z",
    "difficulty": "heroic",
-   "response": "Autopass",
+   "response": "Minor Upgrade",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -324,13 +324,27 @@
    "note": ""
   },
   {
-   "id": 1223079294,
-   "itemId": 268260,
-   "name": "Scaled Fiend's Warboots",
-   "icon": "inv_boot_plate_raidpaladinulatek_d_01",
-   "slot": "Feet",
-   "characterId": 5050452,
+   "id": 1223079399,
+   "itemId": 268205,
+   "name": "Venomancer's Winged Channeler",
+   "icon": "inv_staff_2h_ulatek_d_02",
+   "slot": "Two_hand",
+   "characterId": 5021535,
    "awardedAt": "2026-09-02T20:32:00.000Z",
+   "difficulty": "heroic",
+   "response": "Autopass",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1223079271,
+   "itemId": 270928,
+   "name": "Venomcast Icon",
+   "icon": "inv_jewelcrafting_goldenserpent",
+   "slot": "Tier",
+   "characterId": 5030809,
+   "awardedAt": "2026-09-02T20:31:00.000Z",
    "difficulty": "heroic",
    "response": "Minor Upgrade",
    "excluded": false,
@@ -352,20 +366,6 @@
    "note": ""
   },
   {
-   "id": 1223079271,
-   "itemId": 270928,
-   "name": "Venomcast Icon",
-   "icon": "inv_jewelcrafting_goldenserpent",
-   "slot": "Tier",
-   "characterId": 5030809,
-   "awardedAt": "2026-09-02T20:31:00.000Z",
-   "difficulty": "heroic",
-   "response": "Minor Upgrade",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1223079356,
    "itemId": 268254,
    "name": "Serpentine Mixing Belt",
@@ -377,20 +377,6 @@
    "response": "Personal Loot - Non tradeable",
    "excluded": false,
    "discarded": true,
-   "note": ""
-  },
-  {
-   "id": 1223079270,
-   "itemId": 268250,
-   "name": "Sentinel's Vitriolic Chain",
-   "icon": "inv_121_jewelry_neck02_green",
-   "slot": "Neck",
-   "characterId": 5030809,
-   "awardedAt": "2026-09-02T20:20:00.000Z",
-   "difficulty": "heroic",
-   "response": "Major Upgrade",
-   "excluded": false,
-   "discarded": false,
    "note": ""
   },
   {
@@ -422,6 +408,20 @@
    "note": "za catalist samo zashtoto e champ"
   },
   {
+   "id": 1223079270,
+   "itemId": 268250,
+   "name": "Sentinel's Vitriolic Chain",
+   "icon": "inv_121_jewelry_neck02_green",
+   "slot": "Neck",
+   "characterId": 5030809,
+   "awardedAt": "2026-09-02T20:20:00.000Z",
+   "difficulty": "heroic",
+   "response": "Major Upgrade",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
    "id": 1223079286,
    "itemId": 270912,
    "name": "Venomcast Idol",
@@ -433,20 +433,6 @@
    "response": "BiS",
    "excluded": false,
    "discarded": false,
-   "note": ""
-  },
-  {
-   "id": 1223079345,
-   "itemId": 268250,
-   "name": "Sentinel's Vitriolic Chain",
-   "icon": "inv_121_jewelry_neck02_green",
-   "slot": "Neck",
-   "characterId": 5053378,
-   "awardedAt": "2026-09-02T20:18:00.000Z",
-   "difficulty": "normal",
-   "response": "Personal Loot - Non tradeable",
-   "excluded": false,
-   "discarded": true,
    "note": ""
   },
   {
@@ -464,17 +450,17 @@
    "note": ""
   },
   {
-   "id": 1223079285,
-   "itemId": 270162,
-   "name": "Soulcoiler Ritual Vessel",
-   "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-   "slot": "Trinket",
-   "characterId": 5113215,
-   "awardedAt": "2026-09-02T20:07:00.000Z",
-   "difficulty": "heroic",
-   "response": "BiS",
+   "id": 1223079345,
+   "itemId": 268250,
+   "name": "Sentinel's Vitriolic Chain",
+   "icon": "inv_121_jewelry_neck02_green",
+   "slot": "Neck",
+   "characterId": 5053378,
+   "awardedAt": "2026-09-02T20:18:00.000Z",
+   "difficulty": "normal",
+   "response": "Personal Loot - Non tradeable",
    "excluded": false,
-   "discarded": false,
+   "discarded": true,
    "note": ""
   },
   {
@@ -506,6 +492,20 @@
    "note": ""
   },
   {
+   "id": 1223079285,
+   "itemId": 270162,
+   "name": "Soulcoiler Ritual Vessel",
+   "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
+   "slot": "Trinket",
+   "characterId": 5113215,
+   "awardedAt": "2026-09-02T20:07:00.000Z",
+   "difficulty": "heroic",
+   "response": "BiS",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
    "id": 1223079390,
    "itemId": 268229,
    "name": "Skullguard of the Risen Sacrifice",
@@ -520,12 +520,12 @@
    "note": ""
   },
   {
-   "id": 1217680796,
-   "itemId": 268223,
-   "name": "Ophidian Fangmail",
-   "icon": "inv_chest_mail_raidhunterulatek_d_01",
-   "slot": "Chest",
-   "characterId": 5030809,
+   "id": 1217680762,
+   "itemId": 270914,
+   "name": "Venomwoven Effigy",
+   "icon": "inv_jewelcrafting_azureserpent",
+   "slot": "Tier",
+   "characterId": 3809470,
    "awardedAt": "2026-08-31T22:09:00.000Z",
    "difficulty": "heroic",
    "response": "Major Upgrade",
@@ -534,12 +534,12 @@
    "note": ""
   },
   {
-   "id": 1217680762,
-   "itemId": 270914,
-   "name": "Venomwoven Effigy",
-   "icon": "inv_jewelcrafting_azureserpent",
-   "slot": "Tier",
-   "characterId": 3809470,
+   "id": 1217680796,
+   "itemId": 268223,
+   "name": "Ophidian Fangmail",
+   "icon": "inv_chest_mail_raidhunterulatek_d_01",
+   "slot": "Chest",
+   "characterId": 5030809,
    "awardedAt": "2026-08-31T22:09:00.000Z",
    "difficulty": "heroic",
    "response": "Major Upgrade",
@@ -632,20 +632,6 @@
    "note": ""
   },
   {
-   "id": 1217680737,
-   "itemId": 268201,
-   "name": "Venomous Boneglaive",
-   "icon": "inv_glaive_1h_ulatek_d_01",
-   "slot": "One_hand",
-   "characterId": 4608756,
-   "awardedAt": "2026-08-31T21:22:00.000Z",
-   "difficulty": "heroic",
-   "response": "Offspec",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1217680664,
    "itemId": 270174,
    "name": "Idol of the Howling Nexus",
@@ -660,15 +646,15 @@
    "note": ""
   },
   {
-   "id": 1217680679,
-   "itemId": 268233,
-   "name": "Ferocious Scaleboots",
-   "icon": "inv_boot_mail_raidhunterulatek_d_01",
-   "slot": "Feet",
-   "characterId": 4608754,
-   "awardedAt": "2026-08-31T21:21:00.000Z",
+   "id": 1217680737,
+   "itemId": 268201,
+   "name": "Venomous Boneglaive",
+   "icon": "inv_glaive_1h_ulatek_d_01",
+   "slot": "One_hand",
+   "characterId": 4608756,
+   "awardedAt": "2026-08-31T21:22:00.000Z",
    "difficulty": "heroic",
-   "response": "BiS",
+   "response": "Offspec",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -680,6 +666,20 @@
    "icon": "inv_jewelcrafting_goldenserpent",
    "slot": "Tier",
    "characterId": 5030809,
+   "awardedAt": "2026-08-31T21:21:00.000Z",
+   "difficulty": "heroic",
+   "response": "BiS",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1217680679,
+   "itemId": 268233,
+   "name": "Ferocious Scaleboots",
+   "icon": "inv_boot_mail_raidhunterulatek_d_01",
+   "slot": "Feet",
+   "characterId": 4608754,
    "awardedAt": "2026-08-31T21:21:00.000Z",
    "difficulty": "heroic",
    "response": "BiS",
@@ -772,34 +772,6 @@
    "note": ""
   },
   {
-   "id": 1217680727,
-   "itemId": 268227,
-   "name": "Unpossessed Skullsash",
-   "icon": "inv_belt_leather_raidrogueulatek_d_01",
-   "slot": "Waist",
-   "characterId": 5099602,
-   "awardedAt": "2026-08-31T20:40:00.000Z",
-   "difficulty": "mythic",
-   "response": "Bonus Loot",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
-   "id": 1217680720,
-   "itemId": 270924,
-   "name": "Venomcast Remnant",
-   "icon": "inv_jewelcrafting_goldenserpent",
-   "slot": "Tier",
-   "characterId": 5121622,
-   "awardedAt": "2026-08-31T20:40:00.000Z",
-   "difficulty": "heroic",
-   "response": "BiS",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1217680653,
    "itemId": 270922,
    "name": "Venomwoven Remnant",
@@ -828,6 +800,34 @@
    "note": ""
   },
   {
+   "id": 1217680727,
+   "itemId": 268227,
+   "name": "Unpossessed Skullsash",
+   "icon": "inv_belt_leather_raidrogueulatek_d_01",
+   "slot": "Waist",
+   "characterId": 5099602,
+   "awardedAt": "2026-08-31T20:40:00.000Z",
+   "difficulty": "mythic",
+   "response": "Bonus Loot",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1217680720,
+   "itemId": 270924,
+   "name": "Venomcast Remnant",
+   "icon": "inv_jewelcrafting_goldenserpent",
+   "slot": "Tier",
+   "characterId": 5121622,
+   "awardedAt": "2026-08-31T20:40:00.000Z",
+   "difficulty": "heroic",
+   "response": "BiS",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
    "id": 1217680672,
    "itemId": 268239,
    "name": "Shellbound Bracers",
@@ -842,17 +842,17 @@
    "note": ""
   },
   {
-   "id": 1217680726,
-   "itemId": 270160,
-   "name": "First Mate's Shellward",
-   "icon": "inv_cape_special_turtleshell_c_02",
+   "id": 1217680761,
+   "itemId": 270164,
+   "name": "Gebbo's Bottomless Bag",
+   "icon": "inv_10_tailoring_bag1_color2",
    "slot": "Trinket",
-   "characterId": 5099602,
+   "characterId": 3809470,
    "awardedAt": "2026-08-31T20:39:00.000Z",
-   "difficulty": "normal",
-   "response": "Personal Loot - Non tradeable",
+   "difficulty": "mythic",
+   "response": "Bonus Loot",
    "excluded": false,
-   "discarded": true,
+   "discarded": false,
    "note": ""
   },
   {
@@ -870,17 +870,17 @@
    "note": ""
   },
   {
-   "id": 1217680761,
-   "itemId": 270164,
-   "name": "Gebbo's Bottomless Bag",
-   "icon": "inv_10_tailoring_bag1_color2",
+   "id": 1217680726,
+   "itemId": 270160,
+   "name": "First Mate's Shellward",
+   "icon": "inv_cape_special_turtleshell_c_02",
    "slot": "Trinket",
-   "characterId": 3809470,
+   "characterId": 5099602,
    "awardedAt": "2026-08-31T20:39:00.000Z",
-   "difficulty": "mythic",
-   "response": "Bonus Loot",
+   "difficulty": "normal",
+   "response": "Personal Loot - Non tradeable",
    "excluded": false,
-   "discarded": false,
+   "discarded": true,
    "note": ""
   },
   {
@@ -982,6 +982,20 @@
    "note": ""
   },
   {
+   "id": 1217680760,
+   "itemId": 268221,
+   "name": "Tidebound Sorcereress's Robes",
+   "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
+   "slot": "Chest",
+   "characterId": 3809470,
+   "awardedAt": "2026-08-31T20:05:00.000Z",
+   "difficulty": "heroic",
+   "response": "Minor Upgrade",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
    "id": 1217680678,
    "itemId": 268262,
    "name": "Bubblefin Splash Guard",
@@ -996,15 +1010,15 @@
    "note": ""
   },
   {
-   "id": 1217680760,
-   "itemId": 268221,
-   "name": "Tidebound Sorcereress's Robes",
-   "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-   "slot": "Chest",
-   "characterId": 3809470,
-   "awardedAt": "2026-08-31T20:05:00.000Z",
+   "id": 1217680719,
+   "itemId": 268238,
+   "name": "Grips of Swirling Fury",
+   "icon": "inv_glove_mail_raidevokerulatek_d_01",
+   "slot": "Hands",
+   "characterId": 5121622,
+   "awardedAt": "2026-08-31T20:04:00.000Z",
    "difficulty": "heroic",
-   "response": "Minor Upgrade",
+   "response": "Major Upgrade",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -1024,20 +1038,6 @@
    "note": ""
   },
   {
-   "id": 1217680719,
-   "itemId": 268238,
-   "name": "Grips of Swirling Fury",
-   "icon": "inv_glove_mail_raidevokerulatek_d_01",
-   "slot": "Hands",
-   "characterId": 5121622,
-   "awardedAt": "2026-08-31T20:04:00.000Z",
-   "difficulty": "heroic",
-   "response": "Major Upgrade",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1206695116,
    "itemId": 270910,
    "name": "Venomwoven Idol",
@@ -1052,15 +1052,15 @@
    "note": ""
   },
   {
-   "id": 1206695115,
-   "itemId": 270165,
-   "name": "Keeper's Seething Core",
-   "icon": "inv_121_trinket_raid_ulatek_golemhearts_green",
-   "slot": "Trinket",
-   "characterId": 5066198,
+   "id": 1206695150,
+   "itemId": 268198,
+   "name": "Caustic Keeper-Crusher",
+   "icon": "inv_mace_2h_ulatek_d_01",
+   "slot": "Two_hand",
+   "characterId": 5021535,
    "awardedAt": "2026-08-26T22:06:00.000Z",
    "difficulty": "heroic",
-   "response": "BiS",
+   "response": "Major Upgrade",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -1080,15 +1080,15 @@
    "note": ""
   },
   {
-   "id": 1206695150,
-   "itemId": 268198,
-   "name": "Caustic Keeper-Crusher",
-   "icon": "inv_mace_2h_ulatek_d_01",
-   "slot": "Two_hand",
-   "characterId": 5021535,
+   "id": 1206695115,
+   "itemId": 270165,
+   "name": "Keeper's Seething Core",
+   "icon": "inv_121_trinket_raid_ulatek_golemhearts_green",
+   "slot": "Trinket",
+   "characterId": 5066198,
    "awardedAt": "2026-08-26T22:06:00.000Z",
    "difficulty": "heroic",
-   "response": "Major Upgrade",
+   "response": "BiS",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -1136,12 +1136,12 @@
    "note": ""
   },
   {
-   "id": 1206695111,
-   "itemId": 268245,
-   "name": "Entombed Cultist's Sabatons",
-   "icon": "inv_boot_plate_raidwarriorulatek_d_01",
-   "slot": "Feet",
-   "characterId": 5021558,
+   "id": 1206695098,
+   "itemId": 270930,
+   "name": "Tomb-Creeper's Claw",
+   "icon": "inv_hand_1h_ulatek_d_01",
+   "slot": "One_hand",
+   "characterId": 5066215,
    "awardedAt": "2026-08-26T21:50:00.000Z",
    "difficulty": "heroic",
    "response": "Minor Upgrade",
@@ -1150,12 +1150,12 @@
    "note": ""
   },
   {
-   "id": 1206695098,
-   "itemId": 270930,
-   "name": "Tomb-Creeper's Claw",
-   "icon": "inv_hand_1h_ulatek_d_01",
-   "slot": "One_hand",
-   "characterId": 5066215,
+   "id": 1206695111,
+   "itemId": 268245,
+   "name": "Entombed Cultist's Sabatons",
+   "icon": "inv_boot_plate_raidwarriorulatek_d_01",
+   "slot": "Feet",
+   "characterId": 5021558,
    "awardedAt": "2026-08-26T21:50:00.000Z",
    "difficulty": "heroic",
    "response": "Minor Upgrade",
@@ -1178,6 +1178,20 @@
    "note": ""
   },
   {
+   "id": 1206695076,
+   "itemId": 268230,
+   "name": "Crown of the Eternal Fang",
+   "icon": "inv_helm_mail_raidshamanulatek_d_01",
+   "slot": "Head",
+   "characterId": 5050452,
+   "awardedAt": "2026-08-26T21:48:00.000Z",
+   "difficulty": "normal",
+   "response": "Personal Loot - Non tradeable",
+   "excluded": false,
+   "discarded": true,
+   "note": ""
+  },
+  {
    "id": 1206695156,
    "itemId": 268236,
    "name": "Initiate's Sacrificial Tights",
@@ -1192,17 +1206,17 @@
    "note": ""
   },
   {
-   "id": 1206695076,
-   "itemId": 268230,
-   "name": "Crown of the Eternal Fang",
-   "icon": "inv_helm_mail_raidshamanulatek_d_01",
-   "slot": "Head",
-   "characterId": 5050452,
-   "awardedAt": "2026-08-26T21:48:00.000Z",
+   "id": 1206514903,
+   "itemId": 268211,
+   "name": "Baleful Hexblade",
+   "icon": "inv_sword_1h_ulatek_d_01",
+   "slot": "One_hand",
+   "characterId": 5021535,
+   "awardedAt": "2026-08-26T21:21:00.000Z",
    "difficulty": "normal",
-   "response": "Personal Loot - Non tradeable",
+   "response": "Offspec",
    "excluded": false,
-   "discarded": true,
+   "discarded": false,
    "note": ""
   },
   {
@@ -1229,20 +1243,6 @@
    "awardedAt": "2026-08-26T21:21:00.000Z",
    "difficulty": "normal",
    "response": "Minor Upgrade",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
-   "id": 1206514903,
-   "itemId": 268211,
-   "name": "Baleful Hexblade",
-   "icon": "inv_sword_1h_ulatek_d_01",
-   "slot": "One_hand",
-   "characterId": 5021535,
-   "awardedAt": "2026-08-26T21:21:00.000Z",
-   "difficulty": "normal",
-   "response": "Offspec",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -1472,20 +1472,6 @@
    "note": ""
   },
   {
-   "id": 1206514838,
-   "itemId": 268197,
-   "name": "Spine of the Hissing Abyss",
-   "icon": "inv_offhand_1h_ulatek_d_01",
-   "slot": "Off_hand",
-   "characterId": 5030809,
-   "awardedAt": "2026-08-26T20:20:00.000Z",
-   "difficulty": "normal",
-   "response": "Offspec",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1206514900,
    "itemId": 268198,
    "name": "Caustic Keeper-Crusher",
@@ -1495,6 +1481,20 @@
    "awardedAt": "2026-08-26T20:20:00.000Z",
    "difficulty": "normal",
    "response": "Pass",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1206514838,
+   "itemId": 268197,
+   "name": "Spine of the Hissing Abyss",
+   "icon": "inv_offhand_1h_ulatek_d_01",
+   "slot": "Off_hand",
+   "characterId": 5030809,
+   "awardedAt": "2026-08-26T20:20:00.000Z",
+   "difficulty": "normal",
+   "response": "Offspec",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -1640,20 +1640,6 @@
    "note": ""
   },
   {
-   "id": 1204067542,
-   "itemId": 268246,
-   "name": "Frothing Venom Spaulders",
-   "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-   "slot": "Shoulder",
-   "characterId": 20118648,
-   "awardedAt": "2026-08-25T20:16:00.000Z",
-   "difficulty": "heroic",
-   "response": "Pass",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1204067506,
    "itemId": 270928,
    "name": "Venomcast Icon",
@@ -1663,6 +1649,20 @@
    "awardedAt": "2026-08-25T20:16:00.000Z",
    "difficulty": "heroic",
    "response": "Major Upgrade",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1204067542,
+   "itemId": 268246,
+   "name": "Frothing Venom Spaulders",
+   "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
+   "slot": "Shoulder",
+   "characterId": 20118648,
+   "awardedAt": "2026-08-25T20:16:00.000Z",
+   "difficulty": "heroic",
+   "response": "Pass",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -1710,20 +1710,6 @@
    "note": ""
   },
   {
-   "id": 1202360495,
-   "itemId": 268204,
-   "name": "Ancient Construct's Venomshiv",
-   "icon": "inv_knife_1h_ulatek_d_01",
-   "slot": "One_hand",
-   "characterId": 5050452,
-   "awardedAt": "2026-08-24T22:31:00.000Z",
-   "difficulty": "normal",
-   "response": "Personal Loot - Non tradeable",
-   "excluded": false,
-   "discarded": true,
-   "note": ""
-  },
-  {
    "id": 1202360491,
    "itemId": 268219,
    "name": "Shadow Hunter's Warmask",
@@ -1735,6 +1721,20 @@
    "response": "Minor Upgrade",
    "excluded": false,
    "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1202360495,
+   "itemId": 268204,
+   "name": "Ancient Construct's Venomshiv",
+   "icon": "inv_knife_1h_ulatek_d_01",
+   "slot": "One_hand",
+   "characterId": 5050452,
+   "awardedAt": "2026-08-24T22:31:00.000Z",
+   "difficulty": "normal",
+   "response": "Personal Loot - Non tradeable",
+   "excluded": false,
+   "discarded": true,
    "note": ""
   },
   {
@@ -1892,12 +1892,12 @@
    "note": ""
   },
   {
-   "id": 1202296298,
+   "id": 1202296322,
    "itemId": 270909,
    "name": "Slumbering Coil Curio",
    "icon": "rogue_paralytic_poison",
    "slot": "Tier",
-   "characterId": 5066198,
+   "characterId": 6177638,
    "awardedAt": "2026-08-24T21:39:00.000Z",
    "difficulty": "normal",
    "response": "Pass",
@@ -1906,12 +1906,12 @@
    "note": ""
   },
   {
-   "id": 1202296322,
+   "id": 1202296298,
    "itemId": 270909,
    "name": "Slumbering Coil Curio",
    "icon": "rogue_paralytic_poison",
    "slot": "Tier",
-   "characterId": 6177638,
+   "characterId": 5066198,
    "awardedAt": "2026-08-24T21:39:00.000Z",
    "difficulty": "normal",
    "response": "Pass",
@@ -1948,20 +1948,6 @@
    "note": ""
   },
   {
-   "id": 1202296297,
-   "itemId": 268237,
-   "name": "Cuisses of the Uncoiled Union",
-   "icon": "inv_pant_mail_raidevokerulatek_d_01",
-   "slot": "Legs",
-   "characterId": 5066198,
-   "awardedAt": "2026-08-24T20:24:00.000Z",
-   "difficulty": "normal",
-   "response": "BiS",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1202296278,
    "itemId": 268237,
    "name": "Cuisses of the Uncoiled Union",
@@ -1971,6 +1957,20 @@
    "awardedAt": "2026-08-24T20:24:00.000Z",
    "difficulty": "normal",
    "response": "Minor Upgrade",
+   "excluded": false,
+   "discarded": false,
+   "note": ""
+  },
+  {
+   "id": 1202296297,
+   "itemId": 268237,
+   "name": "Cuisses of the Uncoiled Union",
+   "icon": "inv_pant_mail_raidevokerulatek_d_01",
+   "slot": "Legs",
+   "characterId": 5066198,
+   "awardedAt": "2026-08-24T20:24:00.000Z",
+   "difficulty": "normal",
+   "response": "BiS",
    "excluded": false,
    "discarded": false,
    "note": ""
@@ -2088,7 +2088,7 @@
    "note": ""
   },
   {
-   "id": 1194397983,
+   "id": 1194397982,
    "itemId": 268206,
    "name": "Slithering Savage's Gavel",
    "icon": "inv_mace_1h_ulatek_d_01",
@@ -2102,7 +2102,7 @@
    "note": ""
   },
   {
-   "id": 1194397982,
+   "id": 1194397983,
    "itemId": 268206,
    "name": "Slithering Savage's Gavel",
    "icon": "inv_mace_1h_ulatek_d_01",

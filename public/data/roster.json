@@ -7,7 +7,7 @@
    "class": "Paladin",
    "role": "Melee",
    "rank": "Main",
-   "status": "unavailable",
+   "status": "tracking",
    "note": "Велислав",
    "droptimizerUploadedAt": "2026-09-02T17:56:21.000+00:00",
    "mplusDungeons": [
@@ -117,7 +117,6 @@
    "mplusDungeons": [
     10,
     3,
-    10,
     10,
     10,
     10,
@@ -354,6 +353,7 @@
     10,
     10,
     10,
+    17,
     13,
     12,
     12,
@@ -1020,6 +1020,7 @@
     10,
     10,
     10,
+    12,
     12,
     11,
     10,
@@ -1770,13 +1771,13 @@
     11
    ],
    "gear": {
-    "ilvlEquipped": 314.688,
+    "ilvlEquipped": 315,
     "slots": {
      "head": {
       "ilvl": 298
      },
      "neck": {
-      "ilvl": 305
+      "ilvl": 308
      },
      "shoulder": {
       "ilvl": 308
@@ -1803,7 +1804,7 @@
       "ilvl": 331
      },
      "finger1": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 331
@@ -1818,7 +1819,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-02T18:22:05.000Z"
+    "updatedAt": "2026-09-02T22:32:39.000Z"
    }
   },
   {
