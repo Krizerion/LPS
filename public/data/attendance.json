@@ -1,5 +1,5 @@
 {
- "startDate": "2026-07-03",
+ "startDate": "2026-07-04",
  "endDate": null,
  "characters": [
   {
@@ -63,23 +63,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 11946812,
-   "name": "Vanzio",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 13521334,
    "name": "Finalspark",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021543,
-   "name": "Feilina",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 20118646,
-   "name": "Chadiux",
    "attendedPercentage": 100
   },
   {
@@ -110,37 +95,52 @@
   {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 85.71428571428571
-  },
-  {
-   "characterId": 5030809,
-   "name": "Sherman",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 5053387,
    "name": "Zelyo",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
+  },
+  {
+   "characterId": 5030809,
+   "name": "Sherman",
+   "attendedPercentage": 87.5
+  },
+  {
+   "characterId": 20118646,
+   "name": "Chadiux",
+   "attendedPercentage": 80
+  },
+  {
+   "characterId": 5021543,
+   "name": "Feilina",
+   "attendedPercentage": 80
+  },
+  {
+   "characterId": 11946812,
+   "name": "Vanzio",
+   "attendedPercentage": 80
   },
   {
    "characterId": 6177638,
    "name": "Maity",
-   "attendedPercentage": 75
+   "attendedPercentage": 80
   },
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 71.42857142857143
+   "attendedPercentage": 75
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 57.14285714285714
+   "attendedPercentage": 62.5
   }
  ]
 }
