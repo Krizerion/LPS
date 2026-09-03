@@ -3,18 +3,8 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5021440,
-   "name": "Racor",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5050452,
-   "name": "Moshenji",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 3809470,
-   "name": "Xpactt",
+   "characterId": 5053378,
+   "name": "Svetirasi",
    "attendedPercentage": 100
   },
   {
@@ -23,8 +13,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053378,
-   "name": "Svetirasi",
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
@@ -38,8 +33,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 4258514,
-   "name": "Thatcrit",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
   },
   {
@@ -63,13 +58,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021535,
-   "name": "Blythe",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
+   "characterId": 5021535,
+   "name": "Blythe",
    "attendedPercentage": 100
   },
   {
@@ -78,19 +73,14 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5949076,
-   "name": "Luxeona",
+   "characterId": 5021558,
+   "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 87.5
-  },
-  {
-   "characterId": 4608754,
-   "name": "Valahan",
-   "attendedPercentage": 87.5
+   "characterId": 5949076,
+   "name": "Luxeona",
+   "attendedPercentage": 100
   },
   {
    "characterId": 5030809,
@@ -103,9 +93,14 @@
    "attendedPercentage": 87.5
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 80
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 87.5
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 20118646,
@@ -120,6 +115,11 @@
   {
    "characterId": 11946812,
    "name": "Vanzio",
+   "attendedPercentage": 80
+  },
+  {
+   "characterId": 6177638,
+   "name": "Maity",
    "attendedPercentage": 80
   },
   {
@@ -141,11 +141,6 @@
    "characterId": 5053594,
    "name": "Natureweaver",
    "attendedPercentage": 50
-  },
-  {
-   "characterId": 4608770,
-   "name": "Amistat",
-   "attendedPercentage": 0
   }
  ]
 }
