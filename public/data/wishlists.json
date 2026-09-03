@@ -17140,23 +17140,6 @@
   },
   {
    "characterId": 20118648,
-   "itemId": 268261,
-   "itemName": "Bespittled Slitherslippers",
-   "slot": "feet",
-   "instanceId": 80,
-   "encounter": "The Twin Fangs",
-   "difficulty": "mythic",
-   "spec": "Devourer",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.8787,
-   "absolute": 1547.5169,
-   "updatedAt": "2026-08-31T17:51:18.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 20118648,
    "itemId": 270915,
    "itemName": "Venomcured Effigy",
    "slot": "head",
