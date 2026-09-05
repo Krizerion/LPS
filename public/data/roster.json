@@ -58,7 +58,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 316,
+    "ilvlEquipped": 316.25,
     "slots": {
      "head": {
       "ilvl": 311
@@ -150,7 +150,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 318.812,
+    "ilvlEquipped": 312.688,
     "slots": {
      "head": {
       "ilvl": 308
@@ -198,7 +198,7 @@
       "ilvl": 308
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 282
      }
     },
     "updatedAt": "2026-09-05T02:44:24.000Z"
@@ -1343,7 +1343,7 @@
       "ilvl": 311
      },
      "legs": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "feet": {
       "ilvl": 311
@@ -1364,7 +1364,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-03T12:07:51.000Z"
+    "updatedAt": "2026-09-05T20:49:28.000Z"
    }
   },
   {
