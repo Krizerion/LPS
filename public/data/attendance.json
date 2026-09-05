@@ -1,15 +1,20 @@
 {
- "startDate": "2026-07-06",
+ "startDate": "2026-07-07",
  "endDate": null,
  "characters": [
+  {
+   "characterId": 4608756,
+   "name": "Nelfers",
+   "attendedPercentage": 100
+  },
   {
    "characterId": 5053378,
    "name": "Svetirasi",
    "attendedPercentage": 100
   },
   {
-   "characterId": 4608756,
-   "name": "Nelfers",
+   "characterId": 5053387,
+   "name": "Zelyo",
    "attendedPercentage": 100
   },
   {
@@ -85,22 +90,17 @@
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 87.5
-  },
-  {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 20118646,
@@ -130,7 +130,7 @@
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 75
+   "attendedPercentage": 71.42857142857143
   },
   {
    "characterId": 5982077,
@@ -140,7 +140,7 @@
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 50
+   "attendedPercentage": 57.14285714285714
   }
  ]
 }
