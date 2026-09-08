@@ -1212,7 +1212,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 320.375,
+    "ilvlEquipped": 320.188,
     "slots": {
      "head": {
       "ilvl": 315
@@ -1221,7 +1221,7 @@
       "ilvl": 321
      },
      "shoulder": {
-      "ilvl": 311
+      "ilvl": 308
      },
      "back": {
       "ilvl": 311
