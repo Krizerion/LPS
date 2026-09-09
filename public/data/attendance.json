@@ -1,5 +1,5 @@
 {
- "startDate": "2026-07-10",
+ "startDate": "2026-07-11",
  "endDate": null,
  "characters": [
   {
@@ -10,11 +10,6 @@
   {
    "characterId": 5021558,
    "name": "Azeryx",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 13521334,
-   "name": "Finalspark",
    "attendedPercentage": 100
   },
   {
@@ -33,18 +28,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 3809470,
    "name": "Xpactt",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
+   "characterId": 6527027,
+   "name": "Stenli",
    "attendedPercentage": 100
   },
   {
@@ -53,8 +43,18 @@
    "attendedPercentage": 100
   },
   {
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
+  },
+  {
    "characterId": 5053378,
    "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
    "attendedPercentage": 100
   },
   {
@@ -68,79 +68,79 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 4258514,
    "name": "Thatcrit",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 85.71428571428571
+  },
+  {
+   "characterId": 13521334,
+   "name": "Finalspark",
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 6177638,
    "name": "Maity",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 20118648,
    "name": "Vengass",
-   "attendedPercentage": 83.33333333333334
-  },
-  {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 75
+   "attendedPercentage": 85.71428571428571
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 71.42857142857143
+   "attendedPercentage": 75
   },
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 71.42857142857143
-  },
-  {
-   "characterId": 5030809,
-   "name": "Sherman",
-   "attendedPercentage": 71.42857142857143
+   "attendedPercentage": 75
   },
   {
    "characterId": 14525794,
    "name": "Dawon",
-   "attendedPercentage": 66.66666666666666
+   "attendedPercentage": 75
+  },
+  {
+   "characterId": 5030809,
+   "name": "Sherman",
+   "attendedPercentage": 75
   },
   {
    "characterId": 5021543,
    "name": "Feilina",
-   "attendedPercentage": 66.66666666666666
+   "attendedPercentage": 71.42857142857143
   },
   {
    "characterId": 11946812,
    "name": "Vanzio",
-   "attendedPercentage": 66.66666666666666
+   "attendedPercentage": 71.42857142857143
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 60
   }
  ]
 }
