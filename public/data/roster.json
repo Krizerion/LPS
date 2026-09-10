@@ -29,13 +29,13 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 317.5,
+    "ilvlEquipped": 320,
     "slots": {
      "head": {
       "ilvl": 311
      },
      "neck": {
-      "ilvl": 311
+      "ilvl": 315
      },
      "shoulder": {
       "ilvl": 305
@@ -47,16 +47,16 @@
       "ilvl": 311
      },
      "waist": {
-      "ilvl": 318
+      "ilvl": 324
      },
      "wrist": {
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "legs": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "feet": {
       "ilvl": 311
@@ -65,7 +65,7 @@
       "ilvl": 331
      },
      "finger2": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "trinket1": {
       "ilvl": 321
@@ -190,7 +190,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 315.625,
+    "ilvlEquipped": 314.375,
     "slots": {
      "head": {
       "ilvl": 321
@@ -235,7 +235,10 @@
       "ilvl": 318
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 334
+     },
+     "offhand": {
+      "ilvl": 308
      }
     },
     "updatedAt": "2026-09-07T19:16:13.000Z"
@@ -754,7 +757,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 318.5,
+    "ilvlEquipped": 319.125,
     "slots": {
      "head": {
       "ilvl": 321
@@ -763,7 +766,7 @@
       "ilvl": 321
      },
      "shoulder": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "back": {
       "ilvl": 311
@@ -808,7 +811,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-09T07:24:38.000Z"
+    "updatedAt": "2026-09-10T17:05:58.000Z"
    }
   },
   {
@@ -833,7 +836,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 314.688,
+    "ilvlEquipped": 316.812,
     "slots": {
      "head": {
       "ilvl": 308
@@ -842,7 +845,7 @@
       "ilvl": 311
      },
      "shoulder": {
-      "ilvl": 311
+      "ilvl": 315
      },
      "back": {
       "ilvl": 311
@@ -851,13 +854,13 @@
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "shirt": {
       "ilvl": 1
      },
      "wrist": {
-      "ilvl": 311
+      "ilvl": 331
      },
      "hands": {
       "ilvl": 289
@@ -866,7 +869,7 @@
       "ilvl": 315
      },
      "feet": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "finger1": {
       "ilvl": 311
@@ -901,6 +904,7 @@
    "note": "Раси",
    "droptimizerUploadedAt": "2026-09-09T17:29:29.000+00:00",
    "mplusDungeons": [
+    12,
     12,
     12,
     10,
@@ -1582,7 +1586,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 319,
+    "ilvlEquipped": 319.562,
     "slots": {
      "head": {
       "ilvl": 321
