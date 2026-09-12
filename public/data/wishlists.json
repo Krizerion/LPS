@@ -663,12 +663,6 @@
        "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
       },
       {
-       "id": 270167,
-       "name": "Wavecaller's Seastone",
-       "slot": "trinket",
-       "icon": "inv_tradeskillitem_sorcererswater"
-      },
-      {
        "id": 268232,
        "name": "Cincture of the Abyssal Grotto",
        "slot": "waist",
@@ -679,6 +673,12 @@
        "name": "Tidebound Sorcereress's Robes",
        "slot": "chest",
        "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+      },
+      {
+       "id": 270167,
+       "name": "Wavecaller's Seastone",
+       "slot": "trinket",
+       "icon": "inv_tradeskillitem_sorcererswater"
       },
       {
        "id": 268217,
@@ -1675,23 +1675,6 @@
    "wishlistWeight": 1,
    "percentage": 0.8809,
    "absolute": 1684.0049,
-   "updatedAt": "2026-09-09T17:05:08.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 6177638,
-   "itemId": 270167,
-   "itemName": "Wavecaller's Seastone",
-   "slot": "trinket",
-   "instanceId": 81,
-   "encounter": "Nymrissa Wavecaller",
-   "difficulty": "mythic",
-   "spec": "Balance",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.648,
-   "absolute": 3150.2147,
    "updatedAt": "2026-09-09T17:05:08.000+00:00",
    "manuallyEdited": false,
    "comment": null
