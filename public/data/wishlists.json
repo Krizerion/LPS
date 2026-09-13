@@ -3857,23 +3857,6 @@
   },
   {
    "characterId": 5982077,
-   "itemId": 268243,
-   "itemName": "Grasps of the Eternal Shadow",
-   "slot": "hands",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Arcane",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.0737,
-   "absolute": 1928.1097,
-   "updatedAt": "2026-09-07T17:25:36.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5982077,
    "itemId": 268255,
    "itemName": "Cackling Soultreads",
    "slot": "feet",
