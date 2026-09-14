@@ -3,21 +3,6 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5949076,
-   "name": "Luxeona",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021440,
-   "name": "Racor",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 5050452,
    "name": "Moshenji",
    "attendedPercentage": 100
@@ -25,6 +10,16 @@
   {
    "characterId": 3809470,
    "name": "Xpactt",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021535,
+   "name": "Blythe",
    "attendedPercentage": 100
   },
   {
@@ -38,23 +33,13 @@
    "attendedPercentage": 100
   },
   {
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 100
+  },
+  {
    "characterId": 5053387,
    "name": "Zelyo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4608754,
-   "name": "Valahan",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
    "attendedPercentage": 100
   },
   {
@@ -63,9 +48,29 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 6527027,
-   "name": "Stenli",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
+  },
+  {
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066215,
+   "name": "Monkies",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053594,
+   "name": "Natureweaver",
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 5099602,
@@ -73,8 +78,8 @@
    "attendedPercentage": 87.5
   },
   {
-   "characterId": 5053594,
-   "name": "Natureweaver",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 87.5
   },
   {
@@ -93,14 +98,9 @@
    "attendedPercentage": 87.5
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 87.5
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 87.5
+   "characterId": 5949076,
+   "name": "Luxeona",
+   "attendedPercentage": 80
   },
   {
    "characterId": 14525794,
@@ -108,13 +108,8 @@
    "attendedPercentage": 80
   },
   {
-   "characterId": 20118648,
-   "name": "Vengass",
-   "attendedPercentage": 75
-  },
-  {
-   "characterId": 11946812,
-   "name": "Vanzio",
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
    "attendedPercentage": 75
   },
   {
@@ -123,18 +118,23 @@
    "attendedPercentage": 75
   },
   {
-   "characterId": 13521334,
-   "name": "Finalspark",
-   "attendedPercentage": 75
-  },
-  {
    "characterId": 5021543,
    "name": "Feilina",
    "attendedPercentage": 75
   },
   {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
+   "characterId": 13521334,
+   "name": "Finalspark",
+   "attendedPercentage": 75
+  },
+  {
+   "characterId": 11946812,
+   "name": "Vanzio",
+   "attendedPercentage": 75
+  },
+  {
+   "characterId": 20118648,
+   "name": "Vengass",
    "attendedPercentage": 75
   },
   {
