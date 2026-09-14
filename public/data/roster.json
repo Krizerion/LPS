@@ -1612,10 +1612,10 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 320.062,
+    "ilvlEquipped": 321.062,
     "slots": {
      "head": {
-      "ilvl": 308
+      "ilvl": 318
      },
      "neck": {
       "ilvl": 308
@@ -1645,7 +1645,7 @@
       "ilvl": 331
      },
      "finger1": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 321
