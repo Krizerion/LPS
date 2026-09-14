@@ -3,13 +3,13 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
@@ -18,8 +18,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021535,
-   "name": "Blythe",
+   "characterId": 3809470,
+   "name": "Xpactt",
    "attendedPercentage": 100
   },
   {
@@ -28,18 +28,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053378,
-   "name": "Svetirasi",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 6527027,
    "name": "Stenli",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053387,
-   "name": "Zelyo",
+   "characterId": 5021535,
+   "name": "Blythe",
    "attendedPercentage": 100
   },
   {
@@ -48,8 +43,13 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021440,
-   "name": "Racor",
+   "characterId": 5053378,
+   "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
    "attendedPercentage": 100
   },
   {
@@ -73,13 +73,13 @@
    "attendedPercentage": 87.5
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 87.5
   },
   {
-   "characterId": 4258514,
-   "name": "Thatcrit",
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 87.5
   },
   {
@@ -108,13 +108,13 @@
    "attendedPercentage": 80
   },
   {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
+   "characterId": 5030809,
+   "name": "Sherman",
    "attendedPercentage": 75
   },
   {
-   "characterId": 5030809,
-   "name": "Sherman",
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
    "attendedPercentage": 75
   },
   {
@@ -125,11 +125,6 @@
   {
    "characterId": 13521334,
    "name": "Finalspark",
-   "attendedPercentage": 75
-  },
-  {
-   "characterId": 11946812,
-   "name": "Vanzio",
    "attendedPercentage": 75
   },
   {
