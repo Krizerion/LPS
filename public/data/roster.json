@@ -1644,10 +1644,10 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 318,
+    "ilvlEquipped": 321.062,
     "slots": {
      "head": {
-      "ilvl": 308
+      "ilvl": 318
      },
      "neck": {
       "ilvl": 308
@@ -1662,7 +1662,7 @@
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 318
+      "ilvl": 334
      },
      "wrist": {
       "ilvl": 321
@@ -1677,7 +1677,7 @@
       "ilvl": 331
      },
      "finger1": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 321
@@ -1986,7 +1986,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 316.125,
+    "ilvlEquipped": 316,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2075,7 +2075,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 320.625,
+    "ilvlEquipped": 320,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2126,7 +2126,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-14T23:09:54.000Z"
+    "updatedAt": "2026-09-16T00:08:07.000Z"
    }
   },
   {
