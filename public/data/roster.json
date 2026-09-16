@@ -319,6 +319,7 @@
    "note": "Стоян",
    "droptimizerUploadedAt": "2026-09-16T17:22:47.000+00:00",
    "mplusDungeons": [
+    16,
     10,
     10,
     17,
@@ -393,6 +394,7 @@
    "droptimizerUploadedAt": "2026-09-16T17:57:54.000+00:00",
    "mplusDungeons": [
     12,
+    11,
     16,
     16,
     16,
@@ -470,7 +472,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 319.938,
+    "ilvlEquipped": 320,
     "slots": {
      "head": {
       "ilvl": 311
@@ -512,7 +514,7 @@
       "ilvl": 311
      },
      "trinket1": {
-      "ilvl": 308
+      "ilvl": 321
      },
      "trinket2": {
       "ilvl": 334
@@ -524,7 +526,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-13T14:15:41.000Z"
+    "updatedAt": "2026-09-16T22:31:18.000Z"
    }
   },
   {
@@ -550,7 +552,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 322.875,
+    "ilvlEquipped": 322,
     "slots": {
      "head": {
       "ilvl": 334
@@ -601,7 +603,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-13T06:40:35.000Z"
+    "updatedAt": "2026-09-16T22:29:26.000Z"
    }
   },
   {
@@ -622,7 +624,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 322.875,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 321
@@ -652,7 +654,7 @@
       "ilvl": 334
      },
      "feet": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "finger1": {
       "ilvl": 311
@@ -664,13 +666,13 @@
       "ilvl": 321
      },
      "trinket2": {
-      "ilvl": 328
+      "ilvl": 331
      },
      "mainhand": {
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-13T06:38:45.000Z"
+    "updatedAt": "2026-09-16T20:52:24.000Z"
    }
   },
   {
@@ -929,6 +931,8 @@
    "note": "Вальо",
    "droptimizerUploadedAt": "2026-09-16T17:58:06.000+00:00",
    "mplusDungeons": [
+    14,
+    16,
     12,
     12,
     11,
@@ -968,7 +972,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 323.812,
+    "ilvlEquipped": 324.688,
     "slots": {
      "head": {
       "ilvl": 321
@@ -998,7 +1002,7 @@
       "ilvl": 331
      },
      "feet": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "finger1": {
       "ilvl": 311
@@ -1007,7 +1011,7 @@
       "ilvl": 311
      },
      "trinket1": {
-      "ilvl": 324
+      "ilvl": 331
      },
      "trinket2": {
       "ilvl": 334
@@ -1030,6 +1034,8 @@
    "note": "Боби",
    "droptimizerUploadedAt": "2026-09-16T17:57:47.000+00:00",
    "mplusDungeons": [
+    14,
+    16,
     13,
     12,
     10,
@@ -1037,7 +1043,7 @@
     13
    ],
    "gear": {
-    "ilvlEquipped": 323.688,
+    "ilvlEquipped": 323.062,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1052,7 +1058,7 @@
       "ilvl": 315
      },
      "chest": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "waist": {
       "ilvl": 321
@@ -1085,7 +1091,7 @@
       "ilvl": 321
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 321
      }
     },
     "updatedAt": "2026-09-14T22:28:27.000Z"
@@ -1102,6 +1108,7 @@
    "note": "Мартин",
    "droptimizerUploadedAt": "2026-09-16T09:15:54.000+00:00",
    "mplusDungeons": [
+    10,
     10,
     10,
     10,
@@ -1331,6 +1338,7 @@
    "note": "Тошко",
    "droptimizerUploadedAt": "2026-09-16T17:57:35.000+00:00",
    "mplusDungeons": [
+    13,
     12,
     13,
     13,
@@ -1416,7 +1424,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 324.312,
+    "ilvlEquipped": 324,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1464,7 +1472,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-13T17:15:00.000Z"
+    "updatedAt": "2026-09-16T22:10:02.000Z"
    }
   },
   {
@@ -1562,6 +1570,8 @@
     15,
     15,
     15,
+    15,
+    15,
     14,
     14,
     12,
@@ -1635,6 +1645,7 @@
    "droptimizerUploadedAt": "2026-09-16T17:21:31.000+00:00",
    "mplusDungeons": [
     17,
+    16,
     12,
     12,
     12,
@@ -1664,7 +1675,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 321.75,
+    "ilvlEquipped": 322.375,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1691,7 +1702,7 @@
       "ilvl": 311
      },
      "legs": {
-      "ilvl": 315
+      "ilvl": 318
      },
      "feet": {
       "ilvl": 331
@@ -1706,13 +1717,13 @@
       "ilvl": 334
      },
      "trinket2": {
-      "ilvl": 321
+      "ilvl": 328
      },
      "mainhand": {
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-15T13:31:27.000Z"
+    "updatedAt": "2026-09-16T21:28:29.000Z"
    }
   },
   {
@@ -1885,6 +1896,11 @@
    "droptimizerUploadedAt": "2026-09-16T17:17:33.000+00:00",
    "mplusDungeons": [
     12,
+    12,
+    12,
+    12,
+    12,
+    12,
     10,
     12,
     12,
@@ -1948,7 +1964,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-13T19:45:46.000Z"
+    "updatedAt": "2026-09-16T22:39:02.000Z"
    }
   },
   {
