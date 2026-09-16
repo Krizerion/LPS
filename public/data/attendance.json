@@ -3,13 +3,13 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
+   "characterId": 3809470,
+   "name": "Xpactt",
    "attendedPercentage": 100
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
+   "characterId": 5021558,
+   "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
@@ -28,18 +28,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 4608754,
-   "name": "Valahan",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
+   "characterId": 6527027,
+   "name": "Stenli",
    "attendedPercentage": 100
   },
   {
@@ -53,28 +43,33 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 6527027,
-   "name": "Stenli",
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
+   "characterId": 5113215,
+   "name": "Vikvoker",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 88.88888888888889
+   "characterId": 5066215,
+   "name": "Monkies",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 88.88888888888889
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 100
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
+   "attendedPercentage": 88.88888888888889
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 88.88888888888889
   },
   {
@@ -83,13 +78,13 @@
    "attendedPercentage": 88.88888888888889
   },
   {
-   "characterId": 5021535,
-   "name": "Blythe",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 88.88888888888889
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
+   "characterId": 5021535,
+   "name": "Blythe",
    "attendedPercentage": 88.88888888888889
   },
   {
@@ -120,6 +115,11 @@
   {
    "characterId": 5021543,
    "name": "Feilina",
+   "attendedPercentage": 77.77777777777779
+  },
+  {
+   "characterId": 6177638,
+   "name": "Maity",
    "attendedPercentage": 77.77777777777779
   },
   {

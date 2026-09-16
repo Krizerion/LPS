@@ -72,7 +72,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-12T22:33:39.000Z"
+    "updatedAt": "2026-09-16T12:36:01.000Z"
    }
   },
   {
@@ -86,12 +86,14 @@
    "note": "Ицо",
    "droptimizerUploadedAt": "2026-09-09T17:05:08.000+00:00",
    "mplusDungeons": [
+    12,
     10,
     10,
     10,
     10,
     10,
     11,
+    10,
     10,
     10,
     10,
@@ -161,7 +163,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Мишо",
-   "droptimizerUploadedAt": "2026-09-09T17:41:08.000+00:00",
+   "droptimizerUploadedAt": "2026-09-16T16:38:49.000+00:00",
    "mplusDungeons": [
     10,
     10,
@@ -218,7 +220,7 @@
       "ilvl": 311
      },
      "trinket1": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "trinket2": {
       "ilvl": 334
@@ -230,7 +232,7 @@
       "ilvl": 308
      }
     },
-    "updatedAt": "2026-09-15T19:14:12.000Z"
+    "updatedAt": "2026-09-16T15:22:45.000Z"
    }
   },
   {
@@ -331,7 +333,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 320,
+    "ilvlEquipped": 320.562,
     "slots": {
      "head": {
       "ilvl": 321
@@ -393,6 +395,7 @@
    "note": null,
    "droptimizerUploadedAt": "2026-09-14T17:39:02.000+00:00",
    "mplusDungeons": [
+    12,
     16,
     16,
     16,
@@ -401,19 +404,19 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 321.062,
+    "ilvlEquipped": 322.438,
     "slots": {
      "head": {
       "ilvl": 321
      },
      "neck": {
-      "ilvl": 295
+      "ilvl": 311
      },
      "shoulder": {
       "ilvl": 321
      },
      "back": {
-      "ilvl": 315
+      "ilvl": 318
      },
      "chest": {
       "ilvl": 321
@@ -431,7 +434,7 @@
       "ilvl": 321
      },
      "feet": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "finger1": {
       "ilvl": 311
@@ -461,7 +464,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Зап",
-   "droptimizerUploadedAt": "2026-09-14T17:09:26.000+00:00",
+   "droptimizerUploadedAt": "2026-09-16T15:23:43.000+00:00",
    "mplusDungeons": [
     12,
     13,
@@ -536,8 +539,9 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Камен",
-   "droptimizerUploadedAt": "2026-09-14T16:51:59.000+00:00",
+   "droptimizerUploadedAt": "2026-09-16T15:25:32.000+00:00",
    "mplusDungeons": [
+    12,
     12,
     10,
     10,
@@ -784,7 +788,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 320.562,
+    "ilvlEquipped": 320,
     "slots": {
      "head": {
       "ilvl": 334
@@ -838,7 +842,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-14T20:04:13.000Z"
+    "updatedAt": "2026-09-16T13:40:03.000Z"
    }
   },
   {
@@ -1110,7 +1114,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 323.25,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1125,7 +1129,7 @@
       "ilvl": 311
      },
      "chest": {
-      "ilvl": 321
+      "ilvl": 328
      },
      "waist": {
       "ilvl": 331
@@ -1158,7 +1162,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-12T22:33:34.000Z"
+    "updatedAt": "2026-09-16T15:03:14.000Z"
    }
   },
   {
@@ -1172,6 +1176,12 @@
    "note": "Явор",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
     12,
     11,
     10,
@@ -1246,7 +1256,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Вик",
-   "droptimizerUploadedAt": "2026-09-15T16:55:36.000+00:00",
+   "droptimizerUploadedAt": "2026-09-16T16:17:30.000+00:00",
    "mplusDungeons": [
     12,
     12,
@@ -1331,7 +1341,7 @@
     13
    ],
    "gear": {
-    "ilvlEquipped": 321,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1358,7 +1368,7 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "legs": {
       "ilvl": 321
@@ -1373,16 +1383,16 @@
       "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "trinket2": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "mainhand": {
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-15T13:40:02.000Z"
+    "updatedAt": "2026-09-16T13:45:32.000Z"
    }
   },
   {
@@ -1466,8 +1476,14 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Крис",
-   "droptimizerUploadedAt": "2026-09-14T17:09:09.000+00:00",
+   "droptimizerUploadedAt": "2026-09-16T16:41:30.000+00:00",
    "mplusDungeons": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
     12,
     10,
     10,
@@ -1542,6 +1558,10 @@
    "note": "Дамян",
    "droptimizerUploadedAt": "2026-09-14T16:13:51.000+00:00",
    "mplusDungeons": [
+    15,
+    15,
+    15,
+    15,
     14,
     14,
     12,
@@ -1552,10 +1572,10 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 320,
+    "ilvlEquipped": 321,
     "slots": {
      "head": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "neck": {
       "ilvl": 321
@@ -1576,7 +1596,7 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "legs": {
       "ilvl": 321
@@ -1600,7 +1620,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-15T19:30:03.000Z"
+    "updatedAt": "2026-09-16T16:29:55.000Z"
    }
   },
   {
@@ -1859,7 +1879,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": "2026-09-14T17:07:48.000+00:00",
+   "droptimizerUploadedAt": "2026-09-16T14:50:44.000+00:00",
    "mplusDungeons": [
     12,
     10,
@@ -1871,7 +1891,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 320.125,
+    "ilvlEquipped": 320.75,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1907,7 +1927,7 @@
       "ilvl": 331
      },
      "finger1": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 311
