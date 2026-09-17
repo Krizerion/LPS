@@ -320,6 +320,7 @@
    "droptimizerUploadedAt": "2026-09-16T17:22:47.000+00:00",
    "mplusDungeons": [
     16,
+    18,
     10,
     10,
     17,
@@ -331,7 +332,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 321,
+    "ilvlEquipped": 321.812,
     "slots": {
      "head": {
       "ilvl": 321
@@ -376,6 +377,9 @@
       "ilvl": 321
      },
      "mainhand": {
+      "ilvl": 334
+     },
+     "offhand": {
       "ilvl": 331
      }
     },
@@ -672,7 +676,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-16T20:52:24.000Z"
+    "updatedAt": "2026-09-17T15:28:19.000Z"
    }
   },
   {
@@ -936,6 +940,7 @@
     12,
     14,
     14,
+    17,
     12,
     12,
     11,
@@ -1023,7 +1028,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-17T09:57:59.000Z"
+    "updatedAt": "2026-09-17T13:00:53.000Z"
    }
   },
   {
@@ -1039,6 +1044,7 @@
    "mplusDungeons": [
     14,
     16,
+    17,
     13,
     12,
     10,
@@ -1097,7 +1103,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-17T05:44:49.000Z"
+    "updatedAt": "2026-09-17T13:00:52.000Z"
    }
   },
   {
@@ -1901,7 +1907,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": "2026-09-16T17:17:33.000+00:00",
+   "droptimizerUploadedAt": "2026-09-17T11:54:46.000+00:00",
    "mplusDungeons": [
     12,
     12,
