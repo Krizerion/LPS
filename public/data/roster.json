@@ -339,7 +339,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 321,
+    "ilvlEquipped": 321.812,
     "slots": {
      "head": {
       "ilvl": 321
@@ -777,7 +777,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-17T19:12:50.000Z"
+    "updatedAt": "2026-09-19T05:58:16.000Z"
    }
   },
   {
@@ -1543,7 +1543,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 323,
+    "ilvlEquipped": 323.875,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1688,6 +1688,7 @@
    "mplusDungeons": [
     17,
     16,
+    17,
     17,
     12,
     12,
