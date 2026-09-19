@@ -1307,6 +1307,8 @@
    "mplusDungeons": [
     12,
     12,
+    15,
+    15,
     12,
     12,
     12,
@@ -1315,13 +1317,13 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 323,
+    "ilvlEquipped": 324.062,
     "slots": {
      "head": {
       "ilvl": 311
      },
      "neck": {
-      "ilvl": 324
+      "ilvl": 334
      },
      "shoulder": {
       "ilvl": 321
@@ -1463,6 +1465,8 @@
     15,
     16,
     16,
+    16,
+    16,
     15,
     12,
     12,
@@ -1473,7 +1477,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.938,
     "slots": {
      "head": {
       "ilvl": 334
