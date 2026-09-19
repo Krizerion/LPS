@@ -101,7 +101,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 321.875,
+    "ilvlEquipped": 321,
     "slots": {
      "head": {
       "ilvl": 321
@@ -152,7 +152,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-17T06:35:40.000Z"
+    "updatedAt": "2026-09-19T04:55:25.000Z"
    }
   },
   {
@@ -567,7 +567,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 322.875,
+    "ilvlEquipped": 322,
     "slots": {
      "head": {
       "ilvl": 334
@@ -618,7 +618,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-17T17:52:29.000Z"
+    "updatedAt": "2026-09-19T05:53:30.000Z"
    }
   },
   {
@@ -1543,7 +1543,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 323.875,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 321
