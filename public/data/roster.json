@@ -407,6 +407,7 @@
     12,
     11,
     17,
+    17,
     16,
     16,
     16,
@@ -572,7 +573,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 322,
+    "ilvlEquipped": 322.875,
     "slots": {
      "head": {
       "ilvl": 334
@@ -605,10 +606,10 @@
       "ilvl": 321
      },
      "finger1": {
-      "ilvl": 308
+      "ilvl": 311
      },
      "finger2": {
-      "ilvl": 311
+      "ilvl": 308
      },
      "trinket1": {
       "ilvl": 321
@@ -1010,7 +1011,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.688,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1031,7 +1032,7 @@
       "ilvl": 331
      },
      "wrist": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "hands": {
       "ilvl": 321
