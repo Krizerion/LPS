@@ -342,7 +342,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 321.812,
+    "ilvlEquipped": 321,
     "slots": {
      "head": {
       "ilvl": 321
@@ -393,7 +393,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-17T17:53:48.000Z"
+    "updatedAt": "2026-09-20T18:25:16.000Z"
    }
   },
   {
@@ -819,7 +819,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 322,
+    "ilvlEquipped": 322.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1154,7 +1154,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Мартин",
-   "droptimizerUploadedAt": "2026-09-16T09:15:54.000+00:00",
+   "droptimizerUploadedAt": "2026-09-20T18:16:46.000+00:00",
    "mplusDungeons": [
     10,
     12,
@@ -1490,7 +1490,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 322.25,
+    "ilvlEquipped": 322.875,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1508,7 +1508,7 @@
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "shirt": {
       "ilvl": 1
@@ -1649,7 +1649,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2208,7 +2208,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 320,
+    "ilvlEquipped": 320.188,
     "slots": {
      "head": {
       "ilvl": 308
