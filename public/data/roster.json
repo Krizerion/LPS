@@ -983,6 +983,7 @@
     17,
     15,
     15,
+    15,
     12,
     12,
     11,
@@ -1495,10 +1496,11 @@
     12,
     12,
     12,
+    12,
     12
    ],
    "gear": {
-    "ilvlEquipped": 323.125,
+    "ilvlEquipped": 323.5,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1543,7 +1545,7 @@
       "ilvl": 334
      },
      "trinket2": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "mainhand": {
       "ilvl": 331
@@ -2076,7 +2078,7 @@
     6
    ],
    "gear": {
-    "ilvlEquipped": 321.188,
+    "ilvlEquipped": 322,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2091,7 +2093,7 @@
       "ilvl": 311
      },
      "chest": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "waist": {
       "ilvl": 311
