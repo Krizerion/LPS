@@ -104,7 +104,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 321.875,
+    "ilvlEquipped": 322.062,
     "slots": {
      "head": {
       "ilvl": 321
@@ -116,7 +116,7 @@
       "ilvl": 334
      },
      "back": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "chest": {
       "ilvl": 321
@@ -889,6 +889,8 @@
    "mplusDungeons": [
     13,
     17,
+    15,
+    17,
     12,
     12,
     12,
@@ -1016,7 +1018,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 324.688,
+    "ilvlEquipped": 324.062,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1037,7 +1039,7 @@
       "ilvl": 331
      },
      "wrist": {
-      "ilvl": 331
+      "ilvl": 321
      },
      "hands": {
       "ilvl": 321
