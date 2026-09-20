@@ -88,6 +88,9 @@
     12,
     12,
     12,
+    11,
+    12,
+    10,
     10,
     10,
     10,
@@ -339,7 +342,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 321,
+    "ilvlEquipped": 321.812,
     "slots": {
      "head": {
       "ilvl": 321
@@ -734,7 +737,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 321,
+    "ilvlEquipped": 321.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -788,7 +791,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-19T18:35:25.000Z"
+    "updatedAt": "2026-09-20T07:54:18.000Z"
    }
   },
   {
@@ -1154,6 +1157,7 @@
     10,
     12,
     12,
+    12,
     10,
     10,
     10,
@@ -1456,6 +1460,164 @@
      }
     },
     "updatedAt": "2026-09-19T13:57:23.000Z"
+   }
+  },
+  {
+   "id": 14879143,
+   "name": "Felinna",
+   "realm": "Sylvanas",
+   "class": "Rogue",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Весо",
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [
+    12,
+    12,
+    11,
+    15,
+    12,
+    12,
+    12,
+    12,
+    11,
+    11,
+    10,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 322.25,
+    "slots": {
+     "head": {
+      "ilvl": 334
+     },
+     "neck": {
+      "ilvl": 311
+     },
+     "shoulder": {
+      "ilvl": 321
+     },
+     "back": {
+      "ilvl": 315
+     },
+     "chest": {
+      "ilvl": 321
+     },
+     "waist": {
+      "ilvl": 311
+     },
+     "shirt": {
+      "ilvl": 1
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 311
+     },
+     "feet": {
+      "ilvl": 331
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 331
+     },
+     "trinket1": {
+      "ilvl": 334
+     },
+     "trinket2": {
+      "ilvl": 311
+     },
+     "mainhand": {
+      "ilvl": 331
+     },
+     "offhand": {
+      "ilvl": 321
+     }
+    },
+    "updatedAt": "2026-09-20T07:55:23.000Z"
+   }
+  },
+  {
+   "id": 6190750,
+   "name": "Yavor",
+   "realm": "Argent Dawn",
+   "class": "Death Knight",
+   "role": "Tank",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Явор",
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [
+    12,
+    11,
+    12,
+    12,
+    12,
+    12,
+    12,
+    11,
+    10,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 323.438,
+    "slots": {
+     "head": {
+      "ilvl": 321
+     },
+     "neck": {
+      "ilvl": 311
+     },
+     "shoulder": {
+      "ilvl": 334
+     },
+     "back": {
+      "ilvl": 321
+     },
+     "chest": {
+      "ilvl": 321
+     },
+     "waist": {
+      "ilvl": 334
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 318
+     },
+     "feet": {
+      "ilvl": 321
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 331
+     },
+     "trinket1": {
+      "ilvl": 311
+     },
+     "trinket2": {
+      "ilvl": 311
+     },
+     "mainhand": {
+      "ilvl": 334
+     }
+    },
+    "updatedAt": "2026-09-20T07:55:26.000Z"
    }
   },
   {
@@ -1899,7 +2061,7 @@
     6
    ],
    "gear": {
-    "ilvlEquipped": 320,
+    "ilvlEquipped": 321.188,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1908,7 +2070,7 @@
       "ilvl": 311
      },
      "shoulder": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "back": {
       "ilvl": 311
@@ -1923,7 +2085,7 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "legs": {
       "ilvl": 321
@@ -1951,89 +2113,6 @@
      }
     },
     "updatedAt": "2026-09-17T00:18:09.000Z"
-   }
-  },
-  {
-   "id": 5021543,
-   "name": "Feilina",
-   "realm": "Argent Dawn",
-   "class": "Death Knight",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Весо",
-   "droptimizerUploadedAt": "2026-09-17T11:54:46.000+00:00",
-   "mplusDungeons": [
-    12,
-    12,
-    12,
-    12,
-    12,
-    12,
-    10,
-    12,
-    12,
-    12,
-    11,
-    10,
-    10
-   ],
-   "gear": {
-    "ilvlEquipped": 323,
-    "slots": {
-     "head": {
-      "ilvl": 321
-     },
-     "neck": {
-      "ilvl": 311
-     },
-     "shoulder": {
-      "ilvl": 311
-     },
-     "back": {
-      "ilvl": 311
-     },
-     "chest": {
-      "ilvl": 321
-     },
-     "waist": {
-      "ilvl": 311
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 321
-     },
-     "legs": {
-      "ilvl": 334
-     },
-     "feet": {
-      "ilvl": 331
-     },
-     "finger1": {
-      "ilvl": 321
-     },
-     "finger2": {
-      "ilvl": 321
-     },
-     "trinket1": {
-      "ilvl": 334
-     },
-     "trinket2": {
-      "ilvl": 334
-     },
-     "mainhand": {
-      "ilvl": 334
-     },
-     "offhand": {
-      "ilvl": 321
-     }
-    },
-    "updatedAt": "2026-09-20T03:37:18.000Z"
    }
   },
   {
@@ -2115,7 +2194,7 @@
    "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Алекс",
    "droptimizerUploadedAt": "2026-09-16T17:16:25.000+00:00",
    "mplusDungeons": [
     12,
@@ -2179,6 +2258,89 @@
      }
     },
     "updatedAt": "2026-09-17T01:44:37.000Z"
+   }
+  },
+  {
+   "id": 5021543,
+   "name": "Feilina",
+   "realm": "Argent Dawn",
+   "class": "Death Knight",
+   "role": "Melee",
+   "rank": "Alt",
+   "status": "tracking",
+   "note": "Весо",
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    10,
+    12,
+    12,
+    12,
+    11,
+    10,
+    10
+   ],
+   "gear": {
+    "ilvlEquipped": 323,
+    "slots": {
+     "head": {
+      "ilvl": 321
+     },
+     "neck": {
+      "ilvl": 311
+     },
+     "shoulder": {
+      "ilvl": 311
+     },
+     "back": {
+      "ilvl": 311
+     },
+     "chest": {
+      "ilvl": 321
+     },
+     "waist": {
+      "ilvl": 311
+     },
+     "shirt": {
+      "ilvl": 1
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 334
+     },
+     "feet": {
+      "ilvl": 331
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 321
+     },
+     "trinket1": {
+      "ilvl": 334
+     },
+     "trinket2": {
+      "ilvl": 334
+     },
+     "mainhand": {
+      "ilvl": 334
+     },
+     "offhand": {
+      "ilvl": 321
+     }
+    },
+    "updatedAt": "2026-09-20T03:37:18.000Z"
    }
   }
  ]
