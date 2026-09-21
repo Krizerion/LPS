@@ -413,6 +413,7 @@
     11,
     17,
     17,
+    17,
     16,
     16,
     16,
@@ -739,7 +740,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 321.562,
+    "ilvlEquipped": 321,
     "slots": {
      "head": {
       "ilvl": 334
@@ -985,6 +986,9 @@
     15,
     15,
     15,
+    16,
+    16,
+    16,
     12,
     12,
     11,
@@ -1024,7 +1028,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.062,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1045,7 +1049,7 @@
       "ilvl": 331
      },
      "wrist": {
-      "ilvl": 331
+      "ilvl": 321
      },
      "hands": {
       "ilvl": 321
@@ -1504,7 +1508,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 323.5,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1534,7 +1538,7 @@
       "ilvl": 321
      },
      "legs": {
-      "ilvl": 311
+      "ilvl": 315
      },
      "feet": {
       "ilvl": 331
@@ -1558,7 +1562,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-20T23:57:34.000Z"
+    "updatedAt": "2026-09-21T08:05:35.000Z"
    }
   },
   {
@@ -1894,6 +1898,7 @@
     16,
     17,
     17,
+    16,
     12,
     12,
     12,
@@ -2057,6 +2062,8 @@
    "note": "Наско",
    "droptimizerUploadedAt": "2026-09-14T17:20:32.000+00:00",
    "mplusDungeons": [
+    18,
+    18,
     17,
     10,
     10,
@@ -2083,13 +2090,13 @@
     6
    ],
    "gear": {
-    "ilvlEquipped": 322,
+    "ilvlEquipped": 322.438,
     "slots": {
      "head": {
       "ilvl": 321
      },
      "neck": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "shoulder": {
       "ilvl": 321
