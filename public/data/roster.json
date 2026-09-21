@@ -1479,7 +1479,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-09-21T06:47:19.000+00:00",
    "mplusDungeons": [
     12,
     12,
@@ -1498,10 +1498,13 @@
     12,
     12,
     12,
-    12
+    12,
+    12,
+    10,
+    10
    ],
    "gear": {
-    "ilvlEquipped": 323.312,
+    "ilvlEquipped": 323.5,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1546,7 +1549,7 @@
       "ilvl": 334
      },
      "trinket2": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "mainhand": {
       "ilvl": 331
@@ -1580,6 +1583,7 @@
     10,
     10,
     10,
+    12,
     12
    ],
    "gear": {
