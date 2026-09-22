@@ -3,6 +3,11 @@
  "endDate": null,
  "characters": [
   {
+   "characterId": 5050452,
+   "name": "Moshenji",
+   "attendedPercentage": 100
+  },
+  {
    "characterId": 3809470,
    "name": "Xpactt",
    "attendedPercentage": 100
@@ -38,8 +43,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
   },
   {
@@ -53,11 +58,6 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021440,
-   "name": "Racor",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 5021558,
    "name": "Azeryx",
    "attendedPercentage": 100
@@ -68,23 +68,23 @@
    "attendedPercentage": 90
   },
   {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 90
-  },
-  {
    "characterId": 5053594,
    "name": "Natureweaver",
    "attendedPercentage": 90
   },
   {
-   "characterId": 4486779,
-   "name": "Simbi",
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 90
   },
   {
-   "characterId": 4258514,
-   "name": "Thatcrit",
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 90
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
    "attendedPercentage": 90
   },
   {
@@ -125,11 +125,6 @@
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 70
-  },
-  {
-   "characterId": 20118648,
-   "name": "Vengass",
    "attendedPercentage": 70
   },
   {

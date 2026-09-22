@@ -177,6 +177,8 @@
     12,
     12,
     12,
+    12,
+    13,
     10,
     10,
     10,
@@ -193,7 +195,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 323.25,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 321
@@ -244,7 +246,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-17T18:41:56.000Z"
+    "updatedAt": "2026-09-22T12:38:59.000Z"
    }
   },
   {
@@ -422,6 +424,9 @@
     17,
     17,
     8,
+    10,
+    17,
+    17,
     16,
     16,
     16,
@@ -430,7 +435,7 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 324.562,
+    "ilvlEquipped": 324,
     "slots": {
      "head": {
       "ilvl": 334
@@ -481,7 +486,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-22T03:59:32.000Z"
+    "updatedAt": "2026-09-22T15:08:13.000Z"
    }
   },
   {
@@ -503,6 +508,7 @@
     14,
     15,
     14,
+    15,
     12,
     13,
     13,
@@ -510,10 +516,10 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 319.938,
+    "ilvlEquipped": 322.875,
     "slots": {
      "head": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "neck": {
       "ilvl": 334
@@ -543,13 +549,13 @@
       "ilvl": 311
      },
      "feet": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "finger1": {
-      "ilvl": 311
+      "ilvl": 331
      },
      "finger2": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "trinket1": {
       "ilvl": 308
@@ -564,7 +570,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-19T19:20:18.000Z"
+    "updatedAt": "2026-09-22T12:09:06.000Z"
    }
   },
   {
@@ -663,6 +669,8 @@
     11,
     14,
     15,
+    15,
+    14,
     13,
     13,
     13,
@@ -670,7 +678,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 323,
+    "ilvlEquipped": 323.25,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1006,6 +1014,8 @@
     16,
     17,
     16,
+    16,
+    16,
     12,
     12,
     11,
@@ -1045,7 +1055,7 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.875,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1696,7 +1706,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 324.938,
+    "ilvlEquipped": 324,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1744,7 +1754,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-21T00:51:33.000Z"
+    "updatedAt": "2026-09-22T15:14:21.000Z"
    }
   },
   {
@@ -2319,83 +2329,6 @@
      }
     },
     "updatedAt": "2026-09-17T00:48:31.000Z"
-   }
-  },
-  {
-   "id": 20118648,
-   "name": "Vengass",
-   "realm": "Stormscale",
-   "class": "Demon Hunter",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Алекс",
-   "droptimizerUploadedAt": "2026-09-16T17:16:25.000+00:00",
-   "mplusDungeons": [
-    16,
-    15,
-    14,
-    12,
-    14,
-    12,
-    10,
-    10,
-    10,
-    10
-   ],
-   "gear": {
-    "ilvlEquipped": 320.188,
-    "slots": {
-     "head": {
-      "ilvl": 308
-     },
-     "neck": {
-      "ilvl": 321
-     },
-     "shoulder": {
-      "ilvl": 315
-     },
-     "back": {
-      "ilvl": 311
-     },
-     "chest": {
-      "ilvl": 334
-     },
-     "waist": {
-      "ilvl": 311
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 321
-     },
-     "legs": {
-      "ilvl": 321
-     },
-     "feet": {
-      "ilvl": 324
-     },
-     "finger1": {
-      "ilvl": 311
-     },
-     "finger2": {
-      "ilvl": 308
-     },
-     "trinket1": {
-      "ilvl": 321
-     },
-     "trinket2": {
-      "ilvl": 321
-     },
-     "mainhand": {
-      "ilvl": 331
-     },
-     "offhand": {
-      "ilvl": 334
-     }
-    },
-    "updatedAt": "2026-09-17T01:44:37.000Z"
    }
   },
   {
