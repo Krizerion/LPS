@@ -108,6 +108,11 @@
    "attendedPercentage": 81.81818181818183
   },
   {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 77.77777777777779
+  },
+  {
    "characterId": 5021535,
    "name": "Blythe",
    "attendedPercentage": 72.72727272727273
@@ -116,11 +121,6 @@
    "characterId": 20118646,
    "name": "Chadiux",
    "attendedPercentage": 72.72727272727273
-  },
-  {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 66.66666666666666
   },
   {
    "characterId": 13521334,
