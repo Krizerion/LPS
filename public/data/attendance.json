@@ -1,7 +1,12 @@
 {
- "startDate": "2026-07-24",
+ "startDate": "2026-07-25",
  "endDate": null,
  "characters": [
+  {
+   "characterId": 5021440,
+   "name": "Racor",
+   "attendedPercentage": 100
+  },
   {
    "characterId": 5050452,
    "name": "Moshenji",
@@ -43,13 +48,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021440,
-   "name": "Racor",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 14879143,
-   "name": "Felinna",
+   "characterId": 5021558,
+   "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
@@ -58,79 +58,79 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 100
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 90.9090909090909
   },
   {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 90
-  },
-  {
-   "characterId": 5053594,
-   "name": "Natureweaver",
-   "attendedPercentage": 90
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 90
+   "attendedPercentage": 90.9090909090909
   },
   {
    "characterId": 6527027,
    "name": "Stenli",
-   "attendedPercentage": 90
+   "attendedPercentage": 90.9090909090909
   },
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 90
-  },
-  {
-   "characterId": 5949076,
-   "name": "Luxeona",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 90.9090909090909
   },
   {
    "characterId": 14525794,
    "name": "Dawon",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
-   "attendedPercentage": 80
+   "characterId": 5949076,
+   "name": "Luxeona",
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 80
-  },
-  {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 80
+   "attendedPercentage": 81.81818181818183
   },
   {
    "characterId": 6177638,
    "name": "Maity",
-   "attendedPercentage": 80
+   "attendedPercentage": 81.81818181818183
   },
   {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 75
+   "characterId": 5053594,
+   "name": "Natureweaver",
+   "attendedPercentage": 81.81818181818183
+  },
+  {
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
+   "attendedPercentage": 81.81818181818183
+  },
+  {
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 72.72727272727273
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 70
+   "attendedPercentage": 72.72727272727273
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 66.66666666666666
   },
   {
    "characterId": 13521334,
    "name": "Finalspark",
-   "attendedPercentage": 60
+   "attendedPercentage": 54.54545454545454
+  },
+  {
+   "characterId": 14879143,
+   "name": "Felinna",
+   "attendedPercentage": 50
   }
  ]
 }

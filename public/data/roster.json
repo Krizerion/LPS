@@ -1955,7 +1955,7 @@
     11
    ],
    "gear": {
-    "ilvlEquipped": 320.188,
+    "ilvlEquipped": 320,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1979,7 +1979,7 @@
       "ilvl": 1
      },
      "wrist": {
-      "ilvl": 311
+      "ilvl": 308
      },
      "hands": {
       "ilvl": 311
