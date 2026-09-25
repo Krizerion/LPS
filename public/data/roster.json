@@ -160,6 +160,8 @@
    "droptimizerUploadedAt": "2026-09-23T15:53:22.000+00:00",
    "mplusDungeons": [
     13,
+    13,
+    12,
     10,
     10,
     10,
@@ -390,7 +392,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 325.5,
+    "ilvlEquipped": 325,
     "slots": {
      "head": {
       "ilvl": 334
@@ -441,7 +443,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-22T15:08:13.000Z"
+    "updatedAt": "2026-09-25T23:27:42.000Z"
    }
   },
   {
@@ -945,7 +947,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 326.562,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1232,6 +1234,7 @@
     14,
     14,
     14,
+    14,
     12,
     12,
     15,
@@ -1405,7 +1408,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 324.312,
+    "ilvlEquipped": 324.5,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1417,7 +1420,7 @@
       "ilvl": 321
      },
      "back": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "chest": {
       "ilvl": 321
@@ -1565,13 +1568,13 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 326.75,
+    "ilvlEquipped": 324,
     "slots": {
      "head": {
       "ilvl": 334
      },
      "neck": {
-      "ilvl": 331
+      "ilvl": 308
      },
      "shoulder": {
       "ilvl": 321
@@ -1592,7 +1595,7 @@
       "ilvl": 321
      },
      "legs": {
-      "ilvl": 321
+      "ilvl": 315
      },
      "feet": {
       "ilvl": 331
