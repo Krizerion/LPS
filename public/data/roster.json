@@ -376,6 +376,8 @@
    "droptimizerUploadedAt": "2026-09-23T18:29:31.000+00:00",
    "mplusDungeons": [
     12,
+    17,
+    17,
     12,
     11,
     17,
@@ -914,6 +916,7 @@
     17,
     18,
     17,
+    17,
     14,
     16,
     12,
@@ -939,7 +942,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 326.375,
     "slots": {
      "head": {
       "ilvl": 321
@@ -972,7 +975,7 @@
       "ilvl": 321
      },
      "finger1": {
-      "ilvl": 321
+      "ilvl": 318
      },
      "finger2": {
       "ilvl": 318
@@ -987,7 +990,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-25T08:23:39.000Z"
+    "updatedAt": "2026-09-25T13:55:22.000Z"
    }
   },
   {
@@ -1003,13 +1006,14 @@
    "mplusDungeons": [
     17,
     18,
+    17,
     14,
     16,
     17,
     17
    ],
    "gear": {
-    "ilvlEquipped": 323,
+    "ilvlEquipped": 325.5,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1021,7 +1025,7 @@
       "ilvl": 321
      },
      "back": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "chest": {
       "ilvl": 334
@@ -1057,7 +1061,7 @@
       "ilvl": 321
      },
      "mainhand": {
-      "ilvl": 321
+      "ilvl": 331
      }
     },
     "updatedAt": "2026-09-24T20:28:57.000Z"
@@ -1080,7 +1084,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 326.125,
+    "ilvlEquipped": 326.312,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1116,7 +1120,7 @@
       "ilvl": 331
      },
      "finger2": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "trinket1": {
       "ilvl": 334
@@ -1226,10 +1230,10 @@
     14
    ],
    "gear": {
-    "ilvlEquipped": 324.25,
+    "ilvlEquipped": 324.688,
     "slots": {
      "head": {
-      "ilvl": 311
+      "ilvl": 318
      },
      "neck": {
       "ilvl": 334
@@ -1277,7 +1281,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-21T00:51:25.000Z"
+    "updatedAt": "2026-09-25T16:12:30.000Z"
    }
   },
   {
@@ -1993,6 +1997,7 @@
    "note": "Наско",
    "droptimizerUploadedAt": "2026-09-23T17:42:11.000+00:00",
    "mplusDungeons": [
+    18,
     18,
     18,
     18,
