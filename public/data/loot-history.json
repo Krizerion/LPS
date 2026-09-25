@@ -786,20 +786,6 @@
    "note": ""
   },
   {
-   "id": 1262421434,
-   "itemId": 281227,
-   "name": "Soulcoiler's Rush'kah",
-   "icon": "inv_helm_armor_hextrollpriestess_d_01",
-   "slot": "Head",
-   "characterId": 5021440,
-   "awardedAt": "2026-09-16T21:50:00.000Z",
-   "difficulty": "mythic",
-   "response": "BiS",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
    "id": 1262421445,
    "itemId": 268203,
    "name": "Hexing Spiritrender",
@@ -3357,20 +3343,6 @@
    "awardedAt": "2026-08-26T20:17:00.000Z",
    "difficulty": "normal",
    "response": "BiS",
-   "excluded": false,
-   "discarded": false,
-   "note": ""
-  },
-  {
-   "id": 1206314204,
-   "itemId": 281227,
-   "name": "Soulcoiler's Rush'kah",
-   "icon": "inv_helm_armor_hextrollpriestess_d_01",
-   "slot": "Head",
-   "characterId": 5053594,
-   "awardedAt": "2026-08-26T20:07:00.000Z",
-   "difficulty": "normal",
-   "response": "Pass",
    "excluded": false,
    "discarded": false,
    "note": ""
