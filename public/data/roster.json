@@ -549,6 +549,7 @@
    "mplusDungeons": [
     10,
     10,
+    11,
     12,
     12,
     12,
@@ -620,6 +621,10 @@
    "note": "Здравко",
    "droptimizerUploadedAt": "2026-09-23T17:02:05.000+00:00",
    "mplusDungeons": [
+    15,
+    14,
+    15,
+    15,
     12,
     14,
     15,
@@ -631,7 +636,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 325.125,
+    "ilvlEquipped": 325,
     "slots": {
      "head": {
       "ilvl": 321
@@ -679,7 +684,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-24T20:28:55.000Z"
+    "updatedAt": "2026-09-27T16:03:51.000Z"
    }
   },
   {
@@ -850,6 +855,9 @@
     17,
     17,
     17,
+    18,
+    17,
+    17,
     13,
     17,
     15,
@@ -941,6 +949,9 @@
     17,
     17,
     16,
+    18,
+    17,
+    17,
     18,
     17,
     14,
@@ -1037,13 +1048,16 @@
     16,
     17,
     17,
+    17,
+    17,
+    18,
     14,
     16,
     17,
     17
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1332,6 +1346,10 @@
    "note": "Тошко",
    "droptimizerUploadedAt": "2026-09-23T07:27:01.000+00:00",
    "mplusDungeons": [
+    15,
+    14,
+    15,
+    15,
     13,
     12,
     14,
@@ -1342,7 +1360,7 @@
     13
    ],
    "gear": {
-    "ilvlEquipped": 327.188,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1357,7 +1375,7 @@
       "ilvl": 321
      },
      "chest": {
-      "ilvl": 328
+      "ilvl": 334
      },
      "waist": {
       "ilvl": 331
@@ -1393,7 +1411,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-24T20:28:54.000Z"
+    "updatedAt": "2026-09-27T16:03:55.000Z"
    }
   },
   {
@@ -1407,6 +1425,7 @@
    "note": "Весо",
    "droptimizerUploadedAt": "2026-09-21T06:47:19.000+00:00",
    "mplusDungeons": [
+    10,
     12,
     12,
     11,
@@ -1433,7 +1452,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 325,
+    "ilvlEquipped": 325.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1501,6 +1520,9 @@
    "note": "Явор",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    11,
+    10,
+    10,
     12,
     11,
     12,
@@ -1516,7 +1538,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 325,
+    "ilvlEquipped": 325.5,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1972,6 +1994,7 @@
     13,
     11,
     10,
+    16,
     15
    ],
    "gear": {
@@ -2192,7 +2215,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 324.438,
+    "ilvlEquipped": 326.312,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2201,16 +2224,16 @@
       "ilvl": 334
      },
      "shoulder": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "back": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "chest": {
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 311
+      "ilvl": 321
      },
      "shirt": {
       "ilvl": 1
