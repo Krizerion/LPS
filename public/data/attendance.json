@@ -13,43 +13,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 3809470,
    "name": "Xpactt",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4608754,
-   "name": "Valahan",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053378,
-   "name": "Svetirasi",
    "attendedPercentage": 100
   },
   {
@@ -58,9 +23,44 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 91.66666666666666
+   "characterId": 5053378,
+   "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066215,
+   "name": "Monkies",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066198,
+   "name": "Krizerio",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 19743502,
+   "name": "Xahoxah",
+   "attendedPercentage": 100
   },
   {
    "characterId": 5099602,
@@ -73,14 +73,14 @@
    "attendedPercentage": 91.66666666666666
   },
   {
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 91.66666666666666
+  },
+  {
    "characterId": 14525794,
    "name": "Dawon",
    "attendedPercentage": 88.88888888888889
-  },
-  {
-   "characterId": 5030809,
-   "name": "Sherman",
-   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 5121622,
@@ -93,8 +93,8 @@
    "attendedPercentage": 83.33333333333334
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
+   "characterId": 5030809,
+   "name": "Sherman",
    "attendedPercentage": 83.33333333333334
   },
   {
@@ -113,6 +113,11 @@
    "attendedPercentage": 75
   },
   {
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 75
+  },
+  {
    "characterId": 20118646,
    "name": "Chadiux",
    "attendedPercentage": 75
@@ -121,11 +126,6 @@
    "characterId": 14879143,
    "name": "Felinna",
    "attendedPercentage": 66.66666666666666
-  },
-  {
-   "characterId": 19743502,
-   "name": "Xahoxah",
-   "attendedPercentage": 0
   }
  ]
 }
