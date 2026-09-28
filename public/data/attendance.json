@@ -1,5 +1,5 @@
 {
- "startDate": "2026-07-29",
+ "startDate": "2026-07-30",
  "endDate": null,
  "characters": [
   {
@@ -13,38 +13,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4608756,
-   "name": "Nelfers",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053378,
-   "name": "Svetirasi",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4608754,
-   "name": "Valahan",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
+   "characterId": 5066198,
+   "name": "Krizerio",
    "attendedPercentage": 100
   },
   {
@@ -53,83 +23,113 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
+   "characterId": 3809470,
+   "name": "Xpactt",
    "attendedPercentage": 100
   },
   {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 90.9090909090909
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 90.9090909090909
+   "characterId": 5066215,
+   "name": "Monkies",
+   "attendedPercentage": 100
   },
   {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 90.9090909090909
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053378,
+   "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4608756,
+   "name": "Nelfers",
+   "attendedPercentage": 100
   },
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 90.9090909090909
+   "attendedPercentage": 91.66666666666666
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 91.66666666666666
+  },
+  {
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 14525794,
    "name": "Dawon",
-   "attendedPercentage": 87.5
-  },
-  {
-   "characterId": 5949076,
-   "name": "Luxeona",
-   "attendedPercentage": 87.5
+   "attendedPercentage": 88.88888888888889
   },
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 81.81818181818183
-  },
-  {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 81.81818181818183
-  },
-  {
-   "characterId": 5053594,
-   "name": "Natureweaver",
-   "attendedPercentage": 81.81818181818183
+   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 81.81818181818183
+   "attendedPercentage": 83.33333333333334
+  },
+  {
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 83.33333333333334
+  },
+  {
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 5982077,
    "name": "Miragè",
+   "attendedPercentage": 80
+  },
+  {
+   "characterId": 5949076,
+   "name": "Luxeona",
    "attendedPercentage": 77.77777777777779
   },
   {
-   "characterId": 5021535,
-   "name": "Blythe",
-   "attendedPercentage": 72.72727272727273
+   "characterId": 5053594,
+   "name": "Natureweaver",
+   "attendedPercentage": 75
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 72.72727272727273
+   "attendedPercentage": 75
   },
   {
-   "characterId": 13521334,
-   "name": "Finalspark",
-   "attendedPercentage": 54.54545454545454
+   "characterId": 5021535,
+   "name": "Blythe",
+   "attendedPercentage": 66.66666666666666
   },
   {
    "characterId": 14879143,
    "name": "Felinna",
+   "attendedPercentage": 66.66666666666666
+  },
+  {
+   "characterId": 13521334,
+   "name": "Finalspark",
    "attendedPercentage": 50
   }
  ]
