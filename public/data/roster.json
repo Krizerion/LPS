@@ -87,6 +87,7 @@
    "mplusDungeons": [
     12,
     10,
+    10,
     12,
     12,
     12,
@@ -227,73 +228,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-27T21:30:58.000Z"
-   }
-  },
-  {
-   "id": 5021535,
-   "name": "Blythe",
-   "realm": "Burning Legion",
-   "class": "Paladin",
-   "role": "Melee",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Денис",
-   "droptimizerUploadedAt": "2026-09-14T15:26:23.000+00:00",
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 322,
-    "slots": {
-     "head": {
-      "ilvl": 311
-     },
-     "neck": {
-      "ilvl": 331
-     },
-     "shoulder": {
-      "ilvl": 321
-     },
-     "back": {
-      "ilvl": 308
-     },
-     "chest": {
-      "ilvl": 321
-     },
-     "waist": {
-      "ilvl": 321
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 321
-     },
-     "legs": {
-      "ilvl": 311
-     },
-     "feet": {
-      "ilvl": 311
-     },
-     "finger1": {
-      "ilvl": 318
-     },
-     "finger2": {
-      "ilvl": 331
-     },
-     "trinket1": {
-      "ilvl": 334
-     },
-     "trinket2": {
-      "ilvl": 321
-     },
-     "mainhand": {
-      "ilvl": 334
-     }
-    },
-    "updatedAt": "2026-09-17T06:36:06.000Z"
+    "updatedAt": "2026-09-28T10:30:44.000Z"
    }
   },
   {
@@ -553,7 +488,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Камен",
-   "droptimizerUploadedAt": "2026-09-23T17:32:32.000+00:00",
+   "droptimizerUploadedAt": "2026-09-28T15:58:03.000+00:00",
    "mplusDungeons": [
     10,
     10,
@@ -874,7 +809,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 327,
+    "ilvlEquipped": 327.188,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1128,21 +1063,23 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Мартин",
-   "droptimizerUploadedAt": "2026-09-23T18:27:21.000+00:00",
+   "droptimizerUploadedAt": "2026-09-28T14:00:54.000+00:00",
    "mplusDungeons": [
+    10,
+    12,
     10,
     12,
     12,
     12
    ],
    "gear": {
-    "ilvlEquipped": 326.312,
+    "ilvlEquipped": 326.562,
     "slots": {
      "head": {
       "ilvl": 321
      },
      "neck": {
-      "ilvl": 324
+      "ilvl": 328
      },
      "shoulder": {
       "ilvl": 334
@@ -1352,7 +1289,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Тошко",
-   "droptimizerUploadedAt": "2026-09-23T07:27:01.000+00:00",
+   "droptimizerUploadedAt": "2026-09-28T13:53:55.000+00:00",
    "mplusDungeons": [
     15,
     14,
@@ -1431,7 +1368,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": "2026-09-21T06:47:19.000+00:00",
+   "droptimizerUploadedAt": "2026-09-28T15:15:05.000+00:00",
    "mplusDungeons": [
     10,
     12,
@@ -1460,7 +1397,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 325.562,
+    "ilvlEquipped": 325,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1514,7 +1451,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-27T09:26:38.000Z"
+    "updatedAt": "2026-09-28T15:21:25.000Z"
    }
   },
   {
@@ -1699,7 +1636,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 326.562,
+    "ilvlEquipped": 326,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1750,7 +1687,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-24T08:14:43.000Z"
+    "updatedAt": "2026-09-28T12:17:26.000Z"
    }
   },
   {
@@ -1762,7 +1699,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Дамян",
-   "droptimizerUploadedAt": "2026-09-23T16:36:15.000+00:00",
+   "droptimizerUploadedAt": "2026-09-28T15:20:27.000+00:00",
    "mplusDungeons": [
     16,
     16,
@@ -1842,7 +1779,7 @@
    "role": "Melee",
    "rank": "Alt",
    "status": "tracking",
-   "note": null,
+   "note": "Крис",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
     12,
@@ -2141,72 +2078,6 @@
    }
   },
   {
-   "id": 13521334,
-   "name": "Finalspark",
-   "realm": "Argent Dawn",
-   "class": "Priest",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Стиви",
-   "droptimizerUploadedAt": "2026-09-07T16:58:13.000+00:00",
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 316,
-    "slots": {
-     "head": {
-      "ilvl": 321
-     },
-     "neck": {
-      "ilvl": 308
-     },
-     "shoulder": {
-      "ilvl": 308
-     },
-     "back": {
-      "ilvl": 311
-     },
-     "chest": {
-      "ilvl": 321
-     },
-     "waist": {
-      "ilvl": 331
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 308
-     },
-     "legs": {
-      "ilvl": 311
-     },
-     "feet": {
-      "ilvl": 311
-     },
-     "finger1": {
-      "ilvl": 311
-     },
-     "finger2": {
-      "ilvl": 308
-     },
-     "trinket1": {
-      "ilvl": 321
-     },
-     "trinket2": {
-      "ilvl": 321
-     },
-     "mainhand": {
-      "ilvl": 321
-     },
-     "offhand": {
-      "ilvl": 321
-     }
-    },
-    "updatedAt": "2026-09-17T00:48:31.000Z"
-   }
-  },
-  {
    "id": 5021543,
    "name": "Feilina",
    "realm": "Argent Dawn",
@@ -2279,6 +2150,69 @@
      }
     },
     "updatedAt": "2026-09-27T09:29:56.000Z"
+   }
+  },
+  {
+   "id": 19743502,
+   "name": "Xahoxah",
+   "realm": "Stormscale",
+   "class": "Paladin",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "pending",
+   "note": "Миро ",
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [],
+   "gear": {
+    "ilvlEquipped": 326.125,
+    "slots": {
+     "head": {
+      "ilvl": 334
+     },
+     "neck": {
+      "ilvl": 318
+     },
+     "shoulder": {
+      "ilvl": 321
+     },
+     "back": {
+      "ilvl": 334
+     },
+     "chest": {
+      "ilvl": 334
+     },
+     "waist": {
+      "ilvl": 321
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 334
+     },
+     "feet": {
+      "ilvl": 321
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 331
+     },
+     "trinket1": {
+      "ilvl": 308
+     },
+     "trinket2": {
+      "ilvl": 321
+     },
+     "mainhand": {
+      "ilvl": 334
+     }
+    },
+    "updatedAt": "2026-09-27T21:28:05.000Z"
    }
   }
  ]
