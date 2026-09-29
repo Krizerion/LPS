@@ -695,6 +695,17 @@
      ]
     }
    ]
+  },
+  {
+   "id": 84,
+   "name": "The Unbinding of Kith'ix",
+   "encounters": [
+    {
+     "name": "Kith'ix",
+     "maxItemLevel": 318,
+     "items": []
+    }
+   ]
   }
  ],
  "upgrades": [

@@ -1,6 +1,151 @@
 {
  "characters": [
   {
+   "id": 19340032,
+   "name": "Squidward",
+   "realm": "Draenor",
+   "class": "Warrior",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Жоро",
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [
+    19,
+    20,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19
+   ],
+   "gear": {
+    "ilvlEquipped": 326.75,
+    "slots": {
+     "head": {
+      "ilvl": 334
+     },
+     "neck": {
+      "ilvl": 334
+     },
+     "shoulder": {
+      "ilvl": 321
+     },
+     "back": {
+      "ilvl": 321
+     },
+     "chest": {
+      "ilvl": 321
+     },
+     "waist": {
+      "ilvl": 331
+     },
+     "wrist": {
+      "ilvl": 315
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 321
+     },
+     "feet": {
+      "ilvl": 331
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 321
+     },
+     "trinket1": {
+      "ilvl": 334
+     },
+     "trinket2": {
+      "ilvl": 334
+     },
+     "mainhand": {
+      "ilvl": 334
+     }
+    },
+    "updatedAt": "2026-09-29T21:42:20.000Z"
+   }
+  },
+  {
+   "id": 19645454,
+   "name": "Obligate",
+   "realm": "Twisting Nether",
+   "class": "Demon Hunter",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Ники",
+   "droptimizerUploadedAt": null,
+   "mplusDungeons": [
+    18,
+    19,
+    18,
+    18,
+    18,
+    19
+   ],
+   "gear": {
+    "ilvlEquipped": 324.5,
+    "slots": {
+     "head": {
+      "ilvl": 321
+     },
+     "neck": {
+      "ilvl": 321
+     },
+     "shoulder": {
+      "ilvl": 318
+     },
+     "back": {
+      "ilvl": 334
+     },
+     "chest": {
+      "ilvl": 321
+     },
+     "waist": {
+      "ilvl": 334
+     },
+     "wrist": {
+      "ilvl": 321
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 321
+     },
+     "feet": {
+      "ilvl": 331
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 308
+     },
+     "trinket1": {
+      "ilvl": 321
+     },
+     "trinket2": {
+      "ilvl": 334
+     },
+     "mainhand": {
+      "ilvl": 334
+     },
+     "offhand": {
+      "ilvl": 331
+     }
+    },
+    "updatedAt": "2026-09-28T00:43:03.000Z"
+   }
+  },
+  {
    "id": 5949076,
    "name": "Luxeona",
    "realm": "Kazzak",
@@ -20,6 +165,8 @@
     13,
     14,
     14,
+    14,
+    15,
     13,
     12
    ],
@@ -1539,7 +1686,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-27T22:15:52.000Z"
+    "updatedAt": "2026-09-29T22:09:27.000Z"
    }
   },
   {
@@ -2033,7 +2180,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 326.562,
+    "ilvlEquipped": 326,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2084,7 +2231,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-25T00:05:42.000Z"
+    "updatedAt": "2026-09-29T21:01:22.000Z"
    }
   },
   {

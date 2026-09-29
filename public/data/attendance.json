@@ -3,6 +3,11 @@
  "endDate": null,
  "characters": [
   {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
+  {
    "characterId": 5021440,
    "name": "Racor",
    "attendedPercentage": 100
@@ -48,24 +53,14 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
+   "characterId": 19743502,
+   "name": "Xahoxah",
    "attendedPercentage": 100
   },
   {
    "characterId": 5066198,
    "name": "Krizerio",
    "attendedPercentage": 100
-  },
-  {
-   "characterId": 19743502,
-   "name": "Xahoxah",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 4258514,
@@ -78,14 +73,14 @@
    "attendedPercentage": 91.66666666666666
   },
   {
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 91.66666666666666
+  },
+  {
    "characterId": 14525794,
    "name": "Dawon",
    "attendedPercentage": 88.88888888888889
-  },
-  {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
-   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 6527027,
@@ -95,6 +90,11 @@
   {
    "characterId": 5030809,
    "name": "Sherman",
+   "attendedPercentage": 83.33333333333334
+  },
+  {
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
    "attendedPercentage": 83.33333333333334
   },
   {
@@ -113,19 +113,29 @@
    "attendedPercentage": 75
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
+   "characterId": 20118646,
+   "name": "Chadiux",
    "attendedPercentage": 75
   },
   {
-   "characterId": 20118646,
-   "name": "Chadiux",
+   "characterId": 6177638,
+   "name": "Maity",
    "attendedPercentage": 75
   },
   {
    "characterId": 14879143,
    "name": "Felinna",
    "attendedPercentage": 66.66666666666666
+  },
+  {
+   "characterId": 19645454,
+   "name": "Obligate",
+   "attendedPercentage": 0
+  },
+  {
+   "characterId": 19340032,
+   "name": "Squidward",
+   "attendedPercentage": 0
   }
  ]
 }
