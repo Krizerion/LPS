@@ -1,7 +1,17 @@
 {
- "startDate": "2026-07-31",
+ "startDate": "2026-08-01",
  "endDate": null,
  "characters": [
+  {
+   "characterId": 19340032,
+   "name": "Squidward",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 19645454,
+   "name": "Obligate",
+   "attendedPercentage": 100
+  },
   {
    "characterId": 5021558,
    "name": "Azeryx",
@@ -15,11 +25,6 @@
   {
    "characterId": 5050452,
    "name": "Moshenji",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 3809470,
-   "name": "Xpactt",
    "attendedPercentage": 100
   },
   {
@@ -48,11 +53,6 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5113215,
-   "name": "Vikvoker",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 19743502,
    "name": "Xahoxah",
    "attendedPercentage": 100
@@ -63,79 +63,79 @@
    "attendedPercentage": 100
   },
   {
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 92.3076923076923
+  },
+  {
    "characterId": 4258514,
    "name": "Thatcrit",
-   "attendedPercentage": 91.66666666666666
+   "attendedPercentage": 92.3076923076923
   },
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 91.66666666666666
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 91.66666666666666
+   "attendedPercentage": 92.3076923076923
   },
   {
    "characterId": 14525794,
    "name": "Dawon",
-   "attendedPercentage": 88.88888888888889
+   "attendedPercentage": 90
   },
   {
-   "characterId": 6527027,
-   "name": "Stenli",
-   "attendedPercentage": 83.33333333333334
-  },
-  {
-   "characterId": 5030809,
-   "name": "Sherman",
-   "attendedPercentage": 83.33333333333334
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 84.61538461538461
   },
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 84.61538461538461
+  },
+  {
+   "characterId": 6527027,
+   "name": "Stenli",
+   "attendedPercentage": 84.61538461538461
+  },
+  {
+   "characterId": 5030809,
+   "name": "Sherman",
+   "attendedPercentage": 84.61538461538461
   },
   {
    "characterId": 5982077,
    "name": "Miragè",
-   "attendedPercentage": 80
+   "attendedPercentage": 81.81818181818183
   },
   {
    "characterId": 5949076,
    "name": "Luxeona",
-   "attendedPercentage": 77.77777777777779
-  },
-  {
-   "characterId": 5053594,
-   "name": "Natureweaver",
-   "attendedPercentage": 75
-  },
-  {
-   "characterId": 20118646,
-   "name": "Chadiux",
-   "attendedPercentage": 75
+   "attendedPercentage": 80
   },
   {
    "characterId": 6177638,
    "name": "Maity",
-   "attendedPercentage": 75
+   "attendedPercentage": 76.92307692307693
+  },
+  {
+   "characterId": 20118646,
+   "name": "Chadiux",
+   "attendedPercentage": 76.92307692307693
   },
   {
    "characterId": 14879143,
    "name": "Felinna",
-   "attendedPercentage": 66.66666666666666
+   "attendedPercentage": 75
   },
   {
-   "characterId": 19645454,
-   "name": "Obligate",
-   "attendedPercentage": 0
-  },
-  {
-   "characterId": 19340032,
-   "name": "Squidward",
-   "attendedPercentage": 0
+   "characterId": 5053594,
+   "name": "Natureweaver",
+   "attendedPercentage": 69.23076923076923
   }
  ]
 }
