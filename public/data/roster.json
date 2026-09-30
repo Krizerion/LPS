@@ -11,6 +11,8 @@
    "note": "Жоро",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    12,
+    12,
     19,
     20,
     19,
@@ -24,7 +26,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 326.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -54,7 +56,7 @@
       "ilvl": 321
      },
      "feet": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "finger1": {
       "ilvl": 321
@@ -173,7 +175,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 326.125,
+    "ilvlEquipped": 326,
     "slots": {
      "head": {
       "ilvl": 321
@@ -221,7 +223,76 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-27T22:53:05.000Z"
+    "updatedAt": "2026-09-30T14:55:15.000Z"
+   }
+  },
+  {
+   "id": 5982078,
+   "name": "Rolencer",
+   "realm": "Kazzak",
+   "class": "Rogue",
+   "role": "Melee",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Виктор",
+   "droptimizerUploadedAt": "2026-09-30T09:33:19.000+00:00",
+   "mplusDungeons": [
+    16,
+    16
+   ],
+   "gear": {
+    "ilvlEquipped": 324,
+    "slots": {
+     "head": {
+      "ilvl": 321
+     },
+     "neck": {
+      "ilvl": 334
+     },
+     "shoulder": {
+      "ilvl": 321
+     },
+     "back": {
+      "ilvl": 331
+     },
+     "chest": {
+      "ilvl": 321
+     },
+     "waist": {
+      "ilvl": 321
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 321
+     },
+     "feet": {
+      "ilvl": 331
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 321
+     },
+     "trinket1": {
+      "ilvl": 321
+     },
+     "trinket2": {
+      "ilvl": 321
+     },
+     "mainhand": {
+      "ilvl": 331
+     },
+     "offhand": {
+      "ilvl": 331
+     }
+    },
+    "updatedAt": "2026-09-30T15:19:22.000Z"
    }
   },
   {
@@ -304,7 +375,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Мишо",
-   "droptimizerUploadedAt": "2026-09-28T16:34:59.000+00:00",
+   "droptimizerUploadedAt": "2026-09-30T15:24:24.000+00:00",
    "mplusDungeons": [
     13,
     13,
@@ -314,7 +385,7 @@
     13
    ],
    "gear": {
-    "ilvlEquipped": 327.375,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 321
@@ -362,7 +433,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-29T14:20:19.000Z"
+    "updatedAt": "2026-09-30T13:01:27.000Z"
    }
   },
   {
@@ -386,7 +457,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 325,
+    "ilvlEquipped": 325.688,
     "slots": {
      "head": {
       "ilvl": 334
@@ -419,7 +490,7 @@
       "ilvl": 321
      },
      "finger1": {
-      "ilvl": 315
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 311
@@ -446,10 +517,10 @@
    "realm": "Kazzak",
    "class": "Mage",
    "role": "Ranged",
-   "rank": "Main",
+   "rank": "Alt",
    "status": "tracking",
-   "note": null,
-   "droptimizerUploadedAt": "2026-09-28T16:12:56.000+00:00",
+   "note": "Виктор",
+   "droptimizerUploadedAt": null,
    "mplusDungeons": [
     12,
     17,
@@ -982,7 +1053,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 326.75,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1015,10 +1086,10 @@
       "ilvl": 321
      },
      "finger1": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "finger2": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "trinket1": {
       "ilvl": 334
@@ -1683,10 +1754,11 @@
     16,
     16,
     16,
+    16,
     16
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 326.312,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1719,7 +1791,7 @@
       "ilvl": 331
      },
      "finger1": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 321
@@ -1753,7 +1825,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 323.5,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1798,10 +1870,13 @@
       "ilvl": 321
      },
      "trinket2": {
-      "ilvl": 321
+      "ilvl": 308
      },
      "mainhand": {
       "ilvl": 331
+     },
+     "offhand": {
+      "ilvl": 321
      }
     },
     "updatedAt": "2026-09-26T00:44:32.000Z"
@@ -1818,12 +1893,13 @@
    "note": "Стенли",
    "droptimizerUploadedAt": "2026-09-23T17:10:48.000+00:00",
    "mplusDungeons": [
+    15,
     17,
     14,
     12
    ],
    "gear": {
-    "ilvlEquipped": 325.562,
+    "ilvlEquipped": 323,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1859,7 +1935,7 @@
       "ilvl": 321
      },
      "finger2": {
-      "ilvl": 331
+      "ilvl": 321
      },
      "trinket1": {
       "ilvl": 334
@@ -1868,10 +1944,10 @@
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 321
      }
     },
-    "updatedAt": "2026-09-26T17:21:33.000Z"
+    "updatedAt": "2026-09-30T12:34:12.000Z"
    }
   },
   {
@@ -1962,6 +2038,7 @@
    "note": "Наско",
    "droptimizerUploadedAt": "2026-09-28T17:09:21.000+00:00",
    "mplusDungeons": [
+    19,
     18,
     18,
     18,
@@ -1973,7 +2050,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 327.375,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2021,7 +2098,7 @@
       "ilvl": 331
      },
      "offhand": {
-      "ilvl": 321
+      "ilvl": 334
      }
     },
     "updatedAt": "2026-09-29T21:01:22.000Z"
@@ -2105,7 +2182,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Миро ",
-   "droptimizerUploadedAt": null,
+   "droptimizerUploadedAt": "2026-09-30T15:18:42.000+00:00",
    "mplusDungeons": [
     18,
     17,
