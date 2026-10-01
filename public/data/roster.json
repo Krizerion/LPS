@@ -102,7 +102,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 324,
+    "ilvlEquipped": 324.688,
     "slots": {
      "head": {
       "ilvl": 321
@@ -111,7 +111,7 @@
       "ilvl": 321
      },
      "shoulder": {
-      "ilvl": 318
+      "ilvl": 321
      },
      "back": {
       "ilvl": 334
@@ -248,7 +248,7 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 325.75,
+    "ilvlEquipped": 325.938,
     "slots": {
      "head": {
       "ilvl": 321
@@ -293,7 +293,7 @@
       "ilvl": 321
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "offhand": {
       "ilvl": 331
@@ -424,6 +424,8 @@
     10,
     13,
     12,
+    14,
+    14,
     14,
     12,
     10,
@@ -651,6 +653,7 @@
     15,
     15,
     15,
+    18,
     12,
     17,
     17,
@@ -659,13 +662,13 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 325.5,
+    "ilvlEquipped": 326,
     "slots": {
      "head": {
       "ilvl": 334
      },
      "neck": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "shoulder": {
       "ilvl": 321
@@ -689,7 +692,7 @@
       "ilvl": 321
      },
      "feet": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "finger1": {
       "ilvl": 321
@@ -710,7 +713,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-29T08:20:06.000Z"
+    "updatedAt": "2026-10-01T20:21:07.000Z"
    }
   },
   {
@@ -1007,10 +1010,12 @@
    "droptimizerUploadedAt": "2026-09-30T16:31:05.000+00:00",
    "mplusDungeons": [
     10,
+    18,
+    18,
     17
    ],
    "gear": {
-    "ilvlEquipped": 325.5,
+    "ilvlEquipped": 325,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1064,7 +1069,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-29T04:55:15.000Z"
+    "updatedAt": "2026-10-01T20:40:14.000Z"
    }
   },
   {
@@ -1078,6 +1083,8 @@
    "note": "Раси",
    "droptimizerUploadedAt": "2026-09-30T17:19:09.000+00:00",
    "mplusDungeons": [
+    18,
+    18,
     17,
     17,
     18,
@@ -1094,7 +1101,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 328.375,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1148,7 +1155,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-29T04:55:21.000Z"
+    "updatedAt": "2026-10-01T20:40:16.000Z"
    }
   },
   {
@@ -1164,6 +1171,7 @@
    "mplusDungeons": [
     12,
     12,
+    18,
     18,
     18,
     18,
@@ -1192,7 +1200,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 328.562,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 324
@@ -1240,7 +1248,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-01T01:12:39.000Z"
+    "updatedAt": "2026-10-01T20:40:13.000Z"
    }
   },
   {
@@ -1903,10 +1911,10 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 327.938,
     "slots": {
      "head": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "neck": {
       "ilvl": 334
@@ -1927,7 +1935,7 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "legs": {
       "ilvl": 321
@@ -1936,7 +1944,7 @@
       "ilvl": 331
      },
      "finger1": {
-      "ilvl": 318
+      "ilvl": 324
      },
      "finger2": {
       "ilvl": 321
@@ -2048,11 +2056,13 @@
     17,
     14,
     17,
+    16,
+    17,
     14,
     12
    ],
    "gear": {
-    "ilvlEquipped": 327.375,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2100,7 +2110,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-30T23:56:28.000Z"
+    "updatedAt": "2026-10-01T20:05:54.000Z"
    }
   },
   {
@@ -2340,6 +2350,7 @@
    "note": "Миро ",
    "droptimizerUploadedAt": "2026-09-30T15:18:42.000+00:00",
    "mplusDungeons": [
+    17,
     18,
     17,
     17,
@@ -2352,7 +2363,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 326.75,
+    "ilvlEquipped": 326,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2394,13 +2405,13 @@
       "ilvl": 308
      },
      "trinket2": {
-      "ilvl": 328
+      "ilvl": 331
      },
      "mainhand": {
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-09-27T21:28:05.000Z"
+    "updatedAt": "2026-10-01T20:18:05.000Z"
    }
   }
  ]
