@@ -10293,23 +10293,6 @@
   },
   {
    "characterId": 5066198,
-   "itemId": 270168,
-   "itemName": "Font of Venomous Rage",
-   "slot": "trinket",
-   "instanceId": 80,
-   "encounter": "Ula'tek",
-   "difficulty": "mythic",
-   "spec": "Beast Mastery",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.5904,
-   "absolute": 1248.504,
-   "updatedAt": "2026-09-30T17:21:25.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5066198,
    "itemId": 268266,
    "itemName": "Alluring Bubbleband",
    "slot": "finger",

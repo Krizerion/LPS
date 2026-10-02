@@ -1203,7 +1203,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.562,
     "slots": {
      "head": {
       "ilvl": 324
@@ -1559,10 +1559,10 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 329.188,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "neck": {
       "ilvl": 334
@@ -1601,7 +1601,7 @@
       "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "trinket2": {
       "ilvl": 321
@@ -1834,7 +1834,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 328.562,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1885,7 +1885,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-01T06:48:32.000Z"
+    "updatedAt": "2026-10-02T07:35:56.000Z"
    }
   },
   {
