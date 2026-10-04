@@ -836,6 +836,7 @@
    "note": "Камен",
    "droptimizerUploadedAt": "2026-09-30T19:48:27.000+00:00",
    "mplusDungeons": [
+    12,
     10,
     10,
     11
@@ -1121,6 +1122,7 @@
     18,
     17,
     17,
+    17,
     18,
     17,
     16,
@@ -1211,6 +1213,7 @@
     18,
     18,
     17,
+    17,
     10,
     17,
     13,
@@ -1284,7 +1287,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-03T11:47:08.000Z"
+    "updatedAt": "2026-10-04T10:37:18.000Z"
    }
   },
   {
@@ -1734,12 +1737,14 @@
    "note": "Явор",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    12,
+    12,
     11,
     10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 325,
+    "ilvlEquipped": 325.5,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2020,11 +2025,13 @@
    "mplusDungeons": [
     12,
     12,
+    12,
+    12,
     10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 325.75,
+    "ilvlEquipped": 326.125,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2039,7 +2046,7 @@
       "ilvl": 331
      },
      "chest": {
-      "ilvl": 328
+      "ilvl": 334
      },
      "waist": {
       "ilvl": 331
