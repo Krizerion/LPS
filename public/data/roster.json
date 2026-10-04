@@ -37,7 +37,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 327,
+    "ilvlEquipped": 327.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -181,6 +181,7 @@
     16,
     16,
     16,
+    16,
     14,
     12,
     12,
@@ -194,7 +195,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 326.312,
+    "ilvlEquipped": 326.938,
     "slots": {
      "head": {
       "ilvl": 321
@@ -236,7 +237,7 @@
       "ilvl": 334
      },
      "trinket2": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "mainhand": {
       "ilvl": 334
@@ -330,7 +331,7 @@
    "role": "Ranged",
    "rank": "Main",
    "status": "tracking",
-   "note": null,
+   "note": "Алекс",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
     12,
