@@ -78,6 +78,11 @@
    "attendedPercentage": 92.85714285714286
   },
   {
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 92.85714285714286
+  },
+  {
    "characterId": 3809470,
    "name": "Xpactt",
    "attendedPercentage": 92.85714285714286
@@ -95,11 +100,6 @@
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 85.71428571428571
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
    "attendedPercentage": 85.71428571428571
   },
   {
