@@ -1,12 +1,7 @@
 {
- "startDate": "2026-08-07",
+ "startDate": "2026-08-08",
  "endDate": null,
  "characters": [
-  {
-   "characterId": 19645454,
-   "name": "Obligate",
-   "attendedPercentage": 100
-  },
   {
    "characterId": 5982078,
    "name": "Rolencer",
@@ -75,72 +70,77 @@
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 92.85714285714286
+   "attendedPercentage": 93.33333333333333
   },
   {
    "characterId": 4258514,
    "name": "Thatcrit",
-   "attendedPercentage": 92.85714285714286
+   "attendedPercentage": 93.33333333333333
   },
   {
    "characterId": 3809470,
    "name": "Xpactt",
-   "attendedPercentage": 92.85714285714286
+   "attendedPercentage": 93.33333333333333
   },
   {
    "characterId": 14525794,
    "name": "Dawon",
-   "attendedPercentage": 90.9090909090909
-  },
-  {
-   "characterId": 5099602,
-   "name": "Elfionna",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 86.66666666666667
   },
   {
    "characterId": 6527027,
    "name": "Stenli",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 86.66666666666667
+  },
+  {
+   "characterId": 5099602,
+   "name": "Elfionna",
+   "attendedPercentage": 86.66666666666667
   },
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 86.66666666666667
   },
   {
    "characterId": 14879143,
    "name": "Felinna",
-   "attendedPercentage": 80
-  },
-  {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 78.57142857142857
+   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 78.57142857142857
+   "attendedPercentage": 80
   },
   {
    "characterId": 5949076,
    "name": "Luxeona",
-   "attendedPercentage": 72.72727272727273
+   "attendedPercentage": 75
   },
   {
    "characterId": 5053594,
    "name": "Natureweaver",
-   "attendedPercentage": 71.42857142857143
+   "attendedPercentage": 73.33333333333333
+  },
+  {
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 73.33333333333333
+  },
+  {
+   "characterId": 19645454,
+   "name": "Obligate",
+   "attendedPercentage": 66.66666666666666
   },
   {
    "characterId": 19340032,
    "name": "Squidward",
-   "attendedPercentage": 50
+   "attendedPercentage": 66.66666666666666
   }
  ]
 }
