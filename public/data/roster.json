@@ -555,7 +555,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -585,7 +585,7 @@
       "ilvl": 334
      },
      "feet": {
-      "ilvl": 321
+      "ilvl": 324
      },
      "finger1": {
       "ilvl": 321
@@ -1831,7 +1831,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.938,
     "slots": {
      "head": {
       "ilvl": 334
