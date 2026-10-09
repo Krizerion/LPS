@@ -15,6 +15,7 @@
     20,
     20,
     20,
+    20,
     12,
     12,
     12,
@@ -35,7 +36,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 328.75,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 334
@@ -83,7 +84,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-08T20:40:07.000Z"
+    "updatedAt": "2026-10-09T00:27:33.000Z"
    }
   },
   {
@@ -636,7 +637,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 326.938,
+    "ilvlEquipped": 326,
     "slots": {
      "head": {
       "ilvl": 334
@@ -687,7 +688,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-01T20:21:07.000Z"
+    "updatedAt": "2026-10-09T05:05:29.000Z"
    }
   },
   {
@@ -1147,7 +1148,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1168,7 +1169,7 @@
       "ilvl": 331
      },
      "wrist": {
-      "ilvl": 331
+      "ilvl": 321
      },
      "hands": {
       "ilvl": 321
@@ -1189,13 +1190,13 @@
       "ilvl": 334
      },
      "trinket2": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "mainhand": {
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-07T22:02:13.000Z"
+    "updatedAt": "2026-10-09T03:37:07.000Z"
    }
   },
   {
@@ -1905,6 +1906,7 @@
    "note": "Крис",
    "droptimizerUploadedAt": null,
    "mplusDungeons": [
+    12,
     12,
     12,
     12
