@@ -102,16 +102,17 @@
     20,
     20,
     19,
+    19,
     19
    ],
    "gear": {
-    "ilvlEquipped": 327,
+    "ilvlEquipped": 327.75,
     "slots": {
      "head": {
       "ilvl": 321
      },
      "neck": {
-      "ilvl": 328
+      "ilvl": 334
      },
      "shoulder": {
       "ilvl": 321
@@ -1284,7 +1285,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 328.375,
+    "ilvlEquipped": 329.188,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1308,7 +1309,7 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "legs": {
       "ilvl": 331
@@ -1556,7 +1557,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1610,7 +1611,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-08T20:57:00.000Z"
+    "updatedAt": "2026-10-09T20:55:12.000Z"
    }
   },
   {
@@ -2061,7 +2062,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 326.75,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2076,7 +2077,7 @@
       "ilvl": 321
      },
      "chest": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "waist": {
       "ilvl": 321
@@ -2115,7 +2116,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-09-29T11:49:20.000Z"
+    "updatedAt": "2026-10-09T20:00:18.000Z"
    }
   },
   {
@@ -2129,6 +2130,7 @@
    "note": "Наско",
    "droptimizerUploadedAt": "2026-10-07T18:15:39.000+00:00",
    "mplusDungeons": [
+    19,
     19,
     19,
     19,
@@ -2207,7 +2209,7 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 326.938,
     "slots": {
      "head": {
       "ilvl": 321
@@ -2255,6 +2257,9 @@
       "ilvl": 334
      },
      "mainhand": {
+      "ilvl": 334
+     },
+     "offhand": {
       "ilvl": 321
      }
     },
@@ -2297,7 +2302,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 327.938,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2345,7 +2350,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-08T23:32:25.000Z"
+    "updatedAt": "2026-10-09T21:56:27.000Z"
    }
   }
  ]
