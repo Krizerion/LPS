@@ -105,12 +105,6 @@
        "icon": "inv_jewelcrafting_azureserpent"
       },
       {
-       "id": 270912,
-       "name": "Venomcast Idol",
-       "slot": "hands",
-       "icon": "inv_jewelcrafting_goldenserpent"
-      },
-      {
        "id": 268228,
        "name": "Venom-Singed Cuffs",
        "slot": "wrist",
@@ -121,6 +115,12 @@
        "name": "Spine of the Hissing Abyss",
        "slot": "off_hand",
        "icon": "inv_offhand_1h_ulatek_d_01"
+      },
+      {
+       "id": 270912,
+       "name": "Venomcast Idol",
+       "slot": "hands",
+       "icon": "inv_jewelcrafting_goldenserpent"
       },
       {
        "id": 270165,
@@ -627,16 +627,16 @@
        "icon": "inv_tradeskillitem_sorcererswater"
       },
       {
-       "id": 268238,
-       "name": "Grips of Swirling Fury",
-       "slot": "hands",
-       "icon": "inv_glove_mail_raidevokerulatek_d_01"
-      },
-      {
        "id": 268263,
        "name": "Frostscale's Mystic Frond",
        "slot": "off_hand",
        "icon": "inv_offhand_1h_ulatek_d_01"
+      },
+      {
+       "id": 268238,
+       "name": "Grips of Swirling Fury",
+       "slot": "hands",
+       "icon": "inv_glove_mail_raidevokerulatek_d_01"
       },
       {
        "id": 268217,
@@ -2704,23 +2704,6 @@
   },
   {
    "characterId": 5030809,
-   "itemId": 270912,
-   "itemName": "Venomcast Idol",
-   "slot": "hands",
-   "instanceId": 80,
-   "encounter": "Entombed Sentinels",
-   "difficulty": "mythic",
-   "spec": "Restoration",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.1637,
-   "absolute": 573,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5030809,
    "itemId": 268258,
    "itemName": "Boots of the Reckless Wayfarer",
    "slot": "feet",
@@ -2730,9 +2713,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.4167,
-   "absolute": 1458,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 0.4135,
+   "absolute": 1448,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2747,9 +2730,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.5558,
-   "absolute": 1945,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 0.5568,
+   "absolute": 1950,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2764,9 +2747,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.3212,
-   "absolute": 1124,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 0.3192,
+   "absolute": 1118,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2781,9 +2764,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.7096,
-   "absolute": 2483,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 0.7079,
+   "absolute": 2479,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2798,9 +2781,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.757,
-   "absolute": 2649,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 0.753,
+   "absolute": 2637,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2815,9 +2798,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.0874,
-   "absolute": 306,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 0.0848,
+   "absolute": 297,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2832,9 +2815,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 0.3972,
+   "percentage": 0.3969,
    "absolute": 1390,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
@@ -2849,26 +2832,9 @@
    "spec": "Restoration",
    "wishlistName": "Default",
    "wishlistWeight": 1,
-   "percentage": 1.624,
-   "absolute": 5683,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5030809,
-   "itemId": 268238,
-   "itemName": "Grips of Swirling Fury",
-   "slot": "hands",
-   "instanceId": 81,
-   "encounter": "Nymrissa Wavecaller",
-   "difficulty": "mythic",
-   "spec": "Restoration",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.587,
-   "absolute": 2054,
-   "updatedAt": "2026-10-12T13:28:16.000+00:00",
+   "percentage": 1.6159,
+   "absolute": 5659,
+   "updatedAt": "2026-10-13T19:56:50.000+00:00",
    "manuallyEdited": false,
    "comment": null
   },
