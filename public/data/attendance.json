@@ -1,5 +1,5 @@
 {
- "startDate": "2026-08-13",
+ "startDate": "2026-08-14",
  "endDate": null,
  "characters": [
   {
@@ -68,6 +68,11 @@
    "attendedPercentage": 93.75
   },
   {
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 93.75
+  },
+  {
    "characterId": 4258514,
    "name": "Thatcrit",
    "attendedPercentage": 93.75
@@ -95,11 +100,6 @@
   {
    "characterId": 5121622,
    "name": "Bagertatsuo",
-   "attendedPercentage": 87.5
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
    "attendedPercentage": 87.5
   },
   {
