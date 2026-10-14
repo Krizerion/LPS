@@ -371,7 +371,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-13T20:35:16.000Z"
+    "updatedAt": "2026-10-14T20:47:36.000Z"
    }
   },
   {
@@ -522,6 +522,7 @@
    "note": "Стоян",
    "droptimizerUploadedAt": "2026-10-12T17:27:43.000+00:00",
    "mplusDungeons": [
+    19,
     12,
     12,
     13,
@@ -1714,6 +1715,8 @@
    "droptimizerUploadedAt": "2026-10-14T07:15:45.000+00:00",
    "mplusDungeons": [
     12,
+    17,
+    17,
     12,
     12,
     12,
@@ -1858,7 +1861,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 326.75,
+    "ilvlEquipped": 327.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1900,7 +1903,7 @@
       "ilvl": 315
      },
      "trinket1": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "trinket2": {
       "ilvl": 334
@@ -2073,6 +2076,7 @@
    "droptimizerUploadedAt": "2026-10-07T16:29:58.000+00:00",
    "mplusDungeons": [
     18,
+    18,
     17,
     18,
     17,
@@ -2087,7 +2091,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 327.938,
+    "ilvlEquipped": 328.75,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2126,7 +2130,7 @@
       "ilvl": 331
      },
      "trinket1": {
-      "ilvl": 308
+      "ilvl": 321
      },
      "trinket2": {
       "ilvl": 334
