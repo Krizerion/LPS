@@ -7,7 +7,7 @@
    "class": "Warrior",
    "role": "Melee",
    "rank": "Main",
-   "status": "tracking",
+   "status": "unavailable",
    "note": "Жоро",
    "droptimizerUploadedAt": "2026-10-14T17:23:34.000+00:00",
    "mplusDungeons": [
@@ -94,6 +94,7 @@
    "mplusDungeons": [
     20,
     20,
+    20,
     19,
     19,
     20,
@@ -177,7 +178,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 329.562,
+    "ilvlEquipped": 329,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1098,7 +1099,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 331.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1119,7 +1120,7 @@
       "ilvl": 331
      },
      "wrist": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "hands": {
       "ilvl": 321
@@ -1131,7 +1132,7 @@
       "ilvl": 328
      },
      "finger1": {
-      "ilvl": 324
+      "ilvl": 321
      },
      "finger2": {
       "ilvl": 334
@@ -1519,7 +1520,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 330.812,
+    "ilvlEquipped": 330,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1537,7 +1538,7 @@
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 331
+      "ilvl": 328
      },
      "shirt": {
       "ilvl": 1
@@ -2090,6 +2091,7 @@
    "mplusDungeons": [
     18,
     16,
+    17,
     18,
     17,
     18,
@@ -2105,7 +2107,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 328.75,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 334
