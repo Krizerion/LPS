@@ -178,7 +178,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 329,
+    "ilvlEquipped": 329.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1520,7 +1520,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1538,7 +1538,7 @@
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 328
+      "ilvl": 331
      },
      "shirt": {
       "ilvl": 1
@@ -2107,7 +2107,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.75,
     "slots": {
      "head": {
       "ilvl": 334
