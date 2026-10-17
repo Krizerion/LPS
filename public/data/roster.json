@@ -1546,7 +1546,7 @@
     15
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.625,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1600,7 +1600,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-17T00:35:26.000Z"
+    "updatedAt": "2026-10-17T20:35:39.000Z"
    }
   },
   {
