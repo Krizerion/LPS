@@ -98,6 +98,7 @@
     20,
     20,
     20,
+    20,
     19,
     19,
     20,
@@ -106,7 +107,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.75,
     "slots": {
      "head": {
       "ilvl": 334
