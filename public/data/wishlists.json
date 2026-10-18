@@ -537,12 +537,6 @@
        "icon": "inv_121_trinket_raid_ulatek_heart"
       },
       {
-       "id": 268265,
-       "name": "Aqirbane Reliquary",
-       "slot": "neck",
-       "icon": "inv_121_jewelry_neck03_green"
-      },
-      {
        "id": 271093,
        "name": "Zatha'tek, Breath of Corruption",
        "slot": "main_hand",
@@ -559,6 +553,12 @@
        "name": "Venomkeeper's Horrific Cowl",
        "slot": "head",
        "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+      },
+      {
+       "id": 268265,
+       "name": "Aqirbane Reliquary",
+       "slot": "neck",
+       "icon": "inv_121_jewelry_neck03_green"
       },
       {
        "id": 271092,
@@ -1290,23 +1290,6 @@
    "wishlistWeight": 1,
    "percentage": 0.6995,
    "absolute": 1333.5374,
-   "updatedAt": "2026-10-07T17:41:22.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5949076,
-   "itemId": 268265,
-   "itemName": "Aqirbane Reliquary",
-   "slot": "neck",
-   "instanceId": 80,
-   "encounter": "Ula'tek",
-   "difficulty": "mythic",
-   "spec": "Retribution",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.9184,
-   "absolute": 3657.2895,
    "updatedAt": "2026-10-07T17:41:22.000+00:00",
    "manuallyEdited": false,
    "comment": null
@@ -6566,23 +6549,6 @@
   },
   {
    "characterId": 5053387,
-   "itemId": 268252,
-   "itemName": "Apex Brute's Claw Ring",
-   "slot": "finger",
-   "instanceId": 80,
-   "encounter": "Sszorak",
-   "difficulty": "mythic",
-   "spec": "Beast Mastery",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.6352,
-   "absolute": 2221.0238,
-   "updatedAt": "2026-08-19T16:52:21.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5053387,
    "itemId": 268233,
    "itemName": "Ferocious Scaleboots",
    "slot": "feet",
@@ -6849,23 +6815,6 @@
    "wishlistWeight": 1,
    "percentage": 0.654,
    "absolute": 1378.7941,
-   "updatedAt": "2026-10-14T10:13:09.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5053387,
-   "itemId": 270168,
-   "itemName": "Font of Venomous Rage",
-   "slot": "trinket",
-   "instanceId": 80,
-   "encounter": "Ula'tek",
-   "difficulty": "mythic",
-   "spec": "Marksmanship",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.0398,
-   "absolute": 2192.1207,
    "updatedAt": "2026-10-14T10:13:09.000+00:00",
    "manuallyEdited": false,
    "comment": null

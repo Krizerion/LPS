@@ -158,10 +158,10 @@
       "ilvl": 334
      },
      "offhand": {
-      "ilvl": 334
+      "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-17T13:40:29.000Z"
+    "updatedAt": "2026-10-18T04:55:26.000Z"
    }
   },
   {
@@ -687,6 +687,7 @@
    "note": "Зап",
    "droptimizerUploadedAt": "2026-10-13T19:56:50.000+00:00",
    "mplusDungeons": [
+    12,
     12,
     12,
     10,
