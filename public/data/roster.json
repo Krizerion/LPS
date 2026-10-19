@@ -36,7 +36,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -257,10 +257,12 @@
     10,
     18,
     18,
+    18,
+    18,
     17
    ],
    "gear": {
-    "ilvlEquipped": 329,
+    "ilvlEquipped": 329.188,
     "slots": {
      "head": {
       "ilvl": 334
@@ -311,7 +313,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-19T04:57:32.000Z"
+    "updatedAt": "2026-10-19T09:51:35.000Z"
    }
   },
   {
@@ -409,9 +411,11 @@
    "status": "tracking",
    "note": "Ицо",
    "droptimizerUploadedAt": "2026-10-12T17:36:52.000+00:00",
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    12
+   ],
    "gear": {
-    "ilvlEquipped": 327,
+    "ilvlEquipped": 327.125,
     "slots": {
      "head": {
       "ilvl": 334
@@ -465,7 +469,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-13T20:35:30.000Z"
+    "updatedAt": "2026-10-19T14:22:44.000Z"
    }
   },
   {
@@ -698,7 +702,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 328,
+    "ilvlEquipped": 328.375,
     "slots": {
      "head": {
       "ilvl": 334
@@ -774,7 +778,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 327,
+    "ilvlEquipped": 327.125,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1054,7 +1058,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 330.375,
+    "ilvlEquipped": 330,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1108,7 +1112,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-15T04:45:25.000Z"
+    "updatedAt": "2026-10-19T10:55:53.000Z"
    }
   },
   {
@@ -1850,10 +1854,12 @@
     11,
     12,
     12,
+    12,
+    12,
     12
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 326.75,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1892,16 +1898,19 @@
       "ilvl": 331
      },
      "finger2": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "trinket1": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "trinket2": {
-      "ilvl": 334
+      "ilvl": 308
      },
      "mainhand": {
-      "ilvl": 334
+      "ilvl": 331
+     },
+     "offhand": {
+      "ilvl": 321
      }
     },
     "updatedAt": "2026-10-18T04:54:49.000Z"
@@ -1992,6 +2001,7 @@
     20,
     20,
     19,
+    20,
     19,
     19,
     19,
