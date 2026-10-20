@@ -577,60 +577,7 @@
     12,
     20
    ],
-   "gear": {
-    "ilvlEquipped": 330,
-    "slots": {
-     "head": {
-      "ilvl": 334
-     },
-     "neck": {
-      "ilvl": 334
-     },
-     "shoulder": {
-      "ilvl": 334
-     },
-     "back": {
-      "ilvl": 334
-     },
-     "chest": {
-      "ilvl": 334
-     },
-     "waist": {
-      "ilvl": 331
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 321
-     },
-     "legs": {
-      "ilvl": 334
-     },
-     "feet": {
-      "ilvl": 328
-     },
-     "finger1": {
-      "ilvl": 321
-     },
-     "finger2": {
-      "ilvl": 321
-     },
-     "trinket1": {
-      "ilvl": 334
-     },
-     "trinket2": {
-      "ilvl": 334
-     },
-     "mainhand": {
-      "ilvl": 334
-     },
-     "offhand": {
-      "ilvl": 331
-     }
-    },
-    "updatedAt": "2026-10-20T04:59:32.000Z"
-   }
+   "gear": null
   },
   {
    "id": 5982077,
@@ -994,7 +941,7 @@
    "name": "Nelfers",
    "realm": "Kazzak",
    "class": "Demon Hunter",
-   "role": "Ranged",
+   "role": "Melee",
    "rank": "Main",
    "status": "tracking",
    "note": "Диян",
@@ -2020,6 +1967,7 @@
     20,
     20,
     19,
+    20,
     20,
     19,
     19,
