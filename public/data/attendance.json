@@ -3,11 +3,6 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5982078,
-   "name": "Rolencer",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 20197800,
    "name": "Visagge",
    "attendedPercentage": 100
@@ -63,11 +58,6 @@
    "attendedPercentage": 94.11764705882352
   },
   {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 94.11764705882352
-  },
-  {
    "characterId": 4258514,
    "name": "Thatcrit",
    "attendedPercentage": 94.11764705882352
@@ -85,6 +75,11 @@
   {
    "characterId": 3809470,
    "name": "Xpactt",
+   "attendedPercentage": 94.11764705882352
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
    "attendedPercentage": 94.11764705882352
   },
   {
@@ -121,6 +116,11 @@
    "characterId": 20118646,
    "name": "Chadiux",
    "attendedPercentage": 82.35294117647058
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 80
   },
   {
    "characterId": 6177638,
