@@ -426,10 +426,14 @@
     12,
     12,
     10,
+    10,
+    10,
+    10,
+    10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 327.125,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 334
@@ -570,6 +574,7 @@
     19,
     19,
     19,
+    19,
     12,
     12,
     13,
@@ -577,7 +582,60 @@
     12,
     20
    ],
-   "gear": null
+   "gear": {
+    "ilvlEquipped": 330,
+    "slots": {
+     "head": {
+      "ilvl": 334
+     },
+     "neck": {
+      "ilvl": 334
+     },
+     "shoulder": {
+      "ilvl": 334
+     },
+     "back": {
+      "ilvl": 334
+     },
+     "chest": {
+      "ilvl": 334
+     },
+     "waist": {
+      "ilvl": 331
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 321
+     },
+     "legs": {
+      "ilvl": 334
+     },
+     "feet": {
+      "ilvl": 328
+     },
+     "finger1": {
+      "ilvl": 321
+     },
+     "finger2": {
+      "ilvl": 321
+     },
+     "trinket1": {
+      "ilvl": 334
+     },
+     "trinket2": {
+      "ilvl": 334
+     },
+     "mainhand": {
+      "ilvl": 334
+     },
+     "offhand": {
+      "ilvl": 331
+     }
+    },
+    "updatedAt": "2026-10-20T04:59:32.000Z"
+   }
   },
   {
    "id": 5982077,
@@ -666,7 +724,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 330.812,
+    "ilvlEquipped": 330,
     "slots": {
      "head": {
       "ilvl": 334
@@ -742,7 +800,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 327.938,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 334
@@ -781,7 +839,7 @@
       "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "trinket2": {
       "ilvl": 334
@@ -1092,13 +1150,18 @@
    "mplusDungeons": [
     12,
     19,
+    12,
+    12,
+    12,
+    12,
+    12,
     17,
     18,
     18,
     12
    ],
    "gear": {
-    "ilvlEquipped": 331.625,
+    "ilvlEquipped": 331,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1119,7 +1182,7 @@
       "ilvl": 331
      },
      "wrist": {
-      "ilvl": 331
+      "ilvl": 321
      },
      "hands": {
       "ilvl": 321
@@ -1131,7 +1194,7 @@
       "ilvl": 334
      },
      "finger1": {
-      "ilvl": 321
+      "ilvl": 324
      },
      "finger2": {
       "ilvl": 334
@@ -1746,6 +1809,11 @@
     12,
     12,
     12,
+    12,
+    12,
+    12,
+    12,
+    12,
     17,
     17,
     17,
@@ -1982,7 +2050,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 331.25,
+    "ilvlEquipped": 331,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2123,6 +2191,8 @@
     17,
     18,
     18,
+    18,
+    19,
     18,
     18,
     17,
