@@ -34,7 +34,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 332.375,
+    "ilvlEquipped": 330.375,
     "slots": {
      "head": {
       "ilvl": 334
@@ -73,13 +73,16 @@
       "ilvl": 334
      },
      "trinket1": {
-      "ilvl": 334
+      "ilvl": 340
      },
      "trinket2": {
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 340
+      "ilvl": 321
+     },
+     "offhand": {
+      "ilvl": 321
      }
     },
     "updatedAt": "2026-10-21T04:58:50.000Z"
@@ -175,7 +178,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.375,
     "slots": {
      "head": {
       "ilvl": 334
@@ -221,9 +224,6 @@
      },
      "mainhand": {
       "ilvl": 334
-     },
-     "offhand": {
-      "ilvl": 331
      }
     },
     "updatedAt": "2026-10-21T15:23:34.000Z"
@@ -381,7 +381,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-21T04:59:37.000Z"
+    "updatedAt": "2026-10-21T19:49:33.000Z"
    }
   },
   {
@@ -781,7 +781,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 328.75,
+    "ilvlEquipped": 328,
     "slots": {
      "head": {
       "ilvl": 334
@@ -832,7 +832,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-17T04:52:28.000Z"
+    "updatedAt": "2026-10-21T22:27:52.000Z"
    }
   },
   {
@@ -1386,7 +1386,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-17T04:52:33.000Z"
+    "updatedAt": "2026-10-21T22:27:53.000Z"
    }
   },
   {
@@ -1553,7 +1553,7 @@
    "droptimizerUploadedAt": "2026-10-19T18:03:01.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.625,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1974,7 +1974,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-20T23:03:52.000Z"
+    "updatedAt": "2026-10-21T22:13:53.000Z"
    }
   },
   {
@@ -1989,7 +1989,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 326,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1998,7 +1998,7 @@
       "ilvl": 334
      },
      "shoulder": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "back": {
       "ilvl": 321
@@ -2043,7 +2043,7 @@
       "ilvl": 321
      }
     },
-    "updatedAt": "2026-10-17T04:52:27.000Z"
+    "updatedAt": "2026-10-21T20:49:45.000Z"
    }
   },
   {
@@ -2116,7 +2116,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-21T04:58:48.000Z"
+    "updatedAt": "2026-10-21T20:29:41.000Z"
    }
   }
  ]
