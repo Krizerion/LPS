@@ -32,7 +32,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -469,7 +469,7 @@
    "droptimizerUploadedAt": "2026-10-19T17:37:46.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -542,7 +542,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.625,
     "slots": {
      "head": {
       "ilvl": 334
@@ -607,10 +607,22 @@
    "note": "Виктор",
    "droptimizerUploadedAt": "2026-09-28T16:12:56.000+00:00",
    "mplusDungeons": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
     18
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 329,
     "slots": {
      "head": {
       "ilvl": 334
@@ -619,10 +631,10 @@
       "ilvl": 334
      },
      "shoulder": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "back": {
-      "ilvl": 328
+      "ilvl": 321
      },
      "chest": {
       "ilvl": 321
@@ -649,19 +661,19 @@
       "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 334
+      "ilvl": 331
      },
      "trinket2": {
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 340
+      "ilvl": 334
      },
      "offhand": {
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-21T04:58:46.000Z"
+    "updatedAt": "2026-10-21T14:47:44.000Z"
    }
   },
   {
@@ -1158,72 +1170,6 @@
    }
   },
   {
-   "id": 5053594,
-   "name": "Natureweaver",
-   "realm": "Silvermoon",
-   "class": "Druid",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Боби",
-   "droptimizerUploadedAt": "2026-09-21T17:54:06.000+00:00",
-   "mplusDungeons": [],
-   "gear": {
-    "ilvlEquipped": 324,
-    "slots": {
-     "head": {
-      "ilvl": 334
-     },
-     "neck": {
-      "ilvl": 334
-     },
-     "shoulder": {
-      "ilvl": 321
-     },
-     "back": {
-      "ilvl": 321
-     },
-     "chest": {
-      "ilvl": 334
-     },
-     "waist": {
-      "ilvl": 321
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 311
-     },
-     "legs": {
-      "ilvl": 334
-     },
-     "feet": {
-      "ilvl": 321
-     },
-     "finger1": {
-      "ilvl": 321
-     },
-     "finger2": {
-      "ilvl": 321
-     },
-     "trinket1": {
-      "ilvl": 321
-     },
-     "trinket2": {
-      "ilvl": 321
-     },
-     "mainhand": {
-      "ilvl": 321
-     }
-    },
-    "updatedAt": "2026-10-06T14:15:08.000Z"
-   }
-  },
-  {
    "id": 4608754,
    "name": "Valahan",
    "realm": "Kazzak",
@@ -1237,7 +1183,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 329,
+    "ilvlEquipped": 330.188,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1270,10 +1216,10 @@
       "ilvl": 334
      },
      "finger1": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "finger2": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "trinket1": {
       "ilvl": 334
@@ -1656,16 +1602,19 @@
     12,
     12,
     12,
+    12,
+    12,
+    12,
     12
    ],
    "gear": {
-    "ilvlEquipped": 332.438,
+    "ilvlEquipped": 334.375,
     "slots": {
      "head": {
       "ilvl": 334
      },
      "neck": {
-      "ilvl": 334
+      "ilvl": 340
      },
      "shoulder": {
       "ilvl": 334
@@ -1686,13 +1635,13 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "legs": {
       "ilvl": 334
      },
      "feet": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "finger1": {
       "ilvl": 334
@@ -1707,7 +1656,7 @@
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 334
+      "ilvl": 340
      }
     },
     "updatedAt": "2026-10-21T04:59:38.000Z"
@@ -1873,7 +1822,7 @@
    "droptimizerUploadedAt": "2026-10-19T17:52:49.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 327.125,
+    "ilvlEquipped": 327,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1927,7 +1876,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-20T04:07:30.000Z"
+    "updatedAt": "2026-10-21T14:55:49.000Z"
    }
   },
   {
@@ -1941,6 +1890,8 @@
    "note": "Наско",
    "droptimizerUploadedAt": "2026-10-19T16:46:46.000+00:00",
    "mplusDungeons": [
+    12,
+    12,
     20,
     20,
     19,

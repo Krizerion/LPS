@@ -58,11 +58,6 @@
    "attendedPercentage": 94.44444444444444
   },
   {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 94.44444444444444
-  },
-  {
    "characterId": 4608756,
    "name": "Nelfers",
    "attendedPercentage": 94.44444444444444
@@ -70,6 +65,11 @@
   {
    "characterId": 3809470,
    "name": "Xpactt",
+   "attendedPercentage": 94.44444444444444
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
    "attendedPercentage": 94.44444444444444
   },
   {
@@ -131,11 +131,6 @@
    "characterId": 5949076,
    "name": "Luxeona",
    "attendedPercentage": 75
-  },
-  {
-   "characterId": 5053594,
-   "name": "Natureweaver",
-   "attendedPercentage": 55.55555555555556
   }
  ]
 }
