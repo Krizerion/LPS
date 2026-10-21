@@ -29,15 +29,7 @@
     21,
     21,
     20,
-    21,
-    12,
-    20,
-    20,
-    20,
-    20,
-    19,
-    19,
-    10
+    21
    ],
    "gear": {
     "ilvlEquipped": 330,
@@ -102,14 +94,6 @@
    "note": "Ники",
    "droptimizerUploadedAt": "2026-10-19T19:24:14.000+00:00",
    "mplusDungeons": [
-    20,
-    20,
-    20,
-    20,
-    20,
-    19,
-    19,
-    20,
     20,
     20,
     20
@@ -185,15 +169,7 @@
     13,
     13,
     10,
-    10,
-    17,
-    16,
-    10,
-    10,
-    10,
-    10,
-    12,
-    12
+    10
    ],
    "gear": {
     "ilvlEquipped": 329,
@@ -269,9 +245,7 @@
     18,
     18,
     18,
-    18,
-    18,
-    17
+    18
    ],
    "gear": {
     "ilvlEquipped": 329,
@@ -348,15 +322,7 @@
     10,
     16,
     16,
-    16,
-    16,
-    15,
-    15,
-    16,
-    16,
-    17,
-    12,
-    10
+    16
    ],
    "gear": {
     "ilvlEquipped": 329,
@@ -501,9 +467,7 @@
    "status": "tracking",
    "note": "Мишо",
    "droptimizerUploadedAt": "2026-10-19T17:37:46.000+00:00",
-   "mplusDungeons": [
-    12
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 330,
     "slots": {
@@ -575,13 +539,7 @@
     19,
     19,
     19,
-    19,
-    12,
-    12,
-    13,
-    12,
-    12,
-    20
+    19
    ],
    "gear": {
     "ilvlEquipped": 330,
@@ -649,11 +607,10 @@
    "note": "Виктор",
    "droptimizerUploadedAt": "2026-09-28T16:12:56.000+00:00",
    "mplusDungeons": [
-    18,
-    10
+    18
    ],
    "gear": {
-    "ilvlEquipped": 329,
+    "ilvlEquipped": 331,
     "slots": {
      "head": {
       "ilvl": 334
@@ -662,10 +619,10 @@
       "ilvl": 334
      },
      "shoulder": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "back": {
-      "ilvl": 321
+      "ilvl": 328
      },
      "chest": {
       "ilvl": 321
@@ -692,13 +649,13 @@
       "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "trinket2": {
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 334
+      "ilvl": 340
      },
      "offhand": {
       "ilvl": 331
@@ -721,8 +678,6 @@
     12,
     12,
     12,
-    10,
-    10,
     10
    ],
    "gear": {
@@ -798,7 +753,6 @@
     12,
     12,
     12,
-    12,
     12
    ],
    "gear": {
@@ -870,10 +824,7 @@
     15,
     15,
     15,
-    15,
-    14,
-    15,
-    14
+    15
    ],
    "gear": {
     "ilvlEquipped": 330,
@@ -1006,9 +957,7 @@
    "status": "tracking",
    "note": "Диян",
    "droptimizerUploadedAt": "2026-10-19T19:22:42.000+00:00",
-   "mplusDungeons": [
-    17
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 328.562,
     "slots": {
@@ -1077,10 +1026,7 @@
    "status": "tracking",
    "note": "Раси",
    "droptimizerUploadedAt": "2026-10-19T17:41:43.000+00:00",
-   "mplusDungeons": [
-    17,
-    18
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 329,
     "slots": {
@@ -1157,10 +1103,6 @@
     12,
     12,
     12,
-    12,
-    17,
-    18,
-    18,
     12
    ],
    "gear": {
@@ -1292,10 +1234,6 @@
    "note": "Мартин",
    "droptimizerUploadedAt": "2026-09-28T14:00:54.000+00:00",
    "mplusDungeons": [
-    10,
-    10,
-    10,
-    12,
     10
    ],
    "gear": {
@@ -1369,8 +1307,7 @@
     12,
     12,
     12,
-    11,
-    12
+    11
    ],
    "gear": {
     "ilvlEquipped": 330,
@@ -1434,9 +1371,7 @@
    "status": "tracking",
    "note": "Вик",
    "droptimizerUploadedAt": "2026-09-30T16:40:20.000+00:00",
-   "mplusDungeons": [
-    15
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 328,
     "slots": {
@@ -1508,11 +1443,7 @@
     15,
     15,
     15,
-    15,
-    14,
-    15,
-    14,
-    14
+    15
    ],
    "gear": {
     "ilvlEquipped": 331,
@@ -1569,7 +1500,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-20T04:10:49.000Z"
+    "updatedAt": "2026-10-21T06:02:47.000Z"
    }
   },
   {
@@ -1581,28 +1512,17 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Весо",
-   "droptimizerUploadedAt": "2026-10-19T19:22:14.000+00:00",
+   "droptimizerUploadedAt": "2026-10-21T06:57:13.000+00:00",
    "mplusDungeons": [
     17,
     15,
     13,
     17,
     17,
-    17,
-    10,
-    17,
-    18,
-    14,
-    15,
-    15,
-    15,
-    15,
-    15,
-    15,
-    15
+    17
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 330.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1620,7 +1540,7 @@
       "ilvl": 321
      },
      "waist": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "shirt": {
       "ilvl": 1
@@ -1656,7 +1576,7 @@
       "ilvl": 331
      }
     },
-    "updatedAt": "2026-10-20T04:57:31.000Z"
+    "updatedAt": "2026-10-21T06:29:45.000Z"
    }
   },
   {
@@ -1736,12 +1656,10 @@
     12,
     12,
     12,
-    12,
-    12,
     12
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 332.438,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1753,7 +1671,7 @@
       "ilvl": 334
      },
      "back": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "chest": {
       "ilvl": 334
@@ -1813,13 +1731,6 @@
     12,
     12,
     12,
-    12,
-    12,
-    12,
-    12,
-    17,
-    17,
-    17,
     12
    ],
    "gear": {
@@ -1889,9 +1800,6 @@
     12,
     12,
     11,
-    12,
-    12,
-    12,
     12,
     12
    ],
@@ -1963,9 +1871,7 @@
    "status": "tracking",
    "note": "Коко",
    "droptimizerUploadedAt": "2026-10-19T17:52:49.000+00:00",
-   "mplusDungeons": [
-    18
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 327.125,
     "slots": {
@@ -2039,21 +1945,10 @@
     20,
     19,
     20,
-    20,
-    19,
-    19,
-    19,
-    19,
-    19,
-    18,
-    19,
-    19,
-    19,
-    17,
-    19
+    20
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 331.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2117,9 +2012,7 @@
    "status": "tracking",
    "note": "Весо",
    "droptimizerUploadedAt": null,
-   "mplusDungeons": [
-    12
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 326,
     "slots": {
@@ -2196,19 +2089,6 @@
     18,
     18,
     19,
-    18,
-    18,
-    17,
-    18,
-    17,
-    17,
-    17,
-    11,
-    11,
-    17,
-    17,
-    19,
-    18,
     18
    ],
    "gear": {
