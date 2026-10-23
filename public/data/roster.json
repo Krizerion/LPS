@@ -31,6 +31,8 @@
     10,
     10,
     10,
+    21,
+    21,
     19,
     12,
     12,
@@ -52,7 +54,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 334.125,
     "slots": {
      "head": {
       "ilvl": 334
@@ -85,7 +87,7 @@
       "ilvl": 334
      },
      "finger1": {
-      "ilvl": 321
+      "ilvl": 331
      },
      "finger2": {
       "ilvl": 334
@@ -94,7 +96,7 @@
       "ilvl": 340
      },
      "trinket2": {
-      "ilvl": 334
+      "ilvl": 340
      },
      "mainhand": {
       "ilvl": 340
@@ -277,60 +279,7 @@
     18,
     18
    ],
-   "gear": {
-    "ilvlEquipped": 330.562,
-    "slots": {
-     "head": {
-      "ilvl": 334
-     },
-     "neck": {
-      "ilvl": 334
-     },
-     "shoulder": {
-      "ilvl": 321
-     },
-     "back": {
-      "ilvl": 331
-     },
-     "chest": {
-      "ilvl": 334
-     },
-     "waist": {
-      "ilvl": 321
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 321
-     },
-     "legs": {
-      "ilvl": 334
-     },
-     "feet": {
-      "ilvl": 331
-     },
-     "finger1": {
-      "ilvl": 321
-     },
-     "finger2": {
-      "ilvl": 331
-     },
-     "trinket1": {
-      "ilvl": 340
-     },
-     "trinket2": {
-      "ilvl": 334
-     },
-     "mainhand": {
-      "ilvl": 340
-     },
-     "offhand": {
-      "ilvl": 331
-     }
-    },
-    "updatedAt": "2026-10-22T18:52:50.000Z"
-   }
+   "gear": null
   },
   {
    "id": 20197800,
@@ -605,7 +554,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 333.25,
+    "ilvlEquipped": 333,
     "slots": {
      "head": {
       "ilvl": 334
@@ -656,7 +605,7 @@
       "ilvl": 338
      }
     },
-    "updatedAt": "2026-10-21T04:58:45.000Z"
+    "updatedAt": "2026-10-23T01:12:51.000Z"
    }
   },
   {
@@ -1846,7 +1795,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 329,
+    "ilvlEquipped": 329.75,
     "slots": {
      "head": {
       "ilvl": 321
@@ -1888,7 +1837,7 @@
       "ilvl": 334
      },
      "trinket1": {
-      "ilvl": 334
+      "ilvl": 340
      },
      "trinket2": {
       "ilvl": 334
@@ -2002,7 +1951,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 331.875,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2047,7 +1996,7 @@
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 331
+      "ilvl": 338
      },
      "offhand": {
       "ilvl": 334
