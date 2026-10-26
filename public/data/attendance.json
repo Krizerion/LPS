@@ -1,40 +1,20 @@
 {
- "startDate": "2026-08-26",
+ "startDate": "2026-08-27",
  "endDate": null,
  "characters": [
-  {
-   "characterId": 20197800,
-   "name": "Visagge",
-   "attendedPercentage": 100
-  },
   {
    "characterId": 5021558,
    "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021440,
-   "name": "Racor",
+   "characterId": 5066198,
+   "name": "Krizerio",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053378,
-   "name": "Svetirasi",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
    "attendedPercentage": 100
   },
   {
@@ -43,13 +23,28 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 19743502,
-   "name": "Xahoxah",
+   "characterId": 5066215,
+   "name": "Monkies",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
+   "characterId": 5021440,
+   "name": "Racor",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053378,
+   "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
@@ -63,13 +58,8 @@
    "attendedPercentage": 94.11764705882352
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 94.11764705882352
-  },
-  {
-   "characterId": 4608756,
-   "name": "Nelfers",
+   "characterId": 14525794,
+   "name": "Dawon",
    "attendedPercentage": 94.11764705882352
   },
   {
@@ -78,24 +68,24 @@
    "attendedPercentage": 94.11764705882352
   },
   {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
+   "characterId": 4608756,
+   "name": "Nelfers",
    "attendedPercentage": 94.11764705882352
   },
   {
-   "characterId": 14525794,
-   "name": "Dawon",
-   "attendedPercentage": 93.75
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 14879143,
    "name": "Felinna",
-   "attendedPercentage": 90
+   "attendedPercentage": 90.9090909090909
   },
   {
-   "characterId": 4608754,
-   "name": "Valahan",
-   "attendedPercentage": 88.23529411764706
+   "characterId": 19743502,
+   "name": "Xahoxah",
+   "attendedPercentage": 88.88888888888889
   },
   {
    "characterId": 5030809,
@@ -103,14 +93,24 @@
    "attendedPercentage": 88.23529411764706
   },
   {
+   "characterId": 20197800,
+   "name": "Visagge",
+   "attendedPercentage": 87.5
+  },
+  {
    "characterId": 19645454,
    "name": "Obligate",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 19340032,
    "name": "Jorowar",
-   "attendedPercentage": 85.71428571428571
+   "attendedPercentage": 87.5
+  },
+  {
+   "characterId": 4608754,
+   "name": "Valahan",
+   "attendedPercentage": 82.35294117647058
   },
   {
    "characterId": 20118646,
@@ -130,7 +130,7 @@
   {
    "characterId": 5949076,
    "name": "Luxeona",
-   "attendedPercentage": 75
+   "attendedPercentage": 76.47058823529412
   }
  ]
 }
