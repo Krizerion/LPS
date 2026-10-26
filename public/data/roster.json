@@ -42,8 +42,8 @@
     21,
     21,
     22,
-    21,
     22,
+    21,
     21,
     19,
     12,
@@ -139,7 +139,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 331.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -311,6 +311,10 @@
     19,
     19,
     20,
+    20,
+    20,
+    20,
+    20,
     17,
     17,
     17,
@@ -373,7 +377,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-10-26T05:12:59.000Z"
+    "updatedAt": "2026-10-26T15:33:58.000Z"
    }
   },
   {
@@ -862,13 +866,16 @@
     10,
     12,
     10,
+    10,
+    12,
+    10,
     12,
     12,
     10,
     12
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 331.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -922,7 +929,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-10-24T23:47:48.000Z"
+    "updatedAt": "2026-10-26T11:24:51.000Z"
    }
   },
   {
@@ -1146,9 +1153,11 @@
    "status": "tracking",
    "note": "Диян",
    "droptimizerUploadedAt": "2026-10-19T19:22:42.000+00:00",
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    10
+   ],
    "gear": {
-    "ilvlEquipped": 329,
+    "ilvlEquipped": 330.625,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1175,7 +1184,7 @@
       "ilvl": 331
      },
      "hands": {
-      "ilvl": 324
+      "ilvl": 334
      },
      "legs": {
       "ilvl": 321
@@ -1196,7 +1205,7 @@
       "ilvl": 334
      },
      "mainhand": {
-      "ilvl": 334
+      "ilvl": 341
      },
      "offhand": {
       "ilvl": 331
@@ -1283,16 +1292,16 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Вальо",
-   "droptimizerUploadedAt": "2026-10-21T18:12:20.000+00:00",
+   "droptimizerUploadedAt": "2026-10-26T16:08:16.000+00:00",
    "mplusDungeons": [
     12,
     12,
     12,
     12,
     12,
+    10,
     12,
     19,
-    12,
     12,
     12,
     12,
@@ -1301,7 +1310,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1913,7 +1922,7 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Дамян",
-   "droptimizerUploadedAt": "2026-10-19T19:22:28.000+00:00",
+   "droptimizerUploadedAt": "2026-10-26T14:38:16.000+00:00",
    "mplusDungeons": [
     12,
     17,
@@ -2175,8 +2184,8 @@
     20,
     20,
     20,
-    20,
-    19
+    19,
+    20
    ],
    "gear": {
     "ilvlEquipped": 332,
