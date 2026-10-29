@@ -43,8 +43,8 @@
     21,
     22,
     22,
-    22,
     21,
+    22,
     21
    ],
    "gear": {
@@ -663,7 +663,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.125,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1114,63 +1114,7 @@
     10,
     10
    ],
-   "gear": {
-    "ilvlEquipped": 332.625,
-    "slots": {
-     "head": {
-      "ilvl": 334
-     },
-     "neck": {
-      "ilvl": 334
-     },
-     "shoulder": {
-      "ilvl": 321
-     },
-     "back": {
-      "ilvl": 331
-     },
-     "chest": {
-      "ilvl": 334
-     },
-     "waist": {
-      "ilvl": 334
-     },
-     "shirt": {
-      "ilvl": 1
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 334
-     },
-     "legs": {
-      "ilvl": 334
-     },
-     "feet": {
-      "ilvl": 334
-     },
-     "finger1": {
-      "ilvl": 334
-     },
-     "finger2": {
-      "ilvl": 321
-     },
-     "trinket1": {
-      "ilvl": 334
-     },
-     "trinket2": {
-      "ilvl": 334
-     },
-     "mainhand": {
-      "ilvl": 341
-     },
-     "offhand": {
-      "ilvl": 337
-     }
-    },
-    "updatedAt": "2026-10-28T21:32:54.000Z"
-   }
+   "gear": null
   },
   {
    "id": 5053378,
@@ -1873,7 +1817,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1900,7 +1844,7 @@
       "ilvl": 334
      },
      "legs": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "feet": {
       "ilvl": 331
@@ -1954,7 +1898,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 331,
+    "ilvlEquipped": 334.375,
     "slots": {
      "head": {
       "ilvl": 334
@@ -2002,10 +1946,7 @@
       "ilvl": 341
      },
      "mainhand": {
-      "ilvl": 321
-     },
-     "offhand": {
-      "ilvl": 321
+      "ilvl": 341
      }
     },
     "updatedAt": "2026-10-29T05:19:00.000Z"
@@ -2123,7 +2064,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 332,
+    "ilvlEquipped": 332.25,
     "slots": {
      "head": {
       "ilvl": 334
