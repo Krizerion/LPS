@@ -1,5 +1,5 @@
 {
- "startDate": "2026-08-31",
+ "startDate": "2026-09-01",
  "endDate": null,
  "characters": [
   {
@@ -50,27 +50,27 @@
   {
    "characterId": 4258514,
    "name": "Thatcrit",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 3809470,
    "name": "Xpactt",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 4608756,
    "name": "Nelfers",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 14525794,
    "name": "Dawon",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 14879143,
@@ -95,22 +95,27 @@
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 88.88888888888889
+   "attendedPercentage": 88.23529411764706
   },
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 88.88888888888889
+   "attendedPercentage": 88.23529411764706
   },
   {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 83.33333333333334
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 82.35294117647058
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 82.35294117647058
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
+   "attendedPercentage": 81.81818181818183
   },
   {
    "characterId": 19743502,
@@ -120,17 +125,12 @@
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 77.77777777777779
-  },
-  {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 77.77777777777779
+   "attendedPercentage": 76.47058823529412
   },
   {
    "characterId": 5949076,
    "name": "Luxeona",
-   "attendedPercentage": 77.77777777777779
+   "attendedPercentage": 76.47058823529412
   }
  ]
 }

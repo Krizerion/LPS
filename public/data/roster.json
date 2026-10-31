@@ -12,6 +12,7 @@
    "droptimizerUploadedAt": "2026-10-26T18:50:30.000+00:00",
    "mplusDungeons": [
     22,
+    19,
     10,
     11,
     10,
@@ -123,7 +124,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.5,
     "slots": {
      "head": {
       "ilvl": 334
@@ -150,7 +151,7 @@
       "ilvl": 321
      },
      "legs": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "feet": {
       "ilvl": 331
@@ -565,7 +566,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -634,6 +635,7 @@
     20,
     20,
     21,
+    20,
     20,
     10,
     10,
