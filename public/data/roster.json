@@ -54,7 +54,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 335.438,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -102,7 +102,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-02T05:27:13.000Z"
+    "updatedAt": "2026-11-02T23:15:13.000Z"
    }
   },
   {
@@ -679,7 +679,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.375,
     "slots": {
      "head": {
       "ilvl": 334
@@ -730,7 +730,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-01T05:26:09.000Z"
+    "updatedAt": "2026-11-02T20:19:31.000Z"
    }
   },
   {
@@ -813,7 +813,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-02T05:27:16.000Z"
+    "updatedAt": "2026-11-02T22:21:32.000Z"
    }
   },
   {
@@ -971,7 +971,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-02T09:35:15.000Z"
+    "updatedAt": "2026-11-02T22:21:34.000Z"
    }
   },
   {
@@ -1139,7 +1139,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 334.125,
+    "ilvlEquipped": 333,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1178,7 +1178,7 @@
       "ilvl": 334
      },
      "finger2": {
-      "ilvl": 331
+      "ilvl": 321
      },
      "trinket1": {
       "ilvl": 341
@@ -1285,6 +1285,7 @@
     12,
     19,
     19,
+    19,
     12,
     12,
     12,
@@ -1299,7 +1300,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1347,7 +1348,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-02T05:27:13.000Z"
+    "updatedAt": "2026-11-02T22:05:28.000Z"
    }
   },
   {
@@ -2164,7 +2165,7 @@
     20
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.312,
     "slots": {
      "head": {
       "ilvl": 334
