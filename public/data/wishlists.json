@@ -681,12 +681,6 @@
        "icon": "8268560"
       },
       {
-       "id": 281238,
-       "name": "Aberrant Commander's Gauntlets",
-       "slot": "hands",
-       "icon": "inv_glove_mail_raidhunterulatek_d_01"
-      },
-      {
        "id": 281236,
        "name": "Chestwrap of Palpable Terror",
        "slot": "chest",
@@ -697,6 +691,12 @@
        "name": "Sigil of the Impending Eclipse",
        "slot": "trinket",
        "icon": "8268562"
+      },
+      {
+       "id": 281238,
+       "name": "Aberrant Commander's Gauntlets",
+       "slot": "hands",
+       "icon": "inv_glove_mail_raidhunterulatek_d_01"
       }
      ]
     }
@@ -7670,23 +7670,6 @@
    "wishlistWeight": 1,
    "percentage": 0.0088,
    "absolute": 143.9546,
-   "updatedAt": "2026-11-02T18:43:54.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5121622,
-   "itemId": 281238,
-   "itemName": "Aberrant Commander's Gauntlets",
-   "slot": "hands",
-   "instanceId": 84,
-   "encounter": "Kith'ix",
-   "difficulty": "mythic",
-   "spec": "Augmentation",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.0769,
-   "absolute": 1256.6169,
    "updatedAt": "2026-11-02T18:43:54.000+00:00",
    "manuallyEdited": false,
    "comment": null
