@@ -500,6 +500,7 @@
    "droptimizerUploadedAt": "2026-10-28T18:15:36.000+00:00",
    "mplusDungeons": [
     21,
+    21,
     20,
     20,
     20,
@@ -1400,7 +1401,7 @@
    "droptimizerUploadedAt": "2026-10-28T17:15:39.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335.562,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
