@@ -159,12 +159,6 @@
        "icon": "inv_jewelcrafting_rubyserpent"
       },
       {
-       "id": 268260,
-       "name": "Scaled Fiend's Warboots",
-       "slot": "feet",
-       "icon": "inv_boot_plate_raidpaladinulatek_d_01"
-      },
-      {
        "id": 270927,
        "name": "Venomcured Icon",
        "slot": "chest",
@@ -205,6 +199,12 @@
        "name": "Serpentine Mixing Belt",
        "slot": "waist",
        "icon": "inv_belt_mail_raidshamanulatek_d_01"
+      },
+      {
+       "id": 268260,
+       "name": "Scaled Fiend's Warboots",
+       "slot": "feet",
+       "icon": "inv_boot_plate_raidpaladinulatek_d_01"
       },
       {
        "id": 268214,
@@ -1210,23 +1210,6 @@
    "wishlistWeight": 1,
    "percentage": 0.7305,
    "absolute": 1392.7146,
-   "updatedAt": "2026-10-07T17:41:22.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5949076,
-   "itemId": 268260,
-   "itemName": "Scaled Fiend's Warboots",
-   "slot": "feet",
-   "instanceId": 80,
-   "encounter": "Vashnik the Malignant",
-   "difficulty": "mythic",
-   "spec": "Retribution",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.6244,
-   "absolute": 1190.3027,
    "updatedAt": "2026-10-07T17:41:22.000+00:00",
    "manuallyEdited": false,
    "comment": null
