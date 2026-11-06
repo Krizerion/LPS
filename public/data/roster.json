@@ -159,7 +159,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 335.625,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -198,7 +198,7 @@
       "ilvl": 334
      },
      "trinket1": {
-      "ilvl": 341
+      "ilvl": 334
      },
      "trinket2": {
       "ilvl": 341
@@ -207,7 +207,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-03T05:30:12.000Z"
+    "updatedAt": "2026-11-05T19:45:25.000Z"
    }
   },
   {
@@ -295,11 +295,12 @@
    "mplusDungeons": [
     19,
     18,
+    19,
     17,
     19
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.5,
     "slots": {
      "head": {
       "ilvl": 334
@@ -511,6 +512,8 @@
    "mplusDungeons": [
     21,
     21,
+    21,
+    21,
     20,
     20,
     20,
@@ -574,7 +577,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-05T05:34:19.000Z"
+    "updatedAt": "2026-11-05T23:42:26.000Z"
    }
   },
   {
