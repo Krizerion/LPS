@@ -1,10 +1,15 @@
 {
- "startDate": "2026-09-09",
+ "startDate": "2026-09-10",
  "endDate": null,
  "characters": [
   {
    "characterId": 4258514,
    "name": "Thatcrit",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
    "attendedPercentage": 100
   },
   {
@@ -80,27 +85,22 @@
   {
    "characterId": 14879143,
    "name": "Felinna",
-   "attendedPercentage": 92.85714285714286
+   "attendedPercentage": 93.33333333333333
   },
   {
    "characterId": 20197800,
    "name": "Visagge",
-   "attendedPercentage": 90.9090909090909
+   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 19645454,
    "name": "Obligate",
-   "attendedPercentage": 90.9090909090909
+   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 19340032,
    "name": "Jorowar",
-   "attendedPercentage": 90.9090909090909
-  },
-  {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 90.9090909090909
+   "attendedPercentage": 91.66666666666666
   },
   {
    "characterId": 20118646,
@@ -108,14 +108,14 @@
    "attendedPercentage": 88.23529411764706
   },
   {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 82.35294117647058
-  },
-  {
    "characterId": 6177638,
    "name": "Maity",
    "attendedPercentage": 82.35294117647058
+  },
+  {
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 76.47058823529412
   },
   {
    "characterId": 5949076,
@@ -125,12 +125,12 @@
   {
    "characterId": 19743502,
    "name": "Xahoxah",
-   "attendedPercentage": 66.66666666666666
+   "attendedPercentage": 61.53846153846154
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 64.70588235294117
+   "attendedPercentage": 58.82352941176471
   }
  ]
 }
