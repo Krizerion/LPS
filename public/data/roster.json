@@ -83,11 +83,12 @@
    "note": "Ники",
    "droptimizerUploadedAt": "2026-10-19T19:24:14.000+00:00",
    "mplusDungeons": [
+    10,
     21,
     10
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -295,7 +296,6 @@
    "mplusDungeons": [
     19,
     18,
-    19,
     10,
     13,
     19,
@@ -305,6 +305,7 @@
     19,
     18,
     18,
+    19,
     17,
     19
    ],
@@ -360,7 +361,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-08T14:18:36.000Z"
+    "updatedAt": "2026-11-09T13:10:45.000Z"
    }
   },
   {
@@ -383,10 +384,11 @@
     10,
     10,
     10,
+    10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.75,
     "slots": {
      "head": {
       "ilvl": 334
@@ -455,7 +457,7 @@
    "droptimizerUploadedAt": "2026-11-02T18:56:05.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -518,15 +520,15 @@
    "rank": "Main",
    "status": "tracking",
    "note": "Стоян",
-   "droptimizerUploadedAt": "2026-10-28T18:15:36.000+00:00",
+   "droptimizerUploadedAt": "2026-11-09T18:53:16.000+00:00",
    "mplusDungeons": [
     21,
     21,
     21,
     21,
-    21,
-    21,
     22,
+    21,
+    21,
     20,
     20,
     20,
@@ -675,7 +677,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.75,
     "slots": {
      "head": {
       "ilvl": 334
@@ -746,7 +748,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.25,
     "slots": {
      "head": {
       "ilvl": 334
@@ -860,7 +862,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-04T23:05:16.000Z"
+    "updatedAt": "2026-11-09T13:10:46.000Z"
    }
   },
   {
@@ -1100,8 +1102,8 @@
    "mplusDungeons": [
     19,
     19,
-    19,
     14,
+    19,
     19,
     12,
     19,
@@ -1109,7 +1111,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 335.25,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1157,7 +1159,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-09T00:08:29.000Z"
+    "updatedAt": "2026-11-09T13:11:34.000Z"
    }
   },
   {
@@ -1238,7 +1240,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.75,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1371,7 +1373,7 @@
     12
    ],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1440,7 +1442,7 @@
    "droptimizerUploadedAt": "2026-10-28T17:15:39.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1509,7 +1511,7 @@
    "droptimizerUploadedAt": "2026-10-19T18:03:01.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.312,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1572,7 +1574,7 @@
    "droptimizerUploadedAt": "2026-10-14T17:39:14.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.188,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1650,7 +1652,7 @@
     18
    ],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1768,7 +1770,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-05T05:34:19.000Z"
+    "updatedAt": "2026-11-09T18:38:50.000Z"
    }
   },
   {
@@ -1787,7 +1789,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 330,
+    "ilvlEquipped": 331.625,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1829,7 +1831,7 @@
       "ilvl": 321
      },
      "trinket1": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "trinket2": {
       "ilvl": 334
@@ -1865,7 +1867,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.562,
     "slots": {
      "head": {
       "ilvl": 334
