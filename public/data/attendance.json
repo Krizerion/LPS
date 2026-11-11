@@ -13,33 +13,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5053378,
-   "name": "Svetirasi",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053387,
-   "name": "Zelyo",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5066215,
-   "name": "Monkies",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5113215,
-   "name": "Vikvoker",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5121622,
-   "name": "Bagertatsuo",
+   "characterId": 14525794,
+   "name": "Dawon",
    "attendedPercentage": 100
   },
   {
@@ -48,8 +23,23 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 14525794,
-   "name": "Dawon",
+   "characterId": 4258514,
+   "name": "Thatcrit",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5121622,
+   "name": "Bagertatsuo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5113215,
+   "name": "Vikvoker",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5066215,
+   "name": "Monkies",
    "attendedPercentage": 100
   },
   {
@@ -58,8 +48,18 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5099602,
-   "name": "Elfionna",
+   "characterId": 5053387,
+   "name": "Zelyo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053378,
+   "name": "Svetirasi",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5030809,
+   "name": "Sherman",
    "attendedPercentage": 94.44444444444444
   },
   {
@@ -68,8 +68,8 @@
    "attendedPercentage": 94.44444444444444
   },
   {
-   "characterId": 5030809,
-   "name": "Sherman",
+   "characterId": 5099602,
+   "name": "Elfionna",
    "attendedPercentage": 94.44444444444444
   },
   {
@@ -80,6 +80,11 @@
   {
    "characterId": 20197800,
    "name": "Visagge",
+   "attendedPercentage": 92.3076923076923
+  },
+  {
+   "characterId": 19645454,
+   "name": "Obligate",
    "attendedPercentage": 92.3076923076923
   },
   {
@@ -101,11 +106,6 @@
    "characterId": 20118646,
    "name": "Chadiux",
    "attendedPercentage": 88.88888888888889
-  },
-  {
-   "characterId": 19645454,
-   "name": "Obligate",
-   "attendedPercentage": 84.61538461538461
   },
   {
    "characterId": 6177638,
