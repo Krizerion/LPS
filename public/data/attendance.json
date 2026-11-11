@@ -1,17 +1,7 @@
 {
- "startDate": "2026-09-11",
+ "startDate": "2026-09-12",
  "endDate": null,
  "characters": [
-  {
-   "characterId": 4258514,
-   "name": "Thatcrit",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 100
-  },
   {
    "characterId": 5021440,
    "name": "Racor",
@@ -23,11 +13,6 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
-   "attendedPercentage": 100
-  },
-  {
    "characterId": 5053378,
    "name": "Svetirasi",
    "attendedPercentage": 100
@@ -35,6 +20,11 @@
   {
    "characterId": 5053387,
    "name": "Zelyo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 4258514,
+   "name": "Thatcrit",
    "attendedPercentage": 100
   },
   {
@@ -63,74 +53,84 @@
    "attendedPercentage": 100
   },
   {
+   "characterId": 5021558,
+   "name": "Azeryx",
+   "attendedPercentage": 100
+  },
+  {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 94.11764705882352
+   "attendedPercentage": 94.44444444444444
   },
   {
    "characterId": 4608756,
    "name": "Nelfers",
-   "attendedPercentage": 94.11764705882352
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 94.11764705882352
+   "attendedPercentage": 94.44444444444444
   },
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 94.11764705882352
+   "attendedPercentage": 94.44444444444444
   },
   {
    "characterId": 14879143,
    "name": "Felinna",
-   "attendedPercentage": 93.33333333333333
+   "attendedPercentage": 93.75
   },
   {
    "characterId": 20197800,
    "name": "Visagge",
-   "attendedPercentage": 91.66666666666666
-  },
-  {
-   "characterId": 19645454,
-   "name": "Obligate",
-   "attendedPercentage": 91.66666666666666
+   "attendedPercentage": 92.3076923076923
   },
   {
    "characterId": 19340032,
    "name": "Jorowar",
+   "attendedPercentage": 92.3076923076923
+  },
+  {
+   "characterId": 5982077,
+   "name": "Miragè",
    "attendedPercentage": 91.66666666666666
+  },
+  {
+   "characterId": 4486779,
+   "name": "Simbi",
+   "attendedPercentage": 88.88888888888889
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 88.23529411764706
+   "attendedPercentage": 88.88888888888889
+  },
+  {
+   "characterId": 19645454,
+   "name": "Obligate",
+   "attendedPercentage": 84.61538461538461
   },
   {
    "characterId": 6177638,
    "name": "Maity",
-   "attendedPercentage": 82.35294117647058
-  },
-  {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 76.47058823529412
+   "attendedPercentage": 83.33333333333334
   },
   {
    "characterId": 5949076,
    "name": "Luxeona",
-   "attendedPercentage": 76.47058823529412
+   "attendedPercentage": 77.77777777777779
+  },
+  {
+   "characterId": 3809470,
+   "name": "Xpactt",
+   "attendedPercentage": 72.22222222222221
   },
   {
    "characterId": 19743502,
    "name": "Xahoxah",
-   "attendedPercentage": 61.53846153846154
+   "attendedPercentage": 57.14285714285714
   },
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 58.82352941176471
+   "attendedPercentage": 55.55555555555556
   }
  ]
 }
