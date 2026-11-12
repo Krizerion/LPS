@@ -15,7 +15,7 @@
     10
    ],
    "gear": {
-    "ilvlEquipped": 335.438,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -63,7 +63,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-10T20:17:45.000Z"
+    "updatedAt": "2026-11-12T13:17:48.000Z"
    }
   },
   {
@@ -148,7 +148,7 @@
     17
    ],
    "gear": {
-    "ilvlEquipped": 335.625,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -196,7 +196,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-11T13:20:58.000Z"
+    "updatedAt": "2026-11-12T13:17:01.000Z"
    }
   },
   {
@@ -291,7 +291,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 335.375,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -342,7 +342,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-11T20:34:47.000Z"
+    "updatedAt": "2026-11-12T13:17:48.000Z"
    }
   },
   {
@@ -356,12 +356,14 @@
    "note": "Ицо",
    "droptimizerUploadedAt": "2026-10-12T17:36:52.000+00:00",
    "mplusDungeons": [
+    10,
+    10,
     12,
     10,
     10
    ],
    "gear": {
-    "ilvlEquipped": 334.75,
+    "ilvlEquipped": 334,
     "slots": {
      "head": {
       "ilvl": 334
@@ -415,7 +417,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-11T13:21:46.000Z"
+    "updatedAt": "2026-11-12T16:43:50.000Z"
    }
   },
   {
@@ -504,7 +506,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 335.375,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -555,7 +557,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-05T23:42:26.000Z"
+    "updatedAt": "2026-11-12T13:16:59.000Z"
    }
   },
   {
@@ -636,7 +638,7 @@
    "droptimizerUploadedAt": "2026-11-02T18:54:40.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 334.75,
+    "ilvlEquipped": 334,
     "slots": {
      "head": {
       "ilvl": 334
@@ -690,7 +692,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-05T05:34:19.000Z"
+    "updatedAt": "2026-11-12T13:17:01.000Z"
    }
   },
   {
@@ -705,13 +707,13 @@
    "droptimizerUploadedAt": "2026-10-19T17:12:13.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 333.25,
+    "ilvlEquipped": 333,
     "slots": {
      "head": {
       "ilvl": 334
      },
      "neck": {
-      "ilvl": 334
+      "ilvl": 341
      },
      "shoulder": {
       "ilvl": 334
@@ -756,7 +758,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-11T13:21:46.000Z"
+    "updatedAt": "2026-11-12T13:17:48.000Z"
    }
   },
   {
@@ -903,7 +905,7 @@
    "droptimizerUploadedAt": "2026-10-19T19:22:42.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 334.125,
+    "ilvlEquipped": 334,
     "slots": {
      "head": {
       "ilvl": 334
@@ -957,7 +959,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-11T13:21:47.000Z"
+    "updatedAt": "2026-11-12T13:17:53.000Z"
    }
   },
   {
@@ -972,7 +974,7 @@
    "droptimizerUploadedAt": "2026-10-19T17:41:43.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 333.312,
+    "ilvlEquipped": 333,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1026,7 +1028,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-11T13:22:46.000Z"
+    "updatedAt": "2026-11-12T13:17:55.000Z"
    }
   },
   {
@@ -1047,7 +1049,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 335.438,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1095,7 +1097,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-11T13:22:47.000Z"
+    "updatedAt": "2026-11-12T13:17:55.000Z"
    }
   },
   {
@@ -1176,7 +1178,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 334.375,
+    "ilvlEquipped": 334,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1224,7 +1226,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-11T13:21:47.000Z"
+    "updatedAt": "2026-11-12T13:17:48.000Z"
    }
   },
   {
@@ -1239,7 +1241,7 @@
    "droptimizerUploadedAt": "2026-09-30T16:40:20.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 332.688,
+    "ilvlEquipped": 332,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1290,7 +1292,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-10T13:10:50.000Z"
+    "updatedAt": "2026-11-12T13:17:51.000Z"
    }
   },
   {
@@ -1305,7 +1307,7 @@
    "droptimizerUploadedAt": "2026-11-02T18:43:54.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335.812,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1359,7 +1361,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-05T05:34:19.000Z"
+    "updatedAt": "2026-11-12T13:16:59.000Z"
    }
   },
   {
@@ -1374,7 +1376,7 @@
    "droptimizerUploadedAt": "2026-10-28T17:15:39.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.562,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1506,7 +1508,7 @@
    "droptimizerUploadedAt": "2026-10-14T17:39:14.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335.188,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1557,7 +1559,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-05T05:34:20.000Z"
+    "updatedAt": "2026-11-12T13:17:48.000Z"
    }
   },
   {
@@ -1574,7 +1576,7 @@
     19
    ],
    "gear": {
-    "ilvlEquipped": 335.812,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1622,7 +1624,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-11T13:21:45.000Z"
+    "updatedAt": "2026-11-12T13:17:53.000Z"
    }
   },
   {
@@ -1774,7 +1776,7 @@
    "droptimizerUploadedAt": "2026-10-19T16:46:46.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 334.562,
+    "ilvlEquipped": 334,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1825,7 +1827,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-06T05:40:26.000Z"
+    "updatedAt": "2026-11-12T13:17:54.000Z"
    }
   },
   {
