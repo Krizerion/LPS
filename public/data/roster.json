@@ -345,7 +345,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-12T13:17:48.000Z"
+    "updatedAt": "2026-11-13T00:53:49.000Z"
    }
   },
   {
@@ -509,7 +509,7 @@
     21
    ],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.375,
     "slots": {
      "head": {
       "ilvl": 334
