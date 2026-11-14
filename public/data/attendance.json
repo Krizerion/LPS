@@ -1,5 +1,5 @@
 {
- "startDate": "2026-09-14",
+ "startDate": "2026-09-15",
  "endDate": null,
  "characters": [
   {
@@ -60,17 +60,17 @@
   {
    "characterId": 5030809,
    "name": "Sherman",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 4608756,
    "name": "Nelfers",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 5099602,
    "name": "Elfionna",
-   "attendedPercentage": 94.44444444444444
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 14879143,
@@ -95,32 +95,32 @@
   {
    "characterId": 5982077,
    "name": "Miragè",
-   "attendedPercentage": 91.66666666666666
+   "attendedPercentage": 90.9090909090909
   },
   {
    "characterId": 4486779,
    "name": "Simbi",
-   "attendedPercentage": 88.88888888888889
+   "attendedPercentage": 88.23529411764706
   },
   {
    "characterId": 20118646,
    "name": "Chadiux",
-   "attendedPercentage": 88.88888888888889
+   "attendedPercentage": 88.23529411764706
   },
   {
    "characterId": 6177638,
    "name": "Maity",
-   "attendedPercentage": 83.33333333333334
+   "attendedPercentage": 82.35294117647058
   },
   {
    "characterId": 5949076,
    "name": "Luxeona",
-   "attendedPercentage": 77.77777777777779
+   "attendedPercentage": 82.35294117647058
   },
   {
    "characterId": 3809470,
    "name": "Xpactt",
-   "attendedPercentage": 72.22222222222221
+   "attendedPercentage": 70.58823529411765
   },
   {
    "characterId": 19743502,
@@ -130,7 +130,7 @@
   {
    "characterId": 4608754,
    "name": "Valahan",
-   "attendedPercentage": 55.55555555555556
+   "attendedPercentage": 52.94117647058824
   }
  ]
 }
