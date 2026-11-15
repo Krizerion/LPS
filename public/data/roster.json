@@ -1255,7 +1255,7 @@
     16
    ],
    "gear": {
-    "ilvlEquipped": 334.312,
+    "ilvlEquipped": 333,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1297,7 +1297,7 @@
       "ilvl": 341
      },
      "trinket2": {
-      "ilvl": 334
+      "ilvl": 321
      },
      "mainhand": {
       "ilvl": 341
@@ -1306,7 +1306,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-12T13:17:51.000Z"
+    "updatedAt": "2026-11-15T17:24:07.000Z"
    }
   },
   {
