@@ -349,7 +349,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-14T03:19:12.000Z"
+    "updatedAt": "2026-11-16T16:59:15.000Z"
    }
   },
   {
@@ -1108,7 +1108,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-12T13:17:55.000Z"
+    "updatedAt": "2026-11-16T16:59:21.000Z"
    }
   },
   {
@@ -1390,7 +1390,7 @@
    "droptimizerUploadedAt": "2026-10-28T17:15:39.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.562,
     "slots": {
      "head": {
       "ilvl": 334
