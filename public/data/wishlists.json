@@ -405,12 +405,6 @@
        "icon": "inv_cape_leather_raidrogueulatek_d_01"
       },
       {
-       "id": 268222,
-       "name": "Reckless Spirit Breastplate",
-       "slot": "chest",
-       "icon": "inv_chest_plate_raidwarriorulatek_d_01"
-      },
-      {
        "id": 268213,
        "name": "Maze-roa, Warlord's Fury",
        "slot": "main_hand",
@@ -459,16 +453,16 @@
        "icon": "inv_archaeology_orcclans_crackedidol"
       },
       {
+       "id": 268222,
+       "name": "Reckless Spirit Breastplate",
+       "slot": "chest",
+       "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+      },
+      {
        "id": 268209,
        "name": "Aman'muso, Warlord's Vengeance",
        "slot": "main_hand",
        "icon": "inv_axe_1h_ulatek_d_01"
-      },
-      {
-       "id": 268259,
-       "name": "Girdle of Toxic Regret",
-       "slot": "waist",
-       "icon": "inv_belt_plate_raidpaladinulatek_d_01"
       },
       {
        "id": 268231,
@@ -481,6 +475,12 @@
        "name": "Cuisses of the Uncoiled Union",
        "slot": "legs",
        "icon": "inv_pant_mail_raidevokerulatek_d_01"
+      },
+      {
+       "id": 268259,
+       "name": "Girdle of Toxic Regret",
+       "slot": "waist",
+       "icon": "inv_belt_plate_raidpaladinulatek_d_01"
       }
      ]
     },
@@ -773,23 +773,6 @@
    "wishlistWeight": 1,
    "percentage": 0.4488,
    "absolute": 982.9247,
-   "updatedAt": "2026-10-26T18:50:30.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 19340032,
-   "itemId": 268222,
-   "itemName": "Reckless Spirit Breastplate",
-   "slot": "chest",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Arms",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.94,
-   "absolute": 2058.8245,
    "updatedAt": "2026-10-26T18:50:30.000+00:00",
    "manuallyEdited": false,
    "comment": null
@@ -2003,23 +1986,6 @@
   },
   {
    "characterId": 5021558,
-   "itemId": 268259,
-   "itemName": "Girdle of Toxic Regret",
-   "slot": "waist",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Frost",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.4782,
-   "absolute": 1226.3369,
-   "updatedAt": "2026-11-02T18:56:05.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5021558,
    "itemId": 268253,
    "itemName": "Silken Voodoo Drape",
    "slot": "back",
@@ -2167,23 +2133,6 @@
    "wishlistWeight": 1,
    "percentage": 0.4983,
    "absolute": 1061.051,
-   "updatedAt": "2026-11-09T18:53:16.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 4258514,
-   "itemId": 268255,
-   "itemName": "Cackling Soultreads",
-   "slot": "feet",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Arcane",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.1966,
-   "absolute": 418.6671,
    "updatedAt": "2026-11-09T18:53:16.000+00:00",
    "manuallyEdited": false,
    "comment": null
@@ -3074,23 +3023,6 @@
   },
   {
    "characterId": 5021440,
-   "itemId": 270169,
-   "itemName": "Hex Lord's Dooming Idol",
-   "slot": "trinket",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Demonology",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.3489,
-   "absolute": 725.2352,
-   "updatedAt": "2026-10-19T17:12:13.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5021440,
    "itemId": 268255,
    "itemName": "Cackling Soultreads",
    "slot": "feet",
@@ -3544,23 +3476,6 @@
    "wishlistWeight": 1,
    "percentage": 0.4709,
    "absolute": 544.3686,
-   "updatedAt": "2026-11-04T18:17:23.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5050452,
-   "itemId": 268253,
-   "itemName": "Silken Voodoo Drape",
-   "slot": "back",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Blood",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.317,
-   "absolute": 366.4094,
    "updatedAt": "2026-11-04T18:17:23.000+00:00",
    "manuallyEdited": false,
    "comment": null
@@ -7018,40 +6933,6 @@
   },
   {
    "characterId": 5121622,
-   "itemId": 268237,
-   "itemName": "Cuisses of the Uncoiled Union",
-   "slot": "legs",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Devastation",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.429,
-   "absolute": 2929.125,
-   "updatedAt": "2026-09-30T05:15:07.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5121622,
-   "itemId": 268237,
-   "itemName": "Cuisses of the Uncoiled Union",
-   "slot": "legs",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Augmentation",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.0521,
-   "absolute": 851.1825,
-   "updatedAt": "2026-11-02T18:43:54.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5121622,
    "itemId": 268253,
    "itemName": "Silken Voodoo Drape",
    "slot": "back",
@@ -8117,40 +7998,6 @@
    "wishlistWeight": 1,
    "percentage": 0.7744,
    "absolute": 1575.6398,
-   "updatedAt": "2026-10-14T17:39:14.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5066198,
-   "itemId": 268253,
-   "itemName": "Silken Voodoo Drape",
-   "slot": "back",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Beast Mastery",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 1.2057,
-   "absolute": 2677.2722,
-   "updatedAt": "2026-10-12T17:36:49.000+00:00",
-   "manuallyEdited": false,
-   "comment": null
-  },
-  {
-   "characterId": 5066198,
-   "itemId": 268253,
-   "itemName": "Silken Voodoo Drape",
-   "slot": "back",
-   "instanceId": 80,
-   "encounter": "The Coiled Altar",
-   "difficulty": "mythic",
-   "spec": "Marksmanship",
-   "wishlistName": "Default",
-   "wishlistWeight": 1,
-   "percentage": 0.6596,
-   "absolute": 1342.0222,
    "updatedAt": "2026-10-14T17:39:14.000+00:00",
    "manuallyEdited": false,
    "comment": null
