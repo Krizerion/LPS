@@ -3,13 +3,13 @@
  "endDate": null,
  "characters": [
   {
-   "characterId": 5021440,
-   "name": "Racor",
+   "characterId": 5021558,
+   "name": "Azeryx",
    "attendedPercentage": 100
   },
   {
-   "characterId": 5050452,
-   "name": "Moshenji",
+   "characterId": 5021663,
+   "name": "Krizerion",
    "attendedPercentage": 100
   },
   {
@@ -18,13 +18,8 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5066198,
-   "name": "Krizerio",
-   "attendedPercentage": 100
-  },
-  {
-   "characterId": 5053378,
-   "name": "Svetirasi",
+   "characterId": 5021440,
+   "name": "Racor",
    "attendedPercentage": 100
   },
   {
@@ -43,13 +38,18 @@
    "attendedPercentage": 100
   },
   {
-   "characterId": 5021558,
-   "name": "Azeryx",
+   "characterId": 5050452,
+   "name": "Moshenji",
    "attendedPercentage": 100
   },
   {
    "characterId": 5053387,
    "name": "Zelyo",
+   "attendedPercentage": 100
+  },
+  {
+   "characterId": 5053378,
+   "name": "Svetirasi",
    "attendedPercentage": 100
   },
   {
@@ -93,39 +93,19 @@
    "attendedPercentage": 93.33333333333333
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
+   "characterId": 14879143,
+   "name": "Felinna",
    "attendedPercentage": 88.88888888888889
   },
   {
-   "characterId": 14879143,
-   "name": "Felinna",
+   "characterId": 6177638,
+   "name": "Maity",
    "attendedPercentage": 88.88888888888889
   },
   {
    "characterId": 5949076,
    "name": "Luxeona",
    "attendedPercentage": 77.77777777777779
-  },
-  {
-   "characterId": 4486779,
-   "name": "Simbi",
-   "attendedPercentage": 77.77777777777779
-  },
-  {
-   "characterId": 5982077,
-   "name": "Miragè",
-   "attendedPercentage": 75
-  },
-  {
-   "characterId": 3809470,
-   "name": "Xpactt",
-   "attendedPercentage": 61.11111111111111
-  },
-  {
-   "characterId": 19743502,
-   "name": "Xahoxah",
-   "attendedPercentage": 50
   },
   {
    "characterId": 4608754,
