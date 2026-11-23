@@ -88,11 +88,6 @@
    "attendedPercentage": 93.75
   },
   {
-   "characterId": 19645454,
-   "name": "Obligate",
-   "attendedPercentage": 93.75
-  },
-  {
    "characterId": 19340032,
    "name": "Jorowar",
    "attendedPercentage": 93.75
@@ -101,6 +96,11 @@
    "characterId": 6177638,
    "name": "Maity",
    "attendedPercentage": 88.23529411764706
+  },
+  {
+   "characterId": 19645454,
+   "name": "Obligate",
+   "attendedPercentage": 87.5
   },
   {
    "characterId": 5949076,
