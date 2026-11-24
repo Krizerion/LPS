@@ -11,11 +11,12 @@
    "note": "Жоро",
    "droptimizerUploadedAt": "2026-10-26T18:50:30.000+00:00",
    "mplusDungeons": [
+    22,
     21,
     22
    ],
    "gear": {
-    "ilvlEquipped": 336.25,
+    "ilvlEquipped": 333.75,
     "slots": {
      "head": {
       "ilvl": 334
@@ -60,7 +61,10 @@
       "ilvl": 341
      },
      "mainhand": {
-      "ilvl": 341
+      "ilvl": 321
+     },
+     "offhand": {
+      "ilvl": 321
      }
     },
     "updatedAt": "2026-11-23T18:22:31.000Z"
@@ -1085,7 +1089,7 @@
    "droptimizerUploadedAt": "2026-11-02T18:43:54.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 336.438,
+    "ilvlEquipped": 336,
     "slots": {
      "head": {
       "ilvl": 334
