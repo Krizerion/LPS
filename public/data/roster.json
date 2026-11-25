@@ -11,7 +11,6 @@
    "note": "Жоро",
    "droptimizerUploadedAt": "2026-10-26T18:50:30.000+00:00",
    "mplusDungeons": [
-    22,
     21,
     22
    ],
@@ -64,7 +63,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-24T17:36:40.000Z"
+    "updatedAt": "2026-11-25T18:31:51.000Z"
    }
   },
   {
@@ -130,7 +129,7 @@
       "ilvl": 334
      }
     },
-    "updatedAt": "2026-11-24T21:13:33.000Z"
+    "updatedAt": "2026-11-25T17:37:55.000Z"
    }
   },
   {
@@ -206,12 +205,7 @@
    "status": "tracking",
    "note": "Алекс",
    "droptimizerUploadedAt": "2026-10-28T18:29:06.000+00:00",
-   "mplusDungeons": [
-    11,
-    19,
-    19,
-    10
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 335.375,
     "slots": {
@@ -264,7 +258,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-24T15:35:45.000Z"
+    "updatedAt": "2026-11-25T17:37:52.000Z"
    }
   },
   {
@@ -280,10 +274,10 @@
    "mplusDungeons": [
     12,
     10,
-    10
+    12
    ],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.938,
     "slots": {
      "head": {
       "ilvl": 334
@@ -337,7 +331,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-24T18:13:58.000Z"
+    "updatedAt": "2026-11-25T11:48:46.000Z"
    }
   },
   {
@@ -352,7 +346,7 @@
    "droptimizerUploadedAt": "2026-11-02T18:56:05.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 336,
+    "ilvlEquipped": 336.438,
     "slots": {
      "head": {
       "ilvl": 334
@@ -403,7 +397,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-24T17:36:42.000Z"
+    "updatedAt": "2026-11-25T15:24:34.000Z"
    }
   },
   {
@@ -416,14 +410,9 @@
    "status": "tracking",
    "note": "Стоян",
    "droptimizerUploadedAt": "2026-11-09T18:53:16.000+00:00",
-   "mplusDungeons": [
-    18,
-    17,
-    17,
-    12
-   ],
+   "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 336,
+    "ilvlEquipped": 336.188,
     "slots": {
      "head": {
       "ilvl": 334
@@ -558,7 +547,7 @@
    "droptimizerUploadedAt": "2026-10-19T17:12:13.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.688,
     "slots": {
      "head": {
       "ilvl": 334
@@ -687,7 +676,7 @@
    "droptimizerUploadedAt": "2026-10-19T19:22:42.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 334,
+    "ilvlEquipped": 334.125,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1015,10 +1004,7 @@
    "status": "tracking",
    "note": "Вик",
    "droptimizerUploadedAt": "2026-11-13T17:44:25.000+00:00",
-   "mplusDungeons": [
-    16,
-    16
-   ],
+   "mplusDungeons": [],
    "gear": {
     "ilvlEquipped": 333.5,
     "slots": {
@@ -1071,7 +1057,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-23T16:53:41.000Z"
+    "updatedAt": "2026-11-25T17:37:59.000Z"
    }
   },
   {
@@ -1140,7 +1126,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-22T17:30:36.000Z"
+    "updatedAt": "2026-11-25T17:37:52.000Z"
    }
   },
   {
@@ -1209,7 +1195,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-18T17:26:38.000Z"
+    "updatedAt": "2026-11-25T17:37:55.000Z"
    }
   },
   {
@@ -1290,7 +1276,7 @@
    "droptimizerUploadedAt": "2026-10-19T18:03:01.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 333.312,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1353,7 +1339,7 @@
    "droptimizerUploadedAt": "2026-10-28T16:16:10.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1416,7 +1402,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335,
+    "ilvlEquipped": 335.812,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1467,7 +1453,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-25T08:56:35.000Z"
+    "updatedAt": "2026-11-25T17:37:58.000Z"
    }
   },
   {
@@ -1533,7 +1519,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-20T17:28:23.000Z"
+    "updatedAt": "2026-11-25T17:37:55.000Z"
    }
   },
   {
