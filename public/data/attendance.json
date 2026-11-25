@@ -83,19 +83,19 @@
    "attendedPercentage": 94.44444444444444
   },
   {
-   "characterId": 6177638,
-   "name": "Maity",
-   "attendedPercentage": 88.88888888888889
-  },
-  {
    "characterId": 20197800,
    "name": "Visagge",
-   "attendedPercentage": 88.23529411764706
+   "attendedPercentage": 94.11764705882352
   },
   {
    "characterId": 19340032,
    "name": "Jorowar",
-   "attendedPercentage": 88.23529411764706
+   "attendedPercentage": 94.11764705882352
+  },
+  {
+   "characterId": 6177638,
+   "name": "Maity",
+   "attendedPercentage": 88.88888888888889
   },
   {
    "characterId": 19645454,
