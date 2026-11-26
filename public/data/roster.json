@@ -1402,7 +1402,7 @@
    "droptimizerUploadedAt": null,
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335.812,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1453,7 +1453,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-25T17:37:58.000Z"
+    "updatedAt": "2026-11-26T10:02:51.000Z"
    }
   },
   {
