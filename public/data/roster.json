@@ -63,7 +63,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-26T17:39:46.000Z"
+    "updatedAt": "2026-11-27T17:43:44.000Z"
    }
   },
   {
@@ -347,72 +347,6 @@
    "droptimizerUploadedAt": "2026-11-02T18:56:05.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 336.438,
-    "slots": {
-     "head": {
-      "ilvl": 334
-     },
-     "neck": {
-      "ilvl": 341
-     },
-     "shoulder": {
-      "ilvl": 334
-     },
-     "back": {
-      "ilvl": 334
-     },
-     "chest": {
-      "ilvl": 334
-     },
-     "waist": {
-      "ilvl": 344
-     },
-     "wrist": {
-      "ilvl": 331
-     },
-     "hands": {
-      "ilvl": 334
-     },
-     "legs": {
-      "ilvl": 334
-     },
-     "feet": {
-      "ilvl": 334
-     },
-     "finger1": {
-      "ilvl": 331
-     },
-     "finger2": {
-      "ilvl": 334
-     },
-     "trinket1": {
-      "ilvl": 341
-     },
-     "trinket2": {
-      "ilvl": 341
-     },
-     "mainhand": {
-      "ilvl": 341
-     },
-     "offhand": {
-      "ilvl": 341
-     }
-    },
-    "updatedAt": "2026-11-26T16:59:39.000Z"
-   }
-  },
-  {
-   "id": 4258514,
-   "name": "Thatcrit",
-   "realm": "Stormscale",
-   "class": "Mage",
-   "role": "Ranged",
-   "rank": "Main",
-   "status": "tracking",
-   "note": "Стоян",
-   "droptimizerUploadedAt": "2026-11-09T18:53:16.000+00:00",
-   "mplusDungeons": [],
-   "gear": {
     "ilvlEquipped": 336,
     "slots": {
      "head": {
@@ -431,6 +365,72 @@
       "ilvl": 334
      },
      "waist": {
+      "ilvl": 344
+     },
+     "wrist": {
+      "ilvl": 331
+     },
+     "hands": {
+      "ilvl": 334
+     },
+     "legs": {
+      "ilvl": 334
+     },
+     "feet": {
+      "ilvl": 334
+     },
+     "finger1": {
+      "ilvl": 331
+     },
+     "finger2": {
+      "ilvl": 334
+     },
+     "trinket1": {
+      "ilvl": 341
+     },
+     "trinket2": {
+      "ilvl": 341
+     },
+     "mainhand": {
+      "ilvl": 341
+     },
+     "offhand": {
+      "ilvl": 341
+     }
+    },
+    "updatedAt": "2026-11-27T17:43:45.000Z"
+   }
+  },
+  {
+   "id": 4258514,
+   "name": "Thatcrit",
+   "realm": "Stormscale",
+   "class": "Mage",
+   "role": "Ranged",
+   "rank": "Main",
+   "status": "tracking",
+   "note": "Стоян",
+   "droptimizerUploadedAt": "2026-11-09T18:53:16.000+00:00",
+   "mplusDungeons": [],
+   "gear": {
+    "ilvlEquipped": 336.188,
+    "slots": {
+     "head": {
+      "ilvl": 334
+     },
+     "neck": {
+      "ilvl": 341
+     },
+     "shoulder": {
+      "ilvl": 334
+     },
+     "back": {
+      "ilvl": 334
+     },
+     "chest": {
+      "ilvl": 334
+     },
+     "waist": {
       "ilvl": 334
      },
      "wrist": {
@@ -449,10 +449,10 @@
       "ilvl": 334
      },
      "finger2": {
-      "ilvl": 331
+      "ilvl": 334
      },
      "trinket1": {
-      "ilvl": 344
+      "ilvl": 341
      },
      "trinket2": {
       "ilvl": 341
@@ -464,7 +464,7 @@
       "ilvl": 337
      }
     },
-    "updatedAt": "2026-11-26T17:39:44.000Z"
+    "updatedAt": "2026-11-27T17:43:44.000Z"
    }
   },
   {
@@ -1005,9 +1005,13 @@
    "status": "tracking",
    "note": "Вик",
    "droptimizerUploadedAt": "2026-11-13T17:44:25.000+00:00",
-   "mplusDungeons": [],
+   "mplusDungeons": [
+    15,
+    16,
+    16
+   ],
    "gear": {
-    "ilvlEquipped": 333,
+    "ilvlEquipped": 335.125,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1043,13 +1047,13 @@
       "ilvl": 334
      },
      "finger2": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "trinket1": {
       "ilvl": 341
      },
      "trinket2": {
-      "ilvl": 321
+      "ilvl": 334
      },
      "mainhand": {
       "ilvl": 341
@@ -1340,7 +1344,7 @@
    "droptimizerUploadedAt": "2026-10-28T16:16:10.000+00:00",
    "mplusDungeons": [],
    "gear": {
-    "ilvlEquipped": 335.812,
+    "ilvlEquipped": 335,
     "slots": {
      "head": {
       "ilvl": 334
@@ -1388,7 +1392,7 @@
       "ilvl": 341
      }
     },
-    "updatedAt": "2026-11-24T17:36:42.000Z"
+    "updatedAt": "2026-11-27T17:43:44.000Z"
    }
   },
   {
